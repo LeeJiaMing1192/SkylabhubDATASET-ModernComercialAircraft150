@@ -118,6 +118,7 @@ body {
 
   .details table {
     font-size: smaller;
+    overflow: scroll;
   }
   .details th, .details td {
     padding: 5px;
