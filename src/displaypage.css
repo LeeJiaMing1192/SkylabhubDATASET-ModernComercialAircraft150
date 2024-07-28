@@ -131,7 +131,7 @@ body {
   }
   .details {
     width: 100%;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
+    overflow-x: auto; /* Prevent horizontal scrolling */
   }
   
   table {
