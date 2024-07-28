@@ -1,0 +1,257 @@
+/* Overall Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+
+  
+  @media screen and (max-width: 768px) { /* For screens less than 768px wide */
+    .nav-bar {
+      position: sticky !important;
+      display: block;
+      justify-content:first baseline;
+      align-items: center;
+      padding: 1rem 2rem;
+      height: 25%;
+      width: 100%;
+      background-color: #233643;  /* Adjust background color as needed */
+    }
+    .nav-bar-brand {
+      font-size: 1rem;  /* Adjust font size as needed */
+      margin-left: 20%;
+      display: flex;
+      color: white;
+    }
+    .nav-bar-brand img{
+      margin-top: 3%;
+    }
+    
+    #logo-image{
+      height: 50px;
+      width: 50px;
+      margin-left: 10%;
+     }
+     .search-bar-container {
+      display: flex;
+      flex-grow: 1;  /* Make the search bar container grow to fill available space */
+    }
+    
+    
+    
+    .search-bar {
+      box-sizing: border-box;
+      width: 70%;
+      padding: 0.5rem 1rem;
+      border: 1px solid #ccc;  /* Adjust border style as needed */
+      border-radius: 4px;  /* Adjust border radius as needed */
+      margin-left:5%;
+    }
+    #search-bar{
+      box-sizing: border-box;
+      display: flex;
+      width: 70%;
+      min-width: 400px;
+    }
+    
+    #search_icon{
+      /* position:  absolute; */
+      margin-top: 5px;
+      max-width: 30px;
+      max-height: 30px;
+      margin-left: 17%;
+      /* top: 38%;
+      left: 74%; */
+    }
+    #menu-logo{
+      position: absolute;
+      top:19%;
+      left:5%;
+      height: 35px;
+      width: 37px;
+    }
+     
+  .details {
+    border: 1px solid #ddd;
+    padding: 20px;
+  }
+  .aircraft-image {
+    width: 100%;
+    margin-left: 20px;
+  }
+  .aircraft-name-container{
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Section Titles (h3) */
+  .details h3 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Data Values (span.data-value) */
+  .data-value {
+    font-weight: bold;
+  }
+  
+  /* List Styling (ul) */
+  .details ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .details li {
+    margin-bottom: 5px;
+  }
+
+  .aircraft-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .details table {
+    font-size: smaller;
+  }
+  .details th, .details td {
+    padding: 5px;
+    font-size: smaller;
+  }
+  /* Adjust column width or hide columns as needed */
+  /* Example: Hide less important columns */
+  table th, table td {
+    font-size: smaller; /* Reduce font size for better fit */
+  }
+  .details {
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    display: table; /* Necessary for proper table layout */
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+    word-wrap: break-word; /* Allow text to wrap within cells */
+  }
+  .bottom-end{
+    height: 100px;
+  }
+  }
+
+
+  @media (min-width: 992px) { /* For desktops (over 992px) */
+    .nav-bar {
+      position: sticky !important;
+      display: flex;
+      justify-content:first baseline;
+      align-items: center;
+      border-color: #233643;
+      padding: 30px 30px;
+      height: 40px;
+      background-color: #233643;  /* Adjust background color as needed */
+    }
+    .nav-bar-brand {
+      font-size: 1.5rem;  /* Adjust font size as needed */
+      display: flex;
+      color: white;
+    }
+    #logo-image{
+      height: 80px;
+      width: 80px;
+      margin-top: 5%;
+      
+      
+     }
+     .search-bar-container {
+      display: flex;
+      flex-grow: 1;  /* Make the search bar container grow to fill available space */
+    }
+    .search-bar {
+      box-sizing: border-box;
+      margin-left:25%;
+      width: 70%;
+      padding: 0.5rem 1rem;
+      border: 1px solid #ccc;  /* Adjust border style as needed */
+      border-radius: 4px;  /* Adjust border radius as needed */
+    }
+    #search-bar{
+      box-sizing: border-box;
+      display: flex;
+      width: 70%;
+      min-width: 400px;
+    }
+    
+    #search_icon{
+      /* position:  absolute; */
+      margin-top: 5px;
+      max-width: 30px;
+      max-height: 30px;
+      margin-left: 20px;
+      /* top: 38%;
+      left: 74%; */
+    }
+    #menu-logo{
+      position: absolute;
+      top:13%;
+      left:2%;
+      height: 35px;
+      width: 37px;
+      visibility: hidden;
+    }
+     
+  .details {
+    border: 1px solid #ddd;
+    padding: 20px;
+  }
+  .aircraft-image {
+    width: 250px;
+    margin-right: 20px;
+  }
+  
+  /* Section Titles (h3) */
+  .details h3 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Data Values (span.data-value) */
+  .data-value {
+    font-weight: bold;
+  }
+  
+  /* List Styling (ul) */
+  .details ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .details li {
+    margin-bottom: 5px;
+  }
+
+  .aircraft-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 20px;
+  }
+  
+  .main-info {
+    grid-column: 1 / span 2; /* Span two columns */
+  }
+  }
+  

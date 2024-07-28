@@ -3,3 +3,252 @@
   max-width: 800px;
   max-height: 400px;
 }
+
+
+
+
+
+/*this is for mobile UI*/
+@media (max-width: 768px) { /* For screens less than 768px wide */
+  .nav-bar {
+    position: sticky !important;
+    display: block;
+    justify-content:first baseline;
+    align-items: center;
+    padding: 1rem 2rem;
+    height: 25%;
+    width: 100%;
+    background-color: #233643;  /* Adjust background color as needed */
+  }
+  .nav-bar-brand {
+    font-size: 1rem;  /* Adjust font size as needed */
+    margin-left: 20%;
+    display: flex;
+    color: white;
+  }
+  .nav-bar-brand img{
+    margin-top: 3%;
+  }
+  
+  #logo-image{
+    height: 50px;
+    width: 50px;
+   }
+   .search-bar-container {
+    display: flex;
+    flex-grow: 1;  /* Make the search bar container grow to fill available space */
+  }
+  
+  
+  
+  .search-bar {
+    box-sizing: border-box;
+    width: 70%;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;  /* Adjust border style as needed */
+    border-radius: 4px;  /* Adjust border radius as needed */
+    margin-left:5%;
+  }
+  #search-bar{
+    box-sizing: border-box;
+    display: flex;
+    width: 70%;
+    min-width: 400px;
+  }
+  
+  #search_icon{
+    /* position:  absolute; */
+    margin-top: 5px;
+    max-width: 30px;
+    max-height: 30px;
+    margin-left: 17%;
+    /* top: 38%;
+    left: 74%; */
+  }
+  #menu-logo{
+    position: absolute;
+    top:13%;
+    left:2%;
+    height: 35px;
+    width: 37px;
+  }
+  .bottom-end{
+    height: 40px;
+  }
+}
+
+/*this is for desktop UI*/
+@media (min-width: 992px) { /* For desktops (over 992px) */
+  .nav-bar {
+    position: sticky !important;
+    display: flex;
+    justify-content:first baseline;
+    align-items: center;
+    border-color: #233643;
+    padding: 30px 30px;
+    height: 40px;
+    background-color: #233643;  /* Adjust background color as needed */
+  }
+  .nav-bar-brand {
+    font-size: 1.5rem;  /* Adjust font size as needed */
+    display: flex;
+    color: white;
+  }
+  #logo-image{
+    height: 80px;
+    width: 80px;
+    margin-top: 5%;
+   }
+   .search-bar-container {
+    display: flex;
+    flex-grow: 1;  /* Make the search bar container grow to fill available space */
+  }
+  .search-bar {
+    box-sizing: border-box;
+    margin-left:25%;
+    width: 70%;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;  /* Adjust border style as needed */
+    border-radius: 4px;  /* Adjust border radius as needed */
+  }
+  #search-bar{
+    box-sizing: border-box;
+    display: flex;
+    width: 70%;
+    min-width: 400px;
+  }
+  
+  #search_icon{
+    /* position:  absolute; */
+    margin-top: 5px;
+    max-width: 30px;
+    max-height: 30px;
+    margin-left: 20px;
+    /* top: 38%;
+    left: 74%; */
+  }
+  #menu-logo{
+    position: absolute;
+    top:13%;
+    left:2%;
+    height: 35px;
+    width: 37px;
+    visibility: hidden;
+  }
+  
+}
+
+
+
+
+#main-image{
+  width:2020px;
+  height: 800px;
+  max-width: 1393px;
+
+}
+#main_container{
+  width:2020px;
+  max-width: 1393px;
+  height:2400px;
+  background-color:rgb(218, 224, 230);
+  width: 70%;
+  padding: 20px;
+  border: 1px solid #ccc;
+
+}
+#main-search-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.search-result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 250px;
+  margin: 10px;
+}
+
+.search-result h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.search-result img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.search-result ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.search-result li {
+  margin-bottom: 5px;
+}
+
+.search-result li span {
+  font-size: 14px;
+  color: #666;
+}
+
+.search-result li i {
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+
+#container {
+  /* display: flex;
+  flex-direction: row; */
+}
+
+#filters {
+
+  height: 400px;
+  width: 13%;
+  padding-right: 10px;
+  border: 1px solid #ccc;
+  justify-content: center;
+  background-color: rgb(240, 240, 240);
+}
+
+
+#filter_list{
+  list-style: none !important;
+}
+#filters h4 {
+  margin-left:60px;
+}
+.display-column {
+  width: 70%;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.filter-inline-range{
+  display: inline-flex;
+  max-height: 20px;
+}
+
+.filter-highest-container{
+  max-width: 40px;
+}
+
+.filter-lowest-container{
+  max-width: 40px;
+}
+
+#search-container{
+  display: flex ;
+}
