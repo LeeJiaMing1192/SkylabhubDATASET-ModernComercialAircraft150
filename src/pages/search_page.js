@@ -165,12 +165,7 @@ function Main_page() {
                 </div>
             </nav>
             <div id="search-container">
-            <div id="filters">
-            <div id="filters">
-        
-     
-        </div>
-            </div>
+    
             <div id="main-search-section">
                 {aircraft_result.map((element) => 
                 <div>
