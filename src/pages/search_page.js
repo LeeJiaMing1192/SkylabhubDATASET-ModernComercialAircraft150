@@ -167,61 +167,8 @@ function Main_page() {
             <div id="search-container">
             <div id="filters">
             <div id="filters">
-          <h4>Filters:</h4>
-          <ul id="filter_list">
-            <li>
-              <label for="manufacturer">Manufacturer:</label>
-              <select id="manufacturer" value={manufacturerFilter} onChange={(e) => setManufacturerFilter(e.target.value)}>
-                <option value="">All</option>
-                <option value="Airbus">Airbus</option>
-                <option value="Boeing">Boeing</option>
-              </select>
-            </li>
-            <li>
-            <div className="filter-inline-range" id="filter-length-container">
-                <label for="length">Length:</label>
-                <input type="number" id="length" min="0" max="100" className="filter-lowest-container" value={lengthFilter_smallest} onChange={(e) => setLengthFilter_smallest(Number(e.target.value))} />
-                <h3>-</h3>
-                <input type="number" id="length_highest" className="filter-highest-container" min={String(lengthFilter_smallest)} max="100" value={lengthFilter_largest} onChange={(e) => setLengthFilter_largest(Number(e.target.value))} />
-            </div>
-            </li>
-            <li>  
-              <div className="filter-inline-range" id="filter-capacity-container">
-                <label for="capacity">Capacity:</label>
-                <input type="number" id="capacity" min="0" max="1000" className="filter-lowest-container" value={capacityFilter_smallest} onChange={(e) => setCapacityFilter_smallest(Number(e.target.value))} />
-                <h3>-</h3>
-                <input type="number" id="capacity" className="filter-highest-container" min={capacityFilter_smallest} max="1000" value={capacityFilter_largest} onChange={(e) => setCapacityFilter_largest(Number(e.target.value))} />
-              </div>
-            </li>
-            <li>
-             <div className="filter-inline-range" id="filter-range-container">
-                <label for="capacity">Range:</label>
-                <input type="number" id="capacity" className="filter-lowest-container" min="0" max="100000" value={rangeFilter_smallest} onChange={(e) => setRangeFilter_smallest(Number(e.target.value))} />
-                <h3>-</h3>
-                <input type="number" id="capacity" min={rangeFilter_smallest} max="100000" className="filter-highest-container" value={rangeFilter_largest} onChange={(e) => setRangeFilter_largest(Number(e.target.value))} />
-              </div>
-            </li>
-            <li>
-              <label for="cockpit_crew">Cockpit Crew:</label>
-              <input type="number" id="cockpit_crew" min="0" max="10" value={cockpitCrewFilter} onChange={(e) => setCockpitCrewFilter(Number(e.target.value))} />
-            </li>
-            <li>
-              <label for="body_type">Body Type:</label>
-              <select id="body_type" value={bodyTypeFilter} onChange={(e) => setBodyTypeFilter(e.target.value)}>
-                <option value="">All</option>
-                <option value="narrow-body">Narrow-body</option>
-                <option value="wide-body">Wide-body</option>
-              </select>
-            </li>
-            <li>
-              <label for="num_decks">Number of Decks:</label>
-              <select id="num_decks" value={numDecksFilter} onChange={(e) => setNumDecksFilter(e.target.value)}>
-                <option value="">All</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-              </select>
-            </li>
-          </ul>
+        
+     
         </div>
             </div>
             <div id="main-search-section">
