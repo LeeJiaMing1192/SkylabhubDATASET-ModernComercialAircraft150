@@ -26,9 +26,9 @@ function NewPage(){
         <div id="main-infor-display">
              <div class="aircraft-info">
                 <div className="aircraft-name-container">
-                <h1>Airbus A319</h1>
+                <h1>{data}</h1>
                 </div>
-         <img src="https://th.bing.com/th/id/OIP.3QeQiRnVUkJJVwJ6-50KRgHaFA?rs=1&pid=ImgDetMain" alt="Airbus A319 Image" class="aircraft-image"/> <div class="details">
+         <img src={airplane_comercial[data]["General Information"]["aircraft_image"][0]} alt= "plane image" class="aircraft-image"/> <div class="details">
             <h3>General Information</h3>
             <ul>
             <li>First Flight: <span class="data-value">{airplane_comercial[data]["General Information"]["First Flight"]}</span></li>
