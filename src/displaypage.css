@@ -9,6 +9,10 @@ body {
     html {
       touch-action: none;
     }
+    body {
+      margin: 0;
+      padding: 0;
+  }
     .nav-bar {
       position: sticky !important;
       display: block;
