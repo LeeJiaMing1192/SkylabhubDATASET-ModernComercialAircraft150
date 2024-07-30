@@ -6,9 +6,7 @@ body {
 
   
   @media screen and (max-width: 768px) { /* For screens less than 768px wide */
-    html {
-      touch-action: none;
-    }
+
     body {
       margin: 0;
       padding: 0;
