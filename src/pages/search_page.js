@@ -155,7 +155,7 @@ function Main_page() {
         <div>
             <nav className="nav-bar">
                 <div className="nav-bar-brand">
-                  <img id="menu-logo" src={Menu_logo}></img>
+                  {/* <img id="menu-logo" src={Menu_logo}></img> */}
                     <img id="logo-image" src={Com_logo}></img>
                     <h2>Skylab</h2>
                 </div>

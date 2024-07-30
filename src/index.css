@@ -75,6 +75,10 @@
   .bottom-end{
     height: 40px;
   }
+  body {
+    margin: 0;
+    padding: 0;
+}
 }
 
 /*this is for desktop UI*/

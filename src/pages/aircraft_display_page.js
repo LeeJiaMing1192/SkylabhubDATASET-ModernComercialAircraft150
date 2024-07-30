@@ -31,7 +31,7 @@ function NewPage(){
         <>
             <nav className="nav-bar">
                 <div className="nav-bar-brand" onClick={() => go_back_search()}>
-                    <img id="menu-logo" src={Menu_logo}></img>
+                    {/* <img id="menu-logo" src={Menu_logo}></img> */}
                     <img id="logo-image" src={Com_logo}></img>
                     <h2>Skylab</h2>
                 </div>
