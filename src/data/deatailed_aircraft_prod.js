@@ -1996,7 +1996,15 @@ export const airplane_comercial = {
                 "Max": "244",
                 "Typical": "180-220"
             },
-            "Cargo Capacity": "10.5 tons"
+            "Cargo Capacity": "10.5 tons",
+            "Avionics": {
+                "FMS": "Yes",
+                "EFIS": "Yes",
+                "AFCS": "Yes",
+                "TAWS": "Yes",
+                "HUD": "Yes",
+                "Common Suite": "Honeywell"
+            }
         },
         "Speed": {
             "Cruise Speed": {
