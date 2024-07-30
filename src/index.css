@@ -29,15 +29,33 @@
   .nav-bar-brand img{
     margin-top: 3%;
   }
+  /* Add box-sizing to relevant elements */
+.nav-bar, .search-bar {
+  box-sizing: border-box;
+}
+
+/* Adjust width and padding as needed */
+.nav-bar {
+  width: 100%;
+  padding: 1rem 0; /* Reduce horizontal padding if necessary */
+}
+
+.search-bar {
+  width: 80%; /* Adjust width as needed */
+  padding: 0.5rem;
+}
+
   
   #logo-image{
     height: 50px;
     width: 50px;
+    margin-left: 5%;
    }
    .search-bar-container {
     display: flex;
     flex-grow: 1;  /* Make the search bar container grow to fill available space */
   }
+  
   
   
   
