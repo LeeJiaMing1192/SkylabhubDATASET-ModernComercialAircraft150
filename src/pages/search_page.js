@@ -156,8 +156,10 @@ function Main_page() {
             <nav className="nav-bar">
                 <div className="nav-bar-brand">
                   {/* <img id="menu-logo" src={Menu_logo}></img> */}
-                    <img id="logo-image" src={Com_logo}></img>
+           
+                  <img id="logo-image" src={Com_logo}></img>
                     <h2>Skylab</h2>
+             
                 </div>
                   <div className="search-bar-container">
                     <input type="text" className="search-bar" placeholder="Search..." value={searchInput} onChange={handleSearchInput} />
