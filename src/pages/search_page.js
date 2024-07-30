@@ -180,7 +180,7 @@ function Main_page() {
                         <h4>{element}</h4>
                         <img src={airplane_comercial[String(element)]["General Information"]["aircraft_image"]} alt="Airbus A320"/>
                         <ul>
-                        <li><i class="fas fa-plane"></i> <h2>Company: {airplane_comercial[element]["main_manufacturer"]}</h2></li>
+                        <li><i class="fas fa-plane"></i> <h2>Company: {airplane_comercial[element]["General Information"]["Manufacturer"]}</h2></li>
                             <li><i class="fas fa-plane"></i> Length: {airplane_comercial[element]["Dimensions"]["Length"]} meters</li>
                             <li><i class="fas fa-rocket"></i> Wingspan: {airplane_comercial[element]["Dimensions"]["Wingspan"]}</li>
                             <li><i class="fas fa-users"></i> Passenger Capacity: 150-200</li>
