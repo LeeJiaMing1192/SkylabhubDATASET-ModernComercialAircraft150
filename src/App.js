@@ -12,7 +12,7 @@ function App() {
       <BrowserRouter>
 
         <Routes>
-      <Route path="/" element={<Main_page/>} />
+      <Route path="/" element={<Search_page/>} />
       <Route path="/search" element={<Search_page/>} />
       <Route path="/new-page/:divId" element={<NewPage />} />
     </Routes>

@@ -1,4 +1,4 @@
-import React, {useState } from "react";
+import React, {useEffect, useState } from "react";
 import "../index.css"
 import { airplane_comercial } from "../data/deatailed_aircraft_prod";
 import search_icon from "../images/74-742441_preamps-white-search-icon-svg-removebg-preview.png"
@@ -111,7 +111,9 @@ function searchStrings(list, searchString) {
 
 function Main_page() {
     const navigate = useNavigate();
-    const [searchInput, setSearchInput] = useState("");
+    const { data, updateData } = useContext(MyContext);
+    const { searched_planes_data, update_searched_data } = useContext(MyContext);
+    const [searchInput, setSearchInput] = useState(searched_planes_data);
     const [aircraft_result , setaircraft_result] = useState([])
 
 
@@ -132,7 +134,7 @@ function Main_page() {
     const [cockpitCrewFilter, setCockpitCrewFilter] = useState(null); // Can be null initially
     const [bodyTypeFilter, setBodyTypeFilter] = useState("");
     const [numDecksFilter, setNumDecksFilter] = useState("");
-    const { data, updateData } = useContext(MyContext);
+ 
     const handleSearchButtonClick = () => {
         // console.log(searchInput);
         setaircraft_result((prev_saircraft) =>prev_saircraft =  searchStrings(list_planes, String(searchInput)))
@@ -141,8 +143,11 @@ function Main_page() {
 
         
     };
-
+    useEffect(() => {
+      handleSearchButtonClick();
+      }, []);
     const Navigate_planepage = (element_navigate) => {
+      update_searched_data(String(searchInput))
       updateData(String(element_navigate))
       navigate(`/new-page/${element_navigate}`);
     }

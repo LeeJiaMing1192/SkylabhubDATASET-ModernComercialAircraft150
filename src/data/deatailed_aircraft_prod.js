@@ -8,8 +8,6 @@ export const airplane_comercial = {
             "Entered Service": "July 2016 with Swiss International Air Lines",
             "Type": "Narrow-body jet airliner",
             "Engine Type": "High-bypass turbofan",
-            "Number of engine": 2,
-            "Price tag": "$81 million",
             "Fly range category": "Mid-range",
             "aircraft_image": [
                 "https://th.bing.com/th/id/R.e66a3bcb73514c3959c49f3a9ed9e6ef?rik=zBTwa0RVyNVjrg&pid=ImgRaw&r=0",
@@ -18,7 +16,9 @@ export const airplane_comercial = {
             ],
             "seat config": [
                 "2-3"
-            ]
+            ],
+            "number of engines": 2,
+            "price": "$81 million"
         },
         "Dimensions": {
             "Length": "35.0 m",
@@ -44,12 +44,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "23.7 m",
             "Avionics": {
-                "Common_suite": "Honeywell",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Honeywell"
             }
         },
         "Speed": {
@@ -115,7 +115,6 @@ export const airplane_comercial = {
             "Entered Service": "December 2016 with airBaltic",
             "Type": "Narrow-body jet airliner",
             "Engine Type": "High-bypass turbofan",
-            "Number of engine": 2,
             "Fly range category": "Mid-range",
             "aircraft_image": [
                 "https://th.bing.com/th/id/R.f4be7fa998594235ce6f72508df594f6?rik=NtUcHkyJSCRBZQ&pid=ImgRaw&r=0",
@@ -124,7 +123,8 @@ export const airplane_comercial = {
             ],
             "seat config": [
                 "2-3"
-            ]
+            ],
+            "number of engines": 2
         },
         "Dimensions": {
             "Length": "38.7 m",
@@ -150,12 +150,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "31.6 m",
             "Avionics": {
-                "Common_suite": "Honeywell",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Honeywell"
             }
         },
         "Speed": {
@@ -221,8 +221,6 @@ export const airplane_comercial = {
             "Entered Service": "May 1974 with Air France",
             "Type": "Wide-body jet airliner",
             "Engine Type": "High-bypass turbofan",
-            "Number of engine": 2,
-            "Price tag": "$40 million (1985)",
             "Fly range category": "Short-Mid range",
             "aircraft_image": [
                 "https://th.bing.com/th/id/R.ee60226100525dc7880ff674f87f63a5?rik=F56JtxFWNnbdTw&riu=http%3a%2f%2fimgproc.airliners.net%2fphotos%2fairliners%2f5%2f4%2f0%2f0912045.jpg%3fv%3dv40&ehk=QOh4f1QGc8xwvDLhiam0Qtnp0Emb1EoJAW41YdTs2%2f8%3d&risl=&pid=ImgRaw&r=0",
@@ -231,7 +229,9 @@ export const airplane_comercial = {
             ],
             "seat config": [
                 "2-4-2"
-            ]
+            ],
+            "number of engines": 2,
+            "price": "$40 million (1985)"
         },
         "Dimensions": {
             "Length": "53.62 m",
@@ -257,12 +257,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "14.5 tons",
             "Avionics": {
-                "Common_suite": "Honeywell",
                 "FMS": "No",
                 "EFIS": "No",
                 "AFCS": "Yes",
                 "TAWS": "No",
-                "HUD": "No"
+                "HUD": "No",
+                "Common Suite": "Honeywell"
             }
         },
         "Speed": {
@@ -293,12 +293,12 @@ export const airplane_comercial = {
                 "Manufacturer": "General Electric",
                 "Model": "CF6-50C2",
                 "Thrust": "53,000 lbf",
-                "Bypass Ratio": "5.72 - 6.0:1",
                 "Fan Stages": "Single-stage fan",
-                "Low-pressure Compressor Stages": 3,
-                "High-pressure Compressor Stages": 14,
-                "High-pressure Turbine Stages": 2,
-                "Low-pressure Turbine Stages": 4
+                "Bypass ratio": "5.72 - 6.0:1",
+                "Low-pressure compressor stages": 3,
+                "High-pressure compressor stages": 14,
+                "High-pressure turbine stages": 2,
+                "Low-pressure turbine stages": 4
             }
         },
         "Other Details": {
@@ -339,8 +339,6 @@ export const airplane_comercial = {
             "Entered Service": "May 1975 with Bavaria Germanair",
             "Type": "Wide-body jet airliner",
             "Engine Type": "High-bypass turbofan",
-            "Number of engine": 2,
-            "Price tag": "$40 million (1985)",
             "Fly range category": "Medium range",
             "aircraft_image": [
                 "https://th.bing.com/th/id/R.46337a7c6a4e05d438095a402e20fc68?rik=K6N3k0Ki2f9M9Q&pid=ImgRaw&r=0",
@@ -349,7 +347,9 @@ export const airplane_comercial = {
             ],
             "seat config": [
                 "2-4-2"
-            ]
+            ],
+            "number of engines": 2,
+            "price": "$40 million (1985)"
         },
         "Dimensions": {
             "Length": "53.61 m",
@@ -375,12 +375,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "18.0 tons",
             "Avionics": {
-                "Common_suite": "Honeywell",
                 "FMS": "No",
                 "EFIS": "No",
                 "AFCS": "Yes",
                 "TAWS": "No",
-                "HUD": "No"
+                "HUD": "No",
+                "Common Suite": "Honeywell"
             }
         },
         "Speed": {
@@ -446,8 +446,6 @@ export const airplane_comercial = {
             "Entered Service": "July 1983 with Saudi Arabian Airlines",
             "Type": "Wide-body jet airliner",
             "Engine Type": "High-bypass turbofan",
-            "Number of engine": 2,
-            "Price tag": "$85 million (1998)",
             "Fly range category": "Mid-range",
             "aircraft_image": [
                 "https://th.bing.com/th/id/R.02029740a3c0f79ab6d4040549b449a7?rik=sfnA7dH0%2frh6Lw&riu=http%3a%2f%2fbarrieaircraft.com%2fimages%2fairbus-a300-600-01.jpg&ehk=451OGURR8TpxxchEGHtdmkeuWeF1fZNk%2fChNppcDNf8%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1",
@@ -457,7 +455,9 @@ export const airplane_comercial = {
             "seat config": [
                 "2-4-2",
                 "2-2-2"
-            ]
+            ],
+            "number of engines": 2,
+            "price": "$85 million (1998)"
         },
         "Dimensions": {
             "Length": "54.1 m",
@@ -483,12 +483,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "18.0 tons",
             "Avionics": {
-                "Common_suite": "Honeywell",
                 "FMS": "No",
                 "EFIS": "No",
                 "AFCS": "Yes",
                 "TAWS": "No",
-                "HUD": "No"
+                "HUD": "No",
+                "Common Suite": "Honeywell"
             }
         },
         "Speed": {
@@ -576,8 +576,6 @@ export const airplane_comercial = {
             "Entered Service": "April 1983 with Swissair",
             "Type": "Wide-body jet airliner",
             "Engine Type": "High-bypass turbofan",
-            "Number of engine": 2,
-            "Price tag": "$75 million (1985)",
             "Fly range category": "Mid-range",
             "aircraft_image": [
                 "https://th.bing.com/th/id/OIP.YMADN0-1fbfuJJeD2UccdwHaFC?rs=1&pid=ImgDetMain",
@@ -586,7 +584,9 @@ export const airplane_comercial = {
             ],
             "seat config": [
                 "2-4-2"
-            ]
+            ],
+            "number of engines": 2,
+            "price": "$75 million (1985)"
         },
         "Dimensions": {
             "Length": "46.66 m",
@@ -612,12 +612,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "14.5 tons",
             "Avionics": {
-                "Common_suite": "Honeywell",
                 "FMS": "No",
                 "EFIS": "No",
                 "AFCS": "Yes",
                 "TAWS": "No",
-                "HUD": "No"
+                "HUD": "No",
+                "Common Suite": "Honeywell"
             }
         },
         "Speed": {
@@ -738,8 +738,6 @@ export const airplane_comercial = {
             "Entered Service": "December 1985 with Swissair",
             "Type": "Wide-body jet airliner",
             "Engine Type": "High-bypass turbofan",
-            "Number of engine": 2,
-            "Price tag": "$85 million (1985)",
             "Fly range category": "Mid-range",
             "aircraft_image": [
                 "https://th.bing.com/th/id/OIP.8RlL8IlKk8JKPz50WZMc1gHaE8?rs=1&pid=ImgDetMain",
@@ -748,7 +746,9 @@ export const airplane_comercial = {
             ],
             "seat config": [
                 "2-4-2"
-            ]
+            ],
+            "number of engines": 2,
+            "price": "$85 million (1985)"
         },
         "Dimensions": {
             "Length": "46.66 m",
@@ -774,12 +774,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "14.5 tons",
             "Avionics": {
-                "Common_suite": "Honeywell",
                 "FMS": "No",
                 "EFIS": "No",
                 "AFCS": "Yes",
                 "TAWS": "No",
-                "HUD": "No"
+                "HUD": "No",
+                "Common Suite": "Honeywell"
             }
         },
         "Speed": {
@@ -900,8 +900,6 @@ export const airplane_comercial = {
             "Entered Service": "July 2003 with Frontier Airlines",
             "Type": "Narrow-body jet airliner",
             "Engine Type": "High-bypass turbofan",
-            "Number of engine": 2,
-            "Price tag": "$77.4 million (2021)",
             "Fly range category": "Close-mid range",
             "aircraft_image": [
                 "https://th.bing.com/th/id/R.624bb5faef41a7f1a05378b630df6caf?rik=vKqKTYlJ7IyQJw&riu=http%3a%2f%2fimgproc.airliners.net%2fphotos%2fairliners%2f2%2f3%2f8%2f0740832.jpg%3fv%3dv40&ehk=CbfYSJdv2Tf1JgwTksHgnHlwrbeM3JQ8SMDGD6rPaMM%3d&risl=&pid=ImgRaw&r=0",
@@ -910,7 +908,9 @@ export const airplane_comercial = {
             ],
             "seat config": [
                 "2-2"
-            ]
+            ],
+            "number of engines": 2,
+            "price": "$77.4 million (2021)"
         },
         "Dimensions": {
             "Length": "31.44 m",
@@ -936,12 +936,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "25 m",
             "Avionics": {
-                "Common_suite": "Honeywell",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Honeywell"
             }
         },
         "Speed": {
@@ -1018,8 +1018,6 @@ export const airplane_comercial = {
             "Entered Service": "April 1996 with Swissair",
             "Type": "Narrow-body jet airliner",
             "Engine Type": "High-bypass turbofan",
-            "Number of engine": 2,
-            "Price tag": "$92.3 million (2021)",
             "Fly range category": "Close-mid range",
             "aircraft_image": [
                 "https://th.bing.com/th/id/OIP.3QeQiRnVUkJJVwJ6-50KRgHaFA?rs=1&pid=ImgDetMain",
@@ -1028,7 +1026,9 @@ export const airplane_comercial = {
             ],
             "seat config": [
                 "3-3"
-            ]
+            ],
+            "number of engines": 2,
+            "price": "$92.3 million (2021)"
         },
         "Dimensions": {
             "Length": "33.84 m",
@@ -1054,12 +1054,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "25 m",
             "Avionics": {
-                "Common_suite": "Honeywell",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Honeywell"
             }
         },
         "Speed": {
@@ -1147,8 +1147,6 @@ export const airplane_comercial = {
             "Entered Service": "July 2016 with Swiss International Air Lines",
             "Type": "Narrow-body jet airliner",
             "Engine Type": "High-bypass turbofan",
-            "Number of engine": 2,
-            "Price tag": "$101.5 million (2021)",
             "Fly range category": "Mid-range",
             "aircraft_image": [
                 "https://aircraft.airbus.com/sites/g/files/jlcbta126/files/styles/airbus_480x480/public/2021-10/A319neo%20roll%20out%20hangar%20%281%29.jpg?itok=Nd48FbcJ",
@@ -1156,7 +1154,9 @@ export const airplane_comercial = {
             ],
             "seat config": [
                 "3-3"
-            ]
+            ],
+            "number of engines": 2,
+            "price": "$101.5 million (2021)"
         },
         "Dimensions": {
             "Length": "33.84 m",
@@ -1182,12 +1182,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "4 tons",
             "Avionics": {
-                "Common_suite": "Honeywell",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Honeywell"
             }
         },
         "Speed": {
@@ -1255,8 +1255,6 @@ export const airplane_comercial = {
             "Entered Service": "April 1988 with Air France",
             "Type": "Narrow-body jet airliner",
             "Engine Type": "High-bypass turbofan",
-            "Number of engine": 2,
-            "Price tag": "$101.4 million (2021)",
             "Fly range category": "Close-mid range",
             "aircraft_image": [
                 "https://th.bing.com/th/id/R.49740d8641f886e3b52fea201595fbbd?rik=fqh%2fsjbvLfhHeA&pid=ImgRaw&r=0",
@@ -1264,7 +1262,9 @@ export const airplane_comercial = {
             ],
             "seat config": [
                 "3-3"
-            ]
+            ],
+            "number of engines": 2,
+            "price": "$101.4 million (2021)"
         },
         "Dimensions": {
             "Length": "37.57 m",
@@ -1290,12 +1290,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "27 m",
             "Avionics": {
-                "Common_suite": "Honeywell",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Honeywell"
             }
         },
         "Speed": {
@@ -1372,8 +1372,6 @@ export const airplane_comercial = {
             "Entered Service": "January 2016 with Lufthansa",
             "Type": "Narrow-body jet airliner",
             "Engine Type": "High-bypass turbofan",
-            "Number of engine": 2,
-            "Price tag": "$110.6 million (2021)",
             "Fly range category": "Close-mid range",
             "aircraft_image": [
                 "https://aircraft.airbus.com/sites/g/files/jlcbta126/files/styles/airbus_480x480/public/2021-10/A320neo%20Take%20Off.jpg?itok=zQssVG4l",
@@ -1381,7 +1379,9 @@ export const airplane_comercial = {
             ],
             "seat config": [
                 "3-3"
-            ]
+            ],
+            "number of engines": 2,
+            "price": "$110.6 million (2021)"
         },
         "Dimensions": {
             "Length": "37.57 m",
@@ -1407,12 +1407,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "27 m",
             "Avionics": {
-                "Common_suite": "Honeywell",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Honeywell"
             }
         },
         "Speed": {
@@ -1489,8 +1489,6 @@ export const airplane_comercial = {
             "Entered Service": "January 1994 with Lufthansa",
             "Type": "Narrow-body jet airliner",
             "Engine Type": "High-bypass turbofan",
-            "Number of engine": 2,
-            "Price tag": "$118.3 million (2021)",
             "Fly range category": "Close-mid range",
             "aircraft_image": [
                 "https://th.bing.com/th/id/R.c263c7bb35cacb7921d738697aeb15d0?rik=4jipUwhvnNCBTg&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2f1%2f18%2fLufthansa.a321-100.d-aire.arp.jpg&ehk=DmqajjPHD6ZXdQvbDiS55fcVbdvUug6kxDAJZYeNz5s%3d&risl=&pid=ImgRaw&r=0",
@@ -1498,7 +1496,9 @@ export const airplane_comercial = {
             ],
             "seat config": [
                 "3-3"
-            ]
+            ],
+            "number of engines": 2,
+            "price": "$118.3 million (2021)"
         },
         "Dimensions": {
             "Length": "44.51 m",
@@ -1524,12 +1524,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "27 m",
             "Avionics": {
-                "Common_suite": "Honeywell",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Honeywell"
             }
         },
         "Speed": {
@@ -1617,16 +1617,16 @@ export const airplane_comercial = {
             "Entered Service": "January 1994 with Lufthansa",
             "Type": "Narrow-body jet airliner",
             "Engine Type": "High-bypass turbofan",
-            "Number of engine": 2,
-            "Price tag": "$129.5 million (2021)",
             "Fly range category": "Close-mid range",
             "seat config": [
                 "3-3"
             ],
-            "aircraft_image":[
+            "aircraft_image": [
                 "https://th.bing.com/th/id/R.c858d1f633b87f53ac541c414cdf0c8e?rik=9A24Aihjz8rceQ&riu=http%3a%2f%2fairplanes.itsabouttravelling.com%2fwp-content%2fuploads%2f2018%2f09%2fc-fjqd-air-canada-rouge-airbus-a321-200-02.jpg&ehk=NUK9ZGoVBlpaeiRAVe74OB0jr%2fpeiKFwUnHDh1HwdLA%3d&risl=1&pid=ImgRaw&r=0",
                 "https://t.plnspttrs.net/06165/906716_5813b80836_280.jpg"
-            ]
+            ],
+            "number of engines": 2,
+            "price": "$129.5 million (2021)"
         },
         "Dimensions": {
             "Length": "44.51 m",
@@ -1652,12 +1652,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "27 m",
             "Avionics": {
-                "Common_suite": "Honeywell",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Honeywell"
             }
         },
         "Speed": {
@@ -1734,13 +1734,16 @@ export const airplane_comercial = {
             "Entered Service": "September 2018 with Arkia Israeli Airlines",
             "Type": "Narrow-body jet airliner",
             "Engine Type": "High-bypass turbofan",
-            "Number of engine": 2,
-            "Price tag": "$142.2 million (2021)",
             "Fly range category": "Long range",
             "seat config": [
                 "3-3"
             ],
-            "aircraft_image":["https://th.bing.com/th/id/OIP.fihvtSt2FqlqR2UjpjsS5QHaE8?rs=1&pid=ImgDetMain" , "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWQQuQtRhdtHP_ksj-IIyF6X3mJiiVVFcp9Q&s"]
+            "aircraft_image": [
+                "https://th.bing.com/th/id/OIP.fihvtSt2FqlqR2UjpjsS5QHaE8?rs=1&pid=ImgDetMain",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWQQuQtRhdtHP_ksj-IIyF6X3mJiiVVFcp9Q&s"
+            ],
+            "number of engines": 2,
+            "price": "$142.2 million (2021)"
         },
         "Dimensions": {
             "Length": "44.51 m",
@@ -1766,12 +1769,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "27 m",
             "Avionics": {
-                "Common_suite": "Honeywell",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Honeywell"
             }
         },
         "Speed": {
@@ -1848,13 +1851,16 @@ export const airplane_comercial = {
             "Entered Service": "July 2016 with Swiss International Air Lines",
             "Type": "Narrow-body jet airliner",
             "Engine Type": "High-bypass turbofan",
-            "Number of engine": 2,
-            "Price tag": "$129.5 million (2021)",
             "Fly range category": "Long-range",
             "seat config": [
                 "3-3"
             ],
-            "aircraft_image":["https://aircraft.airbus.com/sites/g/files/jlcbta126/files/styles/airbus_480x480/public/2021-10/A321neo%20PW%20AIRBUS%20IN%20FLIGHT%20%281%29.jpg?itok=1gMckovJ" , "https://i.insider.com/61cb718ff9047f0018fcdd93?width=750&format=jpeg&auto=webp"]
+            "aircraft_image": [
+                "https://aircraft.airbus.com/sites/g/files/jlcbta126/files/styles/airbus_480x480/public/2021-10/A321neo%20PW%20AIRBUS%20IN%20FLIGHT%20%281%29.jpg?itok=1gMckovJ",
+                "https://i.insider.com/61cb718ff9047f0018fcdd93?width=750&format=jpeg&auto=webp"
+            ],
+            "number of engines": 2,
+            "price": "$129.5 million (2021)"
         },
         "Dimensions": {
             "Length": "44.51 m",
@@ -1880,12 +1886,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "10 tons",
             "Avionics": {
-                "Common_suite": "Honeywell",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Honeywell"
             }
         },
         "Speed": {
@@ -1957,13 +1963,16 @@ export const airplane_comercial = {
             "Model Build": "Ongoing (still in production)",
             "Entered Service": "2023",
             "Type": "Narrow-body jet airliner",
-            "Number of engine": 2,
-            "Price tag": "$142.2 million (2021)",
             "Engine Type": "High-bypass turbofan",
             "seat config": [
                 "3-3"
             ],
-            "aircraft_image":["https://th.bing.com/th/id/R.2906e7058fe9abf4bce2a307d0c9e5ce?rik=FwAK%2bdQ1kUSDJQ&pid=ImgRaw&r=0","https://i.insider.com/5f3d2f1342f43f001ddfdb67?width=800&format=jpeg&auto=webp"]
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.2906e7058fe9abf4bce2a307d0c9e5ce?rik=FwAK%2bdQ1kUSDJQ&pid=ImgRaw&r=0",
+                "https://i.insider.com/5f3d2f1342f43f001ddfdb67?width=800&format=jpeg&auto=webp"
+            ],
+            "number of engines": 2,
+            "price": "$142.2 million (2021)"
         },
         "Dimensions": {
             "Length": "44.51 meters",
@@ -2063,13 +2072,16 @@ export const airplane_comercial = {
             "Entered Service": "July 2010 with Etihad Crystal Cargo",
             "Type": "Wide-body jet airliner",
             "Engine Type": "High-bypass turbofan",
-            "Number of engine": 2,
-            "Price tag": "$241.7 million (2021)",
             "Fly range category": "Long range",
             "seat config": [
                 "2-4-2"
             ],
-            "aircraft_image":["https://aircraft.airbus.com/sites/g/files/jlcbta126/files/styles/airbus_480x480/public/2022-08/A330-200F.jpg?itok=OwCPI2Yr" , "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/13-08-06-Cockpit-d-alpa-a330-200.jpg/2560px-13-08-06-Cockpit-d-alpa-a330-200.jpg"]
+            "aircraft_image": [
+                "https://aircraft.airbus.com/sites/g/files/jlcbta126/files/styles/airbus_480x480/public/2022-08/A330-200F.jpg?itok=OwCPI2Yr",
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/13-08-06-Cockpit-d-alpa-a330-200.jpg/2560px-13-08-06-Cockpit-d-alpa-a330-200.jpg"
+            ],
+            "number of engines": 2,
+            "price": "$241.7 million (2021)"
         },
         "Dimensions": {
             "Length": "58.82 m",
@@ -2095,12 +2107,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "65 tons",
             "Avionics": {
-                "Common_suite": "Honeywell",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Honeywell"
             }
         },
         "Speed": {
@@ -2188,14 +2200,17 @@ export const airplane_comercial = {
             "Entered Service": "January 1994 with Air Inter",
             "Type": "Wide-body jet airliner",
             "Engine Type": "High-bypass turbofan",
-            "Number of engine": 2,
-            "Price tag": "$264.2 million (2021)",
             "Fly range category": "Long range",
             "seat config": [
                 "2-4-2",
                 "2-3-2"
             ],
-            "aircraft_image":["https://aircraft.airbus.com/sites/g/files/jlcbta126/files/styles/airbus_608x608/public/2021-09/A330-300_GE_AIRBUS_V10_300dpi2.jpg?itok=phLZUaCk" ,"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPRN3Vf31CeWcP-d8N_ckbNIXDKiyWYWDEhN9i56ac7ZLuMaZmo99IoyBuCNG51faZWFw&usqp=CAU" ]
+            "aircraft_image": [
+                "https://aircraft.airbus.com/sites/g/files/jlcbta126/files/styles/airbus_608x608/public/2021-09/A330-300_GE_AIRBUS_V10_300dpi2.jpg?itok=phLZUaCk",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPRN3Vf31CeWcP-d8N_ckbNIXDKiyWYWDEhN9i56ac7ZLuMaZmo99IoyBuCNG51faZWFw&usqp=CAU"
+            ],
+            "number of engines": 2,
+            "price": "$264.2 million (2021)"
         },
         "Dimensions": {
             "Length": "63.66 m",
@@ -2221,12 +2236,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "33 tons",
             "Avionics": {
-                "Common_suite": "Honeywell",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Honeywell"
             }
         },
         "Speed": {
@@ -2308,14 +2323,17 @@ export const airplane_comercial = {
             "Entered Service": "November 2020 with Kuwait Airways",
             "Type": "Wide-body jet airliner",
             "Engine Type": "High-bypass turbofan",
-            "Number of engine": 2,
-            "Price tag": "$259.9 million (2018)",
             "Fly range category": "Long range",
             "seat config": [
                 "2-4-2",
                 "2-3-2"
             ],
-            "aircraft_image":["https://aircraft.airbus.com/sites/g/files/jlcbta126/files/styles/airbus_608x608/public/2021-10/A330-800-MSN1888-first-flight-air-to-air-035.jpg?itok=ETTchUf-" , "https://www.mediastorehouse.com/p/173/airbus-a330-cockpit-6324729.jpg.webp"]
+            "aircraft_image": [
+                "https://aircraft.airbus.com/sites/g/files/jlcbta126/files/styles/airbus_608x608/public/2021-10/A330-800-MSN1888-first-flight-air-to-air-035.jpg?itok=ETTchUf-",
+                "https://www.mediastorehouse.com/p/173/airbus-a330-cockpit-6324729.jpg.webp"
+            ],
+            "number of engines": 2,
+            "price": "$259.9 million (2018)"
         },
         "Dimensions": {
             "Length": "58.82 m",
@@ -2341,12 +2359,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "27 tons",
             "Avionics": {
-                "Common_suite": "Honeywell",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Honeywell"
             }
         },
         "Speed": {
@@ -2411,14 +2429,17 @@ export const airplane_comercial = {
             "Entered Service": "December 15, 2018 with TAP Air Portugal",
             "Type": "Wide-body jet airliner",
             "Engine Type": "High-bypass turbofan",
-            "Number of engine": 2,
-            "Price tag": "$296.4 million (2018)",
             "Fly range category": "Long range",
             "seat config": [
                 "2-4-2",
                 "2-3-2"
             ],
-            "aircraft_image":["https://cdn.flightsim.to/images/22/airbus-a330-900neo-conversion-s8jvV.jpg?width=1400&auto_optimize=medium" , "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDLrFj_7iVLIlipm8wD9OVBAFtKR6YiH2zQg&s"]
+            "aircraft_image": [
+                "https://cdn.flightsim.to/images/22/airbus-a330-900neo-conversion-s8jvV.jpg?width=1400&auto_optimize=medium",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDLrFj_7iVLIlipm8wD9OVBAFtKR6YiH2zQg&s"
+            ],
+            "number of engines": 2,
+            "price": "$296.4 million (2018)"
         },
         "Dimensions": {
             "Length": "63.66 m",
@@ -2444,12 +2465,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "44.0 tons",
             "Avionics": {
-                "Common_suite": "Honeywell",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Honeywell"
             }
         },
         "Speed": {
@@ -2516,13 +2537,16 @@ export const airplane_comercial = {
             "Entered Service": "March 15, 1993 with Lufthansa and Air France",
             "Type": "Wide-body jet airliner",
             "Engine Type": "High-bypass turbofan",
-            "Number of engine": 4,
-            "Price tag": "$175.4 million (1995)",
             "Fly range category": "Long range",
             "seat config": [
                 "2-4-2"
             ],
-            "aircraft_image":["https://th.bing.com/th/id/R.8bb747031f2a5bd174476f62820d0e46?rik=SPvbkORcor1pXw&riu=http%3a%2f%2fberlin-aviation-spotting.de%2fwordpress%2fwp-content%2fuploads%2f2019%2f02%2f92-061431_F-WWBA.jpg&ehk=DTpeCsq8%2b3nrVVHrV4BNVQtrFWH7pQb5YOGne1HeLdQ%3d&risl=&pid=ImgRaw&r=0" , "https://imgproc.airliners.net/photos/airliners/9/3/9/1055939-v40-10.jpg"]
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.8bb747031f2a5bd174476f62820d0e46?rik=SPvbkORcor1pXw&riu=http%3a%2f%2fberlin-aviation-spotting.de%2fwordpress%2fwp-content%2fuploads%2f2019%2f02%2f92-061431_F-WWBA.jpg&ehk=DTpeCsq8%2b3nrVVHrV4BNVQtrFWH7pQb5YOGne1HeLdQ%3d&risl=&pid=ImgRaw&r=0",
+                "https://imgproc.airliners.net/photos/airliners/9/3/9/1055939-v40-10.jpg"
+            ],
+            "number of engines": 4,
+            "price": "$175.4 million (1995)"
         },
         "Dimensions": {
             "Length": "59.4 m",
@@ -2548,12 +2572,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "27 tons",
             "Avionics": {
-                "Common_suite": "Honeywell",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Honeywell"
             }
         },
         "Speed": {
@@ -2620,12 +2644,15 @@ export const airplane_comercial = {
             "Entered Service": "March 15, 1993 with Lufthansa and Air France",
             "Type": "Wide-body jet airliner",
             "Engine Type": "High-bypass turbofan",
-            "Number of engine": 4,
-            "Price tag": "$296.4 million (1995)",
             "seat config": [
                 "2-4-2"
             ],
-            "aircraft_image":["https://th.bing.com/th/id/R.1bd2c4d10f4878f5a97e19cf2fe492bf?rik=A6L6Luzpf0JSwQ&riu=http%3a%2f%2ftheflight.info%2fwp-content%2fgallery%2fLufthansa-Airbus-A340-300%2fd-aigx-lufthansa-airbus-a340-313.jpg&ehk=fvz9bD1Ux4%2fZJi%2b%2f%2fSh36RQrE39Bp%2b7bR9iMqoZzGWk%3d&risl=&pid=ImgRaw&r=0" , "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/A340-300_cockpit_%288459431964%29.jpg/1365px-A340-300_cockpit_%288459431964%29.jpg"]
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.1bd2c4d10f4878f5a97e19cf2fe492bf?rik=A6L6Luzpf0JSwQ&riu=http%3a%2f%2ftheflight.info%2fwp-content%2fgallery%2fLufthansa-Airbus-A340-300%2fd-aigx-lufthansa-airbus-a340-313.jpg&ehk=fvz9bD1Ux4%2fZJi%2b%2f%2fSh36RQrE39Bp%2b7bR9iMqoZzGWk%3d&risl=&pid=ImgRaw&r=0",
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/A340-300_cockpit_%288459431964%29.jpg/1365px-A340-300_cockpit_%288459431964%29.jpg"
+            ],
+            "number of engines": 4,
+            "price": "$296.4 million (1995)"
         },
         "Dimensions": {
             "Length": "63.69 m",
@@ -2651,12 +2678,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "52 tons",
             "Avionics": {
-                "Common_suite": "Honeywell",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Honeywell"
             }
         },
         "Speed": {
@@ -2723,13 +2750,16 @@ export const airplane_comercial = {
             "Entered Service": "December 3, 2002 with Emirates",
             "Type": "Wide-body jet airliner",
             "Engine Type": "High-bypass turbofan",
-            "Number of engine": 4,
-            "Price tag": "$240 million (2002)",
             "Fly range category": "Ultra-long range",
             "seat config": [
                 "2-4-2"
             ],
-            "aircraft_image":["https://www.airbus.com/sites/g/files/jlcbta136/files/styles/airbus_480x480/public/2021-10/a340-500-header2.jpg?itok=6Zfq8MJE" , "https://live.staticflickr.com/2946/15492010205_73bbc19769_b.jpg"]
+            "aircraft_image": [
+                "https://www.airbus.com/sites/g/files/jlcbta136/files/styles/airbus_480x480/public/2021-10/a340-500-header2.jpg?itok=6Zfq8MJE",
+                "https://live.staticflickr.com/2946/15492010205_73bbc19769_b.jpg"
+            ],
+            "number of engines": 4,
+            "price": "$240 million (2002)"
         },
         "Dimensions": {
             "Length": "67.93 m",
@@ -2755,12 +2785,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "31 tons",
             "Avionics": {
-                "Common_suite": "Honeywell",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Honeywell"
             }
         },
         "Speed": {
@@ -2827,14 +2857,17 @@ export const airplane_comercial = {
             "Entered Service": "August 1, 2002 with Virgin Atlantic",
             "Type": "Wide-body jet airliner",
             "Engine Type": "High-bypass turbofan",
-            "Number of engine": 4,
-            "Price tag": "$245 million (2002)",
             "Fly range category": "Long range",
             "seat config": [
                 "2-4-2",
                 "2-2-2"
             ],
-            "aircraft_image":["https://th.bing.com/th/id/R.60f149bce2e2409fae2773fad0de97e6?rik=z0bOi1lQQNrt0A&riu=http%3a%2f%2ftheflight.info%2fwp-content%2fgallery%2fLufthansa-Airbus-A340-600%2fd-aihk-lufthansa-airbus-a340-642.jpg&ehk=NWyOlwKasits1nwlubDpEbfWucuNd3x8JlrL7bteIHE%3d&risl=&pid=ImgRaw&r=0" ,"https://www.airbus.com/sites/g/files/jlcbta136/files/styles/airbus_480x480/public/2021-10/A340-600_Airbus_cockpit_0.jpg?itok=-dqILhE0" ]
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.60f149bce2e2409fae2773fad0de97e6?rik=z0bOi1lQQNrt0A&riu=http%3a%2f%2ftheflight.info%2fwp-content%2fgallery%2fLufthansa-Airbus-A340-600%2fd-aihk-lufthansa-airbus-a340-642.jpg&ehk=NWyOlwKasits1nwlubDpEbfWucuNd3x8JlrL7bteIHE%3d&risl=&pid=ImgRaw&r=0",
+                "https://www.airbus.com/sites/g/files/jlcbta136/files/styles/airbus_480x480/public/2021-10/A340-600_Airbus_cockpit_0.jpg?itok=-dqILhE0"
+            ],
+            "number of engines": 4,
+            "price": "$245 million (2002)"
         },
         "Dimensions": {
             "Length": "75.36 m",
@@ -2860,12 +2893,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "66 tons",
             "Avionics": {
-                "Common_suite": "Honeywell",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Honeywell"
             }
         },
         "Speed": {
@@ -2932,13 +2965,16 @@ export const airplane_comercial = {
             "Entered Service": "N/A",
             "Type": "Wide-body jet airliner",
             "Engine Type": "High-bypass turbofan",
-            "Number of engine": 2,
-            "Price tag": "Not produced",
             "Fly range category": "Long range",
             "seat config": [
                 "3-3-3"
             ],
-            "aircraft_image":["https://th.bing.com/th/id/R.94c49afebf436797f9bfebfb11ffd2ff?rik=PLDIHFutdsYsxQ&riu=http%3a%2f%2f3.bp.blogspot.com%2f-LnFnpDj5Pko%2fT6_FQhzWF4I%2fAAAAAAAAAIY%2fux8uLR0kPuc%2fs1600%2fA350XWB_Apr09_3_hr.jpg&ehk=HwamJRdEai9R7LSWhZRMA2IzSDnKIoUshFeafd79e48%3d&risl=&pid=ImgRaw&r=0" , "https://aerocorner.com/wp-content/uploads/2009/01/Airbus-A350-cockpit-flight-deck-1090x500.jpg"]
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.94c49afebf436797f9bfebfb11ffd2ff?rik=PLDIHFutdsYsxQ&riu=http%3a%2f%2f3.bp.blogspot.com%2f-LnFnpDj5Pko%2fT6_FQhzWF4I%2fAAAAAAAAAIY%2fux8uLR0kPuc%2fs1600%2fA350XWB_Apr09_3_hr.jpg&ehk=HwamJRdEai9R7LSWhZRMA2IzSDnKIoUshFeafd79e48%3d&risl=&pid=ImgRaw&r=0",
+                "https://aerocorner.com/wp-content/uploads/2009/01/Airbus-A350-cockpit-flight-deck-1090x500.jpg"
+            ],
+            "number of engines": 2,
+            "price": "Not produced"
         },
         "Dimensions": {
             "Length": "60.45 m",
@@ -2964,12 +3000,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "30 tons",
             "Avionics": {
-                "Common_suite": "Honeywell",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Honeywell"
             }
         },
         "Speed": {
@@ -3030,13 +3066,16 @@ export const airplane_comercial = {
             "Entered Service": "January 15, 2015 with Qatar Airways",
             "Type": "Wide-body jet airliner",
             "Engine Type": "High-bypass turbofan",
-            "Number of engine": 2,
-            "Price tag": "$317.4 million (2021)",
             "Fly range category": "Long range",
             "seat config": [
                 "3-3-3"
             ],
-            "aircraft_image":["https://aircraft.airbus.com/sites/g/files/jlcbta126/files/styles/airbus_480x480/public/2022-08/A350-900.jpg?itok=jhJicYiB" , "https://www.airbus.com/sites/g/files/jlcbta136/files/styles/airbus_480x480/public/2021-10/A350%20cockpit%20HUD.jpg?itok=RniWjhVr"]
+            "aircraft_image": [
+                "https://aircraft.airbus.com/sites/g/files/jlcbta126/files/styles/airbus_480x480/public/2022-08/A350-900.jpg?itok=jhJicYiB",
+                "https://www.airbus.com/sites/g/files/jlcbta136/files/styles/airbus_480x480/public/2021-10/A350%20cockpit%20HUD.jpg?itok=RniWjhVr"
+            ],
+            "number of engines": 2,
+            "price": "$317.4 million (2021)"
         },
         "Dimensions": {
             "Length": "66.80 m",
@@ -3062,12 +3101,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "30 tons",
             "Avionics": {
-                "Common_suite": "Honeywell",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Honeywell"
             }
         },
         "Speed": {
@@ -3134,13 +3173,16 @@ export const airplane_comercial = {
             "Entered Service": "February 24, 2018 with Qatar Airways",
             "Type": "Wide-body jet airliner",
             "Engine Type": "High-bypass turbofan",
-            "Number of engine": 2,
-            "Price tag": "$366.5 million (2021)",
             "Fly range category": "Long range",
             "seat config": [
                 "3-3-3"
             ],
-            "aircraft_image":["https://th.bing.com/th/id/R.1b876f7dee8468a473bad0cd81e3b55d?rik=Im0G99BSu4S0aQ&riu=http%3a%2f%2fwww.bangaloreaviation.com%2fwp-content%2fuploads%2f2016%2f11%2fA350-1000_First_Flight_1.jpg&ehk=psIhjxE%2fixsBIjxTZq2N8m%2fb1Y7op39Mg48VQ7VLgmw%3d&risl=&pid=ImgRaw&r=0" ,"https://flyrosta.com/wp-content/uploads/2019/08/P1344269-1200x900.jpg" ]
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.1b876f7dee8468a473bad0cd81e3b55d?rik=Im0G99BSu4S0aQ&riu=http%3a%2f%2fwww.bangaloreaviation.com%2fwp-content%2fuploads%2f2016%2f11%2fA350-1000_First_Flight_1.jpg&ehk=psIhjxE%2fixsBIjxTZq2N8m%2fb1Y7op39Mg48VQ7VLgmw%3d&risl=&pid=ImgRaw&r=0",
+                "https://flyrosta.com/wp-content/uploads/2019/08/P1344269-1200x900.jpg"
+            ],
+            "number of engines": 2,
+            "price": "$366.5 million (2021)"
         },
         "Dimensions": {
             "Length": "73.79 m",
@@ -3166,12 +3208,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "44 tons",
             "Avionics": {
-                "Common_suite": "Honeywell",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Honeywell"
             }
         },
         "Speed": {
@@ -3238,13 +3280,16 @@ export const airplane_comercial = {
             "Entered Service": "October 25, 2007 with Singapore Airlines",
             "Type": "Wide-body jet airliner",
             "Engine Type": "High-bypass turbofan",
-            "Number of engine": 4,
-            "Price tag": "$445.6 million (2018)",
             "Fly range category": "Long range",
             "seat config": [
                 "3-4-3"
             ],
-            "aircraft_image":["https://th.bing.com/th/id/R.bd4c36407ce9345d6f737e675bfab899?rik=EJDDQCgAzT1xAQ&pid=ImgRaw&r=0" , "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Airbus_A380_Cockpit.jpg/2560px-Airbus_A380_Cockpit.jpg"]
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.bd4c36407ce9345d6f737e675bfab899?rik=EJDDQCgAzT1xAQ&pid=ImgRaw&r=0",
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Airbus_A380_Cockpit.jpg/2560px-Airbus_A380_Cockpit.jpg"
+            ],
+            "number of engines": 4,
+            "price": "$445.6 million (2018)"
         },
         "Dimensions": {
             "Length": "72.72 m",
@@ -3270,12 +3315,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "85 tons",
             "Avionics": {
-                "Common_suite": "Honeywell",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Honeywell"
             }
         },
         "Speed": {
@@ -3353,13 +3398,17 @@ export const airplane_comercial = {
             "Entered Service": "N/A",
             "Type": "Wide-body jet airliner",
             "Engine Type": "High-bypass turbofan",
-            "Number of engine": 4,
-            "Price tag": "Not produced",
             "Fly range category": "Long range",
             "seat config": [
                 "3-4-3"
             ],
-            "aircraft_image":["https://th.bing.com/th/id/R.cee27995d579c4f82b85c02fd54e9f3f?rik=4s26YMjtED58LA&pid=ImgRaw&r=0" , "https://th.bing.com/th/id/R.08a41e9c21b6774d23913a55fe016714?rik=%2blnv%2bsH24sqqXw&riu=http%3a%2f%2fwww.gannett-cdn.com%2f-mm-%2f48b0e3de6a8170404a65df9c8858bbf5c1125ba9%2fc%3d0-7-3816-2163%26r%3dx1683%26c%3d3200x1680%2flocal%2f-%2fmedia%2f2016%2f12%2f22%2fUSATODAY%2fUSATODAY%2f636180041330061520-AFP-552977862.jpg&ehk=HAgYqDyAEEtZRyqQM3t8MIaDvAewMhq4h7TU4pIMh9Y%3d&risl=&pid=ImgRaw&r=0" , "https://www.airbus.com/sites/g/files/jlcbta136/files/styles/airbus_480x480/public/2021-10/A380%20COCKPIT.jpg?itok=DSd1ZGOm" ]
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.cee27995d579c4f82b85c02fd54e9f3f?rik=4s26YMjtED58LA&pid=ImgRaw&r=0",
+                "https://th.bing.com/th/id/R.08a41e9c21b6774d23913a55fe016714?rik=%2blnv%2bsH24sqqXw&riu=http%3a%2f%2fwww.gannett-cdn.com%2f-mm-%2f48b0e3de6a8170404a65df9c8858bbf5c1125ba9%2fc%3d0-7-3816-2163%26r%3dx1683%26c%3d3200x1680%2flocal%2f-%2fmedia%2f2016%2f12%2f22%2fUSATODAY%2fUSATODAY%2f636180041330061520-AFP-552977862.jpg&ehk=HAgYqDyAEEtZRyqQM3t8MIaDvAewMhq4h7TU4pIMh9Y%3d&risl=&pid=ImgRaw&r=0",
+                "https://www.airbus.com/sites/g/files/jlcbta136/files/styles/airbus_480x480/public/2021-10/A380%20COCKPIT.jpg?itok=DSd1ZGOm"
+            ],
+            "number of engines": 4,
+            "price": "Not produced"
         },
         "Dimensions": {
             "Length": "79.0 m",
@@ -3385,12 +3434,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "92.9 tons",
             "Avionics": {
-                "Common_suite": "Honeywell",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Honeywell"
             }
         },
         "Speed": {
@@ -3451,13 +3500,16 @@ export const airplane_comercial = {
             "Entered Service": "N/A",
             "Type": "Wide-body jet airliner",
             "Engine Type": "High-bypass turbofan",
-            "Number of engine": 2,
-            "Price tag": "Not produced",
             "Fly range category": "Long range",
             "seat config": [
                 "3-4-3"
             ],
-            "aircraft_image":["https://th.bing.com/th/id/R.7264357383348cda1c1426f1150e1a7e?rik=JzoW0nY0sjL2GQ&pid=ImgRaw&r=0" , "https://imgproc.airliners.net/photos/airliners/3/6/8/1364863.jpg?v=v40"]
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.7264357383348cda1c1426f1150e1a7e?rik=JzoW0nY0sjL2GQ&pid=ImgRaw&r=0",
+                "https://imgproc.airliners.net/photos/airliners/3/6/8/1364863.jpg?v=v40"
+            ],
+            "number of engines": 2,
+            "price": "Not produced"
         },
         "Dimensions": {
             "Length": "72.72 m",
@@ -3483,12 +3535,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "150 tons",
             "Avionics": {
-                "Common_suite": "Honeywell",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Honeywell"
             }
         },
         "Speed": {
@@ -3558,13 +3610,16 @@ export const airplane_comercial = {
             "Model Build": "10",
             "Entered Service": "September 1995",
             "Type": "Wide-body cargo aircraft",
-            "Number of engine": 2,
-            "Price tag": "$250 million (2018)",
             "Engine Type": "High-bypass turbofan",
             "seat config": [
                 "Not applicable"
             ],
-            "aircraft_image":["https://aircraft.airbus.com/sites/g/files/jlcbta126/files/styles/airbus_480x480/public/2022-08/BelugaXL.jpg?itok=MCNjiiVA" ,"https://i.ytimg.com/vi/DQFbZ8eFAcc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCWOmmr5ilDpEWrH0vy6olWe5nEaw" ]
+            "aircraft_image": [
+                "https://aircraft.airbus.com/sites/g/files/jlcbta126/files/styles/airbus_480x480/public/2022-08/BelugaXL.jpg?itok=MCNjiiVA",
+                "https://i.ytimg.com/vi/DQFbZ8eFAcc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCWOmmr5ilDpEWrH0vy6olWe5nEaw"
+            ],
+            "number of engines": 2,
+            "price": "$250 million (2018)"
         },
         "Dimensions": {
             "Length": "63.1 m",
@@ -3590,12 +3645,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "51 tons",
             "Avionics": {
-                "Common_suite": "Honeywell",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Honeywell"
             }
         },
         "Speed": {
@@ -3610,19 +3665,17 @@ export const airplane_comercial = {
             "V2 speed": "150 knots",
             "Stall speed": "120 knots"
         },
-        "Engines": 
-            {
-                "Manufacturer": "Rolls-Royce",
-                "Model": "Trent 700",
-                "Thrust": "31600 lbf",
-                "Bypass ratio": "5.5:1",
-                "Fan stage": "Single-stage fan",
-                "Low-pressure compressor stages": "5",
-                "High-pressure compressor stages": "6",
-                "High-pressure turbine stages": "2",
-                "Low-pressure turbine stages": "4"
-            },
-      
+        "Engines": {
+            "Manufacturer": "Rolls-Royce",
+            "Model": "Trent 700",
+            "Thrust": "31600 lbf",
+            "Bypass ratio": "5.5:1",
+            "Fan stage": "Single-stage fan",
+            "Low-pressure compressor stages": "5",
+            "High-pressure compressor stages": "6",
+            "High-pressure turbine stages": "2",
+            "Low-pressure turbine stages": "4"
+        },
         "Other Details": {
             "Noise Levels": {
                 "Takeoff": "95",
@@ -3654,13 +3707,16 @@ export const airplane_comercial = {
             "Entered Service": "July 2016 with Swiss International Air Lines",
             "Type": "Narrow-body jet airliner",
             "Engine Type": "Turbofan",
-            "Number of Engines": "2",
-            "Price": "$200 million (estimated, current value)",
-            "Fly Range Category": "Long-range",
             "seat config": [
                 "Not applicable"
             ],
-            "aircraft_image":["https://aircraft.airbus.com/sites/g/files/jlcbta126/files/styles/airbus_480x480/public/2022-08/BelugaST.jpg?itok=2mc5_WNP" , "https://qph.cf2.quoracdn.net/main-qimg-13779fe45787c4eac2c2dc866ea24b6f-lq" ]
+            "aircraft_image": [
+                "https://aircraft.airbus.com/sites/g/files/jlcbta126/files/styles/airbus_480x480/public/2022-08/BelugaST.jpg?itok=2mc5_WNP",
+                "https://qph.cf2.quoracdn.net/main-qimg-13779fe45787c4eac2c2dc866ea24b6f-lq"
+            ],
+            "Fly range category": "Long-range",
+            "number of engines": "2",
+            "price": "$200 million (estimated, current value)"
         },
         "Dimensions": {
             "Length": "56.16 m",
@@ -3711,12 +3767,12 @@ export const airplane_comercial = {
                 "Manufacturer": "General Electric",
                 "Model": "CF6-80C2A8",
                 "Thrust": "59,000 lbs",
-                "Bypass Ratio": "5.5:1",
-                "Fan Stage": "single-fanstage (93 inches)",
-                "Low-pressure Compressor Stages": "4",
-                "High-pressure Compressor Stages": "14",
-                "High-pressure Turbine Stages": "5",
-                "Low-pressure Turbine Stages": "2"
+                "Bypass ratio": "5.5:1",
+                "Fan stage": "single-fanstage (93 inches)",
+                "Low-pressure compressor stages": "4",
+                "High-pressure compressor stages": "14",
+                "High-pressure turbine stages": "5",
+                "Low-pressure turbine stages": "2"
             }
         },
         "Other Details": {
@@ -3748,11 +3804,16 @@ export const airplane_comercial = {
             "Entered Service": "May 22, 1933",
             "Type": "Narrow-body jet airliner",
             "Engine Type": "Piston",
-            "Number of engines": "2",
-            "Price tag": "$Unknown (historical value)",
             "Fly range category": "Mid-range",
-            "seat config": ["2-1"],
-            "aircraft_image":["https://th.bing.com/th/id/R.65b92b94beccc01fee1e026015be5b78?rik=IccXM8SZSP4FRw&pid=ImgRaw&r=0" , "https://ids.si.edu/ids/deliveryService?id=NASM-NASM2020-08864-000001&max=900"]
+            "seat config": [
+                "2-1"
+            ],
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.65b92b94beccc01fee1e026015be5b78?rik=IccXM8SZSP4FRw&pid=ImgRaw&r=0",
+                "https://ids.si.edu/ids/deliveryService?id=NASM-NASM2020-08864-000001&max=900"
+            ],
+            "number of engines": "2",
+            "price": "$Unknown (historical value)"
         },
         "Dimensions": {
             "Length": "51.6 m",
@@ -3778,12 +3839,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "Unknown",
             "Avionics": {
-                "Common_suite": "Unknown",
                 "FMS": "No",
                 "EFIS": "No",
                 "AFCS": "No",
                 "TAWS": "No",
-                "HUD": "No"
+                "HUD": "No",
+                "Common Suite": "Unknown"
             }
         },
         "Speed": {
@@ -3843,11 +3904,16 @@ export const airplane_comercial = {
             "Entered Service": "July 4, 1940 with Pan American Airways",
             "Type": "Stressed-skin four-engine low-wing tailwheel monoplane airliner",
             "Engine Type": "Piston engines",
-            "Number of engines": "4",
-            "Price tag": "Approximately $315,000 (1940)",
             "Fly range category": "Long range",
-            "seat config": ["Luxurious 33 seat"],
-            "aircraft_image":["https://th.bing.com/th/id/OIP.Y4v1CFb4fLL9vefzsCucvwHaE4?rs=1&pid=ImgDetMain" , "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKGEqrW_6s_NgBwxxg3W0lqWO-6Xkr2LemqQ&s"]
+            "seat config": [
+                "Luxurious 33 seat"
+            ],
+            "aircraft_image": [
+                "https://th.bing.com/th/id/OIP.Y4v1CFb4fLL9vefzsCucvwHaE4?rs=1&pid=ImgDetMain",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKGEqrW_6s_NgBwxxg3W0lqWO-6Xkr2LemqQ&s"
+            ],
+            "number of engines": "4",
+            "price": "Approximately $315,000 (1940)"
         },
         "Dimensions": {
             "Length": "22.7 m",
@@ -3873,12 +3939,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "N/A",
             "Avionics": {
-                "Common_suite": "N/A",
                 "FMS": "No",
                 "EFIS": "No",
                 "AFCS": "No",
                 "TAWS": "No",
-                "HUD": "No"
+                "HUD": "No",
+                "Common Suite": "N/A"
             }
         },
         "Speed": {
@@ -3952,13 +4018,16 @@ export const airplane_comercial = {
             "Entered Service": "October 26, 1958, with Pan Am",
             "Type": "Narrow-body airliner",
             "Engine Type": "Piston engines",
-            "Number of engines": "4",
-            "Price tag": "Approximately $315,000 (1940)",
             "Fly range category": "Long range",
             "seat config": [
                 "2-3-2"
             ],
-            "aircraft_image":["https://imgproc.airliners.net/photos/airliners/4/9/3/0132394.jpg?v=v40" , "https://www.707jet.com/wp-content/uploads/2018/08/707cockpit.jpg"]
+            "aircraft_image": [
+                "https://imgproc.airliners.net/photos/airliners/4/9/3/0132394.jpg?v=v40",
+                "https://www.707jet.com/wp-content/uploads/2018/08/707cockpit.jpg"
+            ],
+            "number of engines": "4",
+            "price": "Approximately $315,000 (1940)"
         },
         "Dimensions": {
             "Length": "41.37 m",
@@ -3984,12 +4053,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "N/A",
             "Avionics": {
-                "Common_suite": "N/A",
                 "FMS": "No",
                 "EFIS": "No",
                 "AFCS": "No",
                 "TAWS": "No",
-                "HUD": "No"
+                "HUD": "No",
+                "Common Suite": "N/A"
             }
         },
         "Speed": {
@@ -4052,13 +4121,16 @@ export const airplane_comercial = {
             "Entered Service": "October 26, 1958, with Pan Am",
             "Type": "Narrow-body jet airliner",
             "Engine Type": "Turbojet and turbofan",
-            "Number of engines": "4",
-            "Price tag": "$40 million (approximate, 1960s)",
             "Fly range category": "Long-range",
             "seat config": [
                 "2-3-2"
             ],
-            "aircraft_image":["https://upload.wikimedia.org/wikipedia/commons/0/06/Boeing_707-321B_Pan_Am_Freer.jpg" , "https://live.staticflickr.com/4097/4889903460_d55434b901_b.jpg"]
+            "aircraft_image": [
+                "https://upload.wikimedia.org/wikipedia/commons/0/06/Boeing_707-321B_Pan_Am_Freer.jpg",
+                "https://live.staticflickr.com/4097/4889903460_d55434b901_b.jpg"
+            ],
+            "number of engines": "4",
+            "price": "$40 million (approximate, 1960s)"
         },
         "Dimensions": {
             "Length": "46.6 m",
@@ -4084,12 +4156,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "Convertible passenger-freighter model available",
             "Avionics": {
-                "Common_suite": "Honeywell",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Honeywell"
             }
         },
         "Speed": {
@@ -4162,13 +4234,16 @@ export const airplane_comercial = {
             "Entered Service": "October 26, 1958, with Pan Am",
             "Type": "Narrow-body jet airliner",
             "Engine Type": "Turbojet and turbofan",
-            "Number of engines": "4",
-            "Price tag": "$40 million (approximate, 1960s)",
             "Fly range category": "Long-range",
             "seat config": [
                 "2-3-2"
             ],
-            "aircraft_image":["https://upload.wikimedia.org/wikipedia/commons/a/aa/Cyprus_Airways_Boeing_720B_G-BCBB_LHR_1978-8-24.png" , "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Museum_of_Flight_Boeing_707_cockpit.jpg/2560px-Museum_of_Flight_Boeing_707_cockpit.jpg"]
+            "aircraft_image": [
+                "https://upload.wikimedia.org/wikipedia/commons/a/aa/Cyprus_Airways_Boeing_720B_G-BCBB_LHR_1978-8-24.png",
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Museum_of_Flight_Boeing_707_cockpit.jpg/2560px-Museum_of_Flight_Boeing_707_cockpit.jpg"
+            ],
+            "number of engines": "4",
+            "price": "$40 million (approximate, 1960s)"
         },
         "Dimensions": {
             "Length": "46.6 m",
@@ -4194,12 +4269,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "Convertible passenger-freighter model available",
             "Avionics": {
-                "Common_suite": "Honeywell",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Honeywell"
             }
         },
         "Speed": {
@@ -4272,13 +4347,16 @@ export const airplane_comercial = {
             "Entered Service": "October 26, 1958, with Pan Am",
             "Type": "Narrow-body jet airliner",
             "Engine Type": "Turbojet",
-            "Number of engines": "4",
-            "Price tag": "$40 million (approximate, 1960s)",
             "Fly range category": "Long-range",
             "seat config": [
                 "2-3-2"
             ],
-            "aircraft_image":["https://i.pinimg.com/564x/44/ce/32/44ce3222fd4ac09a6f84dc0b30f2209a.jpg","https://photos.flightaware.com/photos/retriever/faf51bf55c9bba6383d5fed21a320196d65c7a03"]
+            "aircraft_image": [
+                "https://i.pinimg.com/564x/44/ce/32/44ce3222fd4ac09a6f84dc0b30f2209a.jpg",
+                "https://photos.flightaware.com/photos/retriever/faf51bf55c9bba6383d5fed21a320196d65c7a03"
+            ],
+            "number of engines": "4",
+            "price": "$40 million (approximate, 1960s)"
         },
         "Dimensions": {
             "Length": "40.99 m",
@@ -4304,12 +4382,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "N/A",
             "Avionics": {
-                "Common_suite": "N/A",
                 "FMS": "No",
                 "EFIS": "No",
                 "AFCS": "No",
                 "TAWS": "No",
-                "HUD": "No"
+                "HUD": "No",
+                "Common Suite": "N/A"
             }
         },
         "Speed": {
@@ -4383,13 +4461,16 @@ export const airplane_comercial = {
             "Entered Service": "October 12, 1999 with AirTran Airways",
             "Type": "Narrow-body jet airliner",
             "Engine Type": "Turbofan",
-            "Number of engines": "2",
-            "Price tag": "$ million (year)",
             "Fly range category": "Mid-range",
             "seat config": [
                 "2-3"
             ],
-            "aircraft_image":["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-NS1OmATJppPtI7dDoY0aW06d10WvDGVFSA&s" ,"https://www.aviationexplorer.com/More_Commercial_Aviation_Airliners/AirTran_Boeing_717_Cockpit_Photo.jpg"]
+            "aircraft_image": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-NS1OmATJppPtI7dDoY0aW06d10WvDGVFSA&s",
+                "https://www.aviationexplorer.com/More_Commercial_Aviation_Airliners/AirTran_Boeing_717_Cockpit_Photo.jpg"
+            ],
+            "number of engines": "2",
+            "price": "$ million (year)"
         },
         "Dimensions": {
             "Length": "34.34 m",
@@ -4415,12 +4496,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "tons",
             "Avionics": {
-                "Common_suite": "Honeywell",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Honeywell"
             }
         },
         "Speed": {
@@ -4482,13 +4563,16 @@ export const airplane_comercial = {
             "Entered Service": "October 12, 1999, with AirTran Airways",
             "Type": "Narrow-body jet airliner",
             "Engine Type": "Turbofan",
-            "Number of Engines": "2",
-            "Price Tag": "$ million (year)",
-            "Fly Range Category": "Mid-range",
             "seat config": [
                 "2-3"
             ],
-            "aircraft_image":["https://i.insider.com/5a2231273dbef41e008b9b49?width=700" ,"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHjopNZSaA6reM8wGiLZNZiYm2Is8rv0aUXA&s" ]
+            "aircraft_image": [
+                "https://i.insider.com/5a2231273dbef41e008b9b49?width=700",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHjopNZSaA6reM8wGiLZNZiYm2Is8rv0aUXA&s"
+            ],
+            "Fly range category": "Mid-range",
+            "number of engines": "2",
+            "price": "$ million (year)"
         },
         "Dimensions": {
             "Length": "37.8 meters",
@@ -4539,12 +4623,12 @@ export const airplane_comercial = {
                 "Manufacturer": "Rolls-Royce",
                 "Model": "BR715",
                 "Thrust": "71.2 kN (16,000 lbf)",
-                "Bypass Ratio": "5.5:1",
-                "Fan Stage": "1",
-                "Low-pressure Compressor Stages": "4",
-                "High-pressure Compressor Stages": "6",
-                "High-pressure Turbine Stages": "1",
-                "Low-pressure Turbine Stages": "1"
+                "Bypass ratio": "5.5:1",
+                "Fan stage": "1",
+                "Low-pressure compressor stages": "4",
+                "High-pressure compressor stages": "6",
+                "High-pressure turbine stages": "1",
+                "Low-pressure turbine stages": "1"
             }
         },
         "Other Details": {
@@ -4576,13 +4660,16 @@ export const airplane_comercial = {
             "Entered Service": "February 1, 1964 with Eastern Air Lines",
             "Type": "Narrow-body jet airliner",
             "Engine Type": "Turbofan",
-            "Number of Engines": 3,
-            "Price": "$4.25 million (1960s)",
-            "Fly Range Category": "Mid-range",
             "seat config": [
                 "3-3"
             ],
-            "aircraft_image":["https://th.bing.com/th/id/OIP.9sEKKYfPdG09kwxY-pI0JwHaFj?rs=1&pid=ImgDetMain" , "https://imgproc.airliners.net/photos/airliners/1/8/4/7412481-v4967041c936-15.jpg"]
+            "aircraft_image": [
+                "https://th.bing.com/th/id/OIP.9sEKKYfPdG09kwxY-pI0JwHaFj?rs=1&pid=ImgDetMain",
+                "https://imgproc.airliners.net/photos/airliners/1/8/4/7412481-v4967041c936-15.jpg"
+            ],
+            "Fly range category": "Mid-range",
+            "number of engines": 3,
+            "price": "$4.25 million (1960s)"
         },
         "Dimensions": {
             "Length": "40.6 m",
@@ -4608,12 +4695,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "6.5 tons",
             "Avionics": {
-                "Common_suite": "Honeywell",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Honeywell"
             }
         },
         "Speed": {
@@ -4633,12 +4720,12 @@ export const airplane_comercial = {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "JT8D-7",
                 "Thrust": "14,000 lbf",
-                "Bypass Ratio": "1.74",
-                "Fan Stage": 1,
-                "Low-pressure Compressor Stages": 4,
-                "High-pressure Compressor Stages": 7,
-                "High-pressure Turbine Stages": 1,
-                "Low-pressure Turbine Stages": 1
+                "Bypass ratio": "1.74",
+                "Fan stage": 1,
+                "Low-pressure compressor stages": 4,
+                "High-pressure compressor stages": 7,
+                "High-pressure turbine stages": 1,
+                "Low-pressure turbine stages": 1
             }
         },
         "Other Details": {
@@ -4670,13 +4757,16 @@ export const airplane_comercial = {
             "Entered Service": "February 1, 1964 with Eastern Air Lines",
             "Type": "Narrow-body jet airliner",
             "Engine Type": "Turbofan",
-            "Number of Engines": 3,
-            "Price": "$4.25 million (1960s)",
-            "Fly Range Category": "Mid-range",
             "seat config": [
                 "3-3"
             ],
-            "aircraft_image":["https://th.bing.com/th/id/R.ce8a3100efd6a0c6554977dda3d6ac75?rik=Q1jy%2fC9zzVYSHg&pid=ImgRaw&r=0" , "https://i.pinimg.com/564x/bb/29/02/bb2902c7d10768f39b1bcb82812049fa.jpg"]
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.ce8a3100efd6a0c6554977dda3d6ac75?rik=Q1jy%2fC9zzVYSHg&pid=ImgRaw&r=0",
+                "https://i.pinimg.com/564x/bb/29/02/bb2902c7d10768f39b1bcb82812049fa.jpg"
+            ],
+            "Fly range category": "Mid-range",
+            "number of engines": 3,
+            "price": "$4.25 million (1960s)"
         },
         "Dimensions": {
             "Length": "46.69 m",
@@ -4702,12 +4792,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "6.5 tons",
             "Avionics": {
-                "Common_suite": "Honeywell",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Honeywell"
             }
         },
         "Speed": {
@@ -4727,12 +4817,12 @@ export const airplane_comercial = {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "JT8D-7",
                 "Thrust": "14,000 lbf",
-                "Bypass Ratio": "1.74:1",
-                "Fan Stage": 1,
-                "Low-pressure Compressor Stages": 4,
-                "High-pressure Compressor Stages": 7,
-                "High-pressure Turbine Stages": 1,
-                "Low-pressure Turbine Stages": 1
+                "Bypass ratio": "1.74:1",
+                "Fan stage": 1,
+                "Low-pressure compressor stages": 4,
+                "High-pressure compressor stages": 7,
+                "High-pressure turbine stages": 1,
+                "Low-pressure turbine stages": 1
             }
         },
         "Other Details": {
@@ -4764,13 +4854,16 @@ export const airplane_comercial = {
             "Entered Service": "Not in service anymore",
             "Type": "Narrow-body jet airliner",
             "Engine Type": "Turbofan",
-            "Number of engine": "2",
-            "Price tag": "$3.5 million (1967)",
             "Fly range category": "Short-range",
             "seat config": [
                 "3-3"
             ],
-            "aircraft_image":["https://th.bing.com/th/id/R.4a03854d44fdbae686b8075f6b142820?rik=4b8eLhdmOav10A&pid=ImgRaw&r=0" , "https://forums.x-plane.org/uploads/monthly_2022_08/39296079565_ca78269002_b.jpg.2428a645de62978a09c50f3f4eee93cf.jpg"]
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.4a03854d44fdbae686b8075f6b142820?rik=4b8eLhdmOav10A&pid=ImgRaw&r=0",
+                "https://forums.x-plane.org/uploads/monthly_2022_08/39296079565_ca78269002_b.jpg.2428a645de62978a09c50f3f4eee93cf.jpg"
+            ],
+            "number of engines": "2",
+            "price": "$3.5 million (1967)"
         },
         "Dimensions": {
             "Length": "28.65 m",
@@ -4796,12 +4889,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "Not specified",
             "Avionics": {
-                "Common_suite": "Not specified",
                 "FMS": "No",
                 "EFIS": "No",
                 "AFCS": "No",
                 "TAWS": "No",
-                "HUD": "No"
+                "HUD": "No",
+                "Common Suite": "Not specified"
             }
         },
         "Speed": {
@@ -4863,13 +4956,16 @@ export const airplane_comercial = {
             "Entered Service": "July 2016 with Swiss International Air Lines",
             "Type": "Narrow-body jet airliner",
             "Engine Type": "Turbofan",
-            "Number of engines": 2,
-            "Price tag": "$15 million (1970s)",
             "Fly range category": "Mid-range",
             "seat config": [
                 "3-3"
             ],
-            "aircraft_image":["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7bspqKbmwvhPC0FVWbHbQonh0TUfu5IXf2w&s","https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Boeing_737-200_Cockpit_%286030766901%29.jpg/1200px-Boeing_737-200_Cockpit_%286030766901%29.jpg"]
+            "aircraft_image": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7bspqKbmwvhPC0FVWbHbQonh0TUfu5IXf2w&s",
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Boeing_737-200_Cockpit_%286030766901%29.jpg/1200px-Boeing_737-200_Cockpit_%286030766901%29.jpg"
+            ],
+            "number of engines": 2,
+            "price": "$15 million (1970s)"
         },
         "Dimensions": {
             "Length": "30.53 m",
@@ -4954,13 +5050,16 @@ export const airplane_comercial = {
             "Entered Service": "November 1984",
             "Type": "Narrow-body jet airliner",
             "Engine Type": "Turbofan",
-            "Number of engines": 2,
-            "Price tag": "$15 million (1970s)",
             "Fly range category": "Mid-range",
             "seat config": [
                 "3-3"
             ],
-            "aircraft_image":["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4OXwyJAioU2bo-VIPUHkEnuYqWnShaoTgzQ&s" ,"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Cockpit_of_737-300_LN-KKU.jpg/2560px-Cockpit_of_737-300_LN-KKU.jpg" ]
+            "aircraft_image": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4OXwyJAioU2bo-VIPUHkEnuYqWnShaoTgzQ&s",
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Cockpit_of_737-300_LN-KKU.jpg/2560px-Cockpit_of_737-300_LN-KKU.jpg"
+            ],
+            "number of engines": 2,
+            "price": "$15 million (1970s)"
         },
         "Dimensions": {
             "Length": "33.40 m",
@@ -5056,13 +5155,16 @@ export const airplane_comercial = {
             "Entered Service": "November 1984",
             "Type": "Narrow-body jet airliner",
             "Engine Type": "Turbofan",
-            "Number of engines": 2,
-            "Price tag": "$15 million (1970s)",
             "Fly range category": "Mid-range",
             "seat config": [
                 "3-3"
             ],
-            "aircraft_image":["https://th.bing.com/th/id/R.a407e9dc389ca799e7cd9e5e3e08bc09?rik=yp4BheqdFt5XKw&riu=http%3a%2f%2fbarrieaircraft.com%2fimages%2fboeing-737-400-05.jpg&ehk=yyaQ8Kyrua0kElWgXWNM6HKFOUo87mKnEZuvysOPwOw%3d&risl=&pid=ImgRaw&r=0" , "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzTl3j8i489-L0s8zNKYD9GpuKgHGMpKevuw&s"]
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.a407e9dc389ca799e7cd9e5e3e08bc09?rik=yp4BheqdFt5XKw&riu=http%3a%2f%2fbarrieaircraft.com%2fimages%2fboeing-737-400-05.jpg&ehk=yyaQ8Kyrua0kElWgXWNM6HKFOUo87mKnEZuvysOPwOw%3d&risl=&pid=ImgRaw&r=0",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzTl3j8i489-L0s8zNKYD9GpuKgHGMpKevuw&s"
+            ],
+            "number of engines": 2,
+            "price": "$15 million (1970s)"
         },
         "Dimensions": {
             "Length": "33.40 m",
@@ -5158,13 +5260,16 @@ export const airplane_comercial = {
             "Entered Service": "1990",
             "Type": "Narrow-body jet airliner",
             "Engine Type": "Turbofan",
-            "Number of engines": 2,
-            "Price tag": "$31 million (2020)",
             "Fly range category": "Mid-range",
             "seat config": [
                 "3-3"
             ],
-            "aircraft_image":["https://th.bing.com/th/id/R.30e8a059c3a8d85112ff6aeee0a1a37a?rik=VT9SQSUvznsnJA&riu=http%3a%2f%2fbarrieaircraft.com%2fimages%2fboeing-737-500-03.jpg&ehk=iHg9AZHzb%2fxKJUbnbLQpg9bLGSMjJ%2fuvBDRhyHD0gxg%3d&risl=&pid=ImgRaw&r=0" , "https://www.simonblakesley.ca/img-get/I0000TXzpDdjzmas/s/1200/I0000TXzpDdjzmas.jpg"]
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.30e8a059c3a8d85112ff6aeee0a1a37a?rik=VT9SQSUvznsnJA&riu=http%3a%2f%2fbarrieaircraft.com%2fimages%2fboeing-737-500-03.jpg&ehk=iHg9AZHzb%2fxKJUbnbLQpg9bLGSMjJ%2fuvBDRhyHD0gxg%3d&risl=&pid=ImgRaw&r=0",
+                "https://www.simonblakesley.ca/img-get/I0000TXzpDdjzmas/s/1200/I0000TXzpDdjzmas.jpg"
+            ],
+            "number of engines": 2,
+            "price": "$31 million (2020)"
         },
         "Dimensions": {
             "Length": "31.01 m",
@@ -5254,13 +5359,16 @@ export const airplane_comercial = {
             "Entered Service": "1998",
             "Type": "Narrow-body jet airliner",
             "Engine Type": "Turbofan",
-            "Number of engines": 2,
-            "Price tag": "$31 million (2020)",
             "Fly range category": "Mid-range",
             "seat config": [
                 "3-3"
             ],
-            "aircraft_image":["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7uhST2-RJfVapskhPH9JzIozUMPElRJBeYA&s" , "https://cdn.flightsim.to/images/24/pmdg-737-grey-cockpit-uvKle.jpg?width=1400&auto_optimize=medium"]
+            "aircraft_image": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7uhST2-RJfVapskhPH9JzIozUMPElRJBeYA&s",
+                "https://cdn.flightsim.to/images/24/pmdg-737-grey-cockpit-uvKle.jpg?width=1400&auto_optimize=medium"
+            ],
+            "number of engines": 2,
+            "price": "$31 million (2020)"
         },
         "Dimensions": {
             "Length": "31.24 m",
@@ -5345,13 +5453,16 @@ export const airplane_comercial = {
             "Entered Service": "1998 with Southwest Airlines",
             "Type": "Narrow-body jet airliner",
             "Engine Type": "Turbofan",
-            "Number of Engines": 2,
-            "Price": "$82 million (2024)",
-            "Fly Range Category": "Mid-range",
             "seat config": [
                 "3-3"
             ],
-            "aircraft_image":["https://th.bing.com/th/id/R.e1c76bde701c347f8341210b4c2cde90?rik=hfEThtYDU94d1A&pid=ImgRaw&r=0"  , "https://live.staticflickr.com/7152/6554734347_59f4991381_b.jpg"]
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.e1c76bde701c347f8341210b4c2cde90?rik=hfEThtYDU94d1A&pid=ImgRaw&r=0",
+                "https://live.staticflickr.com/7152/6554734347_59f4991381_b.jpg"
+            ],
+            "Fly range category": "Mid-range",
+            "number of engines": 2,
+            "price": "$82 million (2024)"
         },
         "Dimensions": {
             "Length": "33.6 m",
@@ -5402,12 +5513,12 @@ export const airplane_comercial = {
                 "Manufacturer": "General Electric",
                 "Model": "CFM56-7B24",
                 "Thrust": "24,200 lbf",
-                "Bypass Ratio": "5.5:1",
-                "Fan Stage": 1,
-                "Low-pressure Compressor Stages": 3,
-                "High-pressure Compressor Stages": 9,
-                "High-pressure Turbine Stages": 2,
-                "Low-pressure Turbine Stages": 4
+                "Bypass ratio": "5.5:1",
+                "Fan stage": 1,
+                "Low-pressure compressor stages": 3,
+                "High-pressure compressor stages": 9,
+                "High-pressure turbine stages": 2,
+                "Low-pressure turbine stages": 4
             }
         },
         "Other Details": {
@@ -5452,13 +5563,16 @@ export const airplane_comercial = {
             "Entered Service": "1998 with Southwest Airlines",
             "Type": "Narrow-body jet airliner",
             "Engine Type": "Turbofan",
-            "Number of Engines": 2,
-            "Price": "$82 million (2024)",
-            "Fly Range Category": "Mid-range",
             "seat config": [
                 "3-3"
             ],
-            "aircraft_image":["https://th.bing.com/th/id/R.61bf5c70766e116e767a732b221ffcc0?rik=Zs%2bUWuWM8mnQLQ&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2fa%2fa7%2fAmerican_Airlines.Boeing_737-800.YYZ.2010.jpg&ehk=%2f3q%2bz6MKKKIcn7RbFJkJPOj%2buz%2bVWRE75ROp9NP3Rro%3d&risl=1&pid=ImgRaw&r=0","https://cdna.artstation.com/p/assets/images/images/030/175/936/large/ikhsan-subiakso-render-1.jpg?1599825107"]
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.61bf5c70766e116e767a732b221ffcc0?rik=Zs%2bUWuWM8mnQLQ&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2fa%2fa7%2fAmerican_Airlines.Boeing_737-800.YYZ.2010.jpg&ehk=%2f3q%2bz6MKKKIcn7RbFJkJPOj%2buz%2bVWRE75ROp9NP3Rro%3d&risl=1&pid=ImgRaw&r=0",
+                "https://cdna.artstation.com/p/assets/images/images/030/175/936/large/ikhsan-subiakso-render-1.jpg?1599825107"
+            ],
+            "Fly range category": "Mid-range",
+            "number of engines": 2,
+            "price": "$82 million (2024)"
         },
         "Dimensions": {
             "Length": "39.5 m",
@@ -5509,12 +5623,12 @@ export const airplane_comercial = {
                 "Manufacturer": "CFM International",
                 "Model": "CFM56-7B27",
                 "Thrust": "27,300 lbf",
-                "Bypass Ratio": "5.5:1",
-                "Fan Stage": "1",
-                "Low-pressure Compressor Stages": "3",
-                "High-pressure Compressor Stages": "9",
-                "High-pressure Turbine Stages": "2",
-                "Low-pressure Turbine Stages": "4"
+                "Bypass ratio": "5.5:1",
+                "Fan stage": "1",
+                "Low-pressure compressor stages": "3",
+                "High-pressure compressor stages": "9",
+                "High-pressure turbine stages": "2",
+                "Low-pressure turbine stages": "4"
             }
         },
         "Other Details": {
@@ -5559,13 +5673,16 @@ export const airplane_comercial = {
             "Entered Service": "1998 with Southwest Airlines",
             "Type": "Narrow-body jet airliner",
             "Engine Type": "Turbofan",
-            "Number of Engines": 2,
-            "Price": "$82 million (2024)",
-            "Fly Range Category": "Mid-range",
             "seat config": [
                 "3-3"
             ],
-            "aircraft_image":["https://imgproc.airliners.net/photos/airliners/9/0/6/6337609.jpg?v=v4f6faeeaf17","https://live.staticflickr.com/1409/1109827142_be18bf99f0_b.jpg"]
+            "aircraft_image": [
+                "https://imgproc.airliners.net/photos/airliners/9/0/6/6337609.jpg?v=v4f6faeeaf17",
+                "https://live.staticflickr.com/1409/1109827142_be18bf99f0_b.jpg"
+            ],
+            "Fly range category": "Mid-range",
+            "number of engines": 2,
+            "price": "$82 million (2024)"
         },
         "Dimensions": {
             "Length": "42.1 m",
@@ -5616,12 +5733,12 @@ export const airplane_comercial = {
                 "Manufacturer": "CFM International",
                 "Model": "CFM56-7B27",
                 "Thrust": "27,300 lbf",
-                "Bypass Ratio": "5.5:1",
-                "Fan Stage": "1",
-                "Low-pressure Compressor Stages": "3",
-                "High-pressure Compressor Stages": "9",
-                "High-pressure Turbine Stages": "2",
-                "Low-pressure Turbine Stages": "4"
+                "Bypass ratio": "5.5:1",
+                "Fan stage": "1",
+                "Low-pressure compressor stages": "3",
+                "High-pressure compressor stages": "9",
+                "High-pressure turbine stages": "2",
+                "Low-pressure turbine stages": "4"
             }
         },
         "Other Details": {
@@ -5666,13 +5783,16 @@ export const airplane_comercial = {
             "Entered Service": "May 22, 2017 with Malindo Air",
             "Type": "Narrow-body jet airliner",
             "Engine Type": "Turbofan",
-            "Number of Engines": 2,
-            "Price": "$99.7 million (2021)",
-            "Fly Range Category": "Mid-range",
             "seat config": [
                 "3-3"
             ],
-            "aircraft_image":["https://th.bing.com/th/id/OIP.gJbJNGwaDTc9rvqsnBMbGgHaE7?rs=1&pid=ImgDetMain", "https://image.cnbcfm.com/api/v1/image/106383034-1581364649086rtx6qwvj.jpg?v=1581364728"]
+            "aircraft_image": [
+                "https://th.bing.com/th/id/OIP.gJbJNGwaDTc9rvqsnBMbGgHaE7?rs=1&pid=ImgDetMain",
+                "https://image.cnbcfm.com/api/v1/image/106383034-1581364649086rtx6qwvj.jpg?v=1581364728"
+            ],
+            "Fly range category": "Mid-range",
+            "number of engines": 2,
+            "price": "$99.7 million (2021)"
         },
         "Dimensions": {
             "Length": "39.52 m",
@@ -5723,12 +5843,12 @@ export const airplane_comercial = {
                 "Manufacturer": "CFM International",
                 "Model": "LEAP-1B",
                 "Thrust": "29,317 lbf",
-                "Bypass Ratio": "9:1",
-                "Fan Stage": 1,
-                "Low-pressure Compressor Stages": 6,
-                "High-pressure Compressor Stages": 10,
-                "High-pressure Turbine Stages": 2,
-                "Low-pressure Turbine Stages": 5
+                "Bypass ratio": "9:1",
+                "Fan stage": 1,
+                "Low-pressure compressor stages": 6,
+                "High-pressure compressor stages": 10,
+                "High-pressure turbine stages": 2,
+                "Low-pressure turbine stages": 5
             }
         },
         "Other Details": {
@@ -5766,13 +5886,16 @@ export const airplane_comercial = {
             "Entered Service": "January 22, 1970 with Pan Am",
             "Type": "Long-range widebody airliner",
             "Engine Type": "Turbofan",
-            "Number of Engines": 4,
-            "Price": "$146.7 million (2019)",
-            "Fly Range Category": "Long-range",
             "seat config": [
                 "3-4-3"
             ],
-            "aircraft_image":["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLOdl1oXyEofOZ78kbc4ktMbVcn5012OzmCg&s" , "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/View_of_the_cockpit_of_a_B747-100.jpg/2560px-View_of_the_cockpit_of_a_B747-100.jpg"]
+            "aircraft_image": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLOdl1oXyEofOZ78kbc4ktMbVcn5012OzmCg&s",
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/View_of_the_cockpit_of_a_B747-100.jpg/2560px-View_of_the_cockpit_of_a_B747-100.jpg"
+            ],
+            "Fly range category": "Long-range",
+            "number of engines": 4,
+            "price": "$146.7 million (2019)"
         },
         "Dimensions": {
             "Length": "70.4 m",
@@ -5823,12 +5946,12 @@ export const airplane_comercial = {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "JT9D-7",
                 "Thrust": "46,000 lbf",
-                "Bypass Ratio": "5.3:1",
-                "Fan Stage": 2,
-                "Low-pressure Compressor Stages": 4,
-                "High-pressure Compressor Stages": 14,
-                "High-pressure Turbine Stages": 2,
-                "Low-pressure Turbine Stages": 5
+                "Bypass ratio": "5.3:1",
+                "Fan stage": 2,
+                "Low-pressure compressor stages": 4,
+                "High-pressure compressor stages": 14,
+                "High-pressure turbine stages": 2,
+                "Low-pressure turbine stages": 5
             }
         },
         "Other Details": {
@@ -5864,13 +5987,16 @@ export const airplane_comercial = {
             "Entered Service": "January 22, 1970 with Pan Am",
             "Type": "Wide-body jet airliner",
             "Engine Type": "Turbofan",
-            "Number of Engines": 4,
-            "Price": "$24 million (1970)",
-            "Fly Range Category": "Long range",
             "seat config": [
                 "3-4-3"
             ],
-            "aircraft_image":["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkK_EUuGqxFMNkZ5nmKutDBDxwbjz9v_lqng&s" ,"https://i.redd.it/6c9vov2kd00a1.jpg" ]
+            "aircraft_image": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkK_EUuGqxFMNkZ5nmKutDBDxwbjz9v_lqng&s",
+                "https://i.redd.it/6c9vov2kd00a1.jpg"
+            ],
+            "Fly range category": "Long range",
+            "number of engines": 4,
+            "price": "$24 million (1970)"
         },
         "Dimensions": {
             "Length": "70.51 m",
@@ -5921,23 +6047,23 @@ export const airplane_comercial = {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "JT9D-7A",
                 "Thrust": "46,950 lbf (209 kN)",
-                "Bypass Ratio": "5.2:1",
-                "Fan Stage": 2,
-                "Low-pressure Compressor Stages": 4,
-                "High-pressure Compressor Stages": 14,
-                "High-pressure Turbine Stages": 2,
-                "Low-pressure Turbine Stages": 5
+                "Bypass ratio": "5.2:1",
+                "Fan stage": 2,
+                "Low-pressure compressor stages": 4,
+                "High-pressure compressor stages": 14,
+                "High-pressure turbine stages": 2,
+                "Low-pressure turbine stages": 5
             },
             "CF6": {
                 "Manufacturer": "General Electric",
                 "Model": "CF6-50E2",
                 "Thrust": "51,000 lbf (227 kN)",
-                "Bypass Ratio": "4.5:1",
-                "Fan Stage": 1,
-                "Low-pressure Compressor Stages": 4,
-                "High-pressure Compressor Stages": 14,
-                "High-pressure Turbine Stages": 2,
-                "Low-pressure Turbine Stages": 5
+                "Bypass ratio": "4.5:1",
+                "Fan stage": 1,
+                "Low-pressure compressor stages": 4,
+                "High-pressure compressor stages": 14,
+                "High-pressure turbine stages": 2,
+                "Low-pressure turbine stages": 5
             }
         },
         "Other Details": {
@@ -5974,13 +6100,16 @@ export const airplane_comercial = {
             "Entered Service": "January 22, 1970 with Pan Am",
             "Type": "Wide-body jet airliner",
             "Engine Type": "Turbofan",
-            "Number of Engines": 4,
-            "Price": "$24 million (1970)",
-            "Fly Range Category": "Long range",
             "seat config": [
                 "3-4-3"
-            ]
-            ,"aircraft_image":["https://th.bing.com/th/id/OIP.jzFX9AO9V0PUdM1_SvJ-bQHaFm?rs=1&pid=ImgDetMain" , "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Transaero_Boeing_747-300_cockpit_Petrov-1.jpg/1024px-Transaero_Boeing_747-300_cockpit_Petrov-1.jpg"]
+            ],
+            "aircraft_image": [
+                "https://th.bing.com/th/id/OIP.jzFX9AO9V0PUdM1_SvJ-bQHaFm?rs=1&pid=ImgDetMain",
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Transaero_Boeing_747-300_cockpit_Petrov-1.jpg/1024px-Transaero_Boeing_747-300_cockpit_Petrov-1.jpg"
+            ],
+            "Fly range category": "Long range",
+            "number of engines": 4,
+            "price": "$24 million (1970)"
         },
         "Dimensions": {
             "Length": "70.51 m",
@@ -6031,23 +6160,23 @@ export const airplane_comercial = {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "JT9D-7A",
                 "Thrust": "46,950 lbf (209 kN)",
-                "Bypass Ratio": "5.2:1",
-                "Fan Stage": 2,
-                "Low-pressure Compressor Stages": 4,
-                "High-pressure Compressor Stages": 14,
-                "High-pressure Turbine Stages": 2,
-                "Low-pressure Turbine Stages": 5
+                "Bypass ratio": "5.2:1",
+                "Fan stage": 2,
+                "Low-pressure compressor stages": 4,
+                "High-pressure compressor stages": 14,
+                "High-pressure turbine stages": 2,
+                "Low-pressure turbine stages": 5
             },
             "CF6": {
                 "Manufacturer": "General Electric",
                 "Model": "CF6-50E2",
                 "Thrust": "51,000 lbf (227 kN)",
-                "Bypass Ratio": "4.5:1",
-                "Fan Stage": 1,
-                "Low-pressure Compressor Stages": 4,
-                "High-pressure Compressor Stages": 14,
-                "High-pressure Turbine Stages": 2,
-                "Low-pressure Turbine Stages": 5
+                "Bypass ratio": "4.5:1",
+                "Fan stage": 1,
+                "Low-pressure compressor stages": 4,
+                "High-pressure compressor stages": 14,
+                "High-pressure turbine stages": 2,
+                "Low-pressure turbine stages": 5
             }
         },
         "Other Details": {
@@ -6084,13 +6213,16 @@ export const airplane_comercial = {
             "Entered Service": "February 9, 1989 with Northwest Airlines",
             "Type": "Wide-body jet airliner",
             "Engine Type": "Turbofan",
-            "Number of Engines": 4,
-            "Price": "$24 million (1970)",
-            "Fly Range Category": "Long range",
             "seat config": [
                 "3-4-3"
             ],
-            "aircraft_image":["https://th.bing.com/th/id/R.5a2b8f364ebb864757a0252b5e4b618c?rik=znjj99j7AnNLWg&riu=http%3a%2f%2faustralianaviation.com.au%2fwp-content%2fuploads%2f2019%2f02%2fBoeing_747_KLM_PH-BFB.jpg&ehk=1k0RCoCtYgsQJrVDdNa%2b5gwbBlU0GyA4k08LFoIfZG0%3d&risl=&pid=ImgRaw&r=0" , "https://mir-s3-cdn-cf.behance.net/project_modules/1400/58a6d365868447.5b0338a7a4fb5.jpg"]
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.5a2b8f364ebb864757a0252b5e4b618c?rik=znjj99j7AnNLWg&riu=http%3a%2f%2faustralianaviation.com.au%2fwp-content%2fuploads%2f2019%2f02%2fBoeing_747_KLM_PH-BFB.jpg&ehk=1k0RCoCtYgsQJrVDdNa%2b5gwbBlU0GyA4k08LFoIfZG0%3d&risl=&pid=ImgRaw&r=0",
+                "https://mir-s3-cdn-cf.behance.net/project_modules/1400/58a6d365868447.5b0338a7a4fb5.jpg"
+            ],
+            "Fly range category": "Long range",
+            "number of engines": 4,
+            "price": "$24 million (1970)"
         },
         "Dimensions": {
             "Length": "70.51 m",
@@ -6141,23 +6273,23 @@ export const airplane_comercial = {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "PW4056",
                 "Thrust": "46,950 lbf (209 kN)",
-                "Bypass Ratio": "5.2:1",
-                "Fan Stage": 2,
-                "Low-pressure Compressor Stages": 4,
-                "High-pressure Compressor Stages": 14,
-                "High-pressure Turbine Stages": 2,
-                "Low-pressure Turbine Stages": 5
+                "Bypass ratio": "5.2:1",
+                "Fan stage": 2,
+                "Low-pressure compressor stages": 4,
+                "High-pressure compressor stages": 14,
+                "High-pressure turbine stages": 2,
+                "Low-pressure turbine stages": 5
             },
             "CF6": {
                 "Manufacturer": "General Electric",
                 "Model": "CF6-80C2",
                 "Thrust": "51,000 lbf (227 kN)",
-                "Bypass Ratio": "4.5:1",
-                "Fan Stage": 1,
-                "Low-pressure Compressor Stages": 4,
-                "High-pressure Compressor Stages": 14,
-                "High-pressure Turbine Stages": 2,
-                "Low-pressure Turbine Stages": 5
+                "Bypass ratio": "4.5:1",
+                "Fan stage": 1,
+                "Low-pressure compressor stages": 4,
+                "High-pressure compressor stages": 14,
+                "High-pressure turbine stages": 2,
+                "Low-pressure turbine stages": 5
             }
         },
         "Other Details": {
@@ -6194,11 +6326,14 @@ export const airplane_comercial = {
             "Entered Service": "February 9, 1989 with Northwest Airlines",
             "Type": "Wide-body jet airliner",
             "Engine Type": "Turbofan",
-            "Number of Engines": 4,
-            "Price": "$24 million (1970)",
-            "Fly Range Category": "Long range",
-            "seat config": [ ],
-            "aircraft_image":["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsP_zLmzG9ERxIQJFLSCOjcuoNSOFivScu9w&s" ,"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYCpljPdfdjvRQYEjo_1w00nCm1H6FAKLfLA&s"]
+            "seat config": [],
+            "aircraft_image": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsP_zLmzG9ERxIQJFLSCOjcuoNSOFivScu9w&s",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYCpljPdfdjvRQYEjo_1w00nCm1H6FAKLfLA&s"
+            ],
+            "Fly range category": "Long range",
+            "number of engines": 4,
+            "price": "$24 million (1970)"
         },
         "Dimensions": {
             "Length": "70.51 m",
@@ -6249,23 +6384,23 @@ export const airplane_comercial = {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "PW4056",
                 "Thrust": "46,950 lbf (209 kN)",
-                "Bypass Ratio": "5.2:1",
-                "Fan Stage": 2,
-                "Low-pressure Compressor Stages": 4,
-                "High-pressure Compressor Stages": 14,
-                "High-pressure Turbine Stages": 2,
-                "Low-pressure Turbine Stages": 5
+                "Bypass ratio": "5.2:1",
+                "Fan stage": 2,
+                "Low-pressure compressor stages": 4,
+                "High-pressure compressor stages": 14,
+                "High-pressure turbine stages": 2,
+                "Low-pressure turbine stages": 5
             },
             "CF6": {
                 "Manufacturer": "General Electric",
                 "Model": "CF6-80C2",
                 "Thrust": "51,000 lbf (227 kN)",
-                "Bypass Ratio": "4.5:1",
-                "Fan Stage": 1,
-                "Low-pressure Compressor Stages": 4,
-                "High-pressure Compressor Stages": 14,
-                "High-pressure Turbine Stages": 2,
-                "Low-pressure Turbine Stages": 5
+                "Bypass ratio": "4.5:1",
+                "Fan stage": 1,
+                "Low-pressure compressor stages": 4,
+                "High-pressure compressor stages": 14,
+                "High-pressure turbine stages": 2,
+                "Low-pressure turbine stages": 5
             }
         },
         "Other Details": {
@@ -6302,11 +6437,18 @@ export const airplane_comercial = {
             "Entered Service": "February 9, 1989 with Northwest Airlines",
             "Type": "Wide-body jet airliner",
             "Engine Type": "Turbofan",
-            "Number of Engines": 4,
-            "Price": "$24 million (1970)",
-            "Fly Range Category": "Long range",
-            "seat config": [],
-            "aircraft_image":[["https://th.bing.com/th/id/OIP.JEeeFqapU8e5yDq48_6y4AAAAA?rs=1&pid=ImgDetMain" , "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRECOfHB9i7h0PoASNj0gcfBpaeXJuJl04ND8SrXokMOEG7SC3T4NjIsoLInISk6sg1Fj8&usqp=CAU"]]
+            "seat config": [
+                "3-4-3"
+            ],
+            "aircraft_image": [
+                [
+                    "https://th.bing.com/th/id/OIP.JEeeFqapU8e5yDq48_6y4AAAAA?rs=1&pid=ImgDetMain",
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRECOfHB9i7h0PoASNj0gcfBpaeXJuJl04ND8SrXokMOEG7SC3T4NjIsoLInISk6sg1Fj8&usqp=CAU"
+                ]
+            ],
+            "Fly range category": "Long range",
+            "number of engines": 4,
+            "price": "$24 million (1970)"
         },
         "Dimensions": {
             "Length": "70.66 m",
@@ -6332,12 +6474,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "128.5 metric tonnes",
             "Avionics": {
-                "Common_suite": "Honeywell",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Honeywell"
             }
         },
         "Speed": {
@@ -6410,14 +6552,16 @@ export const airplane_comercial = {
             "Entered Service": "February 9, 1989 with Northwest Airlines",
             "Type": "Wide-body jet airliner",
             "Engine Type": "Turbofan",
-
-            "Number of Engines": 4,
-            "Price": "$24 million (1970)",
-            "Fly Range Category": "Long range",
             "seat config": [
                 "3-4-3"
             ],
-            "aircraft_image":["https://th.bing.com/th/id/OIP.gdFaGvFBy5J0f1ohOBcc-wHaE2?rs=1&pid=ImgDetMain" , "https://imgproc.airliners.net/photos/airliners/5/5/3/0122355-v40-10.jpg"]
+            "aircraft_image": [
+                "https://th.bing.com/th/id/OIP.gdFaGvFBy5J0f1ohOBcc-wHaE2?rs=1&pid=ImgDetMain",
+                "https://imgproc.airliners.net/photos/airliners/5/5/3/0122355-v40-10.jpg"
+            ],
+            "Fly range category": "Long range",
+            "number of engines": 4,
+            "price": "$24 million (1970)"
         },
         "Dimensions": {
             "Length": "70.51 m",
@@ -6512,98 +6656,111 @@ export const airplane_comercial = {
             ]
         }
     },
-    "Boeing 747-8":{
+    "Boeing 747-8": {
         "General Information": {
-          "Manufacturer": "Boeing",
-          "Family": "747",
-          "First Flight": "February 8, 2010 (747-8F) / March 20, 2011 (747-8I)",
-          "Model Build": "155 (107 freighters and 48 passenger airliners)",
-          "Entered Service": "June 1, 2012 with Lufthansa (747-8I)",
-          "Type": "Wide-body jet airliner",
-          "Number of Engines": 4,
-          "Price": "$24 million (1970)",
-          "Engine Type": "Turbofan",
-         "Fly Range Category": "Long range",
-         "seat config": [
-            "3-4-3"
-        ],
-          "aircraft_image":["https://th.bing.com/th/id/OIP.EtMfvvhPahc7IhdHr_VUpwHaE8?rs=1&pid=ImgDetMain" ,"https://th.bing.com/th/id/R.d1c265cad836563f547ed30da58f6585?rik=4q5x9Z5MvASzZA&riu=http%3a%2f%2fwww.felixgottwald.net%2fwp-content%2fuploads%2f2016%2f01%2fLufthansa_B747-8_D-ABYP_EZE_2016-01-03_06cr.jpg&ehk=57IX7EF9yxYbnHDw3apTkRN%2b8uZUXwFVLiY4iCmer8Y%3d&risl=&pid=ImgRaw&r=0"]
+            "Manufacturer": "Boeing",
+            "Family": "747",
+            "First Flight": "February 8, 2010 (747-8F) / March 20, 2011 (747-8I)",
+            "Model Build": "155 (107 freighters and 48 passenger airliners)",
+            "Entered Service": "June 1, 2012 with Lufthansa (747-8I)",
+            "Type": "Wide-body jet airliner",
+            "Engine Type": "Turbofan",
+            "seat config": [
+                "3-4-3"
+            ],
+            "aircraft_image": [
+                "https://th.bing.com/th/id/OIP.EtMfvvhPahc7IhdHr_VUpwHaE8?rs=1&pid=ImgDetMain",
+                "https://th.bing.com/th/id/R.d1c265cad836563f547ed30da58f6585?rik=4q5x9Z5MvASzZA&riu=http%3a%2f%2fwww.felixgottwald.net%2fwp-content%2fuploads%2f2016%2f01%2fLufthansa_B747-8_D-ABYP_EZE_2016-01-03_06cr.jpg&ehk=57IX7EF9yxYbnHDw3apTkRN%2b8uZUXwFVLiY4iCmer8Y%3d&risl=&pid=ImgRaw&r=0"
+            ],
+            "Fly range category": "Long range",
+            "number of engines": 4,
+            "price": "$24 million (1970)"
         },
         "Dimensions": {
-          "Length": "250 ft 2 in",
-          "Wingspan": "68.45 m",
-          "Cabin Length": "76.25 m",
-          "Fuselage Max Diameter": "19.35 m",
-          "Max Cabin Width": "76.25 m"
+            "Length": "250 ft 2 in",
+            "Wingspan": "68.45 m",
+            "Cabin Length": "76.25 m",
+            "Fuselage Max Diameter": "19.35 m",
+            "Max Cabin Width": "76.25 m"
         },
         "Weights": {
-          "Max Landing Weight": "975,000 lbs",
-          "Empty Weight": "Unknown",
-          "Max Takeoff Weight": "975,000 lbs"
+            "Max Landing Weight": "975,000 lbs",
+            "Empty Weight": "Unknown",
+            "Max Takeoff Weight": "975,000 lbs"
         },
         "Performance": {
-          "Fuel Capacity": "Unknown gallons",
-          "Range": "7,790 nautical miles",
-          "Flight Ceiling": "43,000 feet",
-          "Takeoff Distance": "3,292 meters",
-          "Landing Distance": "2,743 meters",
-          "Passenger Capacity": {
-            "Max": "605",
-            "Typical": "Unknown"
-          },
-          "Cargo Capacity": "308,000 lbs (747-8F)"
+            "Fuel Capacity": "Unknown gallons",
+            "Range": "7,790 nautical miles",
+            "Flight Ceiling": "43,000 feet",
+            "Takeoff Distance": "3,292 meters",
+            "Landing Distance": "2,743 meters",
+            "Passenger Capacity": {
+                "Max": "605",
+                "Typical": "Unknown"
+            },
+            "Cargo Capacity": "308,000 lbs (747-8F)",
+            "Avionics": {
+                "FMS": "Yes",
+                "EFIS": "Yes",
+                "AFCS": "Yes",
+                "TAWS": "Yes",
+                "HUD": "Yes",
+                "Common Suite": "Unknown"
+            }
         },
         "Speed": {
-          "Cruise Speed": {
-            "Mach": "Unknown",
-            "Knots": "533 knots"
-          },
-          "Max Speed": {
-            "Mach": "Unknown",
-            "Knots": "533 knots"
-          },
-          "V2 speed": "160 knots",
-          "Stall speed": "145 knots"
+            "Cruise Speed": {
+                "Mach": "Unknown",
+                "Knots": "533 knots"
+            },
+            "Max Speed": {
+                "Mach": "Unknown",
+                "Knots": "533 knots"
+            },
+            "V2 speed": "160 knots",
+            "Stall speed": "145 knots"
         },
-        "Engines": [
-          {
-            "Manufacturer": "General Electric",
-            "Model": "GEnx-2B67",
-            "Thrust": "69,800 lbf",
-            "Bypass ratio": "Unknown",
-            "Fan diameter":"2.82 meters",
-            "Fan stage": "Single-stage fan",
-            "Low-pressure compressor stages": "6",
-            "High-pressure compressor stages": "14",
-            "High-pressure turbine stages": "6",
-            "Low-pressure turbine stages": "4"
-          }
-        ],
+        "Engines": {
+            "GEnx-2B67": {
+                "Manufacturer": "General Electric",
+                "Model": "GEnx-2B67",
+                "Thrust": "69,800 lbf",
+                "Bypass ratio": "Unknown",
+                "Fan diameter": "2.82 meters",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "6",
+                "High-pressure compressor stages": "14",
+                "High-pressure turbine stages": "6",
+                "Low-pressure turbine stages": "4"
+            }
+        },
         "Other Details": {
-          "Noise Levels": {
-            "Takeoff": "90 dB",
-            "Landing": "80 dB",
-            "Cruise": "70 dB",
-            "operation_cost": "Unknown million",
-            "certification_standards": ["Unknown"]
-          },
-          "Body Type": "Narrow-body",
-          "Number of Decks": 1,
-          "Materials": {
-            "Fuselage": "Unknown material",
-            "Wings": "Unknown material"
-          },
-          "Commercial Operators": [
-            "Lufthansa",
-            "UPS Airlines",
-            "Korean Air",
-            "Cathay Pacific Cargo",
-            "Delta Air Lines",
-            "Air Baltic",
-            "Swiss International Air Lines"
-          ]
+            "Noise Levels": {
+                "Takeoff": "90 dB",
+                "Landing": "80 dB",
+                "Cruise": "70 dB",
+                "operation_cost": "Unknown million",
+                "certification_standards": [
+                    "Unknown"
+                ]
+            },
+            "Body Type": "Narrow-body",
+            "Number of Decks": 1,
+            "Materials": {
+                "Fuselage": "Unknown material",
+                "Wings": "Unknown material"
+            },
+            "Commercial Operators": [
+                "Lufthansa",
+                "UPS Airlines",
+                "Korean Air",
+                "Cathay Pacific Cargo",
+                "Delta Air Lines",
+                "Air Baltic",
+                "Swiss International Air Lines"
+            ]
         }
-      },
+    },
     "Boeing 757-200": {
         "General Information": {
             "Manufacturer": "Boeing",
@@ -6613,13 +6770,16 @@ export const airplane_comercial = {
             "Entered Service": "January 1, 1983 with Eastern Air Lines",
             "Type": "Narrow-body jet airliner",
             "Engine Type": "Turbofan",
-            "Number of engines": "2",
-            "Price tag": "$30-$40 million (1982)",
             "Fly range category": "Mid-range",
             "seat config": [
                 "3-3"
             ],
-            "aircraft_image":["https://th.bing.com/th/id/R.9a6f85bbb8b2c11ec815d881dd825e2b?rik=CQgMZNWLorrtfA&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2fc%2fc8%2fAmerican_Airlines_Boeing_757-200_N605AA_SJC.jpg&ehk=rvEc6YwnsR2knC8xkN9l6Z6fGgIGAJPvoyVSPbkUcfw%3d&risl=1&pid=ImgRaw&r=0" , "https://upload.wikimedia.org/wikipedia/commons/8/81/Boeing_757-200_flight_deck_view.JPG"]
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.9a6f85bbb8b2c11ec815d881dd825e2b?rik=CQgMZNWLorrtfA&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2fc%2fc8%2fAmerican_Airlines_Boeing_757-200_N605AA_SJC.jpg&ehk=rvEc6YwnsR2knC8xkN9l6Z6fGgIGAJPvoyVSPbkUcfw%3d&risl=1&pid=ImgRaw&r=0",
+                "https://upload.wikimedia.org/wikipedia/commons/8/81/Boeing_757-200_flight_deck_view.JPG"
+            ],
+            "number of engines": "2",
+            "price": "$30-$40 million (1982)"
         },
         "Dimensions": {
             "Length": "47.32 m",
@@ -6645,12 +6805,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "67.1 m",
             "Avionics": {
-                "Common_suite": "Unknown",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Unknown"
             }
         },
         "Speed": {
@@ -6723,11 +6883,14 @@ export const airplane_comercial = {
             "Entered Service": "January 1, 1983",
             "Type": "Narrow-body jet airliner",
             "Engine Type": "Turbofan",
-            "Number of Engines": 2,
-            "Price Tag": "$65 million (1982)",
-            "Fly Range Category": "Mid-range",
             "seat config": [],
-            "aircraft_image":["https://th.bing.com/th/id/OIP.emnscHw9G0BaHjsk5m7KlgHaFA?rs=1&pid=ImgDetMain" , "https://www.aviationtoday.com/wp-content/uploads/2014/07/76720Retrofit.jpg"]
+            "aircraft_image": [
+                "https://th.bing.com/th/id/OIP.emnscHw9G0BaHjsk5m7KlgHaFA?rs=1&pid=ImgDetMain",
+                "https://www.aviationtoday.com/wp-content/uploads/2014/07/76720Retrofit.jpg"
+            ],
+            "Fly range category": "Mid-range",
+            "number of engines": 2,
+            "price": "$65 million (1982)"
         },
         "Dimensions": {
             "Length": "155.3 m",
@@ -6778,23 +6941,23 @@ export const airplane_comercial = {
                 "Manufacturer": "Rolls-Royce",
                 "Model": "RB211-535E4",
                 "Thrust": "40,200 lbf",
-                "Bypass Ratio": "4.6:1",
-                "Fan Stage": 1,
-                "Low-pressure Compressor Stages": 4,
-                "High-pressure Compressor Stages": 6,
-                "High-pressure Turbine Stages": 1,
-                "Low-pressure Turbine Stages": 5
+                "Bypass ratio": "4.6:1",
+                "Fan stage": 1,
+                "Low-pressure compressor stages": 4,
+                "High-pressure compressor stages": 6,
+                "High-pressure turbine stages": 1,
+                "Low-pressure turbine stages": 5
             },
             "PW2037": {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "PW2037",
                 "Thrust": "36,600 lbf",
-                "Bypass Ratio": "4.3:1",
-                "Fan Stage": 1,
-                "Low-pressure Compressor Stages": 6,
-                "High-pressure Compressor Stages": 6,
-                "High-pressure Turbine Stages": 1,
-                "Low-pressure Turbine Stages": 3
+                "Bypass ratio": "4.3:1",
+                "Fan stage": 1,
+                "Low-pressure compressor stages": 6,
+                "High-pressure compressor stages": 6,
+                "High-pressure turbine stages": 1,
+                "Low-pressure turbine stages": 3
             }
         },
         "Other Details": {
@@ -6831,13 +6994,16 @@ export const airplane_comercial = {
             "Entered Service": "January 1, 1983",
             "Type": "Narrow-body jet airliner",
             "Engine Type": "Turbofan",
-            "Number of Engines": 2,
-            "Price tag": "$65 million (1982)",
             "Fly range category": "Mid-range",
             "seat config": [
                 "3-3"
             ],
-            "aircraft_image":["https://th.bing.com/th/id/R.fd5a9d828c055fc7274e334bba778641?rik=8E7luMhJ4ER%2b%2fQ&riu=http%3a%2f%2ftheflight.info%2fwp-content%2fgallery%2fUnited-Airlines-Boeing-757-300%2fn75851-united-airlines-boeing-757-324wl.jpg&ehk=HdrB1X5pzksJ7vua2aBwzasUanntviMGtDzRPlOKcVY%3d&risl=&pid=ImgRaw&r=0","https://th.bing.com/th/id/OIP.knwndQjPRCvW9lGdf4q3eQHaE8?rs=1&pid=ImgDetMain"]
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.fd5a9d828c055fc7274e334bba778641?rik=8E7luMhJ4ER%2b%2fQ&riu=http%3a%2f%2ftheflight.info%2fwp-content%2fgallery%2fUnited-Airlines-Boeing-757-300%2fn75851-united-airlines-boeing-757-324wl.jpg&ehk=HdrB1X5pzksJ7vua2aBwzasUanntviMGtDzRPlOKcVY%3d&risl=&pid=ImgRaw&r=0",
+                "https://th.bing.com/th/id/OIP.knwndQjPRCvW9lGdf4q3eQHaE8?rs=1&pid=ImgDetMain"
+            ],
+            "number of engines": 2,
+            "price": "$65 million (1982)"
         },
         "Dimensions": {
             "Length": "54.5 m",
@@ -6863,12 +7029,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "72,210 lb",
             "Avionics": {
-                "Common_suite": "Rockwell Collins",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Rockwell Collins"
             }
         },
         "Speed": {
@@ -6963,13 +7129,16 @@ export const airplane_comercial = {
             "Entered Service": "September 8, 1982 with United Airlines",
             "Type": "Wide-body airliner",
             "Engine Type": "Turbofan",
-            "Number of Engines": 2,
-            "Price tag": "$180 million (1982)",
             "Fly range category": "Medium to long range",
             "seat config": [
                 "3-3"
             ],
-            "aircraft_image":["https://th.bing.com/th/id/OIP.chh8omF34UxmSXAtrfQGzAHaDt?rs=1&pid=ImgDetMain" ,"https://imgproc.airliners.net/photos/airliners/1/7/8/1067871.jpg?v=v40" ]
+            "aircraft_image": [
+                "https://th.bing.com/th/id/OIP.chh8omF34UxmSXAtrfQGzAHaDt?rs=1&pid=ImgDetMain",
+                "https://imgproc.airliners.net/photos/airliners/1/7/8/1067871.jpg?v=v40"
+            ],
+            "number of engines": 2,
+            "price": "$180 million (1982)"
         },
         "Dimensions": {
             "Length": "48.51 m",
@@ -6995,12 +7164,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "116,000 lb",
             "Avionics": {
-                "Common_suite": "Rockwell Collins",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Rockwell Collins"
             }
         },
         "Speed": {
@@ -7062,13 +7231,16 @@ export const airplane_comercial = {
             "Entered Service": "September 8, 1982 with United Airlines",
             "Type": "Wide-body airliner",
             "Engine Type": "Turbofan",
-            "Number of Engines": 2,
-            "Price tag": "$180 million (1982)",
             "Fly range category": "Medium to long range",
             "seat config": [
                 "3-3"
             ],
-            "aircraft_image":["https://th.bing.com/th/id/OIP.5d-mjsvUY8LgzJ8De6BvxgHaGF?rs=1&pid=ImgDetMain","https://c1.staticflickr.com/5/4041/4223282453_86e20e15bb_b.jpg"]
+            "aircraft_image": [
+                "https://th.bing.com/th/id/OIP.5d-mjsvUY8LgzJ8De6BvxgHaGF?rs=1&pid=ImgDetMain",
+                "https://c1.staticflickr.com/5/4041/4223282453_86e20e15bb_b.jpg"
+            ],
+            "number of engines": 2,
+            "price": "$180 million (1982)"
         },
         "Dimensions": {
             "Length": "48.51 m",
@@ -7094,12 +7266,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "116,000 lb",
             "Avionics": {
-                "Common_suite": "Rockwell Collins",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Rockwell Collins"
             }
         },
         "Speed": {
@@ -7161,13 +7333,16 @@ export const airplane_comercial = {
             "Entered Service": "September 8, 1982 with United Airlines",
             "Type": "Wide-body airliner",
             "Engine Type": "Turbofan",
-            "Number of Engines": 2,
-            "Price tag": "$180 million (1982)",
             "Fly range category": "Medium to long range",
             "seat config": [
                 "2-3-2"
             ],
-            "aircraft_image":["https://th.bing.com/th/id/R.fee760691435982e1bb3cd571e1c7b4a?rik=1yUawZJEsNVGjg&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2f7%2f7e%2fAeroflot_Boeing_767-300_Pichugin.jpg&ehk=O%2fg584MDkfZiv1PyJyayh%2bHFnkY6maNBX2yFs12uzks%3d&risl=&pid=ImgRaw&r=0","https://th.bing.com/th/id/R.d6d67f42b7295ef054a6ffcae7189e72?rik=%2fN9IX%2b0BcBx6Qw&pid=ImgRaw&r=0"]
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.fee760691435982e1bb3cd571e1c7b4a?rik=1yUawZJEsNVGjg&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2f7%2f7e%2fAeroflot_Boeing_767-300_Pichugin.jpg&ehk=O%2fg584MDkfZiv1PyJyayh%2bHFnkY6maNBX2yFs12uzks%3d&risl=&pid=ImgRaw&r=0",
+                "https://th.bing.com/th/id/R.d6d67f42b7295ef054a6ffcae7189e72?rik=%2fN9IX%2b0BcBx6Qw&pid=ImgRaw&r=0"
+            ],
+            "number of engines": 2,
+            "price": "$180 million (1982)"
         },
         "Dimensions": {
             "Length": "54.94 m",
@@ -7193,12 +7368,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "116,000 lb",
             "Avionics": {
-                "Common_suite": "Rockwell Collins",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Rockwell Collins"
             }
         },
         "Speed": {
@@ -7260,13 +7435,16 @@ export const airplane_comercial = {
             "Entered Service": "September 8, 1982 with United Airlines",
             "Type": "Wide-body airliner",
             "Engine Type": "Turbofan",
-            "Number of Engines": 2,
-            "Price tag": "$180 million (1982)",
             "Fly range category": "Medium to long range",
             "seat config": [
                 "2-3-2"
             ],
-            "aircraft_image":["https://th.bing.com/th/id/OIP.3OK75gwnvky_c_l5zwfZ4wHaE9?rs=1&pid=ImgDetMain" ,"https://cdn.jetphotos.com/full/4/33361_1362921400.jpg" ]
+            "aircraft_image": [
+                "https://th.bing.com/th/id/OIP.3OK75gwnvky_c_l5zwfZ4wHaE9?rs=1&pid=ImgDetMain",
+                "https://cdn.jetphotos.com/full/4/33361_1362921400.jpg"
+            ],
+            "number of engines": 2,
+            "price": "$180 million (1982)"
         },
         "Dimensions": {
             "Length": "54.94 m",
@@ -7292,12 +7470,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "116,000 lb",
             "Avionics": {
-                "Common_suite": "Rockwell Collins",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Rockwell Collins"
             }
         },
         "Speed": {
@@ -7359,13 +7537,16 @@ export const airplane_comercial = {
             "Entered Service": "September 8, 1982 with United Airlines",
             "Type": "Wide-body airliner",
             "Engine Type": "Turbofan",
-            "Number of Engines": 2,
-            "Price tag": "$180 million (1982)",
             "Fly range category": "Medium to long range",
             "seat config": [
                 "2-3-2"
             ],
-            "aircraft_image":["https://th.bing.com/th/id/R.3de6ed1c551b0d1a30177306b00e2887?rik=g%2bK9zqexHWCa7g&pid=ImgRaw&r=0" , "https://farm3.staticflickr.com/2087/2497719439_b58ef215e2_z.jpg"]
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.3de6ed1c551b0d1a30177306b00e2887?rik=g%2bK9zqexHWCa7g&pid=ImgRaw&r=0",
+                "https://farm3.staticflickr.com/2087/2497719439_b58ef215e2_z.jpg"
+            ],
+            "number of engines": 2,
+            "price": "$180 million (1982)"
         },
         "Dimensions": {
             "Length": "61.37 m",
@@ -7391,12 +7572,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "138.9 cubic meters",
             "Avionics": {
-                "Common_suite": "Rockwell Collins",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "No",
                 "TAWS": "Yes",
-                "HUD": "No"
+                "HUD": "No",
+                "Common Suite": "Rockwell Collins"
             }
         },
         "Speed": {
@@ -7469,13 +7650,16 @@ export const airplane_comercial = {
             "Entered Service": "September 14, 2000 with Delta Air Lines",
             "Type": "Wide-body airliner",
             "Engine Type": "Turbofan",
-            "Number of Engines": 2,
-            "Price tag": "$160 million (2000)",
             "Fly range category": "Long range",
             "seat config": [
                 "2-3-2"
             ],
-            "aircraft_image":["https://th.bing.com/th/id/OIP.QZg8xhyTC5h9bV1iZrrIZgHaEP?rs=1&pid=ImgDetMain" , "https://xplanereviews.com/uploads/monthly_2022_07/181550294_767-400ER_Cockpit7771.jpg.cc7ebc41de58d441b7eb25d994444de6.jpg"]
+            "aircraft_image": [
+                "https://th.bing.com/th/id/OIP.QZg8xhyTC5h9bV1iZrrIZgHaEP?rs=1&pid=ImgDetMain",
+                "https://xplanereviews.com/uploads/monthly_2022_07/181550294_767-400ER_Cockpit7771.jpg.cc7ebc41de58d441b7eb25d994444de6.jpg"
+            ],
+            "number of engines": 2,
+            "price": "$160 million (2000)"
         },
         "Dimensions": {
             "Length": "61.37 m",
@@ -7501,12 +7685,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "138.9 cubic meters",
             "Avionics": {
-                "Common_suite": "Rockwell Collins",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "No",
                 "TAWS": "Yes",
-                "HUD": "No"
+                "HUD": "No",
+                "Common Suite": "Rockwell Collins"
             }
         },
         "Speed": {
@@ -7579,13 +7763,16 @@ export const airplane_comercial = {
             "Entered Service": "June 7, 1995 with United Airlines",
             "Type": "Wide-body jet airliner",
             "Engine Type": "Turbofan",
-            "Number of Engines": 2,
-            "Price tag": "$160 million (1994)",
             "Fly range category": "Medium to long range",
             "seat config": [
                 "3-3-3"
             ],
-            "aircraft_image":["https://th.bing.com/th/id/R.c2dd29fe511a245dc9c2e43bb5dfb468?rik=GpQ3ZB55FEHGtA&riu=http%3a%2f%2ftheflight.info%2fwp-content%2fgallery%2fUnited-Airlines-Boeing-777-200%2fn204ua-united-airlines-boeing-777-222er.jpg&ehk=ECJPv5err3jkMhuLfX0i7T%2fsgNsqFt4lE13x0TWVUFk%3d&risl=&pid=ImgRaw&r=0" ,"https://th.bing.com/th/id/R.2f10704d811936cbe92c95aaa041cdeb?rik=uVSoPd2uZqh3CQ&pid=ImgRaw&r=0" ]
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.c2dd29fe511a245dc9c2e43bb5dfb468?rik=GpQ3ZB55FEHGtA&riu=http%3a%2f%2ftheflight.info%2fwp-content%2fgallery%2fUnited-Airlines-Boeing-777-200%2fn204ua-united-airlines-boeing-777-222er.jpg&ehk=ECJPv5err3jkMhuLfX0i7T%2fsgNsqFt4lE13x0TWVUFk%3d&risl=&pid=ImgRaw&r=0",
+                "https://th.bing.com/th/id/R.2f10704d811936cbe92c95aaa041cdeb?rik=uVSoPd2uZqh3CQ&pid=ImgRaw&r=0"
+            ],
+            "number of engines": 2,
+            "price": "$160 million (1994)"
         },
         "Dimensions": {
             "Length": "63.73 m",
@@ -7611,12 +7798,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "145,600 lb",
             "Avionics": {
-                "Common_suite": "Rockwell Collins",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "No",
                 "TAWS": "Yes",
-                "HUD": "No"
+                "HUD": "No",
+                "Common Suite": "Rockwell Collins"
             }
         },
         "Speed": {
@@ -7689,13 +7876,16 @@ export const airplane_comercial = {
             "Entered Service": "June 7, 1995 with United Airlines",
             "Type": "Wide-body jet airliner",
             "Engine Type": "Turbofan",
-            "Number of Engines": 2,
-            "Price tag": "$160 million (1994)",
             "Fly range category": "Medium to long range",
             "seat config": [
                 "3-3-3"
             ],
-            "aircraft_image":["https://th.bing.com/th/id/OIP.Eq6Kyre7flqRgQH1a4DrUAEsDM?rs=1&pid=ImgDetMain" , "https://th.bing.com/th/id/R.09b2ac6e7e89abd11e49bb3278f9c316?rik=DVnrll4ACgdtRQ&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2fd%2fdb%2fBoeing_777-200ER_cockpit.jpg&ehk=3DcbeLG82xyMZ5N6uv9OJSmJB%2bvrq3dS77L71IHaJ1s%3d&risl=1&pid=ImgRaw&r=0"]
+            "aircraft_image": [
+                "https://th.bing.com/th/id/OIP.Eq6Kyre7flqRgQH1a4DrUAEsDM?rs=1&pid=ImgDetMain",
+                "https://th.bing.com/th/id/R.09b2ac6e7e89abd11e49bb3278f9c316?rik=DVnrll4ACgdtRQ&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2fd%2fdb%2fBoeing_777-200ER_cockpit.jpg&ehk=3DcbeLG82xyMZ5N6uv9OJSmJB%2bvrq3dS77L71IHaJ1s%3d&risl=1&pid=ImgRaw&r=0"
+            ],
+            "number of engines": 2,
+            "price": "$160 million (1994)"
         },
         "Dimensions": {
             "Length": "63.73 m",
@@ -7721,12 +7911,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "145,600 lb",
             "Avionics": {
-                "Common_suite": "Rockwell Collins",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "No",
                 "TAWS": "Yes",
-                "HUD": "No"
+                "HUD": "No",
+                "Common Suite": "Rockwell Collins"
             }
         },
         "Speed": {
@@ -7799,13 +7989,16 @@ export const airplane_comercial = {
             "Entered Service": "June 7, 1995 with United Airlines",
             "Type": "Wide-body jet airliner",
             "Engine Type": "Turbofan",
-            "Number of Engines": 2,
-            "Price tag": "$160 million (1994)",
             "Fly range category": "Medium to long range",
             "seat config": [
                 "3-3-3"
             ],
-            "aircraft_image":["https://th.bing.com/th/id/R.e9048993998a36347ae1e06e9bb1f99d?rik=RdEx9TxcKEC7uA&riu=http%3a%2f%2fairplanes.itsabouttravelling.com%2fwp-content%2fuploads%2f2017%2f12%2fc-fiuf-air-canada-boeing-777-200lr-02.jpg&ehk=AHAJLSww5qLwrpqzWwE8slfVT4KpaPbSc7PzraN9jn8%3d&risl=1&pid=ImgRaw&r=0","https://1.bp.blogspot.com/-w-Y82QiksHk/XmTHo-0RBDI/AAAAAAAADmo/SZtpSQmfCscZL1mR4Kc6z_X131ghGL-SQCEwYBhgL/s640/Boeing-777-200LR-cockpit.JPG"]
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.e9048993998a36347ae1e06e9bb1f99d?rik=RdEx9TxcKEC7uA&riu=http%3a%2f%2fairplanes.itsabouttravelling.com%2fwp-content%2fuploads%2f2017%2f12%2fc-fiuf-air-canada-boeing-777-200lr-02.jpg&ehk=AHAJLSww5qLwrpqzWwE8slfVT4KpaPbSc7PzraN9jn8%3d&risl=1&pid=ImgRaw&r=0",
+                "https://1.bp.blogspot.com/-w-Y82QiksHk/XmTHo-0RBDI/AAAAAAAADmo/SZtpSQmfCscZL1mR4Kc6z_X131ghGL-SQCEwYBhgL/s640/Boeing-777-200LR-cockpit.JPG"
+            ],
+            "number of engines": 2,
+            "price": "$160 million (1994)"
         },
         "Dimensions": {
             "Length": "63.73 m",
@@ -7831,12 +8024,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "145,600 lb",
             "Avionics": {
-                "Common_suite": "Rockwell Collins",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "No",
                 "TAWS": "Yes",
-                "HUD": "No"
+                "HUD": "No",
+                "Common Suite": "Rockwell Collins"
             }
         },
         "Speed": {
@@ -7909,13 +8102,16 @@ export const airplane_comercial = {
             "Entered Service": "July 2016 with Swiss International Air Lines",
             "Type": "Widebody jet airliner",
             "Engine Type": "Turbofan",
-            "Number of Engines": 2,
-            "Price": "$270 million (2024)",
-            "Fly Range Category": "Long range",
             "seat config": [
                 "3-3-3"
             ],
-            "aircraft_image":["https://th.bing.com/th/id/OIP.HMT65j8V7FwwyVan_X7RMgHaFP?rs=1&pid=ImgDetMain" , "https://live.staticflickr.com/7175/6516512053_18b32623f5_b.jpg"]
+            "aircraft_image": [
+                "https://th.bing.com/th/id/OIP.HMT65j8V7FwwyVan_X7RMgHaFP?rs=1&pid=ImgDetMain",
+                "https://live.staticflickr.com/7175/6516512053_18b32623f5_b.jpg"
+            ],
+            "Fly range category": "Long range",
+            "number of engines": 2,
+            "price": "$270 million (2024)"
         },
         "Dimensions": {
             "Length": "73.8 m",
@@ -7941,12 +8137,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "20 tons",
             "Avionics": {
-                "Common_suite": "Honeywell Primus Epic",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Honeywell Primus Epic"
             }
         },
         "Speed": {
@@ -7966,12 +8162,12 @@ export const airplane_comercial = {
                 "Manufacturer": "General Electric",
                 "Model": "GE90-115B",
                 "Thrust": "115,540 lbf",
-                "Bypass Ratio": "9.5:1",
-                "Fan Stage": 1,
-                "Low-pressure Compressor Stages": 7,
-                "High-pressure Compressor Stages": 9,
-                "High-pressure Turbine Stages": 6,
-                "Low-pressure Turbine Stages": 2
+                "Bypass ratio": "9.5:1",
+                "Fan stage": 1,
+                "Low-pressure compressor stages": 7,
+                "High-pressure compressor stages": 9,
+                "High-pressure turbine stages": 6,
+                "Low-pressure turbine stages": 2
             }
         },
         "Other Details": {
@@ -7999,107 +8195,101 @@ export const airplane_comercial = {
             ]
         }
     },
-    "Boeing 777-300ER":{
+    "Boeing 777-300ER": {
         "General Information": {
-          "Manufacturer": "Boeing",
-          "Family": "777",
-          "First Flight": "12 June 1994",
-          "Model Build": "1,734 (as of June 2024)",
-          "Entered Service": "June 7, 1995 with United Airlines",
-          "Type": "Wide-body jet airliner",
-          "Engine Type": "High-bypass turbofan",
-          "Number of Engines": "2",
-          "Price Tag": "$306.6 million (2021)",
-          "Fly range category": "Long range",
-          "Seat Configuration": ["3-4-3"],
-          "aircraft_image":["https://i1.wp.com/flightchic.com/wp-content/uploads/2016/03/emirates-boeing-777-300er.jpg?ssl=1" , "https://live.staticflickr.com/291/19446090246_494a85a934_b.jpg"]
+            "Manufacturer": "Boeing",
+            "Family": "777",
+            "First Flight": "12 June 1994",
+            "Model Build": "1,734 (as of June 2024)",
+            "Entered Service": "June 7, 1995 with United Airlines",
+            "Type": "Wide-body jet airliner",
+            "Engine Type": "High-bypass turbofan",
+            "Fly range category": "Long range",
+            "Seat Configuration": [
+                "3-4-3"
+            ],
+            "aircraft_image": [
+                "https://i1.wp.com/flightchic.com/wp-content/uploads/2016/03/emirates-boeing-777-300er.jpg?ssl=1",
+                "https://live.staticflickr.com/291/19446090246_494a85a934_b.jpg"
+            ],
+            "number of engines": "2",
+            "price": "$306.6 million (2021)"
         },
         "Dimensions": {
-          "Length": "242 ft 4 in",
-          "Wingspan": "199 ft 11 in",
-          "Cabin Length": "varies by airline configuration",
-          "Fuselage Max Diameter": "20 ft 4 in",
-          "Max Cabin Width": "19 ft 3 in"
+            "Length": "242 ft 4 in",
+            "Wingspan": "199 ft 11 in",
+            "Cabin Length": "varies by airline configuration",
+            "Fuselage Max Diameter": "20 ft 4 in",
+            "Max Cabin Width": "19 ft 3 in"
         },
         "Weights": {
-          "Max Landing Weight": "470,000 lb",
-          "Empty Weight": "297,000 lb",
-          "Max Takeoff Weight": "775,000 lb"
+            "Max Landing Weight": "470,000 lb",
+            "Empty Weight": "297,000 lb",
+            "Max Takeoff Weight": "775,000 lb"
         },
         "Performance": {
-          "Fuel Capacity": "47,890 US gal",
-          "Range": "7,370 nautical miles",
-          "Flight Ceiling": "43,100 ft",
-          "Takeoff Distance": "9,700 ft",
-          "Landing Distance": "6,030 ft",
-          "Passenger Capacity": {
-            "Max": "396",
-            "Typical": "301 to 368"
-          },
-          "Cargo Capacity": "varies by airline configuration",
-          "Avionics": {
-            "Common Suite": "Honeywell",
-            "FMS": "Yes",
-            "EFIS": "Yes",
-            "AFCS": "Yes",
-            "TAWS": "Yes",
-            "HUD": "Yes"
-          }
+            "Fuel Capacity": "47,890 US gal",
+            "Range": "7,370 nautical miles",
+            "Flight Ceiling": "43,100 ft",
+            "Takeoff Distance": "9,700 ft",
+            "Landing Distance": "6,030 ft",
+            "Passenger Capacity": {
+                "Max": "396",
+                "Typical": "301 to 368"
+            },
+            "Cargo Capacity": "varies by airline configuration",
+            "Avionics": {
+                "Common Suite": "Honeywell",
+                "FMS": "Yes",
+                "EFIS": "Yes",
+                "AFCS": "Yes",
+                "TAWS": "Yes",
+                "HUD": "Yes"
+            }
         },
         "Speed": {
-          "Cruise Speed": {
-            "Mach": "0.84",
-            "Knots": "560 knots"
-          },
-          "Max Speed": {
-            "Mach": "0.89",
-            "Knots": "590 knots"
-          },
-          "V2 Speed": "160 knots",
-          "Stall Speed": "140 knots"
+            "Cruise Speed": {
+                "Mach": "0.84",
+                "Knots": "560 knots"
+            },
+            "Max Speed": {
+                "Mach": "0.89",
+                "Knots": "590 knots"
+            },
+            "V2 Speed": "160 knots",
+            "Stall Speed": "140 knots"
         },
-        "Engines": [
-          {
-            "Manufacturer": "General Electric",
-            "Model": "GE90-115B",
-            "Thrust": "115,300 lbf",
-            "Bypass Ratio": "9:1",
-            "Fan Stage": "Single-stage fan",
-            "Low-pressure Compressor Stages": "7",
-            "High-pressure Compressor Stages": "9",
-            "High-pressure Turbine Stages": "6",
-            "Low-pressure Turbine Stages": "2"
-          },
-          {
-            "Manufacturer": "Rolls-Royce",
-            "Model": "Trent 892",
-            "Thrust": "92,000 lbf",
-            "Bypass Ratio": "6:1",
-            "Fan Stage": "Single-stage fan",
-            "Low-pressure Compressor Stages": "8",
-            "High-pressure Compressor Stages": "6",
-            "High-pressure Turbine Stages": "6",
-            "Low-pressure Turbine Stages": "2"
-          }
-        ],
+        "Engines": {
+            "GE90-115B": {
+                "Manufacturer": "Rolls-Royce",
+                "Model": "Trent 892",
+                "Thrust": "92,000 lbf",
+                "Bypass ratio": "6:1",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "8",
+                "High-pressure compressor stages": "6",
+                "High-pressure turbine stages": "6",
+                "Low-pressure turbine stages": "2"
+            }
+        },
         "Other Details": {
-          "Noise Levels": {
-            "Takeoff": "93 dB",
-            "Landing": "85 dB",
-            "Cruise": "88 dB"
-          },
-          "Body Type": "Twin-aisle (wide-body)",
-          "Number of Decks": 1,
-          "Materials": {
-            "Fuselage": "Aluminum alloy",
-            "Wings": "Composite materials"
-          },
-          "Commercial Operators": [
-            "Emirates",
-            "United Airlines",
-            "Qatar Airways",
-            "Air France"
-          ]
+            "Noise Levels": {
+                "Takeoff": "93 dB",
+                "Landing": "85 dB",
+                "Cruise": "88 dB"
+            },
+            "Body Type": "Twin-aisle (wide-body)",
+            "Number of Decks": 1,
+            "Materials": {
+                "Fuselage": "Aluminum alloy",
+                "Wings": "Composite materials"
+            },
+            "Commercial Operators": [
+                "Emirates",
+                "United Airlines",
+                "Qatar Airways",
+                "Air France"
+            ]
         }
     },
     "Boeing 777-200F": {
@@ -8111,11 +8301,14 @@ export const airplane_comercial = {
             "Entered Service": "February 2009 with Air France Cargo",
             "Type": "Widebody jet freighter",
             "Engine Type": "Turbofan",
-            "Number of Engines": 2,
-            "Price": "$270 million (2024)",
-            "Fly Range Category": "Long range",
             "seat config": [],
-            "aircraft_image":["https://live.staticflickr.com/65535/50284713383_efaa5c3a1c_b.jpg" ,"https://th.bing.com/th/id/R.693dd1712800c183be8d4e45322fdc88?rik=8fjLuO61GhZG%2bg&riu=http%3a%2f%2fpic.carnoc.com%2ffile%2f140402%2ftj_14040207171126.jpg&ehk=Yd5JChtA0ziCZnTovj6YjWxzVwSe5dU%2fIAQIqN4nxPs%3d&risl=&pid=ImgRaw&r=0"]
+            "aircraft_image": [
+                "https://live.staticflickr.com/65535/50284713383_efaa5c3a1c_b.jpg",
+                "https://th.bing.com/th/id/R.693dd1712800c183be8d4e45322fdc88?rik=8fjLuO61GhZG%2bg&riu=http%3a%2f%2fpic.carnoc.com%2ffile%2f140402%2ftj_14040207171126.jpg&ehk=Yd5JChtA0ziCZnTovj6YjWxzVwSe5dU%2fIAQIqN4nxPs%3d&risl=&pid=ImgRaw&r=0"
+            ],
+            "Fly range category": "Long range",
+            "number of engines": 2,
+            "price": "$270 million (2024)"
         },
         "Dimensions": {
             "Length": "73.9 m",
@@ -8141,12 +8334,12 @@ export const airplane_comercial = {
             },
             "Cargo Capacity": "653 m",
             "Avionics": {
-                "Common_suite": "Honeywell Primus Epic",
                 "FMS": "Yes",
                 "EFIS": "Yes",
                 "AFCS": "Yes",
                 "TAWS": "Yes",
-                "HUD": "Yes"
+                "HUD": "Yes",
+                "Common Suite": "Honeywell Primus Epic"
             }
         },
         "Speed": {
@@ -8166,12 +8359,12 @@ export const airplane_comercial = {
                 "Manufacturer": "General Electric",
                 "Model": "GE90-110B1L",
                 "Thrust": "110,100 lbf",
-                "Bypass Ratio": "8.4:1",
-                "Fan Stage": 1,
-                "Low-pressure Compressor Stages": 7,
-                "High-pressure Compressor Stages": 9,
-                "High-pressure Turbine Stages": 6,
-                "Low-pressure Turbine Stages": 2
+                "Bypass ratio": "8.4:1",
+                "Fan stage": 1,
+                "Low-pressure compressor stages": 7,
+                "High-pressure compressor stages": 9,
+                "High-pressure turbine stages": 6,
+                "Low-pressure turbine stages": 2
             }
         },
         "Other Details": {
@@ -8234,13 +8427,16 @@ export const airplane_comercial = {
             "Entered Service": "Not yet in service",
             "Type": "Twin-engine widebody jet airliner",
             "Engine Type": "Turbofan",
-            "Number of Engines": 2,
-            "Price": "$442.2 million (2024)",
-            "Fly Range Category": "Ultra-long range",
             "seat config": [
                 "3-3-3"
             ],
-            "aircraft_image":["https://th.bing.com/th/id/OIP.n5CKaSP8ockn6udCqjSVxQHaE7?rs=1&pid=ImgDetMain" ,"https://1.bp.blogspot.com/-tejkJTC6R5M/XlT9P4NbMdI/AAAAAAAADlg/MwWcWmh-CXgcDQPp1B2WTr58zxGpB_iewCEwYBhgL/s640/Boeing-777-9X-cockpit.JPG" ]
+            "aircraft_image": [
+                "https://th.bing.com/th/id/OIP.n5CKaSP8ockn6udCqjSVxQHaE7?rs=1&pid=ImgDetMain",
+                "https://1.bp.blogspot.com/-tejkJTC6R5M/XlT9P4NbMdI/AAAAAAAADlg/MwWcWmh-CXgcDQPp1B2WTr58zxGpB_iewCEwYBhgL/s640/Boeing-777-9X-cockpit.JPG"
+            ],
+            "Fly range category": "Ultra-long range",
+            "number of engines": 2,
+            "price": "$442.2 million (2024)"
         },
         "Dimensions": {
             "Length": "251.75 m",
@@ -8291,12 +8487,12 @@ export const airplane_comercial = {
                 "Manufacturer": "General Electric",
                 "Model": "GE9X-105B1A",
                 "Thrust": "105,000 lbf",
-                "Bypass Ratio": "10:1",
-                "Fan Stage": 1,
-                "Low-pressure Compressor Stages": 7,
-                "High-pressure Compressor Stages": 10,
-                "High-pressure Turbine Stages": 2,
-                "Low-pressure Turbine Stages": 6
+                "Bypass ratio": "10:1",
+                "Fan stage": 1,
+                "Low-pressure compressor stages": 7,
+                "High-pressure compressor stages": 10,
+                "High-pressure turbine stages": 2,
+                "Low-pressure turbine stages": 6
             }
         },
         "Other Details": {
@@ -8330,13 +8526,16 @@ export const airplane_comercial = {
             "Entered Service": "October 2011 with All Nippon Airways",
             "Type": "Twin-engine widebody jet airliner",
             "Engine Type": "Turbofan",
-            "Number of Engines": 2,
-            "Price": "$224.6 million (2024)",
-            "Fly Range Category": "Long range",
             "seat config": [
                 "3-3-3"
             ],
-            "aircraft_image":["https://th.bing.com/th/id/R.ab40a11029d309fd14da298a537e7821?rik=NsRmA09AnyvNSA&riu=http%3a%2f%2fbarrieaircraft.com%2fimages%2fboeing-787-8-dreamliner-01.jpg&ehk=loAu8dlPp5XQCNqLZ%2f7B01xVRflOGmiAUMmoD9v0ISM%3d&risl=&pid=ImgRaw&r=0" , "https://th.bing.com/th/id/R.1ae501dd3dfef769f55cee20d73f03aa?rik=NEvGind8FMMGmQ&pid=ImgRaw&r=0"]
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.ab40a11029d309fd14da298a537e7821?rik=NsRmA09AnyvNSA&riu=http%3a%2f%2fbarrieaircraft.com%2fimages%2fboeing-787-8-dreamliner-01.jpg&ehk=loAu8dlPp5XQCNqLZ%2f7B01xVRflOGmiAUMmoD9v0ISM%3d&risl=&pid=ImgRaw&r=0",
+                "https://th.bing.com/th/id/R.1ae501dd3dfef769f55cee20d73f03aa?rik=NEvGind8FMMGmQ&pid=ImgRaw&r=0"
+            ],
+            "Fly range category": "Long range",
+            "number of engines": 2,
+            "price": "$224.6 million (2024)"
         },
         "Dimensions": {
             "Length": "57 m",
@@ -8387,23 +8586,23 @@ export const airplane_comercial = {
                 "Manufacturer": "General Electric",
                 "Model": "GEnx-1B64",
                 "Thrust": "64,000 lbf (284.7 kN)",
-                "Bypass Ratio": "9:1",
-                "Fan Stage": "1",
-                "Low-pressure Compressor Stages": "7",
-                "High-pressure Compressor Stages": "10",
-                "High-pressure Turbine Stages": "2",
-                "Low-pressure Turbine Stages": "6"
+                "Bypass ratio": "9:1",
+                "Fan stage": "1",
+                "Low-pressure compressor stages": "7",
+                "High-pressure compressor stages": "10",
+                "High-pressure turbine stages": "2",
+                "Low-pressure turbine stages": "6"
             },
             "Trent 1000": {
                 "Manufacturer": "Rolls-Royce",
                 "Model": "Trent 1000",
                 "Thrust": "64,000 lbf (284.7 kN)",
-                "Bypass Ratio": "10:1",
-                "Fan Stage": "1",
-                "Low-pressure Compressor Stages": "8",
-                "High-pressure Compressor Stages": "6",
-                "High-pressure Turbine Stages": "2",
-                "Low-pressure Turbine Stages": "6"
+                "Bypass ratio": "10:1",
+                "Fan stage": "1",
+                "Low-pressure compressor stages": "8",
+                "High-pressure compressor stages": "6",
+                "High-pressure turbine stages": "2",
+                "Low-pressure turbine stages": "6"
             }
         },
         "Other Details": {
@@ -8460,13 +8659,16 @@ export const airplane_comercial = {
             "Entered Service": "October 2011 with All Nippon Airways",
             "Type": "Wide-body jet airliner",
             "Engine Type": "Turbofan",
-            "Number of Engines": 2,
-            "Price": "$292 million (2021)",
-            "Fly Range Category": "Long range",
             "seat config": [
                 "3-3-3"
             ],
-            "aircraft_image":["https://th.bing.com/th/id/R.1f309e8f7c0ff1ef67bb718064bf5a2b?rik=3yGr%2fZjYuFhLkQ&riu=http%3a%2f%2fwww.gannett-cdn.com%2f-mm-%2f0c3311e750009feb3aaf9542f948a35b17b5c5d6%2fc%3d373-311-5049-2957%26r%3dx1683%26c%3d3200x1680%2flocal%2f-%2fmedia%2fUSATODAY%2fUSATODAY%2f2013%2f09%2f18%2f1379515730000-AP-Boeing-787-9.jpg&ehk=gu6s6YPDfYm8rwG%2fmOsIHHQJ8i88cP9SFJuhnDgq4DU%3d&risl=&pid=ImgRaw&r=0" , "https://th.bing.com/th/id/OIP.I77ioZVKrQmGrJPPiyMxSQHaFA?rs=1&pid=ImgDetMain"]
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.1f309e8f7c0ff1ef67bb718064bf5a2b?rik=3yGr%2fZjYuFhLkQ&riu=http%3a%2f%2fwww.gannett-cdn.com%2f-mm-%2f0c3311e750009feb3aaf9542f948a35b17b5c5d6%2fc%3d373-311-5049-2957%26r%3dx1683%26c%3d3200x1680%2flocal%2f-%2fmedia%2fUSATODAY%2fUSATODAY%2f2013%2f09%2f18%2f1379515730000-AP-Boeing-787-9.jpg&ehk=gu6s6YPDfYm8rwG%2fmOsIHHQJ8i88cP9SFJuhnDgq4DU%3d&risl=&pid=ImgRaw&r=0",
+                "https://th.bing.com/th/id/OIP.I77ioZVKrQmGrJPPiyMxSQHaFA?rs=1&pid=ImgDetMain"
+            ],
+            "Fly range category": "Long range",
+            "number of engines": 2,
+            "price": "$292 million (2021)"
         },
         "Dimensions": {
             "Length": "63 m",
@@ -8517,23 +8719,23 @@ export const airplane_comercial = {
                 "Manufacturer": "General Electric",
                 "Model": "GEnx-1B64",
                 "Thrust": "64,000 lbf",
-                "Bypass Ratio": "9.5",
-                "Fan Stage": 1,
-                "Low-pressure Compressor Stages": 7,
-                "High-pressure Compressor Stages": 10,
-                "High-pressure Turbine Stages": 2,
-                "Low-pressure Turbine Stages": 6
+                "Bypass ratio": "9.5",
+                "Fan stage": 1,
+                "Low-pressure compressor stages": 7,
+                "High-pressure compressor stages": 10,
+                "High-pressure turbine stages": 2,
+                "Low-pressure turbine stages": 6
             },
             "Trent 1000": {
                 "Manufacturer": "Rolls-Royce",
                 "Model": "Trent 1000 TEN",
                 "Thrust": "78,000 lbf",
-                "Bypass Ratio": "10.5",
-                "Fan Stage": 1,
-                "Low-pressure Compressor Stages": 8,
-                "High-pressure Compressor Stages": 6,
-                "High-pressure Turbine Stages": 2,
-                "Low-pressure Turbine Stages": 6
+                "Bypass ratio": "10.5",
+                "Fan stage": 1,
+                "Low-pressure compressor stages": 8,
+                "High-pressure compressor stages": 6,
+                "High-pressure turbine stages": 2,
+                "Low-pressure turbine stages": 6
             }
         },
         "Other Details": {
@@ -8565,6 +8767,3 @@ export const airplane_comercial = {
         }
     }
 }
-
-var aircraft = Object.keys(airplane_comercial)
-console.log(aircraft)
