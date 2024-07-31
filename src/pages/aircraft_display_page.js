@@ -120,6 +120,10 @@ function NewPage(){
         <th>High-Pressure Compressor Stages</th>
         <th>High-Pressure Turbine Stages</th>
         <th>Low-Pressure Turbine Stages</th>
+        <th>Max climb rate</th>
+        <th>Max descend rate</th>
+        <th>Cruise climb rate</th>
+        <th>Landing descend rate</th>
       </tr>
     </thead>
     <tbody id="collumns-engine-valuess">
@@ -134,6 +138,10 @@ function NewPage(){
         <td>{String(choosed_aircraft["Engines"][single_engine]["High-pressure compressor stages"])}</td>
         <td>{String(choosed_aircraft["Engines"][single_engine]["High-pressure turbine stages"])}</td>
         <td>{String(choosed_aircraft["Engines"][single_engine]["Low-pressure turbine stages"])}</td>
+        <td>{String(choosed_aircraft["Engines"][single_engine]["Climb rate"])} ft/min</td>
+        <td>{String(choosed_aircraft["Engines"][single_engine]["Descend rate"])} ft/min</td>
+        <td>{String(choosed_aircraft["Engines"][single_engine]["Cruise climb rate"])} ft/min</td>
+        <td>{String(choosed_aircraft["Engines"][single_engine]["Landing descend rate"])} ft/meet</td>
       </tr>)}
       </tbody>
   </table>
@@ -153,6 +161,9 @@ function NewPage(){
       <li>Wings Material: <span class="data-value">{choosed_aircraft["General Information"]["Manufacturer"] === "Airbus" ? choosed_aircraft["Other Details"]["Materials"]["Wings"]["Material"] :choosed_aircraft["Other Details"]["Materials"].Wings}</span></li>
       <li>Commercial Operators: <span class="data-value"><ul>{com_operaters.map((elements) => <li><h4>{elements} </h4></li>)}</ul></span></li>
     </ul>
+  </div>
+  <div>
+    <img src={choosed_aircraft["General Information"]["Cabin cross section"]} alt="cabin cross section"></img>
   </div>
 </div>
 

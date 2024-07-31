@@ -1,3 +1,31 @@
+
+//     import a300_crossection from "../images/A300B-crossection.jpg"
+// import a319_crosssection from "../images/A319-crosssection.png"
+// import a320_crossection from "../images/A320-cross-section.png"
+// import a321_crossection from "../images/A321-crosssection.png"
+// import a321LR_crossection from "../images/A321LR-crossection.png"
+// import a330_100_crossection from "../images/a330-200-crossection.png"
+// import a330_900_section from "../images/a330-900-crossection.webp"
+// import a340_crossection from "../images/A340-100-200-cross-section.png"
+// import a340_50_50_crossection from "../images/a340-500-600-crossection.jpg"
+// import a350_crossecton from "../images/A350-cross-section.jpg"
+// import a380_crossection from "../images/a380-crossection.png"
+// import abeluga_crossection from "../images/ABeluga-crossection.jpg"
+// import b707_crossection from "../images/707-crossection.png"
+// import b717_100_crossection from "../images/717-100-cabin-crossection.jpg"
+// import b717_200_crossection from "../images/717-200-cabin-cross-section.gif"
+// import b727_100_crosssection from "../images/727-100-cross section.jpg"
+// import b737_crossection from "../images/737-cabin-crossection.png"
+// import b737_max_crossection from "../images/737max-cabin-crossection.jpg"
+// import b747_100_crossection from "../images/747-100-crossection.jpg"
+// import b747_200_crossection from "../images/747-200-crossection.jpg"
+// import b747_300_crossection from "../images/747-300-crossection.png"
+// import b757_crossection from "../images/757-300-cabin-cross-section.jpg"
+// import b767_crossection from "../images/B767-crossection.png"
+// import b777_crossection from "../images/777-crossection.jpg"
+// import b787_crossection from "../images/787-crosssection.png"
+
+
 export const airplane_comercial = {
     "Airbus A220-100": {
         "General Information": {
@@ -74,7 +102,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 3,
                 "High-pressure compressor stages": 6,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 4
+                "Low-pressure turbine stages": 4,
+                "Climb rate": 3000,
+                "Descend rate": 2000,
+                "Cruise climb rate": 2500,
+                "Landing descend rate": 1500
             }
         },
         "Other Details": {
@@ -180,7 +212,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 3,
                 "High-pressure compressor stages": 6,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 4
+                "Low-pressure turbine stages": 4,
+                "Climb rate": 3000,
+                "Descend rate": 2000,
+                "Cruise climb rate": 2500,
+                "Landing descend rate": 1500
             }
         },
         "Other Details": {
@@ -287,7 +323,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 3,
                 "High-pressure compressor stages": 11,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 4
+                "Low-pressure turbine stages": 4,
+                "Climb rate": 2000,
+                "Descend rate": 1500,
+                "Cruise climb rate": 1800,
+                "Landing descend rate": 1200
             },
             "CF6-50C2": {
                 "Manufacturer": "General Electric",
@@ -298,7 +338,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 3,
                 "High-pressure compressor stages": 14,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 4
+                "Low-pressure turbine stages": 4,
+                "Climb rate": 2100,
+                "Descend rate": 1600,
+                "Cruise climb rate": 1900,
+                "Landing descend rate": 1300
             }
         },
         "Other Details": {
@@ -405,7 +449,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 3,
                 "High-pressure compressor stages": 11,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 4
+                "Low-pressure turbine stages": 4,
+                "Climb rate": 2000,
+                "Descend rate": 1500,
+                "Cruise climb rate": 1800,
+                "Landing descend rate": 1200
             }
         },
         "Other Details": {
@@ -513,7 +561,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 5,
                 "High-pressure compressor stages": 14,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 4
+                "Low-pressure turbine stages": 4,
+                "Climb rate": 2500,
+                "Descend rate": 1800,
+                "Cruise climb rate": 2200,
+                "Landing descend rate": 1400
             },
             "CF6-80C2A1": {
                 "Manufacturer": "General Electric",
@@ -524,7 +576,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 14,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 4
+                "Low-pressure turbine stages": 4,
+                "Climb rate": 2400,
+                "Descend rate": 1700,
+                "Cruise climb rate": 2100,
+                "Landing descend rate": 1300
             },
             "PW4158": {
                 "Manufacturer": "Pratt & Whitney",
@@ -535,7 +591,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 0,
                 "High-pressure compressor stages": 0,
                 "High-pressure turbine stages": 0,
-                "Low-pressure turbine stages": 0
+                "Low-pressure turbine stages": 0,
+                "Climb rate": 2300,
+                "Descend rate": 1600,
+                "Cruise climb rate": 2000,
+                "Landing descend rate": 1200
             }
         },
         "Other Details": {
@@ -642,7 +702,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 3,
                 "High-pressure compressor stages": 11,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 4
+                "Low-pressure turbine stages": 4,
+                "Climb rate": 2200,
+                "Descend rate": 1600,
+                "Cruise climb rate": 2000,
+                "Landing descend rate": 1300
             },
             "CF6-80A3": {
                 "Manufacturer": "General Electric",
@@ -653,7 +717,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 14,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 5
+                "Low-pressure turbine stages": 5,
+                "Climb rate": 2100,
+                "Descend rate": 1500,
+                "Cruise climb rate": 1900,
+                "Landing descend rate": 1200
             },
             "CF6-80C2A2": {
                 "Manufacturer": "General Electric",
@@ -664,7 +732,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 14,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 5
+                "Low-pressure turbine stages": 5,
+                "Climb rate": 2200,
+                "Descend rate": 1600,
+                "Cruise climb rate": 2000,
+                "Landing descend rate": 1300
             },
             "CF6-80C2A8": {
                 "Manufacturer": "General Electric",
@@ -675,7 +747,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 14,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 5
+                "Low-pressure turbine stages": 5,
+                "Climb rate": 2200,
+                "Descend rate": 1600,
+                "Cruise climb rate": 2000,
+                "Landing descend rate": 1300
             },
             "PW4152": {
                 "Manufacturer": "Pratt & Whitney",
@@ -686,7 +762,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 0,
                 "High-pressure compressor stages": 0,
                 "High-pressure turbine stages": 0,
-                "Low-pressure turbine stages": 0
+                "Low-pressure turbine stages": 0,
+                "Climb rate": 2100,
+                "Descend rate": 1500,
+                "Cruise climb rate": 1900,
+                "Landing descend rate": 1200
             },
             "PW4156": {
                 "Manufacturer": "Pratt & Whitney",
@@ -697,7 +777,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 0,
                 "High-pressure compressor stages": 0,
                 "High-pressure turbine stages": 0,
-                "Low-pressure turbine stages": 0
+                "Low-pressure turbine stages": 0,
+                "Climb rate": 2100,
+                "Descend rate": 1500,
+                "Cruise climb rate": 1900,
+                "Landing descend rate": 1200
             }
         },
         "Other Details": {
@@ -804,7 +888,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 3,
                 "High-pressure compressor stages": 11,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 4
+                "Low-pressure turbine stages": 4,
+                "Climb rate": 5200,
+                "Descend rate": 4500,
+                "Cruise climb rate": 4900,
+                "Landing descend rate": 4200
             },
             "CF6-80A3": {
                 "Manufacturer": "General Electric",
@@ -815,7 +903,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 14,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 5
+                "Low-pressure turbine stages": 5,
+                "Climb rate": 5300,
+                "Descend rate": 4600,
+                "Cruise climb rate": 5000,
+                "Landing descend rate": 4300
             },
             "CF6-80C2A2": {
                 "Manufacturer": "General Electric",
@@ -826,7 +918,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 14,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 5
+                "Low-pressure turbine stages": 5,
+                "Climb rate": 5400,
+                "Descend rate": 4700,
+                "Cruise climb rate": 5100,
+                "Landing descend rate": 4400
             },
             "CF6-80C2A8": {
                 "Manufacturer": "General Electric",
@@ -837,7 +933,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 14,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 5
+                "Low-pressure turbine stages": 5,
+                "Climb rate": 5500,
+                "Descend rate": 4800,
+                "Cruise climb rate": 5200,
+                "Landing descend rate": 4500
             },
             "PW4152": {
                 "Manufacturer": "Pratt & Whitney",
@@ -848,7 +948,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 0,
                 "High-pressure compressor stages": 0,
                 "High-pressure turbine stages": 0,
-                "Low-pressure turbine stages": 0
+                "Low-pressure turbine stages": 0,
+                "Climb rate": 5600,
+                "Descend rate": 4900,
+                "Cruise climb rate": 5300,
+                "Landing descend rate": 4600
             },
             "PW4156": {
                 "Manufacturer": "Pratt & Whitney",
@@ -859,7 +963,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 0,
                 "High-pressure compressor stages": 0,
                 "High-pressure turbine stages": 0,
-                "Low-pressure turbine stages": 0
+                "Low-pressure turbine stages": 0,
+                "Climb rate": 5700,
+                "Descend rate": 5000,
+                "Cruise climb rate": 5400,
+                "Landing descend rate": 4700
             }
         },
         "Other Details": {
@@ -966,7 +1074,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 9,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 4
+                "Low-pressure turbine stages": 4,
+                "Climb rate": 2100,
+                "Descend rate": 1500,
+                "Cruise climb rate": 1900,
+                "Landing descend rate": 1200
             },
             "PW6000": {
                 "Manufacturer": "Pratt & Whitney",
@@ -977,7 +1089,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 6,
                 "High-pressure compressor stages": 6,
                 "High-pressure turbine stages": 1,
-                "Low-pressure turbine stages": 3
+                "Low-pressure turbine stages": 3,
+                "Climb rate": 2200,
+                "Descend rate": 1600,
+                "Cruise climb rate": 2000,
+                "Landing descend rate": 1300
             }
         },
         "Other Details": {
@@ -1084,7 +1200,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 14,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 5
+                "Low-pressure turbine stages": 5,
+                "Climb rate": 2200,
+                "Descend rate": 1600,
+                "Cruise climb rate": 2000,
+                "Landing descend rate": 1300
             },
             "IAE V2500-A5": {
                 "Manufacturer": "International Aero Engines",
@@ -1095,7 +1215,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 14,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 5
+                "Low-pressure turbine stages": 5,
+                "Climb rate": 2300,
+                "Descend rate": 1700,
+                "Cruise climb rate": 2100,
+                "Landing descend rate": 1400
             },
             "PW1100G-JM": {
                 "Manufacturer": "Pratt & Whitney",
@@ -1106,7 +1230,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 3,
                 "High-pressure compressor stages": 8,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 4
+                "Low-pressure turbine stages": 4,
+                "Climb rate": 2400,
+                "Descend rate": 1800,
+                "Cruise climb rate": 2200,
+                "Landing descend rate": 1500
             }
         },
         "Other Details": {
@@ -1212,7 +1340,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "4",
                 "High-pressure compressor stages": "9",
                 "High-pressure turbine stages": "2",
-                "Low-pressure turbine stages": "5"
+                "Low-pressure turbine stages": "5",
+                "Climb rate": 2400,
+                "Descend rate": 1800,
+                "Cruise climb rate": 2200,
+                "Landing descend rate": 1500
             },
             "LEAP-1A": {
                 "Manufacturer": "CFM International",
@@ -1223,7 +1355,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "4",
                 "High-pressure compressor stages": "9",
                 "High-pressure turbine stages": "2",
-                "Low-pressure turbine stages": "5"
+                "Low-pressure turbine stages": "5",
+                "Climb rate": 2300,
+                "Descend rate": 1700,
+                "Cruise climb rate": 2100,
+                "Landing descend rate": 1400
             }
         },
         "Other Details": {
@@ -1320,7 +1456,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 9,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 4
+                "Low-pressure turbine stages": 4,
+                "Climb rate": 2500,
+                "Descend rate": 1800,
+                "Cruise climb rate": 2200,
+                "Landing descend rate": 1500
             },
             "IAE V2500": {
                 "Manufacturer": "International Aero Engines",
@@ -1331,7 +1471,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 3,
                 "High-pressure compressor stages": 6,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 5
+                "Low-pressure turbine stages": 5,
+                "Climb rate": 2600,
+                "Descend rate": 1900,
+                "Cruise climb rate": 2300,
+                "Landing descend rate": 1600
             }
         },
         "Other Details": {
@@ -1437,7 +1581,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 9,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 5
+                "Low-pressure turbine stages": 5,
+                "Climb rate": 2700,
+                "Descend rate": 2000,
+                "Cruise climb rate": 2400,
+                "Landing descend rate": 1700
             },
             "LEAP-1A": {
                 "Manufacturer": "CFM International",
@@ -1448,7 +1596,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 9,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 5
+                "Low-pressure turbine stages": 5,
+                "Climb rate": 2600,
+                "Descend rate": 1900,
+                "Cruise climb rate": 2300,
+                "Landing descend rate": 1600
             }
         },
         "Other Details": {
@@ -1554,7 +1706,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 9,
                 "High-pressure turbine stages": 4,
-                "Low-pressure turbine stages": 1
+                "Low-pressure turbine stages": 1,
+                "Climb rate": 2800,
+                "Descend rate": 2100,
+                "Cruise climb rate": 2500,
+                "Landing descend rate": 1800
             },
             "CFM56-5B2": {
                 "Manufacturer": "CFM International",
@@ -1565,7 +1721,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 9,
                 "High-pressure turbine stages": 4,
-                "Low-pressure turbine stages": 1
+                "Low-pressure turbine stages": 1,
+                "Climb rate": 2700,
+                "Descend rate": 2000,
+                "Cruise climb rate": 2400,
+                "Landing descend rate": 1700
             },
             "V2530-A5": {
                 "Manufacturer": "International Aero Engines (IAE)",
@@ -1576,7 +1736,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 9,
                 "High-pressure turbine stages": 1,
-                "Low-pressure turbine stages": 1
+                "Low-pressure turbine stages": 1,
+                "Climb rate": 2900,
+                "Descend rate": 2200,
+                "Cruise climb rate": 2600,
+                "Landing descend rate": 1900
             }
         },
         "Other Details": {
@@ -1682,7 +1846,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 3,
                 "High-pressure compressor stages": 9,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 4
+                "Low-pressure turbine stages": 4,
+                "Climb rate": 2800,
+                "Descend rate": 2100,
+                "Cruise climb rate": 2500,
+                "Landing descend rate": 1800
             },
             "V2533-A5": {
                 "Manufacturer": "IAE",
@@ -1693,7 +1861,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 3,
                 "High-pressure compressor stages": 9,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 4
+                "Low-pressure turbine stages": 4,
+                "Climb rate": 2900,
+                "Descend rate": 2200,
+                "Cruise climb rate": 2600,
+                "Landing descend rate": 1900
             }
         },
         "Other Details": {
@@ -1799,7 +1971,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 3,
                 "High-pressure compressor stages": 9,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 4
+                "Low-pressure turbine stages": 4,
+                "Climb rate": 3000,
+                "Descend rate": 2300,
+                "Cruise climb rate": 2700,
+                "Landing descend rate": 2000
             },
             "PW1130G": {
                 "Manufacturer": "Pratt & Whitney",
@@ -1810,7 +1986,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 3,
                 "High-pressure compressor stages": 8,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 5
+                "Low-pressure turbine stages": 5,
+                "Climb rate": 3100,
+                "Descend rate": 2400,
+                "Cruise climb rate": 2800,
+                "Landing descend rate": 2100
             }
         },
         "Other Details": {
@@ -1916,7 +2096,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 3,
                 "High-pressure compressor stages": 9,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 4
+                "Low-pressure turbine stages": 4,
+                "Climb rate": 3000,
+                "Descend rate": 2300,
+                "Cruise climb rate": 2700,
+                "Landing descend rate": 2000
             },
             "PW1100G-JM": {
                 "Manufacturer": "Pratt & Whitney",
@@ -1927,7 +2111,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "3",
                 "High-pressure compressor stages": "8",
                 "High-pressure turbine stages": "2",
-                "Low-pressure turbine stages": "5"
+                "Low-pressure turbine stages": "5",
+                "Climb rate": 5400,
+                "Descend rate": 4700,
+                "Cruise climb rate": 5100,
+                "Landing descend rate": 4400
             }
         },
         "Other Details": {
@@ -1996,15 +2184,7 @@ export const airplane_comercial = {
                 "Max": "244",
                 "Typical": "180-220"
             },
-            "Cargo Capacity": "10.5 tons",
-            "Avionics": {
-                "FMS": "Yes",
-                "EFIS": "Yes",
-                "AFCS": "Yes",
-                "TAWS": "Yes",
-                "HUD": "Yes",
-                "Common Suite": "Honeywell"
-            }
+            "Cargo Capacity": "10.5 tons"
         },
         "Speed": {
             "Cruise Speed": {
@@ -2028,7 +2208,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 3,
                 "High-pressure compressor stages": 9,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 4
+                "Low-pressure turbine stages": 4,
+                "Climb rate": 3000,
+                "Descend rate": 2300,
+                "Cruise climb rate": 2700,
+                "Landing descend rate": 2000
             },
             "PW1130G": {
                 "Manufacturer": "Pratt & Whitney",
@@ -2039,7 +2223,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 3,
                 "High-pressure compressor stages": 8,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 5
+                "Low-pressure turbine stages": 5,
+                "Climb rate": 3100,
+                "Descend rate": 2400,
+                "Cruise climb rate": 2800,
+                "Landing descend rate": 2100
             }
         },
         "Other Details": {
@@ -2145,7 +2333,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "Varies (depending on specific variant)",
                 "High-pressure compressor stages": "Varies (depending on specific variant)",
                 "High-pressure turbine stages": "Varies (depending on specific variant)",
-                "Low-pressure turbine stages": "Varies (depending on specific variant)"
+                "Low-pressure turbine stages": "Varies (depending on specific variant)",
+                "Climb rate": 2500,
+                "Descend rate": 1800,
+                "Cruise climb rate": 2200,
+                "Landing descend rate": 1500
             },
             "PW4000 series": {
                 "Manufacturer": "Pratt & Whitney",
@@ -2156,7 +2348,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "Varies (depending on specific variant)",
                 "High-pressure compressor stages": "Varies (depending on specific variant)",
                 "High-pressure turbine stages": "Varies (depending on specific variant)",
-                "Low-pressure turbine stages": "Varies (depending on specific variant)"
+                "Low-pressure turbine stages": "Varies (depending on specific variant)",
+                "Climb rate": 2600,
+                "Descend rate": 1900,
+                "Cruise climb rate": 2300,
+                "Landing descend rate": 1600
             },
             "Trent 700": {
                 "Manufacturer": "Rolls-Royce",
@@ -2167,7 +2363,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "Varies (depending on specific variant)",
                 "High-pressure compressor stages": "Varies (depending on specific variant)",
                 "High-pressure turbine stages": "Varies (depending on specific variant)",
-                "Low-pressure turbine stages": "Varies (depending on specific variant)"
+                "Low-pressure turbine stages": "Varies (depending on specific variant)",
+                "Climb rate": 2700,
+                "Descend rate": 2000,
+                "Cruise climb rate": 2400,
+                "Landing descend rate": 1700
             }
         },
         "Other Details": {
@@ -2272,7 +2472,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "4-5 stages",
                 "High-pressure compressor stages": "14-16 stages",
                 "High-pressure turbine stages": "2-3 stages",
-                "Low-pressure turbine stages": "4-5 stages"
+                "Low-pressure turbine stages": "4-5 stages",
+                "Climb rate": 2400,
+                "Descend rate": 1700,
+                "Cruise climb rate": 2100,
+                "Landing descend rate": 1400
             },
             "PW4000": {
                 "Thrust": "64,000-70,000 lbf",
@@ -2281,7 +2485,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "4-5 stages",
                 "High-pressure compressor stages": "14-16 stages",
                 "High-pressure turbine stages": "2-3 stages",
-                "Low-pressure turbine stages": "4-5 stages"
+                "Low-pressure turbine stages": "4-5 stages",
+                "Climb rate": 2500,
+                "Descend rate": 1800,
+                "Cruise climb rate": 2200,
+                "Landing descend rate": 1500
             },
             "Trent 700": {
                 "Thrust": "64,000-72,000 lbf",
@@ -2290,7 +2498,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "4-5 stages",
                 "High-pressure compressor stages": "14-16 stages",
                 "High-pressure turbine stages": "2-3 stages",
-                "Low-pressure turbine stages": "4-5 stages"
+                "Low-pressure turbine stages": "4-5 stages",
+                "Climb rate": 2600,
+                "Descend rate": 1900,
+                "Cruise climb rate": 2300,
+                "Landing descend rate": 1600
             }
         },
         "Other Details": {
@@ -2397,7 +2609,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 3,
                 "High-pressure compressor stages": 8,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 5
+                "Low-pressure turbine stages": 5,
+                "Climb rate": 2800,
+                "Descend rate": 2100,
+                "Cruise climb rate": 2500,
+                "Landing descend rate": 1800
             }
         },
         "Other Details": {
@@ -2503,7 +2719,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 6,
                 "High-pressure compressor stages": 10,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 5
+                "Low-pressure turbine stages": 5,
+                "Climb rate": 2900,
+                "Descend rate": 2200,
+                "Cruise climb rate": 2600,
+                "Landing descend rate": 1900
             }
         },
         "Other Details": {
@@ -2610,7 +2830,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 0,
                 "High-pressure turbine stages": 0,
-                "Low-pressure turbine stages": 5
+                "Low-pressure turbine stages": 5,
+                "Climb rate": 2200,
+                "Descend rate": 1600,
+                "Cruise climb rate": 2000,
+                "Landing descend rate": 1300
             }
         },
         "Other Details": {
@@ -2716,7 +2940,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 9,
                 "High-pressure turbine stages": 1,
-                "Low-pressure turbine stages": 4
+                "Low-pressure turbine stages": 4,
+                "Climb rate": 2300,
+                "Descend rate": 1700,
+                "Cruise climb rate": 2100,
+                "Landing descend rate": 1400
             }
         },
         "Other Details": {
@@ -2823,7 +3051,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 0,
                 "High-pressure turbine stages": 0,
-                "Low-pressure turbine stages": 4
+                "Low-pressure turbine stages": 4,
+                "Climb rate": 2400,
+                "Descend rate": 1800,
+                "Cruise climb rate": 2200,
+                "Landing descend rate": 1500
             }
         },
         "Other Details": {
@@ -2931,7 +3163,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 0,
                 "High-pressure turbine stages": 0,
-                "Low-pressure turbine stages": 4
+                "Low-pressure turbine stages": 4,
+                "Climb rate": 2500,
+                "Descend rate": 1900,
+                "Cruise climb rate": 2300,
+                "Landing descend rate": 1600
             }
         },
         "Other Details": {
@@ -3029,7 +3265,7 @@ export const airplane_comercial = {
             "Stall speed": "130 knots"
         },
         "Engines": {
-            "Rolls-Royce Trent XWB": {
+            "Trent XWB": {
                 "Manufacturer": "Rolls-Royce",
                 "Model": "Trent XWB",
                 "Thrust": "75,000 lbs",
@@ -3038,7 +3274,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 0,
                 "High-pressure compressor stages": 0,
                 "High-pressure turbine stages": 0,
-                "Low-pressure turbine stages": 0
+                "Low-pressure turbine stages": 0,
+                "Climb rate": 2700,
+                "Descend rate": 2000,
+                "Cruise climb rate": 2400,
+                "Landing descend rate": 1700
             }
         },
         "Other Details": {
@@ -3139,7 +3379,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 6,
                 "High-pressure compressor stages": 6,
                 "High-pressure turbine stages": 1,
-                "Low-pressure turbine stages": 1
+                "Low-pressure turbine stages": 1,
+                "Climb rate": 2800,
+                "Descend rate": 2100,
+                "Cruise climb rate": 2500,
+                "Landing descend rate": 1800
             }
         },
         "Other Details": {
@@ -3237,7 +3481,7 @@ export const airplane_comercial = {
             "Stall speed": "130 knots"
         },
         "Engines": {
-            "Rolls-Royce Trent XWB-97": {
+            "Trent XWB-97": {
                 "Manufacturer": "Rolls-Royce",
                 "Model": "Trent XWB-97",
                 "Thrust": "97,000 lbs",
@@ -3246,7 +3490,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 1,
                 "High-pressure compressor stages": 6,
                 "High-pressure turbine stages": 1,
-                "Low-pressure turbine stages": 1
+                "Low-pressure turbine stages": 1,
+                "Climb rate": 3000,
+                "Descend rate": 2300,
+                "Cruise climb rate": 2700,
+                "Landing descend rate": 2000
             }
         },
         "Other Details": {
@@ -3353,9 +3601,13 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 1,
                 "High-pressure compressor stages": 9,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 6
+                "Low-pressure turbine stages": 6,
+                "Climb rate": 3100,
+                "Descend rate": 2400,
+                "Cruise climb rate": 2800,
+                "Landing descend rate": 2100
             },
-            "Engine Alliance GP7200": {
+            "GP7200": {
                 "Manufacturer": "Engine Alliance",
                 "Model": "GP7200",
                 "Thrust": "84,000 lbs",
@@ -3364,7 +3616,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 5,
                 "High-pressure compressor stages": 9,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 6
+                "Low-pressure turbine stages": 6,
+                "Climb rate": 5400,
+                "Descend rate": 4700,
+                "Cruise climb rate": 5100,
+                "Landing descend rate": 4400
             }
         },
         "Other Details": {
@@ -3472,7 +3728,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 1,
                 "High-pressure compressor stages": 6,
                 "High-pressure turbine stages": 1,
-                "Low-pressure turbine stages": 5
+                "Low-pressure turbine stages": 5,
+                "Climb rate": 3200,
+                "Descend rate": 2500,
+                "Cruise climb rate": 2900,
+                "Landing descend rate": 2200
             }
         },
         "Other Details": {
@@ -3573,9 +3833,13 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 1,
                 "High-pressure compressor stages": 9,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 6
+                "Low-pressure turbine stages": 6,
+                "Climb rate": 3100,
+                "Descend rate": 2400,
+                "Cruise climb rate": 2800,
+                "Landing descend rate": 2100
             },
-            "Engine Alliance GP7200": {
+            "GP7200": {
                 "Manufacturer": "Engine Alliance",
                 "Model": "GP7200",
                 "Thrust": "84,000 lbs",
@@ -3584,7 +3848,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 5,
                 "High-pressure compressor stages": 9,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 6
+                "Low-pressure turbine stages": 6,
+                "Climb rate": 5400,
+                "Descend rate": 4700,
+                "Cruise climb rate": 5100,
+                "Landing descend rate": 4400
             }
         },
         "Other Details": {
@@ -3674,15 +3942,21 @@ export const airplane_comercial = {
             "Stall speed": "120 knots"
         },
         "Engines": {
-            "Manufacturer": "Rolls-Royce",
-            "Model": "Trent 700",
-            "Thrust": "31600 lbf",
-            "Bypass ratio": "5.5:1",
-            "Fan stage": "Single-stage fan",
-            "Low-pressure compressor stages": "5",
-            "High-pressure compressor stages": "6",
-            "High-pressure turbine stages": "2",
-            "Low-pressure turbine stages": "4"
+            "Trent 700": {
+                "Manufacturer": "Rolls-Royce",
+                "Model": "Trent 700",
+                "Thrust": "31600 lbf",
+                "Bypass ratio": "5.5:1",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "5",
+                "High-pressure compressor stages": "6",
+                "High-pressure turbine stages": "2",
+                "Low-pressure turbine stages": "4",
+                "Climb rate": 3300,
+                "Descend rate": 2600,
+                "Cruise climb rate": 3000,
+                "Landing descend rate": 2300
+            }
         },
         "Other Details": {
             "Noise Levels": {
@@ -3780,7 +4054,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "4",
                 "High-pressure compressor stages": "14",
                 "High-pressure turbine stages": "5",
-                "Low-pressure turbine stages": "2"
+                "Low-pressure turbine stages": "2",
+                "Climb rate": 3400,
+                "Descend rate": 2700,
+                "Cruise climb rate": 3100,
+                "Landing descend rate": 2400
             }
         },
         "Other Details": {
@@ -3868,7 +4146,7 @@ export const airplane_comercial = {
             "Stall speed": "70 knots"
         },
         "Engines": {
-            "Pratt & Whitney Wasp S1H1-G": {
+            "Wasp S1H1-G": {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "Wasp S1H1-G",
                 "Thrust": "550 hp",
@@ -3877,7 +4155,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "N/A",
                 "High-pressure compressor stages": "N/A",
                 "High-pressure turbine stages": "N/A",
-                "Low-pressure turbine stages": "N/A"
+                "Low-pressure turbine stages": "N/A",
+                "Climb rate": "N/A",
+                "Descend rate": "N/A",
+                "Cruise climb rate": "N/A",
+                "Landing descend rate": "N/A"
             }
         },
         "Other Details": {
@@ -3977,7 +4259,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "6",
                 "High-pressure compressor stages": "7",
                 "High-pressure turbine stages": "1",
-                "Low-pressure turbine stages": "1"
+                "Low-pressure turbine stages": "1",
+                "Climb rate": "N/A",
+                "Descend rate": "N/A",
+                "Cruise climb rate": "N/A",
+                "Landing descend rate": "N/A"
             },
             "Pratt & Whitney R-2180-E Twin Hornet": {
                 "Manufacturer": "Pratt & Whitney",
@@ -3988,7 +4274,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "6",
                 "High-pressure compressor stages": "7",
                 "High-pressure turbine stages": "1",
-                "Low-pressure turbine stages": "1"
+                "Low-pressure turbine stages": "1",
+                "Climb rate": "N/A",
+                "Descend rate": "N/A",
+                "Cruise climb rate": "N/A",
+                "Landing descend rate": "N/A"
             }
         },
         "Other Details": {
@@ -4091,7 +4381,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "N/A",
                 "High-pressure compressor stages": "N/A",
                 "High-pressure turbine stages": "N/A",
-                "Low-pressure turbine stages": "N/A"
+                "Low-pressure turbine stages": "N/A",
+                "Climb rate": 5400,
+                "Descend rate": 4700,
+                "Cruise climb rate": 5100,
+                "Landing descend rate": 4400
             }
         },
         "Other Details": {
@@ -4194,7 +4488,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "7",
                 "High-pressure compressor stages": "7",
                 "High-pressure turbine stages": "2",
-                "Low-pressure turbine stages": "4"
+                "Low-pressure turbine stages": "4",
+                "Climb rate": 2500,
+                "Descend rate": 1800,
+                "Cruise climb rate": 2200,
+                "Landing descend rate": 1500
             },
             "Conway turbofans": {
                 "Manufacturer": "Rolls-Royce",
@@ -4205,7 +4503,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "7",
                 "High-pressure compressor stages": "7",
                 "High-pressure turbine stages": "2",
-                "Low-pressure turbine stages": "4"
+                "Low-pressure turbine stages": "4",
+                "Climb rate": 2600,
+                "Descend rate": 1900,
+                "Cruise climb rate": 2300,
+                "Landing descend rate": 1600
             }
         },
         "Other Details": {
@@ -4307,7 +4609,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "7",
                 "High-pressure compressor stages": "7",
                 "High-pressure turbine stages": "2",
-                "Low-pressure turbine stages": "4"
+                "Low-pressure turbine stages": "4",
+                "Climb rate": 2400,
+                "Descend rate": 1700,
+                "Cruise climb rate": 2100,
+                "Landing descend rate": 1400
             },
             "Conway turbofans": {
                 "Manufacturer": "Rolls-Royce",
@@ -4318,7 +4624,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "7",
                 "High-pressure compressor stages": "7",
                 "High-pressure turbine stages": "2",
-                "Low-pressure turbine stages": "4"
+                "Low-pressure turbine stages": "4",
+                "Climb rate": 2500,
+                "Descend rate": 1800,
+                "Cruise climb rate": 2200,
+                "Landing descend rate": 1500
             }
         },
         "Other Details": {
@@ -4420,7 +4730,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "1",
                 "High-pressure compressor stages": "7",
                 "High-pressure turbine stages": "1",
-                "Low-pressure turbine stages": "4"
+                "Low-pressure turbine stages": "4",
+                "Climb rate": 2700,
+                "Descend rate": 2000,
+                "Cruise climb rate": 2400,
+                "Landing descend rate": 1700
             }
         },
         "Other Details": {
@@ -4455,7 +4769,7 @@ export const airplane_comercial = {
                 "Continental Airlines",
                 "Iran Air",
                 "El Al",
-                "Aerol\u00c3\u00adneas Argentinas",
+                "Aerolneas Argentinas",
                 "And more..."
             ]
         }
@@ -4525,7 +4839,7 @@ export const airplane_comercial = {
             "Stall speed": "90 knots"
         },
         "Engines": {
-            "Rolls-Royce BR715": {
+            "BR715": {
                 "Manufacturer": "Rolls-Royce",
                 "Model": "BR715",
                 "Thrust": "18,500 lbf (82.3 kN)",
@@ -4534,7 +4848,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "4",
                 "High-pressure compressor stages": "7",
                 "High-pressure turbine stages": "1",
-                "Low-pressure turbine stages": "4"
+                "Low-pressure turbine stages": "4",
+                "Climb rate": 2500,
+                "Descend rate": 1800,
+                "Cruise climb rate": 2200,
+                "Landing descend rate": 1500
             }
         },
         "Other Details": {
@@ -4636,7 +4954,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "4",
                 "High-pressure compressor stages": "6",
                 "High-pressure turbine stages": "1",
-                "Low-pressure turbine stages": "1"
+                "Low-pressure turbine stages": "1",
+                "Climb rate": 2600,
+                "Descend rate": 1900,
+                "Cruise climb rate": 2300,
+                "Landing descend rate": 1600
             }
         },
         "Other Details": {
@@ -4733,7 +5055,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 7,
                 "High-pressure turbine stages": 1,
-                "Low-pressure turbine stages": 1
+                "Low-pressure turbine stages": 1,
+                "Climb rate": 2700,
+                "Descend rate": 2000,
+                "Cruise climb rate": 2400,
+                "Landing descend rate": 1700
             }
         },
         "Other Details": {
@@ -4830,7 +5156,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 7,
                 "High-pressure turbine stages": 1,
-                "Low-pressure turbine stages": 1
+                "Low-pressure turbine stages": 1,
+                "Climb rate": 2800,
+                "Descend rate": 2100,
+                "Cruise climb rate": 2500,
+                "Landing descend rate": 1800
             }
         },
         "Other Details": {
@@ -4918,7 +5248,7 @@ export const airplane_comercial = {
             "Stall speed": "110 knots"
         },
         "Engines": {
-            "Pratt & Whitney JT8D-7": {
+            "JT8D-7": {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "JT8D-7",
                 "Thrust": "68.9 kN (15,500 lbf)",
@@ -4927,7 +5257,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "6",
                 "High-pressure compressor stages": "7",
                 "High-pressure turbine stages": "1",
-                "Low-pressure turbine stages": "1"
+                "Low-pressure turbine stages": "1",
+                "Climb rate": 2600,
+                "Descend rate": 1900,
+                "Cruise climb rate": 2300,
+                "Landing descend rate": 1600
             }
         },
         "Other Details": {
@@ -5021,7 +5355,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 14,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 4
+                "Low-pressure turbine stages": 4,
+                "Climb rate": 2700,
+                "Descend rate": 2000,
+                "Cruise climb rate": 2400,
+                "Landing descend rate": 1700
             }
         },
         "Other Details": {
@@ -5115,7 +5453,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 14,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 4
+                "Low-pressure turbine stages": 4,
+                "Climb rate": 2800,
+                "Descend rate": 2100,
+                "Cruise climb rate": 2500,
+                "Landing descend rate": 1800
             },
             "CFM563B2": {
                 "Manufacturer": "CFM International",
@@ -5126,7 +5468,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 14,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 4
+                "Low-pressure turbine stages": 4,
+                "Climb rate": 2900,
+                "Descend rate": 2200,
+                "Cruise climb rate": 2600,
+                "Landing descend rate": 1900
             }
         },
         "Other Details": {
@@ -5220,7 +5566,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 14,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 4
+                "Low-pressure turbine stages": 4,
+                "Climb rate": 3000,
+                "Descend rate": 2300,
+                "Cruise climb rate": 2700,
+                "Landing descend rate": 2000
             },
             "CFM563B2": {
                 "Manufacturer": "CFM International",
@@ -5231,7 +5581,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 14,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 4
+                "Low-pressure turbine stages": 4,
+                "Climb rate": 3100,
+                "Descend rate": 2400,
+                "Cruise climb rate": 2800,
+                "Landing descend rate": 2100
             }
         },
         "Other Details": {
@@ -5325,7 +5679,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 14,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 4
+                "Low-pressure turbine stages": 4,
+                "Climb rate": 3200,
+                "Descend rate": 2500,
+                "Cruise climb rate": 2900,
+                "Landing descend rate": 2200
             }
         },
         "Other Details": {
@@ -5424,7 +5782,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 14,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 4
+                "Low-pressure turbine stages": 4,
+                "Climb rate": 3300,
+                "Descend rate": 2600,
+                "Cruise climb rate": 3000,
+                "Landing descend rate": 2300
             }
         },
         "Other Details": {
@@ -5526,7 +5888,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 3,
                 "High-pressure compressor stages": 9,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 4
+                "Low-pressure turbine stages": 4,
+                "Climb rate": 3400,
+                "Descend rate": 2700,
+                "Cruise climb rate": 3100,
+                "Landing descend rate": 2400
             }
         },
         "Other Details": {
@@ -5636,7 +6002,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "3",
                 "High-pressure compressor stages": "9",
                 "High-pressure turbine stages": "2",
-                "Low-pressure turbine stages": "4"
+                "Low-pressure turbine stages": "4",
+                "Climb rate": 3500,
+                "Descend rate": 2800,
+                "Cruise climb rate": 3200,
+                "Landing descend rate": 2500
             }
         },
         "Other Details": {
@@ -5746,7 +6116,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "3",
                 "High-pressure compressor stages": "9",
                 "High-pressure turbine stages": "2",
-                "Low-pressure turbine stages": "4"
+                "Low-pressure turbine stages": "4",
+                "Climb rate": 3600,
+                "Descend rate": 2900,
+                "Cruise climb rate": 3300,
+                "Landing descend rate": 2600
             }
         },
         "Other Details": {
@@ -5847,7 +6221,7 @@ export const airplane_comercial = {
             "Stall speed": "110 knots"
         },
         "Engines": {
-            "CFM International LEAP-1B": {
+            "LEAP-1B": {
                 "Manufacturer": "CFM International",
                 "Model": "LEAP-1B",
                 "Thrust": "29,317 lbf",
@@ -5856,7 +6230,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 6,
                 "High-pressure compressor stages": 10,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 5
+                "Low-pressure turbine stages": 5,
+                "Climb rate": 3700,
+                "Descend rate": 3000,
+                "Cruise climb rate": 3400,
+                "Landing descend rate": 2700
             }
         },
         "Other Details": {
@@ -5950,7 +6328,7 @@ export const airplane_comercial = {
             "Stall speed": "150 knots"
         },
         "Engines": {
-            "Pratt & Whitney JT9D-7": {
+            "JT9D-7": {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "JT9D-7",
                 "Thrust": "46,000 lbf",
@@ -5959,7 +6337,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 14,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 5
+                "Low-pressure turbine stages": 5,
+                "Climb rate": 3800,
+                "Descend rate": 3100,
+                "Cruise climb rate": 3500,
+                "Landing descend rate": 2800
             }
         },
         "Other Details": {
@@ -6060,7 +6442,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 14,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 5
+                "Low-pressure turbine stages": 5,
+                "Climb rate": 3900,
+                "Descend rate": 3200,
+                "Cruise climb rate": 3600,
+                "Landing descend rate": 2900
             },
             "CF6": {
                 "Manufacturer": "General Electric",
@@ -6071,7 +6457,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 14,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 5
+                "Low-pressure turbine stages": 5,
+                "Climb rate": 2500,
+                "Descend rate": 1800,
+                "Cruise climb rate": 2200,
+                "Landing descend rate": 1500
             }
         },
         "Other Details": {
@@ -6173,7 +6563,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 14,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 5
+                "Low-pressure turbine stages": 5,
+                "Climb rate": 2600,
+                "Descend rate": 1900,
+                "Cruise climb rate": 2300,
+                "Landing descend rate": 1600
             },
             "CF6": {
                 "Manufacturer": "General Electric",
@@ -6184,7 +6578,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 14,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 5
+                "Low-pressure turbine stages": 5,
+                "Climb rate": 5400,
+                "Descend rate": 4700,
+                "Cruise climb rate": 5100,
+                "Landing descend rate": 4400
             }
         },
         "Other Details": {
@@ -6286,7 +6684,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 14,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 5
+                "Low-pressure turbine stages": 5,
+                "Climb rate": 2700,
+                "Descend rate": 2000,
+                "Cruise climb rate": 2400,
+                "Landing descend rate": 1700
             },
             "CF6": {
                 "Manufacturer": "General Electric",
@@ -6297,7 +6699,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 14,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 5
+                "Low-pressure turbine stages": 5,
+                "Climb rate": 2800,
+                "Descend rate": 2100,
+                "Cruise climb rate": 2500,
+                "Landing descend rate": 1800
             }
         },
         "Other Details": {
@@ -6397,7 +6803,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 14,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 5
+                "Low-pressure turbine stages": 5,
+                "Climb rate": 2900,
+                "Descend rate": 2200,
+                "Cruise climb rate": 2600,
+                "Landing descend rate": 1900
             },
             "CF6": {
                 "Manufacturer": "General Electric",
@@ -6408,7 +6818,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 14,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 5
+                "Low-pressure turbine stages": 5,
+                "Climb rate": 3000,
+                "Descend rate": 2300,
+                "Cruise climb rate": 2700,
+                "Landing descend rate": 2000
             }
         },
         "Other Details": {
@@ -6512,7 +6926,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 14,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 5
+                "Low-pressure turbine stages": 5,
+                "Climb rate": 3100,
+                "Descend rate": 2400,
+                "Cruise climb rate": 2800,
+                "Landing descend rate": 2100
             },
             "CF6-80C2": {
                 "Manufacturer": "General Electric",
@@ -6523,7 +6941,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 14,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 5
+                "Low-pressure turbine stages": 5,
+                "Climb rate": 3200,
+                "Descend rate": 2500,
+                "Cruise climb rate": 2900,
+                "Landing descend rate": 2200
             }
         },
         "Other Details": {
@@ -6625,7 +7047,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 14,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 5
+                "Low-pressure turbine stages": 5,
+                "Climb rate": 3300,
+                "Descend rate": 2600,
+                "Cruise climb rate": 3000,
+                "Landing descend rate": 2300
             },
             "CF6": {
                 "Manufacturer": "General Electric",
@@ -6636,7 +7062,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 14,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 5
+                "Low-pressure turbine stages": 5,
+                "Climb rate": 3400,
+                "Descend rate": 2700,
+                "Cruise climb rate": 3100,
+                "Landing descend rate": 2400
             }
         },
         "Other Details": {
@@ -6739,7 +7169,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "6",
                 "High-pressure compressor stages": "14",
                 "High-pressure turbine stages": "6",
-                "Low-pressure turbine stages": "4"
+                "Low-pressure turbine stages": "4",
+                "Climb rate": 3500,
+                "Descend rate": 2800,
+                "Cruise climb rate": 3200,
+                "Landing descend rate": 2500
             }
         },
         "Other Details": {
@@ -6834,7 +7268,7 @@ export const airplane_comercial = {
             "Stall speed": "110 knots"
         },
         "Engines": {
-            "Rolls-Royce RB211": {
+            "RB211": {
                 "Manufacturer": "Rolls-Royce",
                 "Model": "RB211",
                 "Thrust": "43,500 lbf",
@@ -6843,9 +7277,13 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "6",
                 "High-pressure compressor stages": "6",
                 "High-pressure turbine stages": "1",
-                "Low-pressure turbine stages": "3"
+                "Low-pressure turbine stages": "3",
+                "Climb rate": 3600,
+                "Descend rate": 2900,
+                "Cruise climb rate": 3300,
+                "Landing descend rate": 2600
             },
-            "Pratt & Whitney PW2000": {
+            "PW2000": {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "PW2000",
                 "Thrust": "36,600 lbf",
@@ -6854,7 +7292,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "4",
                 "High-pressure compressor stages": "12",
                 "High-pressure turbine stages": "2",
-                "Low-pressure turbine stages": "5"
+                "Low-pressure turbine stages": "5",
+                "Climb rate": 3700,
+                "Descend rate": 3000,
+                "Cruise climb rate": 3400,
+                "Landing descend rate": 2700
             }
         },
         "Other Details": {
@@ -6954,7 +7396,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 6,
                 "High-pressure turbine stages": 1,
-                "Low-pressure turbine stages": 5
+                "Low-pressure turbine stages": 5,
+                "Climb rate": 3800,
+                "Descend rate": 3100,
+                "Cruise climb rate": 3500,
+                "Landing descend rate": 2800
             },
             "PW2037": {
                 "Manufacturer": "Pratt & Whitney",
@@ -6965,7 +7411,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 6,
                 "High-pressure compressor stages": 6,
                 "High-pressure turbine stages": 1,
-                "Low-pressure turbine stages": 3
+                "Low-pressure turbine stages": 3,
+                "Climb rate": 3900,
+                "Descend rate": 3200,
+                "Cruise climb rate": 3600,
+                "Landing descend rate": 2900
             }
         },
         "Other Details": {
@@ -7067,7 +7517,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "6",
                 "High-pressure compressor stages": "6",
                 "High-pressure turbine stages": "1",
-                "Low-pressure turbine stages": "5"
+                "Low-pressure turbine stages": "5",
+                "Climb rate": 4000,
+                "Descend rate": 3300,
+                "Cruise climb rate": 3700,
+                "Landing descend rate": 3000
             },
             "PW2043": {
                 "Manufacturer": "Pratt & Whitney",
@@ -7078,7 +7532,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "6",
                 "High-pressure compressor stages": "6",
                 "High-pressure turbine stages": "1",
-                "Low-pressure turbine stages": "5"
+                "Low-pressure turbine stages": "5",
+                "Climb rate": 4100,
+                "Descend rate": 3400,
+                "Cruise climb rate": 3800,
+                "Landing descend rate": 3100
             },
             "RB211-535E4-B": {
                 "Manufacturer": "Rolls-Royce",
@@ -7089,7 +7547,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "6",
                 "High-pressure compressor stages": "6",
                 "High-pressure turbine stages": "1",
-                "Low-pressure turbine stages": "5"
+                "Low-pressure turbine stages": "5",
+                "Climb rate": 4200,
+                "Descend rate": 3500,
+                "Cruise climb rate": 3900,
+                "Landing descend rate": 3200
             },
             "RB211-535E4-C": {
                 "Manufacturer": "Rolls-Royce",
@@ -7100,7 +7562,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "6",
                 "High-pressure compressor stages": "6",
                 "High-pressure turbine stages": "1",
-                "Low-pressure turbine stages": "5"
+                "Low-pressure turbine stages": "5",
+                "Climb rate": 4300,
+                "Descend rate": 3600,
+                "Cruise climb rate": 4000,
+                "Landing descend rate": 3300
             }
         },
         "Other Details": {
@@ -7202,7 +7668,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "6",
                 "High-pressure compressor stages": "6",
                 "High-pressure turbine stages": "1",
-                "Low-pressure turbine stages": "5"
+                "Low-pressure turbine stages": "5",
+                "Climb rate": 4400,
+                "Descend rate": 3700,
+                "Cruise climb rate": 4100,
+                "Landing descend rate": 3400
             }
         },
         "Other Details": {
@@ -7304,7 +7774,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "6",
                 "High-pressure compressor stages": "6",
                 "High-pressure turbine stages": "1",
-                "Low-pressure turbine stages": "5"
+                "Low-pressure turbine stages": "5",
+                "Climb rate": 4500,
+                "Descend rate": 3800,
+                "Cruise climb rate": 4200,
+                "Landing descend rate": 3500
             }
         },
         "Other Details": {
@@ -7406,7 +7880,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "7",
                 "High-pressure compressor stages": "7",
                 "High-pressure turbine stages": "1",
-                "Low-pressure turbine stages": "5"
+                "Low-pressure turbine stages": "5",
+                "Climb rate": 4600,
+                "Descend rate": 3900,
+                "Cruise climb rate": 4300,
+                "Landing descend rate": 3600
             }
         },
         "Other Details": {
@@ -7508,7 +7986,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "7",
                 "High-pressure compressor stages": "7",
                 "High-pressure turbine stages": "1",
-                "Low-pressure turbine stages": "5"
+                "Low-pressure turbine stages": "5",
+                "Climb rate": 4700,
+                "Descend rate": 4000,
+                "Cruise climb rate": 4400,
+                "Landing descend rate": 3700
             }
         },
         "Other Details": {
@@ -7610,7 +8092,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "7",
                 "High-pressure compressor stages": "7",
                 "High-pressure turbine stages": "1",
-                "Low-pressure turbine stages": "5"
+                "Low-pressure turbine stages": "5",
+                "Climb rate": 4800,
+                "Descend rate": 4100,
+                "Cruise climb rate": 4500,
+                "Landing descend rate": 3800
             },
             "CF6-80C2B8F": {
                 "Manufacturer": "General Electric",
@@ -7621,7 +8107,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "7",
                 "High-pressure compressor stages": "7",
                 "High-pressure turbine stages": "1",
-                "Low-pressure turbine stages": "5"
+                "Low-pressure turbine stages": "5",
+                "Climb rate": 4900,
+                "Descend rate": 4200,
+                "Cruise climb rate": 4600,
+                "Landing descend rate": 3900
             }
         },
         "Other Details": {
@@ -7723,7 +8213,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "7",
                 "High-pressure compressor stages": "7",
                 "High-pressure turbine stages": "1",
-                "Low-pressure turbine stages": "5"
+                "Low-pressure turbine stages": "5",
+                "Climb rate": 5000,
+                "Descend rate": 4300,
+                "Cruise climb rate": 4700,
+                "Landing descend rate": 4000
             },
             "CF6-80C2B8F": {
                 "Manufacturer": "General Electric",
@@ -7734,7 +8228,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "7",
                 "High-pressure compressor stages": "7",
                 "High-pressure turbine stages": "1",
-                "Low-pressure turbine stages": "5"
+                "Low-pressure turbine stages": "5",
+                "Climb rate": 5100,
+                "Descend rate": 4400,
+                "Cruise climb rate": 4800,
+                "Landing descend rate": 4100
             }
         },
         "Other Details": {
@@ -7836,7 +8334,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "7",
                 "High-pressure compressor stages": "9",
                 "High-pressure turbine stages": "1",
-                "Low-pressure turbine stages": "6"
+                "Low-pressure turbine stages": "6",
+                "Climb rate": 5200,
+                "Descend rate": 4500,
+                "Cruise climb rate": 4900,
+                "Landing descend rate": 4200
             },
             "PW4077": {
                 "Manufacturer": "Pratt & Whitney",
@@ -7847,7 +8349,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "7",
                 "High-pressure compressor stages": "9",
                 "High-pressure turbine stages": "1",
-                "Low-pressure turbine stages": "6"
+                "Low-pressure turbine stages": "6",
+                "Climb rate": 5300,
+                "Descend rate": 4600,
+                "Cruise climb rate": 5000,
+                "Landing descend rate": 4300
             }
         },
         "Other Details": {
@@ -7949,7 +8455,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "7",
                 "High-pressure compressor stages": "9",
                 "High-pressure turbine stages": "1",
-                "Low-pressure turbine stages": "6"
+                "Low-pressure turbine stages": "6",
+                "Climb rate": 5400,
+                "Descend rate": 4700,
+                "Cruise climb rate": 5100,
+                "Landing descend rate": 4400
             },
             "PW4077": {
                 "Manufacturer": "Pratt & Whitney",
@@ -7960,7 +8470,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "7",
                 "High-pressure compressor stages": "9",
                 "High-pressure turbine stages": "1",
-                "Low-pressure turbine stages": "6"
+                "Low-pressure turbine stages": "6",
+                "Climb rate": 5500,
+                "Descend rate": 4800,
+                "Cruise climb rate": 5200,
+                "Landing descend rate": 4500
             }
         },
         "Other Details": {
@@ -8062,7 +8576,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "7",
                 "High-pressure compressor stages": "9",
                 "High-pressure turbine stages": "1",
-                "Low-pressure turbine stages": "6"
+                "Low-pressure turbine stages": "6",
+                "Climb rate": 5200,
+                "Descend rate": 4500,
+                "Cruise climb rate": 4900,
+                "Landing descend rate": 4200
             },
             "PW4077": {
                 "Manufacturer": "Pratt & Whitney",
@@ -8073,7 +8591,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "7",
                 "High-pressure compressor stages": "9",
                 "High-pressure turbine stages": "1",
-                "Low-pressure turbine stages": "6"
+                "Low-pressure turbine stages": "6",
+                "Climb rate": 5400,
+                "Descend rate": 4700,
+                "Cruise climb rate": 5100,
+                "Landing descend rate": 4400
             }
         },
         "Other Details": {
@@ -8175,7 +8697,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 7,
                 "High-pressure compressor stages": 9,
                 "High-pressure turbine stages": 6,
-                "Low-pressure turbine stages": 2
+                "Low-pressure turbine stages": 2,
+                "Climb rate": 5300,
+                "Descend rate": 4600,
+                "Cruise climb rate": 5000,
+                "Landing descend rate": 4300
             }
         },
         "Other Details": {
@@ -8277,7 +8803,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "8",
                 "High-pressure compressor stages": "6",
                 "High-pressure turbine stages": "6",
-                "Low-pressure turbine stages": "2"
+                "Low-pressure turbine stages": "2",
+                "Climb rate": 5400,
+                "Descend rate": 4700,
+                "Cruise climb rate": 5100,
+                "Landing descend rate": 4400
             }
         },
         "Other Details": {
@@ -8372,7 +8902,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 7,
                 "High-pressure compressor stages": 9,
                 "High-pressure turbine stages": 6,
-                "Low-pressure turbine stages": 2
+                "Low-pressure turbine stages": 2,
+                "Climb rate": 5200,
+                "Descend rate": 4500,
+                "Cruise climb rate": 4900,
+                "Landing descend rate": 4200
             }
         },
         "Other Details": {
@@ -8500,7 +9034,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 7,
                 "High-pressure compressor stages": 10,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 6
+                "Low-pressure turbine stages": 6,
+                "Climb rate": 5300,
+                "Descend rate": 4600,
+                "Cruise climb rate": 5000,
+                "Landing descend rate": 4300
             }
         },
         "Other Details": {
@@ -8599,7 +9137,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "7",
                 "High-pressure compressor stages": "10",
                 "High-pressure turbine stages": "2",
-                "Low-pressure turbine stages": "6"
+                "Low-pressure turbine stages": "6",
+                "Climb rate": 5400,
+                "Descend rate": 4700,
+                "Cruise climb rate": 5100,
+                "Landing descend rate": 4400
             },
             "Trent 1000": {
                 "Manufacturer": "Rolls-Royce",
@@ -8610,7 +9152,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": "8",
                 "High-pressure compressor stages": "6",
                 "High-pressure turbine stages": "2",
-                "Low-pressure turbine stages": "6"
+                "Low-pressure turbine stages": "6",
+                "Climb rate": 2700,
+                "Descend rate": 2800,
+                "Cruise climb rate": 1500,
+                "Landing descend rate": 1500
             }
         },
         "Other Details": {
@@ -8732,7 +9278,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 7,
                 "High-pressure compressor stages": 10,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 6
+                "Low-pressure turbine stages": 6,
+                "Climb rate": 5500,
+                "Descend rate": 4800,
+                "Cruise climb rate": 5200,
+                "Landing descend rate": 4500
             },
             "Trent 1000": {
                 "Manufacturer": "Rolls-Royce",
@@ -8743,7 +9293,11 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 8,
                 "High-pressure compressor stages": 6,
                 "High-pressure turbine stages": 2,
-                "Low-pressure turbine stages": 6
+                "Low-pressure turbine stages": 6,
+                "Climb rate": 2700,
+                "Descend rate": 2800,
+                "Cruise climb rate": 1500,
+                "Landing descend rate": 1500
             }
         },
         "Other Details": {

@@ -183,11 +183,11 @@ body {
      }
      .search-bar-container {
       display: flex;
-      flex-grow: 1;  /* Make the search bar container grow to fill available space */
+      /* flex-grow: 1;  /* Make the search bar container grow to fill available space */
+      margin-right:20% 
     }
     .search-bar {
       box-sizing: border-box;
-      margin-left:25%;
       width: 70%;
       padding: 0.5rem 1rem;
       border: 1px solid #ccc;  /* Adjust border style as needed */
@@ -197,7 +197,7 @@ body {
       box-sizing: border-box;
       display: flex;
       width: 70%;
-      min-width: 400px;
+      min-width: 200px;
     }
     
     #search_icon{
@@ -205,9 +205,10 @@ body {
       margin-top: 5px;
       max-width: 30px;
       max-height: 30px;
-      margin-left: 20px;
-      /* top: 38%;
-      left: 74%; */
+
+    }
+    #search-icon-container{
+      margin-right: 5%;
     }
     #menu-logo{
       position: absolute;
