@@ -96,7 +96,10 @@ export const airplane_comercial = {
             "PW1500G": {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "PW1500G",
-                "Thrust": "19000 lbf",
+                "Thrust": "23,300 lbf",
+                "pressure_ratio": 5.4,
+                "engine_width": "68 in",
+                "engine_length": "156 in",
                 "Bypass ratio": "5.4:1",
                 "Fan stage": "Geared turbofan",
                 "Low-pressure compressor stages": 3,
@@ -106,7 +109,10 @@ export const airplane_comercial = {
                 "Climb rate": 3000,
                 "Descend rate": 2000,
                 "Cruise climb rate": 2500,
-                "Landing descend rate": 1500
+                "Landing descend rate": 1500,
+                "Fan blade diameter": "73 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "24:1"
             }
         },
         "Other Details": {
@@ -206,7 +212,14 @@ export const airplane_comercial = {
             "PW1500G": {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "PW1500G",
-                "Thrust": "19000 lbf",
+                "Thrust": "23,300 lbf",
+
+                "fan_diameter": "81 in",
+                "num_fan_blades": 18,
+                "max_operating_temp": "1,600 \u00c2\u00b0F",
+                "pressure_ratio": 5.4,
+                "engine_width": "68 in",
+                "engine_length": "156 in",
                 "Bypass ratio": "5.4:1",
                 "Fan stage": "Geared turbofan",
                 "Low-pressure compressor stages": 3,
@@ -216,7 +229,10 @@ export const airplane_comercial = {
                 "Climb rate": 3000,
                 "Descend rate": 2000,
                 "Cruise climb rate": 2500,
-                "Landing descend rate": 1500
+                "Landing descend rate": 1500,
+                "Fan blade diameter": "73 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "24:1"
             }
         },
         "Other Details": {
@@ -318,6 +334,12 @@ export const airplane_comercial = {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "JT9D-59A/B",
                 "Thrust": "53,000 lbf",
+                "fan_diameter": "94 in",
+                "num_fan_blades": 32,
+                "max_operating_temp": "1,500 \u00c2\u00b0F",
+                "pressure_ratio": 23.4,
+                "engine_width": "78 in",
+                "engine_length": "184 in",
                 "Bypass ratio": "4.8:1",
                 "Fan stage": "Single-stage fan",
                 "Low-pressure compressor stages": 3,
@@ -327,13 +349,22 @@ export const airplane_comercial = {
                 "Climb rate": 2000,
                 "Descend rate": 1500,
                 "Cruise climb rate": 1800,
-                "Landing descend rate": 1200
+                "Landing descend rate": 1200,
+                "Fan blade diameter": "93.4 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "23.4-26.7"
             },
             "CF6-50C2": {
                 "Manufacturer": "General Electric",
                 "Model": "CF6-50C2",
                 "Thrust": "53,000 lbf",
                 "Fan Stages": "Single-stage fan",
+                "fan_diameter": "86.4 in",
+                "num_fan_blades": 38,
+                "max_operating_temp": "1,500 \u00c2\u00b0F",
+                "pressure_ratio": 29.3,
+                "engine_width": "78 in",
+                "engine_length": "183 in",
                 "Bypass ratio": "5.72 - 6.0:1",
                 "Low-pressure compressor stages": 3,
                 "High-pressure compressor stages": 14,
@@ -342,7 +373,10 @@ export const airplane_comercial = {
                 "Climb rate": 2100,
                 "Descend rate": 1600,
                 "Cruise climb rate": 1900,
-                "Landing descend rate": 1300
+                "Landing descend rate": 1300,
+                "Fan blade diameter": "86.4 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "29.3"
             }
         },
         "Other Details": {
@@ -444,6 +478,12 @@ export const airplane_comercial = {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "JT9D-59A",
                 "Thrust": "53,000 lbf",
+                "fan_diameter": "94 in",
+                "num_fan_blades": 32,
+                "max_operating_temp": "1,500 \u00c2\u00b0F",
+                "pressure_ratio": 23.4,
+                "engine_width": "78 in",
+                "engine_length": "184 in",
                 "Bypass ratio": "4.8:1",
                 "Fan stage": "Single-stage fan",
                 "Low-pressure compressor stages": 3,
@@ -453,7 +493,10 @@ export const airplane_comercial = {
                 "Climb rate": 2000,
                 "Descend rate": 1500,
                 "Cruise climb rate": 1800,
-                "Landing descend rate": 1200
+                "Landing descend rate": 1200,
+                "Fan blade diameter": "93.4 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "23.4-26.7"
             }
         },
         "Other Details": {
@@ -556,6 +599,12 @@ export const airplane_comercial = {
                 "Manufacturer": "General Electric",
                 "Model": "CF6-80C2A3",
                 "Thrust": "60,200 lbf",
+                "fan_diameter": "86.4 in",
+                "num_fan_blades": 38,
+                "max_operating_temp": "1,500 \u00c2\u00b0F",
+                "pressure_ratio": 29.3,
+                "engine_width": "78 in",
+                "engine_length": "183 in",
                 "Bypass ratio": "5.15:1",
                 "Fan stage": "Single-stage fan",
                 "Low-pressure compressor stages": 5,
@@ -565,7 +614,10 @@ export const airplane_comercial = {
                 "Climb rate": 2500,
                 "Descend rate": 1800,
                 "Cruise climb rate": 2200,
-                "Landing descend rate": 1400
+                "Landing descend rate": 1400,
+                "Fan blade diameter": "93 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "30.4"
             },
             "CF6-80C2A1": {
                 "Manufacturer": "General Electric",
@@ -573,6 +625,12 @@ export const airplane_comercial = {
                 "Thrust": "57,860 lbf",
                 "Bypass ratio": "4.97:1",
                 "Fan stage": "Single-stage fan",
+                "fan_diameter": "86.4 in",
+                "num_fan_blades": 38,
+                "max_operating_temp": "1,500 \u00c2\u00b0F",
+                "pressure_ratio": 29.3,
+                "engine_width": "78 in",
+                "engine_length": "183 in",
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 14,
                 "High-pressure turbine stages": 2,
@@ -580,7 +638,10 @@ export const airplane_comercial = {
                 "Climb rate": 2400,
                 "Descend rate": 1700,
                 "Cruise climb rate": 2100,
-                "Landing descend rate": 1300
+                "Landing descend rate": 1300,
+                "Fan blade diameter": "93 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "30.4"
             },
             "PW4158": {
                 "Manufacturer": "Pratt & Whitney",
@@ -588,6 +649,12 @@ export const airplane_comercial = {
                 "Thrust": "58,000 lbf",
                 "Bypass ratio": "N/A",
                 "Fan stage": "N/A",
+                "fan_diameter": "94 in",
+                "num_fan_blades": 32,
+                "max_operating_temp": "1,500 \u00c2\u00b0F",
+                "pressure_ratio": 23.4,
+                "engine_width": "78 in",
+                "engine_length": "184 in",
                 "Low-pressure compressor stages": 0,
                 "High-pressure compressor stages": 0,
                 "High-pressure turbine stages": 0,
@@ -595,7 +662,10 @@ export const airplane_comercial = {
                 "Climb rate": 2300,
                 "Descend rate": 1600,
                 "Cruise climb rate": 2000,
-                "Landing descend rate": 1200
+                "Landing descend rate": 1200,
+                "Fan blade diameter": "94 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "27.5-32.3"
             }
         },
         "Other Details": {
@@ -702,11 +772,20 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 3,
                 "High-pressure compressor stages": 11,
                 "High-pressure turbine stages": 2,
+                "fan_diameter": "94 in",
+                "num_fan_blades": 32,
+                "max_operating_temp": "1,500 \u00c2\u00b0F",
+                "pressure_ratio": 23.4,
+                "engine_width": "78 in",
+                "engine_length": "184 in",
                 "Low-pressure turbine stages": 4,
                 "Climb rate": 2200,
                 "Descend rate": 1600,
                 "Cruise climb rate": 2000,
-                "Landing descend rate": 1300
+                "Landing descend rate": 1300,
+                "Fan blade diameter": "93.4 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "23.4-26.7"
             },
             "CF6-80A3": {
                 "Manufacturer": "General Electric",
@@ -715,13 +794,22 @@ export const airplane_comercial = {
                 "Bypass ratio": "5.15:1",
                 "Fan stage": "Single-stage fan",
                 "Low-pressure compressor stages": 4,
+                "fan_diameter": "86.4 in",
+                "num_fan_blades": 38,
+                "max_operating_temp": "1,500 \u00c2\u00b0F",
+                "pressure_ratio": 29.3,
+                "engine_width": "78 in",
+                "engine_length": "183 in",
                 "High-pressure compressor stages": 14,
                 "High-pressure turbine stages": 2,
                 "Low-pressure turbine stages": 5,
                 "Climb rate": 2100,
                 "Descend rate": 1500,
                 "Cruise climb rate": 1900,
-                "Landing descend rate": 1200
+                "Landing descend rate": 1200,
+                "Fan blade diameter": "86.4 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "29.3"
             },
             "CF6-80C2A2": {
                 "Manufacturer": "General Electric",
@@ -729,6 +817,12 @@ export const airplane_comercial = {
                 "Thrust": "53,500 lbf",
                 "Bypass ratio": "4.97:1",
                 "Fan stage": "Single-stage fan",
+                "fan_diameter": "86.4 in",
+                "num_fan_blades": 38,
+                "max_operating_temp": "1,500 \u00c2\u00b0F",
+                "pressure_ratio": 29.3,
+                "engine_width": "78 in",
+                "engine_length": "183 in",
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 14,
                 "High-pressure turbine stages": 2,
@@ -736,7 +830,10 @@ export const airplane_comercial = {
                 "Climb rate": 2200,
                 "Descend rate": 1600,
                 "Cruise climb rate": 2000,
-                "Landing descend rate": 1300
+                "Landing descend rate": 1300,
+                "Fan blade diameter": "93 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "30.4"
             },
             "CF6-80C2A8": {
                 "Manufacturer": "General Electric",
@@ -749,9 +846,18 @@ export const airplane_comercial = {
                 "High-pressure turbine stages": 2,
                 "Low-pressure turbine stages": 5,
                 "Climb rate": 2200,
+                "fan_diameter": "86.4 in",
+                "num_fan_blades": 38,
+                "max_operating_temp": "1,500 \u00c2\u00b0F",
+                "pressure_ratio": 29.3,
+                "engine_width": "78 in",
+                "engine_length": "183 in",
                 "Descend rate": 1600,
                 "Cruise climb rate": 2000,
-                "Landing descend rate": 1300
+                "Landing descend rate": 1300,
+                "Fan blade diameter": "93 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "30.4"
             },
             "PW4152": {
                 "Manufacturer": "Pratt & Whitney",
@@ -764,9 +870,18 @@ export const airplane_comercial = {
                 "High-pressure turbine stages": 0,
                 "Low-pressure turbine stages": 0,
                 "Climb rate": 2100,
+                "fan_diameter": "94 in",
+                "num_fan_blades": 32,
+                "max_operating_temp": "1,500 \u00c2\u00b0F",
+                "pressure_ratio": 23.4,
+                "engine_width": "78 in",
+                "engine_length": "184 in",
                 "Descend rate": 1500,
                 "Cruise climb rate": 1900,
-                "Landing descend rate": 1200
+                "Landing descend rate": 1200,
+                "Fan blade diameter": "94 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "27.5-32.3"
             },
             "PW4156": {
                 "Manufacturer": "Pratt & Whitney",
@@ -774,6 +889,12 @@ export const airplane_comercial = {
                 "Thrust": "56,000 lbf",
                 "Bypass ratio": "4.8-51:1",
                 "Fan stage": "Single-stage fan",
+                "fan_diameter": "94 in",
+                "num_fan_blades": 32,
+                "max_operating_temp": "1,500 \u00c2\u00b0F",
+                "pressure_ratio": 23.4,
+                "engine_width": "78 in",
+                "engine_length": "184 in",
                 "Low-pressure compressor stages": 0,
                 "High-pressure compressor stages": 0,
                 "High-pressure turbine stages": 0,
@@ -781,7 +902,10 @@ export const airplane_comercial = {
                 "Climb rate": 2100,
                 "Descend rate": 1500,
                 "Cruise climb rate": 1900,
-                "Landing descend rate": 1200
+                "Landing descend rate": 1200,
+                "Fan blade diameter": "94 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "27.5-32.3"
             }
         },
         "Other Details": {
@@ -884,6 +1008,12 @@ export const airplane_comercial = {
                 "Model": "JT9D-7R4D1",
                 "Thrust": "56000 lbf",
                 "Bypass ratio": "4.8:1",
+                "fan_diameter": "94 in",
+                "num_fan_blades": 32,
+                "max_operating_temp": "1,500 \u00c2\u00b0F",
+                "pressure_ratio": 23.4,
+                "engine_width": "78 in",
+                "engine_length": "184 in",
                 "Fan stage": "Single-stage fan",
                 "Low-pressure compressor stages": 3,
                 "High-pressure compressor stages": 11,
@@ -892,7 +1022,10 @@ export const airplane_comercial = {
                 "Climb rate": 5200,
                 "Descend rate": 4500,
                 "Cruise climb rate": 4900,
-                "Landing descend rate": 4200
+                "Landing descend rate": 4200,
+                "Fan blade diameter": "93.4 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "23.4-26.7"
             },
             "CF6-80A3": {
                 "Manufacturer": "General Electric",
@@ -903,11 +1036,20 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 14,
                 "High-pressure turbine stages": 2,
+                "fan_diameter": "86.4 in",
+                "num_fan_blades": 38,
+                "max_operating_temp": "1,500 \u00c2\u00b0F",
+                "pressure_ratio": 29.3,
+                "engine_width": "78 in",
+                "engine_length": "183 in",
                 "Low-pressure turbine stages": 5,
                 "Climb rate": 5300,
                 "Descend rate": 4600,
                 "Cruise climb rate": 5000,
-                "Landing descend rate": 4300
+                "Landing descend rate": 4300,
+                "Fan blade diameter": "86.4 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "29.3"
             },
             "CF6-80C2A2": {
                 "Manufacturer": "General Electric",
@@ -918,11 +1060,20 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 14,
                 "High-pressure turbine stages": 2,
+                "fan_diameter": "86.4 in",
+                "num_fan_blades": 38,
+                "max_operating_temp": "1,500 \u00c2\u00b0F",
+                "pressure_ratio": 29.3,
+                "engine_width": "78 in",
+                "engine_length": "183 in",
                 "Low-pressure turbine stages": 5,
                 "Climb rate": 5400,
                 "Descend rate": 4700,
                 "Cruise climb rate": 5100,
-                "Landing descend rate": 4400
+                "Landing descend rate": 4400,
+                "Fan blade diameter": "93 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "30.4"
             },
             "CF6-80C2A8": {
                 "Manufacturer": "General Electric",
@@ -933,11 +1084,20 @@ export const airplane_comercial = {
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 14,
                 "High-pressure turbine stages": 2,
+                "fan_diameter": "86.4 in",
+                "num_fan_blades": 38,
+                "max_operating_temp": "1,500 \u00c2\u00b0F",
+                "pressure_ratio": 29.3,
+                "engine_width": "78 in",
+                "engine_length": "183 in",
                 "Low-pressure turbine stages": 5,
                 "Climb rate": 5500,
                 "Descend rate": 4800,
                 "Cruise climb rate": 5200,
-                "Landing descend rate": 4500
+                "Landing descend rate": 4500,
+                "Fan blade diameter": "93 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "30.4"
             },
             "PW4152": {
                 "Manufacturer": "Pratt & Whitney",
@@ -949,10 +1109,19 @@ export const airplane_comercial = {
                 "High-pressure compressor stages": 0,
                 "High-pressure turbine stages": 0,
                 "Low-pressure turbine stages": 0,
+                "fan_diameter": "94 in",
+                "num_fan_blades": 32,
+                "max_operating_temp": "1,500 \u00c2\u00b0F",
+                "pressure_ratio": 23.4,
+                "engine_width": "78 in",
+                "engine_length": "184 in",
                 "Climb rate": 5600,
                 "Descend rate": 4900,
                 "Cruise climb rate": 5300,
-                "Landing descend rate": 4600
+                "Landing descend rate": 4600,
+                "Fan blade diameter": "94 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "27.5-32.3"
             },
             "PW4156": {
                 "Manufacturer": "Pratt & Whitney",
@@ -964,10 +1133,19 @@ export const airplane_comercial = {
                 "High-pressure compressor stages": 0,
                 "High-pressure turbine stages": 0,
                 "Low-pressure turbine stages": 0,
+                "fan_diameter": "94 in",
+                "num_fan_blades": 32,
+                "max_operating_temp": "1,500 \u00c2\u00b0F",
+                "pressure_ratio": 23.4,
+                "engine_width": "78 in",
+                "engine_length": "184 in",
                 "Climb rate": 5700,
                 "Descend rate": 5000,
                 "Cruise climb rate": 5400,
-                "Landing descend rate": 4700
+                "Landing descend rate": 4700,
+                "Fan blade diameter": "94 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "27.5-32.3"
             }
         },
         "Other Details": {
@@ -1073,12 +1251,21 @@ export const airplane_comercial = {
                 "Fan stage": "Single-stage fan",
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 9,
+                "fan_diameter": "68.3 in",
+                "num_fan_blades": 36,
+                "max_operating_temp": "1,500 \u00c2\u00b0F",
+                "pressure_ratio": 30.4,
+                "engine_width": "78 in",
+                "engine_length": "183 in",
                 "High-pressure turbine stages": 2,
                 "Low-pressure turbine stages": 4,
                 "Climb rate": 2100,
                 "Descend rate": 1500,
                 "Cruise climb rate": 1900,
-                "Landing descend rate": 1200
+                "Landing descend rate": 1200,
+                "Fan blade diameter": "68.3 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "30.4"
             },
             "PW6000": {
                 "Manufacturer": "Pratt & Whitney",
@@ -1086,6 +1273,12 @@ export const airplane_comercial = {
                 "Thrust": "18,000 - 24,000 lbf",
                 "Bypass ratio": "4.8 - 5.0:1",
                 "Fan stage": "Single-stage fan",
+                "fan_diameter": "56.5 in",
+                "num_fan_blades": 22,
+                "max_operating_temp": "1,500 \u00c2\u00b0F",
+                "pressure_ratio": 30.4,
+                "engine_width": "78 in",
+                "engine_length": "183 in",
                 "Low-pressure compressor stages": 6,
                 "High-pressure compressor stages": 6,
                 "High-pressure turbine stages": 1,
@@ -1093,7 +1286,10 @@ export const airplane_comercial = {
                 "Climb rate": 2200,
                 "Descend rate": 1600,
                 "Cruise climb rate": 2000,
-                "Landing descend rate": 1300
+                "Landing descend rate": 1300,
+                "Fan blade diameter": "56.5 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "26.1 - 28.2"
             }
         },
         "Other Details": {
@@ -1204,13 +1400,16 @@ export const airplane_comercial = {
                 "Climb rate": 2200,
                 "Descend rate": 1600,
                 "Cruise climb rate": 2000,
-                "Landing descend rate": 1300
+                "Landing descend rate": 1300,
+                "Fan blade diameter": "68.3 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "30.4"
             },
             "IAE V2500-A5": {
                 "Manufacturer": "International Aero Engines",
                 "Model": "V2500-A5",
                 "Thrust": "24,000 lbf",
-                "Bypass ratio": "5.4:1",
+                "Bypass ratio": "4.8:1",
                 "Fan stage": "Single-stage fan",
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 14,
@@ -1219,7 +1418,10 @@ export const airplane_comercial = {
                 "Climb rate": 2300,
                 "Descend rate": 1700,
                 "Cruise climb rate": 2100,
-                "Landing descend rate": 1400
+                "Landing descend rate": 1400,
+                "Fan blade diameter": "63.5 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "20:1"
             },
             "PW1100G-JM": {
                 "Manufacturer": "Pratt & Whitney",
@@ -1234,7 +1436,10 @@ export const airplane_comercial = {
                 "Climb rate": 2400,
                 "Descend rate": 1800,
                 "Cruise climb rate": 2200,
-                "Landing descend rate": 1500
+                "Landing descend rate": 1500,
+                "Fan blade diameter": "81 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "12:1"
             }
         },
         "Other Details": {
@@ -1344,7 +1549,10 @@ export const airplane_comercial = {
                 "Climb rate": 2400,
                 "Descend rate": 1800,
                 "Cruise climb rate": 2200,
-                "Landing descend rate": 1500
+                "Landing descend rate": 1500,
+                "Fan blade diameter": "81 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "12:1"
             },
             "LEAP-1A": {
                 "Manufacturer": "CFM International",
@@ -1359,7 +1567,10 @@ export const airplane_comercial = {
                 "Climb rate": 2300,
                 "Descend rate": 1700,
                 "Cruise climb rate": 2100,
-                "Landing descend rate": 1400
+                "Landing descend rate": 1400,
+                "Fan blade diameter": "78 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "11:1"
             }
         },
         "Other Details": {
@@ -1460,12 +1671,15 @@ export const airplane_comercial = {
                 "Climb rate": 2500,
                 "Descend rate": 1800,
                 "Cruise climb rate": 2200,
-                "Landing descend rate": 1500
+                "Landing descend rate": 1500,
+                "Fan blade diameter": "68.3 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "30.4"
             },
             "IAE V2500": {
                 "Manufacturer": "International Aero Engines",
                 "Model": "V2500-A1",
-                "Thrust": "Approximately 110 kN (about 24,700 lbs)",
+                "Thrust": "24,700 lbs",
                 "Bypass ratio": "4.8:1",
                 "Fan stage": "Single-stage fan",
                 "Low-pressure compressor stages": 3,
@@ -1475,7 +1689,10 @@ export const airplane_comercial = {
                 "Climb rate": 2600,
                 "Descend rate": 1900,
                 "Cruise climb rate": 2300,
-                "Landing descend rate": 1600
+                "Landing descend rate": 1600,
+                "Fan blade diameter": "63.5 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "20:1"
             }
         },
         "Other Details": {
@@ -1585,7 +1802,10 @@ export const airplane_comercial = {
                 "Climb rate": 2700,
                 "Descend rate": 2000,
                 "Cruise climb rate": 2400,
-                "Landing descend rate": 1700
+                "Landing descend rate": 1700,
+                "Fan blade diameter": "81 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "12:1"
             },
             "LEAP-1A": {
                 "Manufacturer": "CFM International",
@@ -1600,7 +1820,10 @@ export const airplane_comercial = {
                 "Climb rate": 2600,
                 "Descend rate": 1900,
                 "Cruise climb rate": 2300,
-                "Landing descend rate": 1600
+                "Landing descend rate": 1600,
+                "Fan blade diameter": "78 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "11:1"
             }
         },
         "Other Details": {
@@ -1710,7 +1933,10 @@ export const airplane_comercial = {
                 "Climb rate": 2800,
                 "Descend rate": 2100,
                 "Cruise climb rate": 2500,
-                "Landing descend rate": 1800
+                "Landing descend rate": 1800,
+                "Fan blade diameter": "68.3 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "30.4"
             },
             "CFM56-5B2": {
                 "Manufacturer": "CFM International",
@@ -1725,7 +1951,10 @@ export const airplane_comercial = {
                 "Climb rate": 2700,
                 "Descend rate": 2000,
                 "Cruise climb rate": 2400,
-                "Landing descend rate": 1700
+                "Landing descend rate": 1700,
+                "Fan blade diameter": "68.3 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "30.4"
             },
             "V2530-A5": {
                 "Manufacturer": "International Aero Engines (IAE)",
@@ -1740,7 +1969,10 @@ export const airplane_comercial = {
                 "Climb rate": 2900,
                 "Descend rate": 2200,
                 "Cruise climb rate": 2600,
-                "Landing descend rate": 1900
+                "Landing descend rate": 1900,
+                "Fan blade diameter": "63.5 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "20:1"
             }
         },
         "Other Details": {
@@ -1850,7 +2082,10 @@ export const airplane_comercial = {
                 "Climb rate": 2800,
                 "Descend rate": 2100,
                 "Cruise climb rate": 2500,
-                "Landing descend rate": 1800
+                "Landing descend rate": 1800,
+                "Fan blade diameter": "68.3 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "30.4"
             },
             "V2533-A5": {
                 "Manufacturer": "IAE",
@@ -1865,7 +2100,10 @@ export const airplane_comercial = {
                 "Climb rate": 2900,
                 "Descend rate": 2200,
                 "Cruise climb rate": 2600,
-                "Landing descend rate": 1900
+                "Landing descend rate": 1900,
+                "Fan blade diameter": "63.5 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "20:1"
             }
         },
         "Other Details": {
@@ -1975,7 +2213,10 @@ export const airplane_comercial = {
                 "Climb rate": 3000,
                 "Descend rate": 2300,
                 "Cruise climb rate": 2700,
-                "Landing descend rate": 2000
+                "Landing descend rate": 2000,
+                "Fan blade diameter": "78 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "11:1"
             },
             "PW1130G": {
                 "Manufacturer": "Pratt & Whitney",
@@ -1990,7 +2231,10 @@ export const airplane_comercial = {
                 "Climb rate": 3100,
                 "Descend rate": 2400,
                 "Cruise climb rate": 2800,
-                "Landing descend rate": 2100
+                "Landing descend rate": 2100,
+                "Fan blade diameter": "81 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "12:1"
             }
         },
         "Other Details": {
@@ -2100,7 +2344,10 @@ export const airplane_comercial = {
                 "Climb rate": 3000,
                 "Descend rate": 2300,
                 "Cruise climb rate": 2700,
-                "Landing descend rate": 2000
+                "Landing descend rate": 2000,
+                "Fan blade diameter": "78 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "11:1"
             },
             "PW1100G-JM": {
                 "Manufacturer": "Pratt & Whitney",
@@ -2115,7 +2362,10 @@ export const airplane_comercial = {
                 "Climb rate": 5400,
                 "Descend rate": 4700,
                 "Cruise climb rate": 5100,
-                "Landing descend rate": 4400
+                "Landing descend rate": 4400,
+                "Fan blade diameter": "81 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "12:1"
             }
         },
         "Other Details": {
@@ -2212,7 +2462,10 @@ export const airplane_comercial = {
                 "Climb rate": 3000,
                 "Descend rate": 2300,
                 "Cruise climb rate": 2700,
-                "Landing descend rate": 2000
+                "Landing descend rate": 2000,
+                "Fan blade diameter": "78 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "11:1"
             },
             "PW1130G": {
                 "Manufacturer": "Pratt & Whitney",
@@ -2227,7 +2480,10 @@ export const airplane_comercial = {
                 "Climb rate": 3100,
                 "Descend rate": 2400,
                 "Cruise climb rate": 2800,
-                "Landing descend rate": 2100
+                "Landing descend rate": 2100,
+                "Fan blade diameter": "81 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "12:1"
             }
         },
         "Other Details": {
@@ -2337,9 +2593,12 @@ export const airplane_comercial = {
                 "Climb rate": 2500,
                 "Descend rate": 1800,
                 "Cruise climb rate": 2200,
-                "Landing descend rate": 1500
+                "Landing descend rate": 1500,
+                "Fan blade diameter": "96 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "32.6"
             },
-            "PW4000 series": {
+            "PW4000": {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "PW4000 series",
                 "Thrust": "Varies (depending on specific variant)",
@@ -2352,7 +2611,10 @@ export const airplane_comercial = {
                 "Climb rate": 2600,
                 "Descend rate": 1900,
                 "Cruise climb rate": 2300,
-                "Landing descend rate": 1600
+                "Landing descend rate": 1600,
+                "Fan blade diameter": "100 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "32.0-35.4"
             },
             "Trent 700": {
                 "Manufacturer": "Rolls-Royce",
@@ -2367,7 +2629,10 @@ export const airplane_comercial = {
                 "Climb rate": 2700,
                 "Descend rate": 2000,
                 "Cruise climb rate": 2400,
-                "Landing descend rate": 1700
+                "Landing descend rate": 1700,
+                "Fan blade diameter": "97.4 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "36:1"
             }
         },
         "Other Details": {
@@ -2476,7 +2741,10 @@ export const airplane_comercial = {
                 "Climb rate": 2400,
                 "Descend rate": 1700,
                 "Cruise climb rate": 2100,
-                "Landing descend rate": 1400
+                "Landing descend rate": 1400,
+                "Fan blade diameter": "96 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "32.6"
             },
             "PW4000": {
                 "Thrust": "64,000-70,000 lbf",
@@ -2489,7 +2757,10 @@ export const airplane_comercial = {
                 "Climb rate": 2500,
                 "Descend rate": 1800,
                 "Cruise climb rate": 2200,
-                "Landing descend rate": 1500
+                "Landing descend rate": 1500,
+                "Fan blade diameter": "100 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "32.0-35.4"
             },
             "Trent 700": {
                 "Thrust": "64,000-72,000 lbf",
@@ -2502,7 +2773,10 @@ export const airplane_comercial = {
                 "Climb rate": 2600,
                 "Descend rate": 1900,
                 "Cruise climb rate": 2300,
-                "Landing descend rate": 1600
+                "Landing descend rate": 1600,
+                "Fan blade diameter": "97.4 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "36:1"
             }
         },
         "Other Details": {
@@ -2613,7 +2887,10 @@ export const airplane_comercial = {
                 "Climb rate": 2800,
                 "Descend rate": 2100,
                 "Cruise climb rate": 2500,
-                "Landing descend rate": 1800
+                "Landing descend rate": 1800,
+                "Fan blade diameter": "81 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "12:1"
             }
         },
         "Other Details": {
@@ -2723,7 +3000,10 @@ export const airplane_comercial = {
                 "Climb rate": 2900,
                 "Descend rate": 2200,
                 "Cruise climb rate": 2600,
-                "Landing descend rate": 1900
+                "Landing descend rate": 1900,
+                "Fan blade diameter": "112 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "50:1"
             }
         },
         "Other Details": {
@@ -2834,7 +3114,10 @@ export const airplane_comercial = {
                 "Climb rate": 2200,
                 "Descend rate": 1600,
                 "Cruise climb rate": 2000,
-                "Landing descend rate": 1300
+                "Landing descend rate": 1300,
+                "Fan blade diameter": "68.3 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "30.4"
             }
         },
         "Other Details": {
@@ -2944,7 +3227,10 @@ export const airplane_comercial = {
                 "Climb rate": 2300,
                 "Descend rate": 1700,
                 "Cruise climb rate": 2100,
-                "Landing descend rate": 1400
+                "Landing descend rate": 1400,
+                "Fan blade diameter": "68.3 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "30.4"
             }
         },
         "Other Details": {
@@ -3055,7 +3341,10 @@ export const airplane_comercial = {
                 "Climb rate": 2400,
                 "Descend rate": 1800,
                 "Cruise climb rate": 2200,
-                "Landing descend rate": 1500
+                "Landing descend rate": 1500,
+                "Fan blade diameter": "97.5 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "35:1"
             }
         },
         "Other Details": {
@@ -3167,7 +3456,10 @@ export const airplane_comercial = {
                 "Climb rate": 2500,
                 "Descend rate": 1900,
                 "Cruise climb rate": 2300,
-                "Landing descend rate": 1600
+                "Landing descend rate": 1600,
+                "Fan blade diameter": "97.5 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "35:1"
             }
         },
         "Other Details": {
@@ -3278,7 +3570,10 @@ export const airplane_comercial = {
                 "Climb rate": 2700,
                 "Descend rate": 2000,
                 "Cruise climb rate": 2400,
-                "Landing descend rate": 1700
+                "Landing descend rate": 1700,
+                "Fan blade diameter": "118 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "50:1"
             }
         },
         "Other Details": {
@@ -3383,7 +3678,10 @@ export const airplane_comercial = {
                 "Climb rate": 2800,
                 "Descend rate": 2100,
                 "Cruise climb rate": 2500,
-                "Landing descend rate": 1800
+                "Landing descend rate": 1800,
+                "Fan blade diameter": "118 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "50:1"
             }
         },
         "Other Details": {
@@ -3494,7 +3792,10 @@ export const airplane_comercial = {
                 "Climb rate": 3000,
                 "Descend rate": 2300,
                 "Cruise climb rate": 2700,
-                "Landing descend rate": 2000
+                "Landing descend rate": 2000,
+                "Fan blade diameter": "118 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "50:1"
             }
         },
         "Other Details": {
@@ -3605,7 +3906,10 @@ export const airplane_comercial = {
                 "Climb rate": 3100,
                 "Descend rate": 2400,
                 "Cruise climb rate": 2800,
-                "Landing descend rate": 2100
+                "Landing descend rate": 2100,
+                "Fan blade diameter": "116 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "37-39:1"
             },
             "GP7200": {
                 "Manufacturer": "Engine Alliance",
@@ -3620,7 +3924,10 @@ export const airplane_comercial = {
                 "Climb rate": 5400,
                 "Descend rate": 4700,
                 "Cruise climb rate": 5100,
-                "Landing descend rate": 4400
+                "Landing descend rate": 4400,
+                "Fan blade diameter": "116 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "36+"
             }
         },
         "Other Details": {
@@ -3732,7 +4039,10 @@ export const airplane_comercial = {
                 "Climb rate": 3200,
                 "Descend rate": 2500,
                 "Cruise climb rate": 2900,
-                "Landing descend rate": 2200
+                "Landing descend rate": 2200,
+                "Fan blade diameter": "116 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "37-39:1"
             }
         },
         "Other Details": {
@@ -3837,7 +4147,10 @@ export const airplane_comercial = {
                 "Climb rate": 3100,
                 "Descend rate": 2400,
                 "Cruise climb rate": 2800,
-                "Landing descend rate": 2100
+                "Landing descend rate": 2100,
+                "Fan blade diameter": "116 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "37-39:1"
             },
             "GP7200": {
                 "Manufacturer": "Engine Alliance",
@@ -3852,7 +4165,10 @@ export const airplane_comercial = {
                 "Climb rate": 5400,
                 "Descend rate": 4700,
                 "Cruise climb rate": 5100,
-                "Landing descend rate": 4400
+                "Landing descend rate": 4400,
+                "Fan blade diameter": "116 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "36+"
             }
         },
         "Other Details": {
@@ -3955,7 +4271,10 @@ export const airplane_comercial = {
                 "Climb rate": 3300,
                 "Descend rate": 2600,
                 "Cruise climb rate": 3000,
-                "Landing descend rate": 2300
+                "Landing descend rate": 2300,
+                "Fan blade diameter": "97.4 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "36:1"
             }
         },
         "Other Details": {
@@ -4058,7 +4377,10 @@ export const airplane_comercial = {
                 "Climb rate": 3400,
                 "Descend rate": 2700,
                 "Cruise climb rate": 3100,
-                "Landing descend rate": 2400
+                "Landing descend rate": 2400,
+                "Fan blade diameter": "93 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "30.4"
             }
         },
         "Other Details": {
@@ -4159,7 +4481,10 @@ export const airplane_comercial = {
                 "Climb rate": "N/A",
                 "Descend rate": "N/A",
                 "Cruise climb rate": "N/A",
-                "Landing descend rate": "N/A"
+                "Landing descend rate": "N/A",
+                "Fan blade diameter": "N/A",
+                "Fuel type": "Aviation gasoline",
+                "Pressure ratio": "6.03:1"
             }
         },
         "Other Details": {
@@ -4263,7 +4588,10 @@ export const airplane_comercial = {
                 "Climb rate": "N/A",
                 "Descend rate": "N/A",
                 "Cruise climb rate": "N/A",
-                "Landing descend rate": "N/A"
+                "Landing descend rate": "N/A",
+                "Fan blade diameter": "N/A",
+                "Fuel type": "Aviation gasoline",
+                "Pressure ratio": "6.0:1"
             },
             "Pratt & Whitney R-2180-E Twin Hornet": {
                 "Manufacturer": "Pratt & Whitney",
@@ -4278,7 +4606,10 @@ export const airplane_comercial = {
                 "Climb rate": "N/A",
                 "Descend rate": "N/A",
                 "Cruise climb rate": "N/A",
-                "Landing descend rate": "N/A"
+                "Landing descend rate": "N/A",
+                "Fan blade diameter": "N/A",
+                "Fuel type": "Aviation gasoline",
+                "Pressure ratio": "N/A"
             }
         },
         "Other Details": {
@@ -4385,7 +4716,10 @@ export const airplane_comercial = {
                 "Climb rate": 5400,
                 "Descend rate": 4700,
                 "Cruise climb rate": 5100,
-                "Landing descend rate": 4400
+                "Landing descend rate": 4400,
+                "Fan blade diameter": "N/A",
+                "Fuel type": "JP-4 / JP-5",
+                "Pressure ratio": "16:1"
             }
         },
         "Other Details": {
@@ -4482,7 +4816,7 @@ export const airplane_comercial = {
             "JT3C turbojets": {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "JT3C-6",
-                "Thrust": "10,000 lb (44.5 kN)",
+                "Thrust": "10,000 lbf",
                 "Bypass ratio": "1.3",
                 "Fan stage": "N/A",
                 "Low-pressure compressor stages": "7",
@@ -4492,12 +4826,15 @@ export const airplane_comercial = {
                 "Climb rate": 2500,
                 "Descend rate": 1800,
                 "Cruise climb rate": 2200,
-                "Landing descend rate": 1500
+                "Landing descend rate": 1500,
+                "Fan blade diameter": "N/A",
+                "Fuel type": "JP-4 / JP-5",
+                "Pressure ratio": "N/A"
             },
             "Conway turbofans": {
                 "Manufacturer": "Rolls-Royce",
                 "Model": "Conway RCo.12",
-                "Thrust": "17,000 lb (75.6 kN)",
+                "Thrust": "17,000 lb",
                 "Bypass ratio": "1.3",
                 "Fan stage": "Single-stage fan",
                 "Low-pressure compressor stages": "7",
@@ -4507,7 +4844,10 @@ export const airplane_comercial = {
                 "Climb rate": 2600,
                 "Descend rate": 1900,
                 "Cruise climb rate": 2300,
-                "Landing descend rate": 1600
+                "Landing descend rate": 1600,
+                "Fan blade diameter": "N/A",
+                "Fuel type": "JP-4 / JP-5",
+                "Pressure ratio": "14.1:1"
             }
         },
         "Other Details": {
@@ -4613,7 +4953,10 @@ export const airplane_comercial = {
                 "Climb rate": 2400,
                 "Descend rate": 1700,
                 "Cruise climb rate": 2100,
-                "Landing descend rate": 1400
+                "Landing descend rate": 1400,
+                "Fan blade diameter": "N/A",
+                "Fuel type": "JP-4 / JP-5",
+                "Pressure ratio": "N/A"
             },
             "Conway turbofans": {
                 "Manufacturer": "Rolls-Royce",
@@ -4628,7 +4971,10 @@ export const airplane_comercial = {
                 "Climb rate": 2500,
                 "Descend rate": 1800,
                 "Cruise climb rate": 2200,
-                "Landing descend rate": 1500
+                "Landing descend rate": 1500,
+                "Fan blade diameter": "N/A",
+                "Fuel type": "JP-4 / JP-5",
+                "Pressure ratio": "14.1:1"
             }
         },
         "Other Details": {
@@ -4734,7 +5080,10 @@ export const airplane_comercial = {
                 "Climb rate": 2700,
                 "Descend rate": 2000,
                 "Cruise climb rate": 2400,
-                "Landing descend rate": 1700
+                "Landing descend rate": 1700,
+                "Fan blade diameter": "N/A",
+                "Fuel type": "JP-4 / JP-5",
+                "Pressure ratio": "16:1"
             }
         },
         "Other Details": {
@@ -4852,7 +5201,10 @@ export const airplane_comercial = {
                 "Climb rate": 2500,
                 "Descend rate": 1800,
                 "Cruise climb rate": 2200,
-                "Landing descend rate": 1500
+                "Landing descend rate": 1500,
+                "Fan blade diameter": "58 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "N/A"
             }
         },
         "Other Details": {
@@ -4958,7 +5310,10 @@ export const airplane_comercial = {
                 "Climb rate": 2600,
                 "Descend rate": 1900,
                 "Cruise climb rate": 2300,
-                "Landing descend rate": 1600
+                "Landing descend rate": 1600,
+                "Fan blade diameter": "58 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "N/A"
             }
         },
         "Other Details": {
@@ -5059,7 +5414,10 @@ export const airplane_comercial = {
                 "Climb rate": 2700,
                 "Descend rate": 2000,
                 "Cruise climb rate": 2400,
-                "Landing descend rate": 1700
+                "Landing descend rate": 1700,
+                "Fan blade diameter": "N/A",
+                "Fuel type": "JP-4 / JP-5",
+                "Pressure ratio": "N/A"
             }
         },
         "Other Details": {
@@ -5151,7 +5509,7 @@ export const airplane_comercial = {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "JT8D-7",
                 "Thrust": "14,000 lbf",
-                "Bypass ratio": "1.74:1",
+                "Bypass ratio": "1.3:1",
                 "Fan stage": 1,
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 7,
@@ -5160,7 +5518,10 @@ export const airplane_comercial = {
                 "Climb rate": 2800,
                 "Descend rate": 2100,
                 "Cruise climb rate": 2500,
-                "Landing descend rate": 1800
+                "Landing descend rate": 1800,
+                "Fan blade diameter": "N/A",
+                "Fuel type": "JP-4 / JP-5",
+                "Pressure ratio": "N/A"
             }
         },
         "Other Details": {
@@ -5252,7 +5613,7 @@ export const airplane_comercial = {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "JT8D-7",
                 "Thrust": "68.9 kN (15,500 lbf)",
-                "Bypass ratio": "1.74",
+                "Bypass ratio": "1.3:1",
                 "Fan stage": "1",
                 "Low-pressure compressor stages": "6",
                 "High-pressure compressor stages": "7",
@@ -5261,7 +5622,10 @@ export const airplane_comercial = {
                 "Climb rate": 2600,
                 "Descend rate": 1900,
                 "Cruise climb rate": 2300,
-                "Landing descend rate": 1600
+                "Landing descend rate": 1600,
+                "Fan blade diameter": "N/A",
+                "Fuel type": "JP-4 / JP-5",
+                "Pressure ratio": "N/A"
             }
         },
         "Other Details": {
@@ -5350,7 +5714,7 @@ export const airplane_comercial = {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "JT8D-17",
                 "Thrust": "16,000 lbf",
-                "Bypass ratio": "1.3",
+                "Bypass ratio": "1.74",
                 "Fan stage": 2,
                 "Low-pressure compressor stages": 4,
                 "High-pressure compressor stages": 14,
@@ -5359,7 +5723,10 @@ export const airplane_comercial = {
                 "Climb rate": 2700,
                 "Descend rate": 2000,
                 "Cruise climb rate": 2400,
-                "Landing descend rate": 1700
+                "Landing descend rate": 1700,
+                "Fan blade diameter": "54 inches",
+                "Fuel type": "JP-4 / JP-5",
+                "Pressure ratio": "18.2 to 19.4"
             }
         },
         "Other Details": {
@@ -5457,7 +5824,10 @@ export const airplane_comercial = {
                 "Climb rate": 2800,
                 "Descend rate": 2100,
                 "Cruise climb rate": 2500,
-                "Landing descend rate": 1800
+                "Landing descend rate": 1800,
+                "Fan blade diameter": "60 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "4.8:1 to 5.1:1"
             },
             "CFM563B2": {
                 "Manufacturer": "CFM International",
@@ -5472,7 +5842,10 @@ export const airplane_comercial = {
                 "Climb rate": 2900,
                 "Descend rate": 2200,
                 "Cruise climb rate": 2600,
-                "Landing descend rate": 1900
+                "Landing descend rate": 1900,
+                "Fan blade diameter": "60 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "4.8:1 to 5.1:1"
             }
         },
         "Other Details": {
@@ -5570,7 +5943,10 @@ export const airplane_comercial = {
                 "Climb rate": 3000,
                 "Descend rate": 2300,
                 "Cruise climb rate": 2700,
-                "Landing descend rate": 2000
+                "Landing descend rate": 2000,
+                "Fan blade diameter": "60 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "4.8:1 to 5.1:1"
             },
             "CFM563B2": {
                 "Manufacturer": "CFM International",
@@ -5585,7 +5961,10 @@ export const airplane_comercial = {
                 "Climb rate": 3100,
                 "Descend rate": 2400,
                 "Cruise climb rate": 2800,
-                "Landing descend rate": 2100
+                "Landing descend rate": 2100,
+                "Fan blade diameter": "60 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "4.8:1 to 5.1:1"
             }
         },
         "Other Details": {
@@ -5683,7 +6062,10 @@ export const airplane_comercial = {
                 "Climb rate": 3200,
                 "Descend rate": 2500,
                 "Cruise climb rate": 2900,
-                "Landing descend rate": 2200
+                "Landing descend rate": 2200,
+                "Fan blade diameter": "60 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "4.8:1 to 5.1:1"
             }
         },
         "Other Details": {
@@ -5786,7 +6168,10 @@ export const airplane_comercial = {
                 "Climb rate": 3300,
                 "Descend rate": 2600,
                 "Cruise climb rate": 3000,
-                "Landing descend rate": 2300
+                "Landing descend rate": 2300,
+                "Fan blade diameter": "61 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "5.1:1 to 5.5:1"
             }
         },
         "Other Details": {
@@ -5892,7 +6277,10 @@ export const airplane_comercial = {
                 "Climb rate": 3400,
                 "Descend rate": 2700,
                 "Cruise climb rate": 3100,
-                "Landing descend rate": 2400
+                "Landing descend rate": 2400,
+                "Fan blade diameter": "61 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "5.1:1 to 5.5:1"
             }
         },
         "Other Details": {
@@ -6006,7 +6394,10 @@ export const airplane_comercial = {
                 "Climb rate": 3500,
                 "Descend rate": 2800,
                 "Cruise climb rate": 3200,
-                "Landing descend rate": 2500
+                "Landing descend rate": 2500,
+                "Fan blade diameter": "61 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "5.1:1 to 5.5:1"
             }
         },
         "Other Details": {
@@ -6120,7 +6511,10 @@ export const airplane_comercial = {
                 "Climb rate": 3600,
                 "Descend rate": 2900,
                 "Cruise climb rate": 3300,
-                "Landing descend rate": 2600
+                "Landing descend rate": 2600,
+                "Fan blade diameter": "61 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "5.1:1 to 5.5:1"
             }
         },
         "Other Details": {
@@ -6234,7 +6628,10 @@ export const airplane_comercial = {
                 "Climb rate": 3700,
                 "Descend rate": 3000,
                 "Cruise climb rate": 3400,
-                "Landing descend rate": 2700
+                "Landing descend rate": 2700,
+                "Fan blade diameter": "69.4 inches",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "N/A"
             }
         },
         "Other Details": {
@@ -6341,7 +6738,10 @@ export const airplane_comercial = {
                 "Climb rate": 3800,
                 "Descend rate": 3100,
                 "Cruise climb rate": 3500,
-                "Landing descend rate": 2800
+                "Landing descend rate": 2800,
+                "Fan blade diameter": "N/A",
+                "Fuel type": "JP-4 / JP-5",
+                "Pressure ratio": "N/A"
             }
         },
         "Other Details": {
@@ -6446,7 +6846,10 @@ export const airplane_comercial = {
                 "Climb rate": 3900,
                 "Descend rate": 3200,
                 "Cruise climb rate": 3600,
-                "Landing descend rate": 2900
+                "Landing descend rate": 2900,
+                "Fan blade diameter": "N/A",
+                "Fuel type": "JP-4 / JP-5",
+                "Pressure ratio": "N/A"
             },
             "CF6": {
                 "Manufacturer": "General Electric",
@@ -6461,7 +6864,10 @@ export const airplane_comercial = {
                 "Climb rate": 2500,
                 "Descend rate": 1800,
                 "Cruise climb rate": 2200,
-                "Landing descend rate": 1500
+                "Landing descend rate": 1500,
+                "Fan blade diameter": "93 in (236.2 cm)",
+                "Fuel type": "Jet-A",
+                "Pressure ratio": "27.4-31.9"
             }
         },
         "Other Details": {
@@ -6567,7 +6973,10 @@ export const airplane_comercial = {
                 "Climb rate": 2600,
                 "Descend rate": 1900,
                 "Cruise climb rate": 2300,
-                "Landing descend rate": 1600
+                "Landing descend rate": 1600,
+                "Fan blade diameter": "93.4 in",
+                "Fuel type": "Jet-A",
+                "Pressure ratio": "23.4-26.7"
             },
             "CF6": {
                 "Manufacturer": "General Electric",
@@ -6582,7 +6991,10 @@ export const airplane_comercial = {
                 "Climb rate": 5400,
                 "Descend rate": 4700,
                 "Cruise climb rate": 5100,
-                "Landing descend rate": 4400
+                "Landing descend rate": 4400,
+                "Fan blade diameter": "93 in (236.2 cm)",
+                "Fuel type": "Jet-A",
+                "Pressure ratio": "27.4-31.9"
             }
         },
         "Other Details": {
@@ -6688,7 +7100,10 @@ export const airplane_comercial = {
                 "Climb rate": 2700,
                 "Descend rate": 2000,
                 "Cruise climb rate": 2400,
-                "Landing descend rate": 1700
+                "Landing descend rate": 1700,
+                "Fan blade diameter": "94 in",
+                "Fuel type": "Jet-A",
+                "Pressure ratio": "27.5-32.3"
             },
             "CF6": {
                 "Manufacturer": "General Electric",
@@ -6703,7 +7118,10 @@ export const airplane_comercial = {
                 "Climb rate": 2800,
                 "Descend rate": 2100,
                 "Cruise climb rate": 2500,
-                "Landing descend rate": 1800
+                "Landing descend rate": 1800,
+                "Fan blade diameter": "93 in (236.2 cm)",
+                "Fuel type": "Jet-A",
+                "Pressure ratio": "27.4-31.9"
             }
         },
         "Other Details": {
@@ -6807,7 +7225,10 @@ export const airplane_comercial = {
                 "Climb rate": 2900,
                 "Descend rate": 2200,
                 "Cruise climb rate": 2600,
-                "Landing descend rate": 1900
+                "Landing descend rate": 1900,
+                "Fan blade diameter": "94 in",
+                "Fuel type": "Jet-A",
+                "Pressure ratio": "27.5-32.3"
             },
             "CF6": {
                 "Manufacturer": "General Electric",
@@ -6822,7 +7243,10 @@ export const airplane_comercial = {
                 "Climb rate": 3000,
                 "Descend rate": 2300,
                 "Cruise climb rate": 2700,
-                "Landing descend rate": 2000
+                "Landing descend rate": 2000,
+                "Fan blade diameter": "93 in (236.2 cm)",
+                "Fuel type": "Jet-A",
+                "Pressure ratio": "27.4-31.9"
             }
         },
         "Other Details": {
@@ -6930,7 +7354,10 @@ export const airplane_comercial = {
                 "Climb rate": 3100,
                 "Descend rate": 2400,
                 "Cruise climb rate": 2800,
-                "Landing descend rate": 2100
+                "Landing descend rate": 2100,
+                "Fan blade diameter": "94 in",
+                "Fuel type": "Jet-A",
+                "Pressure ratio": "27.5-32.3"
             },
             "CF6-80C2": {
                 "Manufacturer": "General Electric",
@@ -6945,7 +7372,10 @@ export const airplane_comercial = {
                 "Climb rate": 3200,
                 "Descend rate": 2500,
                 "Cruise climb rate": 2900,
-                "Landing descend rate": 2200
+                "Landing descend rate": 2200,
+                "Fan blade diameter": "93 in (236.2 cm)",
+                "Fuel type": "Jet-A",
+                "Pressure ratio": "27.4-31.9"
             }
         },
         "Other Details": {
@@ -7051,7 +7481,10 @@ export const airplane_comercial = {
                 "Climb rate": 3300,
                 "Descend rate": 2600,
                 "Cruise climb rate": 3000,
-                "Landing descend rate": 2300
+                "Landing descend rate": 2300,
+                "Fan blade diameter": "94 in",
+                "Fuel type": "Jet-A",
+                "Pressure ratio": "27.5-32.3"
             },
             "CF6": {
                 "Manufacturer": "General Electric",
@@ -7066,7 +7499,10 @@ export const airplane_comercial = {
                 "Climb rate": 3400,
                 "Descend rate": 2700,
                 "Cruise climb rate": 3100,
-                "Landing descend rate": 2400
+                "Landing descend rate": 2400,
+                "Fan blade diameter": "93 in (236.2 cm)",
+                "Fuel type": "Jet-A",
+                "Pressure ratio": "27.4-31.9"
             }
         },
         "Other Details": {
@@ -7173,7 +7609,10 @@ export const airplane_comercial = {
                 "Climb rate": 3500,
                 "Descend rate": 2800,
                 "Cruise climb rate": 3200,
-                "Landing descend rate": 2500
+                "Landing descend rate": 2500,
+                "Fan blade diameter": "105 in",
+                "Fuel type": "Jet-A",
+                "Pressure ratio": "58"
             }
         },
         "Other Details": {
@@ -7281,7 +7720,10 @@ export const airplane_comercial = {
                 "Climb rate": 3600,
                 "Descend rate": 2900,
                 "Cruise climb rate": 3300,
-                "Landing descend rate": 2600
+                "Landing descend rate": 2600,
+                "Fan blade diameter": "74.5 in",
+                "Fuel type": "Jet-A",
+                "Pressure ratio": "28.7"
             },
             "PW2000": {
                 "Manufacturer": "Pratt & Whitney",
@@ -7296,7 +7738,10 @@ export const airplane_comercial = {
                 "Climb rate": 3700,
                 "Descend rate": 3000,
                 "Cruise climb rate": 3400,
-                "Landing descend rate": 2700
+                "Landing descend rate": 2700,
+                "Fan blade diameter": "78.5 in",
+                "Fuel type": "Jet-A",
+                "Pressure ratio": "27.4"
             }
         },
         "Other Details": {
@@ -7400,7 +7845,10 @@ export const airplane_comercial = {
                 "Climb rate": 3800,
                 "Descend rate": 3100,
                 "Cruise climb rate": 3500,
-                "Landing descend rate": 2800
+                "Landing descend rate": 2800,
+                "Fan blade diameter": "74.5 in",
+                "Fuel type": "Jet-A",
+                "Pressure ratio": "28.7"
             },
             "PW2037": {
                 "Manufacturer": "Pratt & Whitney",
@@ -7415,7 +7863,10 @@ export const airplane_comercial = {
                 "Climb rate": 3900,
                 "Descend rate": 3200,
                 "Cruise climb rate": 3600,
-                "Landing descend rate": 2900
+                "Landing descend rate": 2900,
+                "Fan blade diameter": "78.5 in",
+                "Fuel type": "Jet-A",
+                "Pressure ratio": "27.4"
             }
         },
         "Other Details": {
@@ -7521,7 +7972,10 @@ export const airplane_comercial = {
                 "Climb rate": 4000,
                 "Descend rate": 3300,
                 "Cruise climb rate": 3700,
-                "Landing descend rate": 3000
+                "Landing descend rate": 3000,
+                "Fan blade diameter": "78.5 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "27.6-31.2"
             },
             "PW2043": {
                 "Manufacturer": "Pratt & Whitney",
@@ -7536,7 +7990,10 @@ export const airplane_comercial = {
                 "Climb rate": 4100,
                 "Descend rate": 3400,
                 "Cruise climb rate": 3800,
-                "Landing descend rate": 3100
+                "Landing descend rate": 3100,
+                "Fan blade diameter": "78.5 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "27.6-31.2"
             },
             "RB211-535E4-B": {
                 "Manufacturer": "Rolls-Royce",
@@ -7551,7 +8008,10 @@ export const airplane_comercial = {
                 "Climb rate": 4200,
                 "Descend rate": 3500,
                 "Cruise climb rate": 3900,
-                "Landing descend rate": 3200
+                "Landing descend rate": 3200,
+                "Fan blade diameter": "74.1 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "25.8-28.0"
             },
             "RB211-535E4-C": {
                 "Manufacturer": "Rolls-Royce",
@@ -7566,7 +8026,10 @@ export const airplane_comercial = {
                 "Climb rate": 4300,
                 "Descend rate": 3600,
                 "Cruise climb rate": 4000,
-                "Landing descend rate": 3300
+                "Landing descend rate": 3300,
+                "Fan blade diameter": "74.1 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "25.8-28.0"
             }
         },
         "Other Details": {
@@ -7672,7 +8135,10 @@ export const airplane_comercial = {
                 "Climb rate": 4400,
                 "Descend rate": 3700,
                 "Cruise climb rate": 4100,
-                "Landing descend rate": 3400
+                "Landing descend rate": 3400,
+                "Fan blade diameter": "94 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "32.7"
             }
         },
         "Other Details": {
@@ -7778,7 +8244,10 @@ export const airplane_comercial = {
                 "Climb rate": 4500,
                 "Descend rate": 3800,
                 "Cruise climb rate": 4200,
-                "Landing descend rate": 3500
+                "Landing descend rate": 3500,
+                "Fan blade diameter": "94 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "32.7"
             }
         },
         "Other Details": {
@@ -7884,7 +8353,10 @@ export const airplane_comercial = {
                 "Climb rate": 4600,
                 "Descend rate": 3900,
                 "Cruise climb rate": 4300,
-                "Landing descend rate": 3600
+                "Landing descend rate": 3600,
+                "Fan blade diameter": "94 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "32.7"
             }
         },
         "Other Details": {
@@ -7990,7 +8462,10 @@ export const airplane_comercial = {
                 "Climb rate": 4700,
                 "Descend rate": 4000,
                 "Cruise climb rate": 4400,
-                "Landing descend rate": 3700
+                "Landing descend rate": 3700,
+                "Fan blade diameter": "94 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "32.7"
             }
         },
         "Other Details": {
@@ -8096,7 +8571,10 @@ export const airplane_comercial = {
                 "Climb rate": 4800,
                 "Descend rate": 4100,
                 "Cruise climb rate": 4500,
-                "Landing descend rate": 3800
+                "Landing descend rate": 3800,
+                "Fan blade diameter": "94 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "32.7"
             },
             "CF6-80C2B8F": {
                 "Manufacturer": "General Electric",
@@ -8111,7 +8589,10 @@ export const airplane_comercial = {
                 "Climb rate": 4900,
                 "Descend rate": 4200,
                 "Cruise climb rate": 4600,
-                "Landing descend rate": 3900
+                "Landing descend rate": 3900,
+                "Fan blade diameter": "93 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "30.4"
             }
         },
         "Other Details": {
@@ -8217,7 +8698,10 @@ export const airplane_comercial = {
                 "Climb rate": 5000,
                 "Descend rate": 4300,
                 "Cruise climb rate": 4700,
-                "Landing descend rate": 4000
+                "Landing descend rate": 4000,
+                "Fan blade diameter": "94 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "32.7"
             },
             "CF6-80C2B8F": {
                 "Manufacturer": "General Electric",
@@ -8232,7 +8716,10 @@ export const airplane_comercial = {
                 "Climb rate": 5100,
                 "Descend rate": 4400,
                 "Cruise climb rate": 4800,
-                "Landing descend rate": 4100
+                "Landing descend rate": 4100,
+                "Fan blade diameter": "93 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "30.4"
             }
         },
         "Other Details": {
@@ -8338,7 +8825,10 @@ export const airplane_comercial = {
                 "Climb rate": 5200,
                 "Descend rate": 4500,
                 "Cruise climb rate": 4900,
-                "Landing descend rate": 4200
+                "Landing descend rate": 4200,
+                "Fan blade diameter": "123 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "42.4"
             },
             "PW4077": {
                 "Manufacturer": "Pratt & Whitney",
@@ -8353,7 +8843,10 @@ export const airplane_comercial = {
                 "Climb rate": 5300,
                 "Descend rate": 4600,
                 "Cruise climb rate": 5000,
-                "Landing descend rate": 4300
+                "Landing descend rate": 4300,
+                "Fan blade diameter": "112 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "43.9"
             }
         },
         "Other Details": {
@@ -8459,7 +8952,10 @@ export const airplane_comercial = {
                 "Climb rate": 5400,
                 "Descend rate": 4700,
                 "Cruise climb rate": 5100,
-                "Landing descend rate": 4400
+                "Landing descend rate": 4400,
+                "Fan blade diameter": "123 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "42.4"
             },
             "PW4077": {
                 "Manufacturer": "Pratt & Whitney",
@@ -8474,7 +8970,10 @@ export const airplane_comercial = {
                 "Climb rate": 5500,
                 "Descend rate": 4800,
                 "Cruise climb rate": 5200,
-                "Landing descend rate": 4500
+                "Landing descend rate": 4500,
+                "Fan blade diameter": "112 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "43.9"
             }
         },
         "Other Details": {
@@ -8580,7 +9079,10 @@ export const airplane_comercial = {
                 "Climb rate": 5200,
                 "Descend rate": 4500,
                 "Cruise climb rate": 4900,
-                "Landing descend rate": 4200
+                "Landing descend rate": 4200,
+                "Fan blade diameter": "123 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "42.4"
             },
             "PW4077": {
                 "Manufacturer": "Pratt & Whitney",
@@ -8595,7 +9097,10 @@ export const airplane_comercial = {
                 "Climb rate": 5400,
                 "Descend rate": 4700,
                 "Cruise climb rate": 5100,
-                "Landing descend rate": 4400
+                "Landing descend rate": 4400,
+                "Fan blade diameter": "112 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "43.9"
             }
         },
         "Other Details": {
@@ -8701,7 +9206,10 @@ export const airplane_comercial = {
                 "Climb rate": 5300,
                 "Descend rate": 4600,
                 "Cruise climb rate": 5000,
-                "Landing descend rate": 4300
+                "Landing descend rate": 4300,
+                "Fan blade diameter": "128 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "42.4"
             }
         },
         "Other Details": {
@@ -8807,7 +9315,10 @@ export const airplane_comercial = {
                 "Climb rate": 5400,
                 "Descend rate": 4700,
                 "Cruise climb rate": 5100,
-                "Landing descend rate": 4400
+                "Landing descend rate": 4400,
+                "Fan blade diameter": "128 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "42.4"
             }
         },
         "Other Details": {
@@ -8906,7 +9417,10 @@ export const airplane_comercial = {
                 "Climb rate": 5200,
                 "Descend rate": 4500,
                 "Cruise climb rate": 4900,
-                "Landing descend rate": 4200
+                "Landing descend rate": 4200,
+                "Fan blade diameter": "128 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "42.4"
             }
         },
         "Other Details": {
@@ -9038,7 +9552,10 @@ export const airplane_comercial = {
                 "Climb rate": 5300,
                 "Descend rate": 4600,
                 "Cruise climb rate": 5000,
-                "Landing descend rate": 4300
+                "Landing descend rate": 4300,
+                "Fan blade diameter": "134 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "60"
             }
         },
         "Other Details": {
@@ -9141,7 +9658,10 @@ export const airplane_comercial = {
                 "Climb rate": 5400,
                 "Descend rate": 4700,
                 "Cruise climb rate": 5100,
-                "Landing descend rate": 4400
+                "Landing descend rate": 4400,
+                "Fan blade diameter": "111 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "58"
             },
             "Trent 1000": {
                 "Manufacturer": "Rolls-Royce",
@@ -9156,7 +9676,10 @@ export const airplane_comercial = {
                 "Climb rate": 2700,
                 "Descend rate": 2800,
                 "Cruise climb rate": 1500,
-                "Landing descend rate": 1500
+                "Landing descend rate": 1500,
+                "Fan blade diameter": "112 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "50"
             }
         },
         "Other Details": {
@@ -9282,7 +9805,10 @@ export const airplane_comercial = {
                 "Climb rate": 5500,
                 "Descend rate": 4800,
                 "Cruise climb rate": 5200,
-                "Landing descend rate": 4500
+                "Landing descend rate": 4500,
+                "Fan blade diameter": "111 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "58"
             },
             "Trent 1000": {
                 "Manufacturer": "Rolls-Royce",
@@ -9297,7 +9823,10 @@ export const airplane_comercial = {
                 "Climb rate": 2700,
                 "Descend rate": 2800,
                 "Cruise climb rate": 1500,
-                "Landing descend rate": 1500
+                "Landing descend rate": 1500,
+                "Fan blade diameter": "112 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "50"
             }
         },
         "Other Details": {

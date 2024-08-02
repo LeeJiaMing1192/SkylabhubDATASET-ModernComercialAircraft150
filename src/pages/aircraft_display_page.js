@@ -50,9 +50,9 @@ function NewPage(){
             <li>Entered Service: <span class="data-value">{choosed_aircraft["General Information"]["Entered Service"]}</span></li>
             <li>Type: <span class="data-value">{choosed_aircraft["General Information"]["Type"]}</span></li>
             <li>Engine Type: <span class="data-value">{choosed_aircraft["General Information"]["Engine Type"]}</span></li>
-            <li>Number of engines: <span class="data-value">{choosed_aircraft["General Information"]["number of engines"]}</span></li> <li>Price tag: <span class="data-value">{choosed_aircraft["General Information"]["price"]}</span></li>
+            <li>Number of engines: <span class="data-value">{choosed_aircraft["General Information"]["number of engines"]}</span></li> <li>Price tag: <span class="data-value">{choosed_aircraft["General Information"]["Price"]}</span></li>
             <li>Fly range category: <span class="data-value">{choosed_aircraft["General Information"]["Fly range category"]}</span></li>
-            <li>Seat config: <span class="data-value">{choosed_aircraft["General Information"]["seat config"][0]}</span></li> ```
+            <li>Seat configuration: <span class="data-value">{choosed_aircraft["General Information"]["seat config"][0]}</span></li>
             </ul>
         </div>
         <div class="details">
@@ -124,6 +124,9 @@ function NewPage(){
         <th>Max descend rate</th>
         <th>Cruise climb rate</th>
         <th>Landing descend rate</th>
+        <th>Pressure ratio</th>
+        <th>Fan diameter</th>
+        <th>Fuel type</th>
       </tr>
     </thead>
     <tbody id="collumns-engine-valuess">
@@ -142,6 +145,9 @@ function NewPage(){
         <td>{String(choosed_aircraft["Engines"][single_engine]["Descend rate"])} ft/min</td>
         <td>{String(choosed_aircraft["Engines"][single_engine]["Cruise climb rate"])} ft/min</td>
         <td>{String(choosed_aircraft["Engines"][single_engine]["Landing descend rate"])} ft/meet</td>
+        <td>{String(choosed_aircraft["Engines"][single_engine]["Pressure ratio"])} Pa</td>
+        <td>{String(choosed_aircraft["Engines"][single_engine]["Fan blade diameter"])}</td>
+        <td>{String(choosed_aircraft["Engines"][single_engine]["Fuel type"])}</td>
       </tr>)}
       </tbody>
   </table>
