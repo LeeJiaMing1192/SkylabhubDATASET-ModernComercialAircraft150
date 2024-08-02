@@ -38,16 +38,16 @@ function Creator_page(){
                 </div>
             </nav>
             <div className="About-creator">
-                <img src={gia_minh_img}></img>
+                <img src={gia_minh_img} className="creator_img"></img>
                 <h1>Lê Gia Minh</h1>
                 <h2>School : Lawrence S.Ting school</h2>
-                <h2>Contact info: 2106057@lsts.edu.</h2>
+                <h2>Contact info: 2106057@lsts.edu.vn</h2>
                 <h2>Contact info (personal email): legiaminhoffice@gmail.com</h2>
 
-                <img src={minh_hien_img}></img>
+                <img src={minh_hien_img} className="creator_img"></img>
                 <h1>Lê Minh Hiển</h1>
                 <h2>School : Lawrence S.Ting school</h2>
-                <h2>Contact info: 2106193@lsts.edu.</h2>
+                <h2>Contact info: 2106193@lsts.edu.vn</h2>
                 <h2>Contact info (personal email): minhhienle_tomas333@gmail.com</h2>
             </div>
 

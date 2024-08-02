@@ -155,6 +155,13 @@ body {
   .bottom-end{
     height: 100px;
   }
+  .creator_img{
+    max-width: 600px;
+    max-height: 400px;
+  }
+  .about_creator_text{
+    color: white;
+  }
   }
 
 
@@ -278,5 +285,13 @@ body {
     border-collapse: collapse;
     display: table; /* Necessary for proper table layout */
   }
+  
+.creator_img{
+  max-width: 600px;
+  max-height: 400px;
+}
+.about_creator_text{
+  color: white;
+}
   }
   

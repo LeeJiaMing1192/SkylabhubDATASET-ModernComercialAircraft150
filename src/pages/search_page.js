@@ -144,6 +144,11 @@ function Main_page() {
 
         
     };
+    const go_back_about = () =>{
+        update_searched_data(String("Airbus A220-100"))
+        updateData(String("Airbus A220-100"))
+        navigate("/about")
+    }   
     useEffect(() => {
       handleSearchButtonClick();
       }, []);
@@ -168,6 +173,10 @@ function Main_page() {
                     <div id="search-icon-container">
                     <img id="search_icon"  onClick={handleSearchButtonClick} src={search_icon}></img>
                     </div>
+                </div>
+                {/* <h3 className="about_creator_text"><b>V1.4.2</b></h3> */}
+                <div>
+                    <h2 onClick={() => go_back_about()} className="about_creator_text"><b>About creator</b></h2>
                 </div>
             </nav>
             <div id="search-container">
