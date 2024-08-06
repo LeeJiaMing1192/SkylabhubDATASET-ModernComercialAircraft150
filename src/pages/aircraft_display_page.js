@@ -80,7 +80,7 @@ function NewPage(){
   <div class="details" id="performance">
     <h3>Performance</h3>
     <ul>
-      <li>Fuel Capacity (kg): <span class="data-value">{choosed_aircraft["Performance"]["Fuel Capacity"]}</span></li>
+      <li>Fuel Capacity (kg): <span class="data-value">{choosed_aircraft["Performance"]["Fuel Capacity"]} litres</span></li>
       <li>Range (nautical miles): <span class="data-value">{choosed_aircraft["Performance"]["Range"]}</span></li>
       <li>Flight Ceiling (feet): <span class="data-value">{choosed_aircraft["Performance"]["Flight Ceiling"]}</span></li>
       <li>Takeoff Distance (m): <span class="data-value">{choosed_aircraft["Performance"]["Takeoff Distance"]}</span></li>

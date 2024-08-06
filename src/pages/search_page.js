@@ -159,7 +159,7 @@ function Main_page() {
     }
     return ( 
         <div>
-            <nav className="nav-bar">
+            <nav className="nav-bar">   
                 <div className="nav-bar-brand">
                   {/* <img id="menu-logo" src={Menu_logo}></img> */}
            

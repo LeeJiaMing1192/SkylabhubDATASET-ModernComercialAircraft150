@@ -61,7 +61,7 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "63.1 tons"
         },
         "Performance": {
-            "Fuel Capacity": "21,805 kg",
+            "Fuel Capacity": 21805,
             "Range": "3,450 nautical miles",
             "Flight Ceiling": "41,000 feet",
             "Takeoff Distance": "1,463 m",
@@ -70,7 +70,7 @@ export const airplane_comercial = {
                 "Max": 135,
                 "Typical": "100-120"
             },
-            "Cargo Capacity": "23.7 m",
+            "Cargo Capacity": 23.7,
             "Avionics": {
                 "FMS": "Yes",
                 "EFIS": "Yes",
@@ -97,6 +97,7 @@ export const airplane_comercial = {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "PW1500G",
                 "Thrust": "23,300 lbf",
+        
                 "pressure_ratio": 5.4,
                 "engine_width": "68 in",
                 "engine_length": "156 in",
@@ -177,7 +178,7 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "70.9 tons"
         },
         "Performance": {
-            "Fuel Capacity": "21,805 kg",
+            "Fuel Capacity": 21508,
             "Range": "3,450 nautical miles",
             "Flight Ceiling": "41,000 feet",
             "Takeoff Distance": "1,463 m",
@@ -186,7 +187,7 @@ export const airplane_comercial = {
                 "Max": 160,
                 "Typical": "120-150"
             },
-            "Cargo Capacity": "31.6 m",
+            "Cargo Capacity": 28,
             "Avionics": {
                 "FMS": "Yes",
                 "EFIS": "Yes",
@@ -213,7 +214,6 @@ export const airplane_comercial = {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "PW1500G",
                 "Thrust": "23,300 lbf",
-
                 "fan_diameter": "81 in",
                 "num_fan_blades": 18,
                 "max_operating_temp": "1,600 \u00c2\u00b0F",
@@ -298,7 +298,7 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "142.0 tons"
         },
         "Performance": {
-            "Fuel Capacity": "70,000 kg",
+            "Fuel Capacity": 43994,
             "Range": "2,200 nautical miles",
             "Flight Ceiling": "35,000 feet",
             "Takeoff Distance": "2,500 m",
@@ -307,7 +307,7 @@ export const airplane_comercial = {
                 "Max": 336,
                 "Typical": "220-280"
             },
-            "Cargo Capacity": "14.5 tons",
+            "Cargo Capacity": 82.5,
             "Avionics": {
                 "FMS": "No",
                 "EFIS": "No",
@@ -352,7 +352,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 1200,
                 "Fan blade diameter": "93.4 inches",
                 "Fuel type": "Jet A",
-                "Pressure ratio": "23.4-26.7"
+                "Pressure ratio": "26.7:1"
             },
             "CF6-50C2": {
                 "Manufacturer": "General Electric",
@@ -376,7 +376,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 1300,
                 "Fan blade diameter": "86.4 inches",
                 "Fuel type": "Jet A",
-                "Pressure ratio": "29.3"
+                "Pressure ratio": "29.3:1"
             }
         },
         "Other Details": {
@@ -442,7 +442,7 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "142.0 tons"
         },
         "Performance": {
-            "Fuel Capacity": "70,000 kg",
+            "Fuel Capacity": 62000,
             "Range": "2,900 nautical miles",
             "Flight Ceiling": "35,000 feet",
             "Takeoff Distance": "2,300 m",
@@ -451,7 +451,7 @@ export const airplane_comercial = {
                 "Max": 336,
                 "Typical": "220-280"
             },
-            "Cargo Capacity": "18.0 tons",
+            "Cargo Capacity": 140.25,
             "Avionics": {
                 "FMS": "No",
                 "EFIS": "No",
@@ -496,7 +496,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 1200,
                 "Fan blade diameter": "93.4 inches",
                 "Fuel type": "Jet A",
-                "Pressure ratio": "23.4-26.7"
+                "Pressure ratio": "26.7:1"
             }
         },
         "Other Details": {
@@ -563,8 +563,8 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "171.7 tons"
         },
         "Performance": {
-            "Fuel Capacity": "68,150 kg",
-            "Range": "4,050 nautical miles",
+            "Fuel Capacity": 68150,
+            "Range": "4050 nautical miles",
             "Flight Ceiling": "35,000 feet",
             "Takeoff Distance": "2,300 m",
             "Landing Distance": "1,635 m",
@@ -572,7 +572,7 @@ export const airplane_comercial = {
                 "Max": 345,
                 "Typical": "210-250"
             },
-            "Cargo Capacity": "18.0 tons",
+            "Cargo Capacity": 0,
             "Avionics": {
                 "FMS": "No",
                 "EFIS": "No",
@@ -617,7 +617,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 1400,
                 "Fan blade diameter": "93 inches",
                 "Fuel type": "Jet A",
-                "Pressure ratio": "30.4"
+                "Pressure ratio": "30.4:1"
             },
             "CF6-80C2A1": {
                 "Manufacturer": "General Electric",
@@ -641,7 +641,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 1300,
                 "Fan blade diameter": "93 inches",
                 "Fuel type": "Jet A",
-                "Pressure ratio": "30.4"
+                "Pressure ratio": "30.4:1"
             },
             "PW4158": {
                 "Manufacturer": "Pratt & Whitney",
@@ -665,7 +665,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 1200,
                 "Fan blade diameter": "94 inches",
                 "Fuel type": "Jet A",
-                "Pressure ratio": "27.5-32.3"
+                "Pressure ratio": "32.3:1"
             }
         },
         "Other Details": {
@@ -731,8 +731,8 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "142.0 tons"
         },
         "Performance": {
-            "Fuel Capacity": "68,150 kg",
-            "Range": "4,300 nautical miles",
+            "Fuel Capacity": 61070,
+            "Range": "4300 nautical miles",
             "Flight Ceiling": "41,100 feet",
             "Takeoff Distance": "1,860 m",
             "Landing Distance": "1,480 m",
@@ -785,7 +785,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 1300,
                 "Fan blade diameter": "93.4 inches",
                 "Fuel type": "Jet A",
-                "Pressure ratio": "23.4-26.7"
+                "Pressure ratio": "26.7:1"
             },
             "CF6-80A3": {
                 "Manufacturer": "General Electric",
@@ -809,7 +809,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 1200,
                 "Fan blade diameter": "86.4 inches",
                 "Fuel type": "Jet A",
-                "Pressure ratio": "29.3"
+                "Pressure ratio": "29.3:1"
             },
             "CF6-80C2A2": {
                 "Manufacturer": "General Electric",
@@ -833,7 +833,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 1300,
                 "Fan blade diameter": "93 inches",
                 "Fuel type": "Jet A",
-                "Pressure ratio": "30.4"
+                "Pressure ratio": "30.4:1"
             },
             "CF6-80C2A8": {
                 "Manufacturer": "General Electric",
@@ -857,7 +857,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 1300,
                 "Fan blade diameter": "93 inches",
                 "Fuel type": "Jet A",
-                "Pressure ratio": "30.4"
+                "Pressure ratio": "30.4:1"
             },
             "PW4152": {
                 "Manufacturer": "Pratt & Whitney",
@@ -881,7 +881,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 1200,
                 "Fan blade diameter": "94 inches",
                 "Fuel type": "Jet A",
-                "Pressure ratio": "27.5-32.3"
+                "Pressure ratio": "32.3:1"
             },
             "PW4156": {
                 "Manufacturer": "Pratt & Whitney",
@@ -905,7 +905,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 1200,
                 "Fan blade diameter": "94 inches",
                 "Fuel type": "Jet A",
-                "Pressure ratio": "27.5-32.3"
+                "Pressure ratio": "32.3:1"
             }
         },
         "Other Details": {
@@ -971,7 +971,7 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "164.0 tons"
         },
         "Performance": {
-            "Fuel Capacity": "68150 kg",
+            "Fuel Capacity": 61070,
             "Range": "5150 nautical miles",
             "Flight Ceiling": "41100 feet",
             "Takeoff Distance": "2500 m",
@@ -1025,7 +1025,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 4200,
                 "Fan blade diameter": "93.4 inches",
                 "Fuel type": "Jet A",
-                "Pressure ratio": "23.4-26.7"
+                "Pressure ratio": "26.7:1"
             },
             "CF6-80A3": {
                 "Manufacturer": "General Electric",
@@ -1049,7 +1049,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 4300,
                 "Fan blade diameter": "86.4 inches",
                 "Fuel type": "Jet A",
-                "Pressure ratio": "29.3"
+                "Pressure ratio": "29.3:1"
             },
             "CF6-80C2A2": {
                 "Manufacturer": "General Electric",
@@ -1073,7 +1073,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 4400,
                 "Fan blade diameter": "93 inches",
                 "Fuel type": "Jet A",
-                "Pressure ratio": "30.4"
+                "Pressure ratio": "30.4:1"
             },
             "CF6-80C2A8": {
                 "Manufacturer": "General Electric",
@@ -1097,7 +1097,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 4500,
                 "Fan blade diameter": "93 inches",
                 "Fuel type": "Jet A",
-                "Pressure ratio": "30.4"
+                "Pressure ratio": "30.4:1"
             },
             "PW4152": {
                 "Manufacturer": "Pratt & Whitney",
@@ -1121,7 +1121,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 4600,
                 "Fan blade diameter": "94 inches",
                 "Fuel type": "Jet A",
-                "Pressure ratio": "27.5-32.3"
+                "Pressure ratio": "32.3:1"
             },
             "PW4156": {
                 "Manufacturer": "Pratt & Whitney",
@@ -1145,7 +1145,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 4700,
                 "Fan blade diameter": "94 inches",
                 "Fuel type": "Jet A",
-                "Pressure ratio": "27.5-32.3"
+                "Pressure ratio": "32.3:1"
             }
         },
         "Other Details": {
@@ -1211,7 +1211,7 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "68.0 tons"
         },
         "Performance": {
-            "Fuel Capacity": "23,860 kg",
+            "Fuel Capacity": 23860,
             "Range": "3,100 nautical miles",
             "Flight Ceiling": "39,800 feet",
             "Takeoff Distance": "1,860 m",
@@ -1265,7 +1265,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 1200,
                 "Fan blade diameter": "68.3 inches",
                 "Fuel type": "Jet A",
-                "Pressure ratio": "30.4"
+                "Pressure ratio": "30.4:1"
             },
             "PW6000": {
                 "Manufacturer": "Pratt & Whitney",
@@ -1289,7 +1289,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 1300,
                 "Fan blade diameter": "56.5 inches",
                 "Fuel type": "Jet A",
-                "Pressure ratio": "26.1 - 28.2"
+                "Pressure ratio": "28.2:1"
             }
         },
         "Other Details": {
@@ -1355,7 +1355,7 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "75.5 tons"
         },
         "Performance": {
-            "Fuel Capacity": "23,860 kg",
+            "Fuel Capacity": 24210,
             "Range": "3,700 nautical miles",
             "Flight Ceiling": "41,100 feet",
             "Takeoff Distance": "1,950 m",
@@ -1403,7 +1403,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 1300,
                 "Fan blade diameter": "68.3 inches",
                 "Fuel type": "Jet A",
-                "Pressure ratio": "30.4"
+                "Pressure ratio": "30.4:1"
             },
             "IAE V2500-A5": {
                 "Manufacturer": "International Aero Engines",
@@ -1504,7 +1504,7 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "75.50 tons"
         },
         "Performance": {
-            "Fuel Capacity": "26,730 kg",
+            "Fuel Capacity": 26730,
             "Range": "6,850 NM",
             "Flight Ceiling": "39,000 feet",
             "Takeoff Distance": "1,950 m",
@@ -1626,7 +1626,7 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "77.0 tons"
         },
         "Performance": {
-            "Fuel Capacity": "24,210 kg",
+            "Fuel Capacity": 29600,
             "Range": "3,300 nautical miles",
             "Flight Ceiling": "39,100 feet",
             "Takeoff Distance": "2,090 m",
@@ -1674,7 +1674,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 1500,
                 "Fan blade diameter": "68.3 inches",
                 "Fuel type": "Jet A",
-                "Pressure ratio": "30.4"
+                "Pressure ratio": "30.4:1"
             },
             "IAE V2500": {
                 "Manufacturer": "International Aero Engines",
@@ -1757,7 +1757,7 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "79.0 tons"
         },
         "Performance": {
-            "Fuel Capacity": "26,730 kg",
+            "Fuel Capacity": 26730,
             "Range": "3,300 nautical miles",
             "Flight Ceiling": "39,100 feet",
             "Takeoff Distance": "2,090 m",
@@ -1888,7 +1888,7 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "83.0 tons"
         },
         "Performance": {
-            "Fuel Capacity": "23,700 kg",
+            "Fuel Capacity": 30030,
             "Range": "2,300 nautical miles",
             "Flight Ceiling": "39,100 feet",
             "Takeoff Distance": "2,090 m",
@@ -1936,7 +1936,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 1800,
                 "Fan blade diameter": "68.3 inches",
                 "Fuel type": "Jet A",
-                "Pressure ratio": "30.4"
+                "Pressure ratio": "30.4:1"
             },
             "CFM56-5B2": {
                 "Manufacturer": "CFM International",
@@ -1954,7 +1954,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 1700,
                 "Fan blade diameter": "68.3 inches",
                 "Fuel type": "Jet A",
-                "Pressure ratio": "30.4"
+                "Pressure ratio": "30.4:1"
             },
             "V2530-A5": {
                 "Manufacturer": "International Aero Engines (IAE)",
@@ -2037,7 +2037,7 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "89.0 tons"
         },
         "Performance": {
-            "Fuel Capacity": "24,050 kg",
+            "Fuel Capacity": 30030,
             "Range": "3,200 nautical miles",
             "Flight Ceiling": "39,100 feet",
             "Takeoff Distance": "2,090 m",
@@ -2085,7 +2085,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 1800,
                 "Fan blade diameter": "68.3 inches",
                 "Fuel type": "Jet A",
-                "Pressure ratio": "30.4"
+                "Pressure ratio": "30.4:1"
             },
             "V2533-A5": {
                 "Manufacturer": "IAE",
@@ -2168,7 +2168,7 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "97.0 tons"
         },
         "Performance": {
-            "Fuel Capacity": "32,940 kg",
+            "Fuel Capacity": 32940,
             "Range": "4,000 nautical miles",
             "Flight Ceiling": "39,100 feet",
             "Takeoff Distance": "2,090 m",
@@ -2299,7 +2299,7 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "97.00 tons"
         },
         "Performance": {
-            "Fuel Capacity": "32,940 kg",
+            "Fuel Capacity": 26730,
             "Range": "7,400 km",
             "Flight Ceiling": "39,000 feet",
             "Takeoff Distance": "2,590 meters",
@@ -2425,7 +2425,7 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "101 tons"
         },
         "Performance": {
-            "Fuel Capacity": "32,940 kg",
+            "Fuel Capacity": 32940,
             "Range": "4700 nautical miles",
             "Flight Ceiling": "39,800 feet",
             "Takeoff Distance": "2,560 meters",
@@ -2548,7 +2548,7 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "233.0 tons"
         },
         "Performance": {
-            "Fuel Capacity": "97,530 kg",
+            "Fuel Capacity": 97530,
             "Range": "4,000 nautical miles",
             "Flight Ceiling": "41,000 feet",
             "Takeoff Distance": "2,500 m",
@@ -2583,7 +2583,7 @@ export const airplane_comercial = {
             "CF6-80E1": {
                 "Manufacturer": "General Electric",
                 "Model": "CF6-80E1",
-                "Thrust": "67,500 lbs",
+                "Thrust": "67,500 lbf",
                 "Bypass ratio": "5.3",
                 "Fan stage": "Varies (depending on specific variant)",
                 "Low-pressure compressor stages": "Varies (depending on specific variant)",
@@ -2596,7 +2596,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 1500,
                 "Fan blade diameter": "96 inches",
                 "Fuel type": "Jet A",
-                "Pressure ratio": "32.6"
+                "Pressure ratio": "32.6:1"
             },
             "PW4000": {
                 "Manufacturer": "Pratt & Whitney",
@@ -2614,7 +2614,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 1600,
                 "Fan blade diameter": "100 inches",
                 "Fuel type": "Jet A",
-                "Pressure ratio": "32.0-35.4"
+                "Pressure ratio": "35.4"
             },
             "Trent 700": {
                 "Manufacturer": "Rolls-Royce",
@@ -2698,7 +2698,7 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "242.0 tons"
         },
         "Performance": {
-            "Fuel Capacity": "97,530 kg",
+            "Fuel Capacity": 97530,
             "Range": "6,340 nautical miles",
             "Flight Ceiling": "41,000 feet",
             "Takeoff Distance": "2,500 m",
@@ -2760,7 +2760,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 1500,
                 "Fan blade diameter": "100 inches",
                 "Fuel type": "Jet A",
-                "Pressure ratio": "32.0-35.4"
+                "Pressure ratio": "35.4"
             },
             "Trent 700": {
                 "Thrust": "64,000-72,000 lbf",
@@ -2842,7 +2842,7 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "251.0 tons"
         },
         "Performance": {
-            "Fuel Capacity": "97,530 kg",
+            "Fuel Capacity":  139090,
             "Range": "8,150 nautical miles",
             "Flight Ceiling": "41,000 feet",
             "Takeoff Distance": "2,500 m",
@@ -2955,7 +2955,7 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "251.0 tons"
         },
         "Performance": {
-            "Fuel Capacity": "139,090 liters",
+            "Fuel Capacity": 139090,
             "Range": "7,200 nautical miles",
             "Flight Ceiling": "41,450 feet",
             "Takeoff Distance": "2,500 m",
@@ -3069,7 +3069,7 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "275 tons"
         },
         "Performance": {
-            "Fuel Capacity": "155,040 liters",
+            "Fuel Capacity": 155040,
             "Range": "6,700 nautical miles",
             "Flight Ceiling": "41,000 feet",
             "Takeoff Distance": "3,000 m",
@@ -3182,7 +3182,7 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "276.5 tons"
         },
         "Performance": {
-            "Fuel Capacity": "155,040 liters",
+            "Fuel Capacity": 155040,
             "Range": "7,300 nautical miles",
             "Flight Ceiling": "41,450 feet",
             "Takeoff Distance": "3,000 m",
@@ -3296,7 +3296,7 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "380 tons"
         },
         "Performance": {
-            "Fuel Capacity": "222,850 liters",
+            "Fuel Capacity": 204500,
             "Range": "9,000 nautical miles",
             "Flight Ceiling": "41,000 feet",
             "Takeoff Distance": "3,000 m",
@@ -3411,7 +3411,7 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "380 tons"
         },
         "Performance": {
-            "Fuel Capacity": "204,500 liters",
+            "Fuel Capacity": 204500,
             "Range": "7,800 nautical miles",
             "Flight Ceiling": "41,450 feet",
             "Takeoff Distance": "3,000 m",
@@ -3525,7 +3525,7 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "259 tons"
         },
         "Performance": {
-            "Fuel Capacity": "138,000 liters",
+            "Fuel Capacity": 138000,
             "Range": "8,245 nautical miles",
             "Flight Ceiling": "41,000 feet",
             "Takeoff Distance": "2,700 m",
@@ -3633,7 +3633,7 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "283 tons"
         },
         "Performance": {
-            "Fuel Capacity": "138,000 liters",
+            "Fuel Capacity": 138000,
             "Range": "8,300 nautical miles",
             "Flight Ceiling": "41,000 feet",
             "Takeoff Distance": "2,700 m",
@@ -3747,7 +3747,7 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "319 tons"
         },
         "Performance": {
-            "Fuel Capacity": "156,000 liters",
+            "Fuel Capacity": 156000,
             "Range": "8,700 nautical miles",
             "Flight Ceiling": "41,450 feet",
             "Takeoff Distance": "2,600 m",
@@ -3861,7 +3861,7 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "560 tons"
         },
         "Performance": {
-            "Fuel Capacity": "320,000 liters",
+            "Fuel Capacity": 320000,
             "Range": "8,000 nautical miles",
             "Flight Ceiling": "43,000 feet",
             "Takeoff Distance": "2,900 m",
@@ -3927,7 +3927,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 4400,
                 "Fan blade diameter": "116 inches",
                 "Fuel type": "Jet A",
-                "Pressure ratio": "36+"
+                "Pressure ratio": "36:"
             }
         },
         "Other Details": {
@@ -3994,7 +3994,7 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "521.6 tons"
         },
         "Performance": {
-            "Fuel Capacity": "320,245 liters",
+            "Fuel Capacity": 320245,
             "Range": "8,100 nautical miles",
             "Flight Ceiling": "43,000 feet",
             "Takeoff Distance": "2,950 m",
@@ -4042,7 +4042,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 2200,
                 "Fan blade diameter": "116 inches",
                 "Fuel type": "Jet A",
-                "Pressure ratio": "37-39:1"
+                "Pressure ratio": "39:1"
             }
         },
         "Other Details": {
@@ -4102,7 +4102,7 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "560 tons"
         },
         "Performance": {
-            "Fuel Capacity": "320,000 liters",
+            "Fuel Capacity": 320000,
             "Range": "8,000 nautical miles",
             "Flight Ceiling": "43,000 feet",
             "Takeoff Distance": "2,900 m",
@@ -4150,7 +4150,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 2100,
                 "Fan blade diameter": "116 inches",
                 "Fuel type": "Jet A",
-                "Pressure ratio": "37-39:1"
+                "Pressure ratio": "39:1"
             },
             "GP7200": {
                 "Manufacturer": "Engine Alliance",
@@ -4168,7 +4168,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 4400,
                 "Fan blade diameter": "116 inches",
                 "Fuel type": "Jet A",
-                "Pressure ratio": "36+"
+                "Pressure ratio": "36"
             }
         },
         "Other Details": {
@@ -4226,7 +4226,7 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "155 tons"
         },
         "Performance": {
-            "Fuel Capacity": "30,000 kg",
+            "Fuel Capacity": 91300,
             "Range": "1,501 nautical miles",
             "Flight Ceiling": "35,000 ft",
             "Takeoff Distance": "2,200 m",
@@ -4332,14 +4332,14 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "155 tons"
         },
         "Performance": {
-            "Fuel Capacity": "23,860 liters",
-            "Range": "892 nautical miles",
+            "Fuel Capacity": 23860,
+            "Range": "1500 nautical miles",
             "Flight Ceiling": "35,000 feet",
-            "Takeoff Distance": "Unknown",
-            "Landing Distance": "Unknown",
+            "Takeoff Distance": "1,950 m",
+            "Landing Distance": "1,176 m",
             "Passenger Capacity": {
-                "Max": "N/A",
-                "Typical": "N/A"
+                "Max": "2200 m",
+                "Typical": "2200 m"
             },
             "Cargo Capacity": "40 tons",
             "Avionics": {
@@ -4369,7 +4369,7 @@ export const airplane_comercial = {
                 "Model": "CF6-80C2A8",
                 "Thrust": "59,000 lbs",
                 "Bypass ratio": "5.5:1",
-                "Fan stage": "single-fanstage (93 inches)",
+                "Fan stage": "single-fanstage",
                 "Low-pressure compressor stages": "4",
                 "High-pressure compressor stages": "14",
                 "High-pressure turbine stages": "5",
@@ -4436,11 +4436,11 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "6.2 tons"
         },
         "Performance": {
-            "Fuel Capacity": "Unknown",
-            "Range": "750 miles",
+            "Fuel Capacity": 1032,
+            "Range": "800 nautical miles",
             "Flight Ceiling": "11,500 feet",
-            "Takeoff Distance": "243 meter",
-            "Landing Distance": "Unknown",
+            "Takeoff Distance": "244 m",
+            "Landing Distance": "366 m",
             "Passenger Capacity": {
                 "Max": "10",
                 "Typical": "Unknown"
@@ -4543,7 +4543,7 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "19,051 kg"
         },
         "Performance": {
-            "Fuel Capacity": "1,030 liters",
+            "Fuel Capacity": 1030,
             "Range": "1,521 nautical miles",
             "Flight Ceiling": "7,100 m",
             "Takeoff Distance": "243 meters",
@@ -4597,7 +4597,7 @@ export const airplane_comercial = {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "R-2180-E Twin Hornet",
                 "Thrust": "1,000 hp",
-                "Bypass ratio": "N/A",
+                "Bypass ratio": "No bypass ratio",
                 "Fan stage": "Single-stage fan",
                 "Low-pressure compressor stages": "6",
                 "High-pressure compressor stages": "7",
@@ -4671,9 +4671,9 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "171,000 kg"
         },
         "Performance": {
-            "Fuel Capacity": "1,030 liters",
-            "Range": "7,040 km",
-            "Flight Ceiling": "7,100 m",
+            "Fuel Capacity": 1030,
+            "Range": "3,750 nautical miles",
+            "Flight Ceiling": "39,000 feet",
             "Takeoff Distance": "243 meters",
             "Landing Distance": "243 meters",
             "Passenger Capacity": {
@@ -4762,7 +4762,7 @@ export const airplane_comercial = {
                 "2-3-2"
             ],
             "aircraft_image": [
-                "https://upload.wikimedia.org/wikipedia/commons/0/06/Boeing_707-321B_Pan_Am_Freer.jpg",
+                "https://th.bing.com/th/id/OIP.94zkAxVIybInwwepDuNesgHaE9?rs=1&pid=ImgDetMain",
                 "https://live.staticflickr.com/4097/4889903460_d55434b901_b.jpg"
             ],
             "number of engines": "4",
@@ -4776,13 +4776,13 @@ export const airplane_comercial = {
             "Max Cabin Width": "3.2 m"
         },
         "Weights": {
-            "Max Landing Weight": "257,000 lb (116.6 tons)",
-            "Empty Weight": "146,400 lb (66.4 tons)",
-            "Max Takeoff Weight": "333,600 lb (151.2 tons)"
+            "Max Landing Weight": "116.6 tons",
+            "Empty Weight": "66.4 tons",
+            "Max Takeoff Weight": "151.2 tons"
         },
         "Performance": {
-            "Fuel Capacity": "23,820 US gallons (90,200 liters)",
-            "Range": "3,750 nautical miles (6,940 km)",
+            "Fuel Capacity": 90200,
+            "Range": "3,750 nautical miles",
             "Flight Ceiling": "40,000 ft",
             "Takeoff Distance": "2,560 m",
             "Landing Distance": "1,830 m",
@@ -4829,7 +4829,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 1500,
                 "Fan blade diameter": "N/A",
                 "Fuel type": "JP-4 / JP-5",
-                "Pressure ratio": "N/A"
+                "Pressure ratio": "15.8:1"
             },
             "Conway turbofans": {
                 "Manufacturer": "Rolls-Royce",
@@ -4889,7 +4889,7 @@ export const airplane_comercial = {
                 "2-3-2"
             ],
             "aircraft_image": [
-                "https://upload.wikimedia.org/wikipedia/commons/a/aa/Cyprus_Airways_Boeing_720B_G-BCBB_LHR_1978-8-24.png",
+                "https://th.bing.com/th/id/OIP.iONvGmgo9a1HzO-2W6V_dQHaE_?rs=1&pid=ImgDetMain",
                 "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Museum_of_Flight_Boeing_707_cockpit.jpg/2560px-Museum_of_Flight_Boeing_707_cockpit.jpg"
             ],
             "number of engines": "4",
@@ -4903,12 +4903,12 @@ export const airplane_comercial = {
             "Max Cabin Width": "3.2 m"
         },
         "Weights": {
-            "Max Landing Weight": "116.6 tons)",
+            "Max Landing Weight": "116.6 tons",
             "Empty Weight": "66.4 tons",
             "Max Takeoff Weight": "151.2 tons"
         },
         "Performance": {
-            "Fuel Capacity": "23,820 US gallons (90,200 liters)",
+            "Fuel Capacity": 90200,
             "Range": "3,750 nautical miles",
             "Flight Ceiling": "40,000 ft ",
             "Takeoff Distance": "2,560 m",
@@ -4943,7 +4943,7 @@ export const airplane_comercial = {
             "JT3C turbojets": {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "JT3C-6",
-                "Thrust": "10,000 lb (44.5 kN)",
+                "Thrust": "10,000 lbf",
                 "Bypass ratio": "1.3",
                 "Fan stage": "N/A",
                 "Low-pressure compressor stages": "7",
@@ -4956,12 +4956,12 @@ export const airplane_comercial = {
                 "Landing descend rate": 1400,
                 "Fan blade diameter": "N/A",
                 "Fuel type": "JP-4 / JP-5",
-                "Pressure ratio": "N/A"
+                "Pressure ratio": "12.5:1"
             },
             "Conway turbofans": {
                 "Manufacturer": "Rolls-Royce",
                 "Model": "Conway RCo.12",
-                "Thrust": "17,000 lb (75.6 kN)",
+                "Thrust": "17,000 lbf",
                 "Bypass ratio": "1.3",
                 "Fan stage": "Single-stage fan",
                 "Low-pressure compressor stages": "7",
@@ -5016,7 +5016,7 @@ export const airplane_comercial = {
                 "2-3-2"
             ],
             "aircraft_image": [
-                "https://i.pinimg.com/564x/44/ce/32/44ce3222fd4ac09a6f84dc0b30f2209a.jpg",
+                "https://www.aviationphotocompany.com/img/s/v-10/p2304041788-3.jpg",
                 "https://photos.flightaware.com/photos/retriever/faf51bf55c9bba6383d5fed21a320196d65c7a03"
             ],
             "number of engines": "4",
@@ -5035,11 +5035,11 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "151,381 kg (333,600 lbs)"
         },
         "Performance": {
-            "Fuel Capacity": "58,398 kg",
-            "Range": "7,483 km ",
+            "Fuel Capacity": 90214,
+            "Range": "3,600 nautical miles",
             "Flight Ceiling": "37,500 ft",
-            "Takeoff Distance": "N/A",
-            "Landing Distance": "N/A",
+            "Takeoff Distance": "3,048 m",
+            "Landing Distance": "1,890 m",
             "Passenger Capacity": {
                 "Max": "189",
                 "Typical": "N/A"
@@ -5070,7 +5070,7 @@ export const airplane_comercial = {
             "JT3D turbojets": {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "JT3D-3B",
-                "Thrust": "80.1 kN (18,000 lbf)",
+                "Thrust": "18,000 lbf",
                 "Bypass ratio": "1.42:1",
                 "Fan stage": "2",
                 "Low-pressure compressor stages": "1",
@@ -5151,13 +5151,13 @@ export const airplane_comercial = {
             "Max Cabin Width": "2.44 m"
         },
         "Weights": {
-            "Max Landing Weight": "112,000 lb (51,000 kg)",
-            "Empty Weight": "68,278 lb (30,970 kg)",
-            "Max Takeoff Weight": "112,000 lb (51,000 kg)"
+            "Max Landing Weight": "51,000 kg",
+            "Empty Weight": "30,970 kg",
+            "Max Takeoff Weight": "51,000 kg"
         },
         "Performance": {
-            "Fuel Capacity": "US gallons or liters to kg",
-            "Range": "2,060 NM (3,815 km)",
+            "Fuel Capacity": 86000,
+            "Range": "2,060 nautical miles",
             "Flight Ceiling": "37,000 ft",
             "Takeoff Distance": "1,675  m",
             "Landing Distance": "1,415 m",
@@ -5191,7 +5191,7 @@ export const airplane_comercial = {
             "BR715": {
                 "Manufacturer": "Rolls-Royce",
                 "Model": "BR715",
-                "Thrust": "18,500 lbf (82.3 kN)",
+                "Thrust": "18,500 lbf",
                 "Bypass ratio": "4.6:1",
                 "Fan stage": "Single-stage fan",
                 "Low-pressure compressor stages": "4",
@@ -5204,7 +5204,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 1500,
                 "Fan blade diameter": "58 inches",
                 "Fuel type": "Jet A",
-                "Pressure ratio": "N/A"
+                "Pressure ratio": "15.8:1"
             }
         },
         "Other Details": {
@@ -5265,11 +5265,11 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "62.6 tons"
         },
         "Performance": {
-            "Fuel Capacity": "7,500 kg",
+            "Fuel Capacity": 90214,
             "Range": "2,060 nautical miles",
-            "Flight Ceiling": "37,000 feet",
-            "Takeoff Distance": "1,800 meters",
-            "Landing Distance": "1,600 meters",
+            "Flight Ceiling": "37,000 ft",
+            "Takeoff Distance": "1,800 m",
+            "Landing Distance": "1,600 m",
             "Passenger Capacity": {
                 "Max": "134",
                 "Typical": "106"
@@ -5300,7 +5300,7 @@ export const airplane_comercial = {
             "BR715": {
                 "Manufacturer": "Rolls-Royce",
                 "Model": "BR715",
-                "Thrust": "71.2 kN (16,000 lbf)",
+                "Thrust": "16,000 lbf",
                 "Bypass ratio": "5.5:1",
                 "Fan stage": "1",
                 "Low-pressure compressor stages": "4",
@@ -5313,7 +5313,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 1600,
                 "Fan blade diameter": "58 inches",
                 "Fuel type": "Jet A",
-                "Pressure ratio": "N/A"
+                "Pressure ratio": "15.8:1"
             }
         },
         "Other Details": {
@@ -5371,9 +5371,9 @@ export const airplane_comercial = {
         "Performance": {
             "Fuel Capacity": "20,000 kg",
             "Range": "2,250 nautical miles",
-            "Flight Ceiling": "37,000 feet",
-            "Takeoff Distance": "2,500 m",
-            "Landing Distance": "2,300 m",
+            "Flight Ceiling": "36,100 ft",
+            "Takeoff Distance": "2,530 m",
+            "Landing Distance": "2,341 m",
             "Passenger Capacity": {
                 "Max": "131",
                 "Typical": "106"
@@ -5417,7 +5417,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 1700,
                 "Fan blade diameter": "N/A",
                 "Fuel type": "JP-4 / JP-5",
-                "Pressure ratio": "N/A"
+                "Pressure ratio": "15.8:1"
             }
         },
         "Other Details": {
@@ -5473,11 +5473,11 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "77.11 tons"
         },
         "Performance": {
-            "Fuel Capacity": "20,000 kg",
-            "Range": "2,250 nautical miles",
-            "Flight Ceiling": "37,000 feet",
-            "Takeoff Distance": "2,500 m",
-            "Landing Distance": "2,300 m",
+            "Fuel Capacity": 37017,
+            "Range": "2,600 nautical miles",
+            "Flight Ceiling": "37,000 ft",
+            "Takeoff Distance": "3,048 m",
+            "Landing Distance": "1,143 m",
             "Passenger Capacity": {
                 "Max": "134",
                 "Typical": "106"
@@ -5521,7 +5521,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 1800,
                 "Fan blade diameter": "N/A",
                 "Fuel type": "JP-4 / JP-5",
-                "Pressure ratio": "N/A"
+                "Pressure ratio": "15.8:1"
             }
         },
         "Other Details": {
@@ -5578,10 +5578,10 @@ export const airplane_comercial = {
         },
         "Performance": {
             "Fuel Capacity": "4",
-            "Range": "1,720 NM",
-            "Flight Ceiling": "10,668 m",
+            "Range": "1,720 nautical miles",
+            "Flight Ceiling": "35,000 ft",
             "Takeoff Distance": "1,829 m",
-            "Landing Distance": "914 m",
+            "Landing Distance": "1,402 m",
             "Passenger Capacity": {
                 "Max": "124",
                 "Typical": "85-96"
@@ -5612,7 +5612,7 @@ export const airplane_comercial = {
             "JT8D-7": {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "JT8D-7",
-                "Thrust": "68.9 kN (15,500 lbf)",
+                "Thrust": "15,500 lbf",
                 "Bypass ratio": "1.3:1",
                 "Fan stage": "1",
                 "Low-pressure compressor stages": "6",
@@ -5625,7 +5625,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 1600,
                 "Fan blade diameter": "N/A",
                 "Fuel type": "JP-4 / JP-5",
-                "Pressure ratio": "N/A"
+                "Pressure ratio": "15.8:1"
             }
         },
         "Other Details": {
@@ -5689,8 +5689,8 @@ export const airplane_comercial = {
             "Fuel Capacity": "17,865 liters",
             "Range": "2,645 nautical miles",
             "Flight Ceiling": "37,000 ft",
-            "Takeoff Distance": "1,524 meters",
-            "Landing Distance": "1,067 meters",
+            "Takeoff Distance": "1,524 m",
+            "Landing Distance": "1,067 m",
             "Passenger Capacity": {
                 "Max": 136,
                 "Typical": 124
@@ -5726,7 +5726,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 1700,
                 "Fan blade diameter": "54 inches",
                 "Fuel type": "JP-4 / JP-5",
-                "Pressure ratio": "18.2 to 19.4"
+                "Pressure ratio": "19.4:1"
             }
         },
         "Other Details": {
@@ -5827,7 +5827,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 1800,
                 "Fan blade diameter": "60 inches",
                 "Fuel type": "Jet A",
-                "Pressure ratio": "4.8:1 to 5.1:1"
+                "Pressure ratio": "28.5:1"
             },
             "CFM563B2": {
                 "Manufacturer": "CFM International",
@@ -5845,7 +5845,7 @@ export const airplane_comercial = {
                 "Landing descend rate": 1900,
                 "Fan blade diameter": "60 inches",
                 "Fuel type": "Jet A",
-                "Pressure ratio": "4.8:1 to 5.1:1"
+                "Pressure ratio": "28.5:1"
             }
         },
         "Other Details": {
@@ -5906,11 +5906,11 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "56.74 tons"
         },
         "Performance": {
-            "Fuel Capacity": "17,865 liters",
-            "Range": "3,362 km",
+            "Fuel Capacity": 17865 ,
+            "Range": "2,800 nautical miles",
             "Flight Ceiling": "37,000 ft",
-            "Takeoff Distance": "1,524 meters",
-            "Landing Distance": "1,067 meters",
+            "Takeoff Distance": "1,524 m",
+            "Landing Distance": "1,067 m",
             "Passenger Capacity": {
                 "Max": 149,
                 "Typical": 128
@@ -6025,11 +6025,11 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "56.74 tons"
         },
         "Performance": {
-            "Fuel Capacity": "5,311 US Gal",
+            "Fuel Capacity": 20080,
             "Range": "2,950 nautical miles",
-            "Flight Ceiling": "37,000 feet",
-            "Takeoff Distance": "2,650 meters",
-            "Landing Distance": "1,400 meters",
+            "Flight Ceiling": "37,000 ft",
+            "Takeoff Distance": "2,650 m",
+            "Landing Distance": "1,400 m",
             "Passenger Capacity": {
                 "Max": 132,
                 "Typical": 108
@@ -6131,11 +6131,11 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "56.24 tons"
         },
         "Performance": {
-            "Fuel Capacity": "5,311 liters",
-            "Range": "5,000 km",
-            "Flight Ceiling": "12,497 meters",
-            "Takeoff Distance": "2,650 meters",
-            "Landing Distance": "1,400 meters",
+            "Fuel Capacity": 5311,
+            "Range": "3,235 nautical miles",
+            "Flight Ceiling": "41,000 ft",
+            "Takeoff Distance": "2,650 m",
+            "Landing Distance": "1,400 m",
             "Passenger Capacity": {
                 "Max": 149,
                 "Typical": 130
@@ -6232,11 +6232,11 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "60.33 tons"
         },
         "Performance": {
-            "Fuel Capacity": "20,000 kg",
-            "Range": "3,850 nautical miles",
-            "Flight Ceiling": "41,000 feet",
-            "Takeoff Distance": "1,800 meters",
-            "Landing Distance": "1,600 meters",
+            "Fuel Capacity": 26024,
+            "Range": "3,445 nautical miles",
+            "Flight Ceiling": "41,000 ft",
+            "Takeoff Distance": "1,800 m",
+            "Landing Distance": "1,400 m",
             "Passenger Capacity": {
                 "Max": 149,
                 "Typical": 126
@@ -6349,11 +6349,11 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "78.25 tons"
         },
         "Performance": {
-            "Fuel Capacity": "20,000 kg",
+            "Fuel Capacity": 27300,
             "Range": "3,850 nautical miles",
-            "Flight Ceiling": "12,497 meters",
-            "Takeoff Distance": "1,800 meters",
-            "Landing Distance": "1,600 meters",
+            "Flight Ceiling": "41,000 ft",
+            "Takeoff Distance": "1,800 m",
+            "Landing Distance": "1,600 m",
             "Passenger Capacity": {
                 "Max": "189",
                 "Typical": "162"
@@ -6466,11 +6466,11 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "78.25 tons"
         },
         "Performance": {
-            "Fuel Capacity": "20,000 kg",
+            "Fuel Capacity": 28527,
             "Range": "2,210 nautical miles",
-            "Flight Ceiling": "12,497 meters",
-            "Takeoff Distance": "1,800 meters",
-            "Landing Distance": "1,600 meters",
+            "Flight Ceiling": "43,100 ft",
+            "Takeoff Distance": "1,800 m",
+            "Landing Distance": "1,600 m",
             "Passenger Capacity": {
                 "Max": "220",
                 "Typical": "178"
@@ -6578,12 +6578,12 @@ export const airplane_comercial = {
             "Max Cabin Width": "3.54 m"
         },
         "Weights": {
-            "Max Landing Weight": "74,344 kg",
-            "Empty Weight": "47,617 kg",
-            "Max Takeoff Weight": "89,765 kg"
+            "Max Landing Weight": "74,344 tons",
+            "Empty Weight": "47,617  tons",
+            "Max Takeoff Weight": "89,765  tons"
         },
         "Performance": {
-            "Fuel Capacity": "25,000 US gal (94,635 liters)",
+            "Fuel Capacity": 94635,
             "Range": "3,500 nautical miles",
             "Flight Ceiling": "41,000 ft",
             "Takeoff Distance": "2,500 m",
@@ -6688,16 +6688,16 @@ export const airplane_comercial = {
             "Max Cabin Width": "6.1 m"
         },
         "Weights": {
-            "Max Landing Weight": "358,000 lbs (162,393 kg)",
-            "Empty Weight": "337,100 lbs (152,870 kg)",
-            "Max Takeoff Weight": "735,000 lbs (333,400 kg)"
+            "Max Landing Weight": "260 tons",
+            "Empty Weight": "152 tons",
+            "Max Takeoff Weight": "333 tons"
         },
         "Performance": {
-            "Fuel Capacity": "63,705 US gal (241,140 liters)",
-            "Range": "6,000 nautical miles (11,112 km)",
-            "Flight Ceiling": "45,100 ft (13,746 m)",
-            "Takeoff Distance": "10,649.48 ft (3,246 m)",
-            "Landing Distance": "6,167.90 ft (1,880 m)",
+            "Fuel Capacity": 241140,
+            "Range": "6,000 nautical miles",
+            "Flight Ceiling": "45,100 ft",
+            "Takeoff Distance": "3,246 m",
+            "Landing Distance": "1,880 m",
             "Passenger Capacity": {
                 "Max": "480",
                 "Typical": "366"
@@ -6796,16 +6796,16 @@ export const airplane_comercial = {
             "Max Cabin Width": "5.18 m"
         },
         "Weights": {
-            "Max Landing Weight": "833,000 lb (378,000 kg)",
-            "Empty Weight": "358,000 lb (162,400 kg)",
-            "Max Takeoff Weight": "833,000 lb (378,000 kg)"
+            "Max Landing Weight": "378 tons",
+            "Empty Weight": "162 tons",
+            "Max Takeoff Weight": "378 tons"
         },
         "Performance": {
-            "Fuel Capacity": "48,445 US gal (183,380 L)",
-            "Range": "6,560 nautical miles (12,150 km)",
-            "Flight Ceiling": "45,000 ft (13,715 m)",
-            "Takeoff Distance": "10,700 ft (3,261 m)",
-            "Landing Distance": "7,500 ft (2,286 m)",
+            "Fuel Capacity": 183380,
+            "Range": "6,560 nautical miles",
+            "Flight Ceiling": "45,000 ft",
+            "Takeoff Distance": "3,261 m",
+            "Landing Distance": "2,286 m",
             "Passenger Capacity": {
                 "Max": "366",
                 "Typical": "3-class configuration"
@@ -6836,7 +6836,7 @@ export const airplane_comercial = {
             "JT9D": {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "JT9D-7A",
-                "Thrust": "46,950 lbf (209 kN)",
+                "Thrust": "46,950 lbf",
                 "Bypass ratio": "5.2:1",
                 "Fan stage": 2,
                 "Low-pressure compressor stages": 4,
@@ -6854,7 +6854,7 @@ export const airplane_comercial = {
             "CF6": {
                 "Manufacturer": "General Electric",
                 "Model": "CF6-50E2",
-                "Thrust": "51,000 lbf (227 kN)",
+                "Thrust": "51,000 lbf",
                 "Bypass ratio": "4.5:1",
                 "Fan stage": 1,
                 "Low-pressure compressor stages": 4,
@@ -6923,16 +6923,16 @@ export const airplane_comercial = {
             "Max Cabin Width": "5.18 m"
         },
         "Weights": {
-            "Max Landing Weight": "833,000 lb (378,000 kg)",
-            "Empty Weight": "358,000 lb (162,400 kg)",
-            "Max Takeoff Weight": "833,000 lb (378,000 kg)"
+            "Max Landing Weight": "378 tons",
+            "Empty Weight": "162 tons",
+            "Max Takeoff Weight": "260 tons"
         },
         "Performance": {
-            "Fuel Capacity": "48,445 US gal (183,380 L)",
-            "Range": "6,560 nautical miles (12,150 km)",
-            "Flight Ceiling": "45,000 ft (13,715 m)",
-            "Takeoff Distance": "10,700 ft (3,261 m)",
-            "Landing Distance": "7,500 ft (2,286 m)",
+            "Fuel Capacity": 183380,
+            "Range": "6,330 nautical miles",
+            "Flight Ceiling": "45,000 ft",
+            "Takeoff Distance": "3,261 m",
+            "Landing Distance": "2,286 m",
             "Passenger Capacity": {
                 "Max": "366",
                 "Typical": "3-class configuration"
@@ -6963,7 +6963,7 @@ export const airplane_comercial = {
             "JT9D": {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "JT9D-7A",
-                "Thrust": "46,950 lbf (209 kN)",
+                "Thrust": "46,950 lbf",
                 "Bypass ratio": "5.2:1",
                 "Fan stage": 2,
                 "Low-pressure compressor stages": 4,
@@ -6981,7 +6981,7 @@ export const airplane_comercial = {
             "CF6": {
                 "Manufacturer": "General Electric",
                 "Model": "CF6-50E2",
-                "Thrust": "51,000 lbf (227 kN)",
+                "Thrust": "51,000 lbf",
                 "Bypass ratio": "4.5:1",
                 "Fan stage": 1,
                 "Low-pressure compressor stages": 4,
@@ -7050,16 +7050,15 @@ export const airplane_comercial = {
             "Max Cabin Width": "5.18 m"
         },
         "Weights": {
-            "Max Landing Weight": "833,000 lb (378,000 kg)",
-            "Empty Weight": "358,000 lb (162,400 kg)",
-            "Max Takeoff Weight": "833,000 lb (378,000 kg)"
+            "Max Landing Weight": "378 tons",
+            "Empty Weight": "162 tons",
+            "Max Takeoff Weight": "260 tons"
         },
         "Performance": {
-            "Fuel Capacity": "48,445 US gal (183,380 L)",
-            "Range": "13,491 km (7,284 nm)",
-            "Flight Ceiling": "45,000 ft (13,715 m)",
-            "Takeoff Distance": "3,261 m (10,700 ft)",
-            "Landing Distance": "2,286 m (7,500 ft)",
+            "Range": "6,330 nautical miles",
+            "Flight Ceiling": "45,000 ft",
+            "Takeoff Distance": "3,261 m",
+            "Landing Distance": "2,286 m",
             "Passenger Capacity": {
                 "Max": "416",
                 "Typical": "3-class layout"
@@ -7090,7 +7089,7 @@ export const airplane_comercial = {
             "PW4000": {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "PW4056",
-                "Thrust": "46,950 lbf (209 kN)",
+                "Thrust": "46,950 lbf",
                 "Bypass ratio": "5.2:1",
                 "Fan stage": 2,
                 "Low-pressure compressor stages": 4,
@@ -7108,7 +7107,7 @@ export const airplane_comercial = {
             "CF6": {
                 "Manufacturer": "General Electric",
                 "Model": "CF6-80C2",
-                "Thrust": "51,000 lbf (227 kN)",
+                "Thrust": "51,000 lbf",
                 "Bypass ratio": "4.5:1",
                 "Fan stage": 1,
                 "Low-pressure compressor stages": 4,
@@ -7175,16 +7174,16 @@ export const airplane_comercial = {
             "Max Cabin Width": "5.18 m"
         },
         "Weights": {
-            "Max Landing Weight": "833,000 lb (378,000 kg)",
-            "Empty Weight": "358,000 lb (162,400 kg)",
-            "Max Takeoff Weight": "833,000 lb (378,000 kg)"
+            "Max Landing Weight": "302 tons",
+            "Empty Weight": "180 tons",
+            "Max Takeoff Weight": "400 tons"
         },
         "Performance": {
-            "Fuel Capacity": "216,846 liters",
-            "Range": "13,491 km (7,284 nm)",
-            "Flight Ceiling": "45,000 ft (13,715 m)",
-            "Takeoff Distance": "3,261 m (10,700 ft)",
-            "Landing Distance": "2,286 m (7,500 ft)",
+            "Fuel Capacity": 204355,
+            "Range": "4,455 nautical miles",
+            "Flight Ceiling": "43,000 ft",
+            "Takeoff Distance": "2,815 m",
+            "Landing Distance": "1,905 m",
             "Passenger Capacity": {
                 "Max": "Not applicable (cargo aircraft)",
                 "Typical": "Not applicable (cargo aircraft)"
@@ -7215,7 +7214,7 @@ export const airplane_comercial = {
             "PW4000": {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "PW4056",
-                "Thrust": "46,950 lbf (209 kN)",
+                "Thrust": "46,950 lbf",
                 "Bypass ratio": "5.2:1",
                 "Fan stage": 2,
                 "Low-pressure compressor stages": 4,
@@ -7233,7 +7232,7 @@ export const airplane_comercial = {
             "CF6": {
                 "Manufacturer": "General Electric",
                 "Model": "CF6-80C2",
-                "Thrust": "51,000 lbf (227 kN)",
+                "Thrust": "51,000 lbf",
                 "Bypass ratio": "4.5:1",
                 "Fan stage": 1,
                 "Low-pressure compressor stages": 4,
@@ -7304,16 +7303,16 @@ export const airplane_comercial = {
             "Max Cabin Width": "5.18 m"
         },
         "Weights": {
-            "Max Landing Weight": "378,000 kg",
-            "Empty Weight": "162,400 kg",
-            "Max Takeoff Weight": "378,000 kg"
+            "Max Landing Weight": "302 tons",
+            "Empty Weight": "178 tons",
+            "Max Takeoff Weight": "400 tons"
         },
         "Performance": {
             "Fuel Capacity": "216,846 liters",
-            "Range": "13,491 km (7,284 nm)",
-            "Flight Ceiling": "13,715 m",
+            "Range": "6,557 nautical miles",
+            "Flight Ceiling": "45,000 ft",
             "Takeoff Distance": "3,261 m",
-            "Landing Distance": "2,286 m",
+            "Landing Distance": "2,100 m",
             "Passenger Capacity": {
                 "Max": "660",
                 "Typical": "660"
@@ -7344,7 +7343,7 @@ export const airplane_comercial = {
             "PW4056": {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "PW4056",
-                "Thrust": "209 kN",
+                "Thrust": "56,750 lbf",
                 "Bypass ratio": "5.2:1",
                 "Fan stage": 2,
                 "Low-pressure compressor stages": 4,
@@ -7362,7 +7361,7 @@ export const airplane_comercial = {
             "CF6-80C2": {
                 "Manufacturer": "General Electric",
                 "Model": "CF6-80C2",
-                "Thrust": "227 kN",
+                "Thrust": "56,700 lbf",
                 "Bypass ratio": "4.5:1",
                 "Fan stage": 1,
                 "Low-pressure compressor stages": 4,
@@ -7373,7 +7372,7 @@ export const airplane_comercial = {
                 "Descend rate": 2500,
                 "Cruise climb rate": 2900,
                 "Landing descend rate": 2200,
-                "Fan blade diameter": "93 in (236.2 cm)",
+                "Fan blade diameter": "93 in",
                 "Fuel type": "Jet-A",
                 "Pressure ratio": "27.4-31.9"
             }
@@ -7431,16 +7430,16 @@ export const airplane_comercial = {
             "Max Cabin Width": "5.18 m"
         },
         "Weights": {
-            "Max Landing Weight": "833,000 lb (378,000 kg)",
-            "Empty Weight": "358,000 lb (162,400 kg)",
-            "Max Takeoff Weight": "833,000 lb (378,000 kg)"
+            "Max Landing Weight": "295 tons",
+            "Empty Weight": "180 tons",
+            "Max Takeoff Weight": "400 tons"
         },
         "Performance": {
-            "Fuel Capacity": "216,846 liters",
-            "Range": "13,491 km (7,284 nm)",
-            "Flight Ceiling": "45,000 ft (13,715 m)",
-            "Takeoff Distance": "3,261 m (10,700 ft)",
-            "Landing Distance": "2,286 m (7,500 ft)",
+            "Fuel Capacity": 140912,
+            "Range": "14,205 nautical miles",
+            "Flight Ceiling": "45,000 ft",
+            "Takeoff Distance": "3,765 m",
+            "Landing Distance": "2,850 m",
             "Passenger Capacity": {
                 "Max": "Not applicable (cargo aircraft)",
                 "Typical": "Not applicable (cargo aircraft)"
@@ -7471,7 +7470,7 @@ export const airplane_comercial = {
             "PW4000": {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "PW4056",
-                "Thrust": "209 kN",
+                "Thrust": "56,750 lbf",
                 "Bypass ratio": "5.2:1",
                 "Fan stage": 2,
                 "Low-pressure compressor stages": 4,
@@ -7489,7 +7488,7 @@ export const airplane_comercial = {
             "CF6": {
                 "Manufacturer": "General Electric",
                 "Model": "CF6-80C2",
-                "Thrust": "227 kN",
+                "Thrust": "56,700 lbf",
                 "Bypass ratio": "4.5:1",
                 "Fan stage": 1,
                 "Low-pressure compressor stages": 4,
@@ -7559,15 +7558,15 @@ export const airplane_comercial = {
         },
         "Weights": {
             "Max Landing Weight": "975,000 lbs",
-            "Empty Weight": "Unknown",
-            "Max Takeoff Weight": "975,000 lbs"
+            "Empty Weight": "184 tons",
+            "Max Takeoff Weight": "442 tons"
         },
         "Performance": {
-            "Fuel Capacity": "Unknown gallons",
+            "Fuel Capacity": 238610,
             "Range": "7,790 nautical miles",
-            "Flight Ceiling": "43,000 feet",
-            "Takeoff Distance": "3,292 meters",
-            "Landing Distance": "2,743 meters",
+            "Flight Ceiling": "43,000 ft",
+            "Takeoff Distance": "1,280 m",
+            "Landing Distance": "1,500 m",
             "Passenger Capacity": {
                 "Max": "605",
                 "Typical": "Unknown"
@@ -7670,16 +7669,16 @@ export const airplane_comercial = {
             "Max Cabin Width": "3.53 m"
         },
         "Weights": {
-            "Max Landing Weight": "115.68 t",
-            "Empty Weight": "58.39 t",
-            "Max Takeoff Weight": "123.6 t"
+            "Max Landing Weight": "115.68 tons",
+            "Empty Weight": "58.39 tons",
+            "Max Takeoff Weight": "123.6 tons"
         },
         "Performance": {
-            "Fuel Capacity": "43,490 liters",
-            "Range": "7,250 km",
+            "Fuel Capacity": 43490,
+            "Range": "3,920 nautical miles",
             "Flight Ceiling": "41,00 ft",
-            "Takeoff Distance": "7,222 km",
-            "Landing Distance": "5,24",
+            "Takeoff Distance": "2,070 m",
+            "Landing Distance": "1,400 m",
             "Passenger Capacity": {
                 "Max": "200",
                 "Typical": "Unknown"
@@ -7800,11 +7799,11 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "113.4 tons"
         },
         "Performance": {
-            "Fuel Capacity": "32,755 kg",
-            "Range": "5,424 nautical miles",
-            "Flight Ceiling": "35,900 ft",
-            "Takeoff Distance": "10,940 ft",
-            "Landing Distance": "5,100 ft",
+            "Fuel Capacity": 32755,
+            "Range": "2,754 nautical miles",
+            "Flight Ceiling": "42,000 ft",
+            "Takeoff Distance": "2,070 m",
+            "Landing Distance": "1,400 m",
             "Passenger Capacity": {
                 "Max": 239,
                 "Typical": 200
@@ -7927,11 +7926,11 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "122.47 tons"
         },
         "Performance": {
-            "Fuel Capacity": "43,400 liters",
-            "Range": "3,285 miles",
-            "Flight Ceiling": "40,000+ ft",
-            "Takeoff Distance": "10,450 ft",
-            "Landing Distance": "4,600 ft",
+            "Fuel Capacity": 43400,
+            "Range": "3,400 nautical miles",
+            "Flight Ceiling": "40,000 ft",
+            "Takeoff Distance": "2,600 m",
+            "Landing Distance": "1,550 m",
             "Passenger Capacity": {
                 "Max": "243",
                 "Typical": "234"
@@ -8090,11 +8089,11 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "175.54 tons"
         },
         "Performance": {
-            "Fuel Capacity": "79,000 liters",
+            "Fuel Capacity": 79000,
             "Range": "6,590 nautical miles",
-            "Flight Ceiling": "40,000+ ft",
-            "Takeoff Distance": "5,650 ft",
-            "Landing Distance": "4,750 ft",
+            "Flight Ceiling": "43,000 ft",
+            "Takeoff Distance": "2,700 m",
+            "Landing Distance": "1,219 m",
             "Passenger Capacity": {
                 "Max": "216",
                 "Typical": "181"
@@ -8194,16 +8193,16 @@ export const airplane_comercial = {
             "Max Cabin Width": "3.76 m"
         },
         "Weights": {
-            "Max Landing Weight": "136.08 tons",
-            "Empty Weight": "81.86 tons",
-            "Max Takeoff Weight": "175.54 tons"
+            "Max Landing Weight": "92.25 tons",
+            "Empty Weight": "90.72 tons",
+            "Max Takeoff Weight": "113.4 tons"
         },
         "Performance": {
-            "Fuel Capacity": "79,000 liters",
-            "Range": "6,590 nautical miles",
-            "Flight Ceiling": "40,000+ ft",
-            "Takeoff Distance": "5,650 ft",
-            "Landing Distance": "4,750 ft",
+            "Fuel Capacity": 43490,
+            "Range": "4,100 nautical miles",
+            "Flight Ceiling": "42,000 ft",
+            "Takeoff Distance": "2,070 m",
+            "Landing Distance": "1,400 m",
             "Passenger Capacity": {
                 "Max": "216",
                 "Typical": "181"
@@ -8308,11 +8307,11 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "181.44 tons"
         },
         "Performance": {
-            "Fuel Capacity": "79,000 liters",
-            "Range": "5,980 nautical miles",
-            "Flight Ceiling": "43,100 ft",
+            "Fuel Capacity": 42490,
+            "Range": "5,990 nautical miles",
+            "Flight Ceiling": "43,000 ft",
             "Takeoff Distance": "2,700 m",
-            "Landing Distance": "2,400 m",
+            "Landing Distance": "1,219 m",
             "Passenger Capacity": {
                 "Max": "269",
                 "Typical": "218"
@@ -8343,7 +8342,7 @@ export const airplane_comercial = {
             "PW4062": {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "PW4062",
-                "Thrust": "275.8 kN",
+                "Thrust": "62,000 lbf",
                 "Bypass ratio": "6.0:1",
                 "Fan stage": "1",
                 "Low-pressure compressor stages": "7",
@@ -8417,11 +8416,11 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "181.44 tons"
         },
         "Performance": {
-            "Fuel Capacity": "79,000 liters",
-            "Range": "5,980 nautical miles",
-            "Flight Ceiling": "43,100 ft",
-            "Takeoff Distance": "2,700 m",
-            "Landing Distance": "2,400 m",
+            "Fuel Capacity": 42490,
+            "Range": "5,990 nautical miles",
+            "Flight Ceiling": "43,000 ft",
+            "Takeoff Distance": "2,400 m",
+            "Landing Distance": "1,798 m",
             "Passenger Capacity": {
                 "Max": "269",
                 "Typical": "218"
@@ -8452,7 +8451,7 @@ export const airplane_comercial = {
             "PW4062": {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "PW4062",
-                "Thrust": "275.8 kN",
+                "Thrust": "62,000 lbf",
                 "Bypass ratio": "6.0:1",
                 "Fan stage": "1",
                 "Low-pressure compressor stages": "7",
@@ -8526,11 +8525,11 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "204.12 tons"
         },
         "Performance": {
-            "Fuel Capacity": "91,379.8 liters",
-            "Range": "10,418 km",
-            "Flight Ceiling": "13,106.4 meters",
-            "Takeoff Distance": "2,900 meters",
-            "Landing Distance": "1,800 meters",
+            "Fuel Capacity": 94635,
+            "Range": "5,625 nautical miles",
+            "Flight Ceiling": "43,000 ft",
+            "Takeoff Distance": "2,896 m",
+            "Landing Distance": "2,134 m",
             "Passenger Capacity": {
                 "Max": "245",
                 "Typical": "245"
@@ -8561,7 +8560,7 @@ export const airplane_comercial = {
             "PW4000-94": {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "PW4000-94",
-                "Thrust": "275.8 kN",
+                "Thrust": "62,000 lbf",
                 "Bypass ratio": "6.0:1",
                 "Fan stage": "1",
                 "Low-pressure compressor stages": "7",
@@ -8579,7 +8578,7 @@ export const airplane_comercial = {
             "CF6-80C2B8F": {
                 "Manufacturer": "General Electric",
                 "Model": "CF6-80C2B8F",
-                "Thrust": "282.5 kN",
+                "Thrust": "63,500 lbf",
                 "Bypass ratio": "5.5:1",
                 "Fan stage": "1",
                 "Low-pressure compressor stages": "7",
@@ -8653,11 +8652,11 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "204.12 tons"
         },
         "Performance": {
-            "Fuel Capacity": "91,379.8 liters",
-            "Range": "10,418 km",
-            "Flight Ceiling": "13,106.4 meters",
-            "Takeoff Distance": "2,900 meters",
-            "Landing Distance": "1,800 meters",
+            "Fuel Capacity": 95362,
+            "Range": "5,231 nautical miles",
+            "Flight Ceiling": "43,000 ft",
+            "Takeoff Distance": "2,896 m",
+            "Landing Distance": "2,134 m",
             "Passenger Capacity": {
                 "Max": "245",
                 "Typical": "245"
@@ -8688,7 +8687,7 @@ export const airplane_comercial = {
             "PW4000-94": {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "PW4000-94",
-                "Thrust": "275.8 kN",
+                "Thrust": "62,000 lbf",
                 "Bypass ratio": "6.0:1",
                 "Fan stage": "1",
                 "Low-pressure compressor stages": "7",
@@ -8706,7 +8705,7 @@ export const airplane_comercial = {
             "CF6-80C2B8F": {
                 "Manufacturer": "General Electric",
                 "Model": "CF6-80C2B8F",
-                "Thrust": "282.5 kN",
+                "Thrust": "63,500 lbf",
                 "Bypass ratio": "5.5:1",
                 "Fan stage": "1",
                 "Low-pressure compressor stages": "7",
@@ -8775,16 +8774,16 @@ export const airplane_comercial = {
             "Max Cabin Width": "5.16 m"
         },
         "Weights": {
-            "Max Landing Weight": "19 tons",
-            "Empty Weight": "13 tons",
-            "Max Takeoff Weight": "23 tons"
+            "Max Landing Weight": "460 tons",
+            "Empty Weight": "139 tons",
+            "Max Takeoff Weight": "300 tons"
         },
         "Performance": {
-            "Fuel Capacity": "31,000 gal",
+            "Fuel Capacity": 117350,
             "Range": "5,235 nautical miles",
             "Flight Ceiling": "43,100 ft",
-            "Takeoff Distance": "9,695 km",
-            "Landing Distance": "6,024 mi",
+            "Takeoff Distance": "3,230 m",
+            "Landing Distance": "1,830 m",
             "Passenger Capacity": {
                 "Max": "440",
                 "Typical": "375"
@@ -8815,7 +8814,7 @@ export const airplane_comercial = {
             "GE90-94B": {
                 "Manufacturer": "General Electric",
                 "Model": "GE90-94B",
-                "Thrust": "432.8 kN (97,300 lbf)",
+                "Thrust": "97,300 lbf",
                 "Bypass ratio": "8.4:1",
                 "Fan stage": "1",
                 "Low-pressure compressor stages": "7",
@@ -8833,7 +8832,7 @@ export const airplane_comercial = {
             "PW4077": {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "PW4077",
-                "Thrust": "343.4 kN (77,100 lbf)",
+                "Thrust": "77,100 lbf",
                 "Bypass ratio": "5.5:1",
                 "Fan stage": "1",
                 "Low-pressure compressor stages": "7",
@@ -8902,16 +8901,16 @@ export const airplane_comercial = {
             "Max Cabin Width": "5.16 m"
         },
         "Weights": {
-            "Max Landing Weight": "19 tons",
-            "Empty Weight": "13 tons",
-            "Max Takeoff Weight": "23 tons"
+            "Max Landing Weight": "460 tons",
+            "Empty Weight": "135 tons",
+            "Max Takeoff Weight": "300 tons"
         },
         "Performance": {
-            "Fuel Capacity": "31,000 gal",
-            "Range": "5,235 nautical miles",
+            "Fuel Capacity": 171171,
+            "Range": "7,700 nautical miles",
             "Flight Ceiling": "43,100 ft",
-            "Takeoff Distance": "9,695 km",
-            "Landing Distance": "6,024 mi",
+            "Takeoff Distance": "3,230 m",
+            "Landing Distance": "1,830 m",
             "Passenger Capacity": {
                 "Max": "440",
                 "Typical": "375"
@@ -8942,7 +8941,7 @@ export const airplane_comercial = {
             "GE90-94B": {
                 "Manufacturer": "General Electric",
                 "Model": "GE90-94B",
-                "Thrust": "432.8 kN (97,300 lbf)",
+                "Thrust": "97,300 lbf",
                 "Bypass ratio": "8.4:1",
                 "Fan stage": "1",
                 "Low-pressure compressor stages": "7",
@@ -8960,7 +8959,7 @@ export const airplane_comercial = {
             "PW4077": {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "PW4077",
-                "Thrust": "343.4 kN (77,100 lbf)",
+                "Thrust": "77,100 lbf",
                 "Bypass ratio": "5.5:1",
                 "Fan stage": "1",
                 "Low-pressure compressor stages": "7",
@@ -9069,7 +9068,7 @@ export const airplane_comercial = {
             "GE90-94B": {
                 "Manufacturer": "General Electric",
                 "Model": "GE90-94B",
-                "Thrust": "432.8 kN",
+                "Thrust": "90,000 lbf",
                 "Bypass ratio": "8.4:1",
                 "Fan stage": "1",
                 "Low-pressure compressor stages": "7",
@@ -9087,7 +9086,7 @@ export const airplane_comercial = {
             "PW4077": {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "PW4077",
-                "Thrust": "343.4 kN",
+                "Thrust": "77,000 lbf",
                 "Bypass ratio": "5.5:1",
                 "Fan stage": "1",
                 "Low-pressure compressor stages": "7",
@@ -9161,11 +9160,11 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "299.4 tons"
         },
         "Performance": {
-            "Fuel Capacity": "171,000 kg",
-            "Range": "6,015 NM",
+            "Fuel Capacity": 181283,
+            "Range": "6,015 nautical miles",
             "Flight Ceiling": "43,100 ft",
             "Takeoff Distance": "3,050 m",
-            "Landing Distance": "2,400 m",
+            "Landing Distance": "2,000 m",
             "Passenger Capacity": {
                 "Max": 550,
                 "Typical": 440
@@ -9258,23 +9257,23 @@ export const airplane_comercial = {
             "price": "$306.6 million (2021)"
         },
         "Dimensions": {
-            "Length": "242 ft 4 in",
-            "Wingspan": "199 ft 11 in",
-            "Cabin Length": "varies by airline configuration",
-            "Fuselage Max Diameter": "20 ft 4 in",
-            "Max Cabin Width": "19 ft 3 in"
+            "Length": "73.88 m",
+            "Wingspan": "60.93 m",
+            "Cabin Length": "59.24 m ",
+            "Fuselage Max Diameter": "6.20 m",
+            "Max Cabin Width": "5.87 m"
         },
         "Weights": {
-            "Max Landing Weight": "470,000 lb",
-            "Empty Weight": "297,000 lb",
-            "Max Takeoff Weight": "775,000 lb"
+            "Max Landing Weight": "251 tons",
+            "Empty Weight": "167 tons",
+            "Max Takeoff Weight": "351 tons"
         },
         "Performance": {
-            "Fuel Capacity": "47,890 US gal",
+            "Fuel Capacity": 181283,
             "Range": "7,370 nautical miles",
             "Flight Ceiling": "43,100 ft",
-            "Takeoff Distance": "9,700 ft",
-            "Landing Distance": "6,030 ft",
+            "Takeoff Distance": "3,000 m",
+            "Landing Distance": "2,000 m ",
             "Passenger Capacity": {
                 "Max": "396",
                 "Typical": "301 to 368"
@@ -9367,16 +9366,16 @@ export const airplane_comercial = {
             "Max Cabin Width": "5.9 m"
         },
         "Weights": {
-            "Max Landing Weight": "251.3 tons",
-            "Empty Weight": "145.2 tons",
-            "Max Takeoff Weight": "347.5 tons"
+            "Max Landing Weight": "261 tons",
+            "Empty Weight": "144 tons",
+            "Max Takeoff Weight": "347.45 tons"
         },
         "Performance": {
-            "Fuel Capacity": "181,289 liters",
-            "Range": "9,065 km",
+            "Fuel Capacity": 181283,
+            "Range": "4,970 nautical miles",
             "Flight Ceiling": "43,100 ft",
             "Takeoff Distance": "3,050 m",
-            "Landing Distance": "2,400 m",
+            "Landing Distance": "2,00 m",
             "Passenger Capacity": {
                 "Max": 0,
                 "Typical": 0
@@ -9502,13 +9501,13 @@ export const airplane_comercial = {
             "Max Cabin Width": "5.08 m"
         },
         "Weights": {
-            "Max Landing Weight": "251,000 kg",
-            "Empty Weight": "150,000 kg",
-            "Max Takeoff Weight": "351,000 kg"
+            "Max Landing Weight": "304 tons",
+            "Empty Weight": "255 tons",
+            "Max Takeoff Weight": "351 tons"
         },
         "Performance": {
-            "Fuel Capacity": "320,000 liters",
-            "Range": "13,500 km",
+            "Fuel Capacity": 197000,
+            "Range": "7,285 nautical miles",
             "Flight Ceiling": "43,100 ft",
             "Takeoff Distance": "3,050 m",
             "Landing Distance": "2,600 m",
@@ -9608,16 +9607,16 @@ export const airplane_comercial = {
             "Max Cabin Width": "5.5 m"
         },
         "Weights": {
-            "Max Landing Weight": "502,500 lb (227.9 t)",
-            "Empty Weight": "242,508 lb (110 t)",
-            "Max Takeoff Weight": "560,000 lb (250 t)"
+            "Max Landing Weight": "173 tons",
+            "Empty Weight": "120 tons",
+            "Max Takeoff Weight": "230 tons"
         },
         "Performance": {
-            "Fuel Capacity": "33,384 US gal (126,470 liters)",
+            "Fuel Capacity": 126470,
             "Range": "7,305 nautical miles",
-            "Flight Ceiling": "43,000 ft (13,100 m)",
-            "Takeoff Distance": "9,100 ft (2,800 m)",
-            "Landing Distance": "6,500 ft (2,000 m)",
+            "Flight Ceiling": "43,000 ft",
+            "Takeoff Distance": "2,800 m",
+            "Landing Distance": "2,200 m",
             "Passenger Capacity": {
                 "Max": 248,
                 "Typical": 242
@@ -9648,7 +9647,7 @@ export const airplane_comercial = {
             "GEnx-1B": {
                 "Manufacturer": "General Electric",
                 "Model": "GEnx-1B64",
-                "Thrust": "64,000 lbf (284.7 kN)",
+                "Thrust": "64,000 lbf",
                 "Bypass ratio": "9:1",
                 "Fan stage": "1",
                 "Low-pressure compressor stages": "7",
@@ -9755,16 +9754,16 @@ export const airplane_comercial = {
             "Max Cabin Width": "5.49 m"
         },
         "Weights": {
-            "Max Landing Weight": "202,000 kg",
-            "Empty Weight": "128,100 kg",
+            "Max Landing Weight": "193 tons",
+            "Empty Weight": "130 tons",
             "Max Takeoff Weight": "254,000 kg"
         },
         "Performance": {
-            "Fuel Capacity": "126,200 liters",
-            "Range": "7,635 nautical miles",
+            "Fuel Capacity": 138700,
+            "Range": "7,565 nautical miles",
             "Flight Ceiling": "43,000 feet",
-            "Takeoff Distance": "2,900 meters",
-            "Landing Distance": "2,500 meters",
+            "Takeoff Distance": "2,800 meters",
+            "Landing Distance": "2,200 meters",
             "Passenger Capacity": {
                 "Max": "296",
                 "Typical": "280"

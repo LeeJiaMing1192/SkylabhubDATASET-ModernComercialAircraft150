@@ -11,6 +11,9 @@ body {
       margin: 0;
       padding: 0;
   }
+    .About-creator{
+      margin-left: 70%;
+    }
     .nav-bar {
       position: sticky !important;
       display: block;
@@ -240,7 +243,9 @@ body {
     max-height: 300px;
     margin-right: 20px;
   }
-  
+  /* .details table{
+    overflow: auto;
+  } */
   /* Section Titles (h3) */
   .details h3 {
     margin-top: 0;
