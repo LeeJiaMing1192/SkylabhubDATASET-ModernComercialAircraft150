@@ -40,11 +40,14 @@
 }
 
 @media (min-width: 992px) {
-
+  
   .comparison-table {
     /* General table styling */
     width: 100%; /* Adjust as needed */
     border-collapse: collapse;
+  }
+  .plane_compare_title{
+    font-size: 30px;
   }
   
   .comparison-table th,

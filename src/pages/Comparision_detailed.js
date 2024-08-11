@@ -125,13 +125,14 @@ const Comparison_detailed_page = () => {
     const navigate = useNavigate();
     const { data, updateData } = useContext(MyContext);
     const {compare_plane_choosed_1,update_compare_plane_1 } = useContext(MyContext)
-    
+
     var aircraft_1_engine = Object.keys(airplane_comercial[compare_plane_choosed_1[0]]["Engines"])
+    console.log(compare_plane_choosed_1["Engines"])
     var aircraft_2_engine = Object.keys(airplane_comercial[compare_plane_choosed_1[1]]["Engines"])
     const [searchInput, setSearchInput] = useState("");
     const [searchInput_2, setSearchInput_2] = useState("");
     const [choosed_engine_option_1 , setChoosed_engine_option_1] = useState(aircraft_1_engine[0])
-    const [choosed_engine_option_2, setChoosed_engine_option_2] = useState(aircraft_2_engine[1])
+    const [choosed_engine_option_2, setChoosed_engine_option_2] = useState(aircraft_2_engine[0])
     var comparing_keys
     const [searchInput_regex, setSearchInput_regex] = useState("");
 
@@ -198,6 +199,20 @@ const Comparison_detailed_page = () => {
 
 
     ]
+
+    const general_data = [
+      { comparisonValue: 'Plane Manufacturer', subject1: airplane_comercial[compare_plane_choosed_1[0]]["General Information"]["Manufacturer"], subject2: airplane_comercial[compare_plane_choosed_1[1]]["General Information"]["Manufacturer"] },
+      { comparisonValue: 'Family', subject1: airplane_comercial[compare_plane_choosed_1[0]]["General Information"]["Family"], subject2: airplane_comercial[compare_plane_choosed_1[1]]["General Information"]["Family"] },
+      { comparisonValue: 'First flight', subject1: airplane_comercial[compare_plane_choosed_1[0]]["General Information"]["First Flight"], subject2: airplane_comercial[compare_plane_choosed_1[1]]["General Information"]["First Flight"] },
+      { comparisonValue: 'Models Built', subject1: airplane_comercial[compare_plane_choosed_1[0]]["General Information"]["Model Build"], subject2: airplane_comercial[compare_plane_choosed_1[1]]["General Information"]["Model Build"] },
+      { comparisonValue: 'Entered Service"', subject1: airplane_comercial[compare_plane_choosed_1[0]]["General Information"]["Entered Service"], subject2: airplane_comercial[compare_plane_choosed_1[1]]["General Information"]["Entered Service"] },
+      { comparisonValue: 'Body type', subject1: airplane_comercial[compare_plane_choosed_1[0]]["General Information"]["Type"], subject2: airplane_comercial[compare_plane_choosed_1[1]]["General Information"]["Type"] },
+      { comparisonValue: 'Number of engines', subject1: airplane_comercial[compare_plane_choosed_1[0]]["General Information"]["number of engines"], subject2: airplane_comercial[compare_plane_choosed_1[1]]["General Information"]["number of engines"] },
+      // { comparisonValue: 'Price Tag', subject1: airplane_comercial[compare_plane_choosed_1[0]]["General Information"]["Manufacturer"], subject2: airplane_comercial[compare_plane_choosed_1[1]]["General Information"]["Manufacturer"] },
+      { comparisonValue: 'Range category', subject1: airplane_comercial[compare_plane_choosed_1[0]]["General Information"]["Fly range category"], subject2: airplane_comercial[compare_plane_choosed_1[1]]["General Information"]["Fly range category"] },
+      { comparisonValue: 'Seat configuration', subject1: airplane_comercial[compare_plane_choosed_1[0]]["General Information"]["seat config"][0], subject2: airplane_comercial[compare_plane_choosed_1[1]]["General Information"]["seat config"][0] },
+
+    ]
    
     const choosed_engine_option_1_function = (engine) => {
       setChoosed_engine_option_1(engine)
@@ -230,11 +245,25 @@ const Comparison_detailed_page = () => {
       <thead>
         <tr>
           <th id="compare-value-display">Comparison Value</th>
-          <th>{compare_plane_choosed_1[0]}</th>
-          <th>{compare_plane_choosed_1[1]}</th>
+          <th className="plane_compare_title">{compare_plane_choosed_1[0]}</th>
+          <th className="plane_compare_title">{compare_plane_choosed_1[1]}</th>
         </tr>
       </thead>
-      <tbody>     
+      <tbody>  
+      {compare_plane_choosed_1.length > 0 && (
+          <tr className="dimension-separator">
+            <td colSpan="3">
+              <span className="massive-dimension-text">General info</span>
+            </td>
+          </tr>
+        )}   
+         {general_data.map((row, index) => (
+          <tr key={index}>
+            <td>{row.comparisonValue}</td>
+            <td>{row.subject1}</td>
+            <td>{row.subject2}</td>
+          </tr>
+        ))}
         {compare_plane_choosed_1.length > 0 && (
           <tr className="dimension-separator">
             <td colSpan="3">
@@ -308,7 +337,7 @@ const Comparison_detailed_page = () => {
 
           <tr className="dimension-separator">
             <td colSpan="3">
-              <span className="massive-dimension-text-performance">Engine Performance</span>
+              <span className="massive-dimension-text">Engine Specs</span>
             </td>
           </tr>
           {engine_data.map((row, index) => (
