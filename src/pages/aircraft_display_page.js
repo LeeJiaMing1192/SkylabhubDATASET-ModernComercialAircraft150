@@ -83,7 +83,7 @@ function NewPage(){
                     <div id="compare-listing-container-display">
                             {showing_compare && (
                                 <div id="compare-dropdown">
-                                    <h3>Comparing planes</h3>
+                                    <h3>Comparison list</h3>
                                    
                                     {compare_plane_choosed_1.map((element) => 
                                     <div className="comparing-listing-planes-container">
