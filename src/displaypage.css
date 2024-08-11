@@ -43,8 +43,30 @@ body {
       display: flex;
       flex-grow: 1;  /* Make the search bar container grow to fill available space */
     }
-    
-    
+    #compare-icon-container-display-page{
+      margin-left: 100px;
+      margin-top: 14px;
+      width: 60px;
+      height: 60px;;
+    }
+    #compare_icon_display{
+      width: 60px;
+      height: 47px;;
+    }
+    #compare_icon{
+   
+      width: 60px;
+      height: 47px;;
+    }
+    #compare-button-display{
+      background-color:  #1d2d38;
+          width: 80px;
+         height: 40px;;
+         margin-top: 70px;
+         margin-left: 100px;
+         border-radius: 40px;
+         color: white;
+    }
     
     .search-bar {
       box-sizing: border-box;
@@ -165,10 +187,93 @@ body {
   .about_creator_text{
     color: white;
   }
+
+  #compare-icon-container-display-page{
+    margin-left: 40px;
+    margin-top: 14px;
+    width: 60px;
+    height: 60px;;
+  }
+  #compare_icon_display{
+    width: 60px;
+    height: 47px;;
+  }
+  #compare_icon{
+ 
+    width: 60px;
+    height: 47px;;
+  }
+  #compare-button-display{
+    background-color:  #1d2d38;
+        width: 80px;
+       height: 40px;;
+       margin-top: 70px;
+       margin-left: 30px;
+       border-radius: 40px;
+       color: white;
+  }
+  .add-compare-display{
+    margin-top: 46px;
+    border-radius: 40px;
+     margin-left: 38px;
+     background-color: white;
+    width: 120px;
+    height: 60px;
+    outline: 2px solid #1d2d38
+  }
+  .add-compare-display:hover{
+    background-color: #233643;
+    color:white
+  }
+
+  #error-compare-text{
+    color: red;
+    font-size: 15px;
+    margin-left: 13px;
+  }
+
+  
   }
 
 
   @media (min-width: 992px) { /* For desktops (over 992px) */
+    #compare-icon-container-display-page{
+      margin-left: 40px;
+      margin-top: 14px;
+      width: 60px;
+      height: 60px;;
+    }
+    #compare_icon_display{
+      width: 60px;
+      height: 47px;;
+    }
+    #compare_icon{
+   
+      width: 60px;
+      height: 47px;;
+    }
+    #compare-button-display{
+      background-color:  #1d2d38;
+          width: 80px;
+         height: 40px;;
+         margin-top: 70px;
+         margin-left: 30px;
+         border-radius: 40px;
+         color: white;
+    }
+    .add-compare-display{
+      margin-top: 46px;
+      border-radius: 40px;
+       margin-left: 38px;
+       background-color: white;
+      width: 120px;
+      height: 60px;
+      outline: 2px solid #1d2d38
+    }
+    .add-compare-display:hover{
+      background-color: #233643;
+      color:white
+    }
     .nav-bar {
       position: sticky !important;
       display: flex;
@@ -298,5 +403,12 @@ body {
 .about_creator_text{
   color: white;
 }
+#error-compare-text{
+  color: red;
+  font-size: 15px;
+  margin-left: 13px;
+}
+
+
   }
   

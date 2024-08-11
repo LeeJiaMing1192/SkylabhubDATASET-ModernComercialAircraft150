@@ -6,6 +6,7 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NewPage from "./pages/aircraft_display_page"
 import Creator_page from './pages/Creator';
+import Comparison_detailed_page from './pages/Comparision_detailed';
 function App() {
   return (
 
@@ -16,6 +17,9 @@ function App() {
       <Route path="/search" element={<Search_page/>} />
       <Route path="/about" element={<Creator_page/>} />
       <Route path="/new-page/:divId" element={<NewPage />} />
+      <Route path="/comparison" element={<Comparison_detailed_page/>}/>
+      
+      
     </Routes>
  
   </BrowserRouter>

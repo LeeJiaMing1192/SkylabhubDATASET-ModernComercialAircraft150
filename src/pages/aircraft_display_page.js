@@ -7,27 +7,68 @@ import Menu_logo from "../images/menu_2.png"
 import "../displaypage.css"
 import { useContext } from 'react';
 import MyContext from '../MyContext';
-import { airplane_comercial } from "../data/deatailed_aircraft_prod";
-
-
+import { airplane_comercial } from "../browser_cache/deatailed_aircraft_prod";
+import compare_icon from "../images/169-1698432_scale-icon-white-transparent-removebg-preview.png"
+import remove_button from "../images/remove_button.png"
 // console.log(sharedData)
 function NewPage(){
+        const [showing_compare , setShowing_compare] = useState(false)
+        const { searched_planes_data, update_searched_data } = useContext(MyContext);
+        const { data, updateData } = useContext(MyContext)
+        const {comparing_error , update_error_data} = useContext(MyContext)
+        const {compare_plane_choosed_1 ,update_compare_plane_1 } = useContext(MyContext)
+        const {current_list_lenght_planes ,setCurrent_list_lenght_planes } = useContext(MyContext)
+        const [ready_compare ,setReady_compare ] = useState(null)
+        const choosed_aircraft = airplane_comercial[data]
+        var plane_to_choose = data
+        var Engines_data = Object.keys(airplane_comercial[plane_to_choose]["Engines"])   
+        var com_operaters = choosed_aircraft["Other Details"]["Commercial Operators"]
+
         const navigate = useNavigate()
         const go_back_search = () =>{
             navigate("/search")
+            update_error_data("")
         }   
-        const { data, updateData } = useContext(MyContext)
-        const choosed_aircraft = airplane_comercial[data]
-        var Engines_data = Object.keys(choosed_aircraft["Engines"])   
-        var com_operaters = choosed_aircraft["Other Details"]["Commercial Operators"]
-      
+
+        console.log(compare_plane_choosed_1.Length)
+        const dropdown_compare_list = () => {
+          setShowing_compare( showing_compare === true ? false :true)
+        }
+  
+      const Navigate_planepage = (element_navigate) => {
+        update_searched_data(String(""))
+        updateData(String(element_navigate))
+        navigate(`/new-page/${element_navigate}`);
+        update_error_data("")
+      }
+      const remove_plane_compare_list = (element_choosed) => {
+          update_compare_plane_1(element_choosed , "remove")
+          update_error_data("")
+          setReady_compare(false)
+      }
 
     // Assuming "Bypass ratio" is a string
+      const add_to_compare = (comparing_element) => {
+        setShowing_compare(true)
 
-    
+        if(current_list_lenght_planes >= 0){
+          setReady_compare(true)
+          update_compare_plane_1(comparing_element , "update")
+        }
+        else if(current_list_lenght_planes < 1){
+          setReady_compare(false)
+          update_compare_plane_1(comparing_element , "update")
+        }
+          
+        
+      }
+      const navigate_compare = () => {
+        navigate("/comparison");
+      }
 
 
     return(
+      
         <>
             <nav className="nav-bar">
                 <div className="nav-bar-brand" onClick={() => go_back_search()}>
@@ -35,9 +76,36 @@ function NewPage(){
                     <img id="logo-image" src={Com_logo}></img>
                     <h2>Skylab</h2>
                 </div>
+                <div id="compare-icon-container-display-page" onClick={() => dropdown_compare_list()}>
+                        <img id="compare_icon_display" src={compare_icon}></img>
+                       
+                    </div>
+                    <div id="compare-listing-container-display">
+                            {showing_compare && (
+                                <div id="compare-dropdown">
+                                    <h3>Comparing planes</h3>
+                                   
+                                    {compare_plane_choosed_1.map((element) => 
+                                    <div className="comparing-listing-planes-container">
+                                          <li id={element} onClick={() =>Navigate_planepage(element) } className="compare-specific-plane-text">{element}</li>
+                                          <img src={remove_button} onClick={() => remove_plane_compare_list(element)} className="remove-image"></img>
+                                    </div>
+                                    )}
+                                    <p id="error-compare-text">{comparing_error}</p>
+                                    {ready_compare && (
+                                        <button id="compare-button-display" onClick={() => navigate_compare()}>compare</button>
+                                    )}
+                                  
+                                </div>
+                               
+                            )}
+                         
+                        </div>
+           
             </nav>
             <div className="aircraft-name-container">
                 <h1>{data}</h1>
+                <button className="add-compare-display" onClick={() => add_to_compare(data)}>Add to compare</button>
             </div>
         <div id="main-infor-display">
              <div class="aircraft-info">

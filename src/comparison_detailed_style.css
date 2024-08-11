@@ -1,0 +1,82 @@
+@media screen and (max-width: 768px) {
+
+  .comparison-table {
+    /* General table styling */
+    width: 100%; /* Adjust as needed */
+    border-collapse: collapse;
+  }
+  
+  .comparison-table th,
+  .comparison-table td {
+    padding: 10px; /* Adjust as needed */
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .dimension-row {
+    /* Optional styling for dimension rows (e.g., background color) */
+  }
+  
+  .dimension-separator {
+    /* Style for the separator row */
+    background-color: #eee; /* Light gray background for separation */
+    font-weight: bold;
+  }
+  
+  .massive-dimension-text {
+    /* Style for the "Dimensions" text */
+    font-size: 30px; /* Slightly larger font */
+    text-align: center; /* Center alignment */
+    padding: 5px; /* Add some padding */
+    margin-left: 25%;
+  }
+  
+
+  #compare-value-display{
+    width: 20%;
+  }
+
+
+}
+
+@media (min-width: 992px) {
+
+  .comparison-table {
+    /* General table styling */
+    width: 100%; /* Adjust as needed */
+    border-collapse: collapse;
+  }
+  
+  .comparison-table th,
+  .comparison-table td {
+    padding: 10px; /* Adjust as needed */
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .dimension-row {
+    /* Optional styling for dimension rows (e.g., background color) */
+  }
+  
+  .dimension-separator {
+    /* Style for the separator row */
+    background-color: #eee; /* Light gray background for separation */
+    font-weight: bold;
+  }
+  
+  .massive-dimension-text {
+    /* Style for the "Dimensions" text */
+    font-size: 30px; /* Slightly larger font */
+    text-align: center; /* Center alignment */
+    padding: 5px; /* Add some padding */
+    margin-left: 45%;
+  }
+  
+  
+  #compare-value-display{
+    width: 20%;
+  }
+  
+  
+}
+

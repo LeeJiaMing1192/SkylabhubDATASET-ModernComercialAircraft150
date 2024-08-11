@@ -97,7 +97,7 @@ export const airplane_comercial = {
                 "Manufacturer": "Pratt & Whitney",
                 "Model": "PW1500G",
                 "Thrust": "23,300 lbf",
-        
+
                 "pressure_ratio": 5.4,
                 "engine_width": "68 in",
                 "engine_length": "156 in",
@@ -2842,7 +2842,7 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "251.0 tons"
         },
         "Performance": {
-            "Fuel Capacity":  139090,
+            "Fuel Capacity": 139090,
             "Range": "8,150 nautical miles",
             "Flight Ceiling": "41,000 feet",
             "Takeoff Distance": "2,500 m",
@@ -5906,7 +5906,7 @@ export const airplane_comercial = {
             "Max Takeoff Weight": "56.74 tons"
         },
         "Performance": {
-            "Fuel Capacity": 17865 ,
+            "Fuel Capacity": 17865,
             "Range": "2,800 nautical miles",
             "Flight Ceiling": "37,000 ft",
             "Takeoff Distance": "1,524 m",
@@ -9855,5 +9855,219 @@ export const airplane_comercial = {
                 "KLM Royal Dutch Airlines"
             ]
         }
+    },
+    "DC-8-10": {
+        "General Information": {
+            "Manufacturer": "Douglas Aircraft Company",
+            "Family": "DC-8",
+            "First Flight": "1958",
+            "Model Build": "556",
+            "Entered Service": "September 1959 with Delta Air Lines",
+            "Type": "Narrow-body jet airliner",
+            "Engine Type": "Turbojet",
+            "Number of Engines": "4",
+            "Price Tag": "N/A",
+            "Fly range category": "Long range",
+            "seat config": [
+                "3-3"
+            ]
+        },
+        "Dimensions": {
+            "Length": "45.87 m",
+            "Wingspan": "43.41 m",
+            "Cabin Length": "45.97 m",
+            "Fuselage Max Diameter": "3.5 m",
+            "Max Cabin Width": "3.05 m"
+        },
+        "Weights": {
+            "Max Landing Weight": "90.5 tons",
+            "Empty Weight": "69.74 tons",
+            "Max Takeoff Weight": "125 tons"
+        },
+        "Performance": {
+            "Fuel Capacity": 91825,
+            "Range": "1,860 nautical miles",
+            "Flight Ceiling": "42,000 ft",
+            "Takeoff Distance": "3,048 m",
+            "Landing Distance": "1,981 m",
+            "Passenger Capacity": {
+                "Max": "189",
+                "Typical": "N/A"
+            },
+            "Cargo Capacity": "N/A",
+            "Avionics": {
+                "Common_suite": "N/A",
+                "FMS": "No",
+                "EFIS": "No",
+                "AFCS": "No",
+                "TAWS": "No",
+                "HUD": "No"
+            }
+        },
+        "Speed": {
+            "Cruise Speed": {
+                "Mach": "0.82",
+                "Knots": "522"
+            },
+            "Max Speed": {
+                "Mach": "0.82",
+                "Knots": "522"
+            },
+            "V2 speed": "150 knots",
+            "Stall speed": "110 knots"
+        },
+        "Engines": {
+            "JT3C": {
+                "Manufacturer": "Pratt & Whitney",
+                "Model": "JT3C",
+                "Thrust": "13,500 lbf",
+                "Bypass ratio": "N/A",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "6",
+                "High-pressure compressor stages": "7",
+                "High-pressure turbine stages": "1",
+                "Low-pressure turbine stages": "3",
+                "Climb rate": 2500,
+                "Descend rate": 2000,
+                "Cruise climb rate": 1500,
+                "Landing descend rate": 1000,
+                "Fan blade diameter": "N/A",
+                "Fuel type": "JP-4 / JP-5",
+                "Pressure ratio": "16"
+            }
+        },
+        "Other Details": {
+            "Noise Levels": {
+                "Takeoff": "N/A",
+                "Landing": "N/A",
+                "Cruise": "N/A"
+            },
+            "operation_cost": "N/A",
+            "certification_standards": [
+                "FAA"
+            ],
+            "Body Type": "Narrow-body",
+            "Number of Decks": "1",
+            "Materials": {
+                "Fuselage":
+                    "Aluminum",
+
+                "Wings":
+                    "Aluminum"
+
+            },
+            "Commercial Operators": [
+                "Delta Air Lines",
+                "United Airlines",
+                "UPS Airlines",
+                "Trans Air Cargo Service"
+            ]
+        }
+    },
+    "DC-8-20": {
+        "General Information": {
+            "Manufacturer": "McDonnell Douglas",
+            "Family": "DC-8",
+            "First Flight": "May 30, 1958",
+            "Model Build": "556",
+            "Entered Service": "September 18, 1959 with Delta Air Lines",
+            "Type": "Narrow-body jet airliner",
+            "Engine Type": "Turbojet",
+            "Number of Engines": "4",
+            "Price Tag": "N/A",
+            "Fly range category": "Long range",
+            "seat config": [
+                "3-3"
+            ]
+        },
+        "Dimensions": {
+            "Length": "45.87 m",
+            "Wingspan": "43.41 m",
+            "Cabin Length": "N/A",
+            "Fuselage Max Diameter": "N/A",
+            "Max Cabin Width": "N/A"
+        },
+        "Weights": {
+            "Max Landing Weight": "125 t",
+            "Empty Weight": "60.02 t",
+            "Max Takeoff Weight": "125 t"
+        },
+        "Performance": {
+            "Fuel Capacity": "N/A",
+            "Range": "5,200 nmi",
+            "Flight Ceiling": "41,000 ft",
+            "Takeoff Distance": "N/A",
+            "Landing Distance": "N/A",
+            "Passenger Capacity": {
+                "Max": "189",
+                "Typical": "N/A"
+            },
+            "Cargo Capacity": "N/A",
+            "Avionics": {
+                "Common_suite": "N/A",
+                "FMS": "No",
+                "EFIS": "No",
+                "AFCS": "No",
+                "TAWS": "No",
+                "HUD": "No"
+            }
+        },
+        "Speed": {
+            "Cruise Speed": {
+                "Mach": "0.82",
+                "Knots": "518"
+            },
+            "Max Speed": {
+                "Mach": "0.82",
+                "Knots": "518"
+            },
+            "V2 speed": "N/A",
+            "Stall speed": "N/A"
+        },
+        "Engines": [
+            {
+                "Manufacturer": "Pratt & Whitney",
+                "Model": "JT4A-3",
+                "Thrust": "15,800 lbf",
+                "Bypass ratio": "N/A",
+                "Fan stage": "N/A",
+                "Low-pressure compressor stages": "N/A",
+                "High-pressure compressor stages": "N/A",
+                "High-pressure turbine stages": "N/A",
+                "Low-pressure turbine stages": "N/A",
+                "Climb rate": "N/A",
+                "Descend rate": "N/A",
+                "Cruise climb rate": "N/A",
+                "Landing descend rate": "N/A",
+                "Fan blade diameter": "N/A",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "N/A"
+            }
+        ],
+        "Other Details": {
+            "Noise Levels": {
+                "Takeoff": "N/A",
+                "Landing": "N/A",
+                "Cruise": "N/A",
+                "operation_cost": "N/A",
+                "certification_standards": [
+                    "FAA",
+                    "EASA"
+                ]
+            },
+            "Body Type": "Narrow-body",
+            "Number of Decks": "1",
+            "Materials": {
+                "Fuselage": "N/A",
+                "Wings": "N/A"
+            },
+            "Commercial Operators": [
+                "Delta Air Lines",
+                "United Airlines",
+                "UPS Airlines",
+                "Trans Air Cargo Service"
+            ]
+        }
     }
+
 }

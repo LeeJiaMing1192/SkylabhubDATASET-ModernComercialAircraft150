@@ -1,13 +1,14 @@
 import React, {useEffect, useState } from "react";
 import "../index.css"
-import { airplane_comercial } from "../data/deatailed_aircraft_prod";
+import { airplane_comercial } from "../browser_cache/deatailed_aircraft_prod";
 import search_icon from "../images/74-742441_preamps-white-search-icon-svg-removebg-preview.png"
 import { useNavigate } from 'react-router-dom';
 import Com_logo from "../images/OIG4.vG4omE6g-removebg-preview.png"
 import Menu_logo from "../images/menu_2.png"
 import { useContext } from 'react';
 import MyContext from '../MyContext';
-
+import compare_icon from "../images/169-1698432_scale-icon-white-transparent-removebg-preview.png"
+import remove_button from "../images/remove_button.png"
 
 let searchInput;
 var list_planes =[
@@ -94,7 +95,7 @@ var list_planes =[
 
 function searchStrings(list, searchString) {
     const filteredList = []
-    if(searchString != "all"){
+    if(searchString != "all" || searchString != ""){
         const regex = new RegExp(searchString, 'i');
         const filteredList = list.filter(item => regex.test(item));
         return filteredList;
@@ -113,10 +114,13 @@ function Main_page() {
     const navigate = useNavigate();
     const { data, updateData } = useContext(MyContext);
     const { searched_planes_data, update_searched_data } = useContext(MyContext);
+    const {compare_plane_choosed_1 , update_compare_plane_1} = useContext(MyContext)
     const [searchInput, setSearchInput] = useState(searched_planes_data);
     const [aircraft_result , setaircraft_result] = useState([])
-
-
+    const [showing_compare , setShowing_compare] = useState(false)
+    const {current_list_lenght_planes ,setCurrent_list_lenght_planes } = useContext(MyContext)
+    const [ready_compare ,setReady_compare ] = useState(null)
+    const {comparing_error , update_error_data} = useContext(MyContext)
     const [searchInput_regex, setSearchInput_regex] = useState("");
     const handleSearchInput = (event) => {
         setSearchInput(event.target.value);
@@ -125,28 +129,16 @@ function Main_page() {
     };
 
 
-    const [manufacturerFilter, setManufacturerFilter] = useState("");
-    const [lengthFilter_smallest, setLengthFilter_smallest] = useState(null); // Can be null initially
-    const [lengthFilter_largest, setLengthFilter_largest] = useState(null); // Can be null initially
-    const [capacityFilter_smallest, setCapacityFilter_smallest] = useState(null); // Can be null initially
-    const [capacityFilter_largest, setCapacityFilter_largest] = useState(null); // Can be null initially
-    const [rangeFilter_smallest, setRangeFilter_smallest] = useState(null); // Can be null initially
-    const [rangeFilter_largest, setRangeFilter_largest] = useState(null); // Can be null initially
-    const [cockpitCrewFilter, setCockpitCrewFilter] = useState(null); // Can be null initially
-    const [bodyTypeFilter, setBodyTypeFilter] = useState("");
-    const [numDecksFilter, setNumDecksFilter] = useState("");
+ 
  
     const handleSearchButtonClick = () => {
         // console.log(searchInput);
         setaircraft_result((prev_saircraft) =>prev_saircraft =  searchStrings(list_planes, String(searchInput)))
         // console.log(searchStrings(list_planes, String(searchInput)));
-
-
-        
     };
     const go_back_about = () =>{
-        update_searched_data(String("Airbus A220-100"))
-        updateData(String("Airbus A220-100"))
+        update_searched_data(String(""))
+        updateData(String(""))
         navigate("/about")
     }   
     useEffect(() => {
@@ -156,6 +148,27 @@ function Main_page() {
       update_searched_data(String(searchInput))
       updateData(String(element_navigate))
       navigate(`/new-page/${element_navigate}`);
+    }
+    const navigate_compare = () => {
+        navigate("/comparison");
+      }
+    const dropdown_compare_list = () => {
+        setShowing_compare( showing_compare === true ? false :true)
+
+
+        if(current_list_lenght_planes >= 0){
+          setReady_compare(true)
+     
+        }
+        else if(current_list_lenght_planes < 1){
+          setReady_compare(false)
+      
+        }
+          
+    }
+
+    const remove_plane_compare_list = (element_choosed) => {
+        update_compare_plane_1(element_choosed , "remove")
     }
     return ( 
         <div>
@@ -173,6 +186,32 @@ function Main_page() {
                     <div id="search-icon-container">
                     <img id="search_icon"  onClick={handleSearchButtonClick} src={search_icon}></img>
                     </div>
+
+                    <div id="compare-icon-container" onClick={() => dropdown_compare_list()}>
+                        <img id="compare_icon" src={compare_icon}></img>
+                       
+                    </div>
+                    <div id="compare-listing-container">
+                            {showing_compare && (
+                                <div id="compare-dropdown">
+                                    <h3>Comparing planes</h3>
+                                   
+                                    {compare_plane_choosed_1.map((element) => 
+                                    <div className="comparing-listing-planes-container">
+                                          <li id={element} onClick={() =>Navigate_planepage(element) } className="compare-specific-plane-text">{element}</li>
+                                          <img src={remove_button} onClick={() => remove_plane_compare_list(element)} className="remove-image"></img>
+                                    </div>
+                                    )}
+                                    <p id="error-compare-text">{comparing_error}</p>
+                                    {ready_compare && (
+                                        <button id="compare-button-display" onClick={() => navigate_compare()}>compare</button>
+                                    )}
+                                  
+                                </div>
+                               
+                            )}
+                         
+                        </div>
                 </div>
                 {/* <h3 className="about_creator_text"><b>V1.4.2</b></h3> */}
                 <div>

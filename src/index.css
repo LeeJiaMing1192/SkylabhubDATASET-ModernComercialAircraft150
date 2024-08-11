@@ -25,7 +25,7 @@
   }
   .nav-bar-brand {
     font-size: 1rem;  /* Adjust font size as needed */
-    margin-left: 20%;
+    margin-left: 11%;
     display: flex;
     color: white;
   }
@@ -82,10 +82,12 @@
   
   #search_icon{
     /* position:  absolute; */
-    margin-top: 5px;
+    /* margin-top: 5px;
     max-width: 30px;
     max-height: 30px;
-    margin-left: 20%;
+    margin-left: 20%; */
+    position: absolute;
+    visibility: hidden;
     /* top: 38%;
     left: 74%; */
   }
@@ -106,7 +108,91 @@
     margin: 0;
     padding: 0;
 }
+#compare_icon{
+  height: 30px;
+  width: 39px;
+
 }
+#compare-listing-container{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top:65%;
+  left:60%;
+}
+
+#compare-dropdown{
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  width: 150px;
+  height: 400px;
+  border-radius: 3px;
+ 
+  outline: 2px solid rgb(192, 189, 189)
+}
+
+.comparing-listing-planes-container{
+  list-style: none;
+  width: 100%;
+  margin-top: 1px;
+  border-radius: 10%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+}
+
+.comparing-listing-planes-container :hover{
+  background-color: rgb(212, 208, 208);
+}
+.compare-specific-plane-text{
+  margin-left: 10px;
+  margin-top: 3px;
+}
+
+.remove-image{
+  margin-left: 30px;
+  width: 23px;
+  height: 23px;
+}    
+#compare-icon-container-display-page{
+  margin-left: 40px;
+  margin-top: 14px;
+  width: 60px;
+  height: 60px;;
+}
+#compare_icon_display{
+  width: 60px;
+  height: 47px;;
+}
+#compare_icon{
+
+  width: 60px;
+  height: 47px;;
+}
+#compare-button-display{
+  background-color:  #1d2d38;
+      width: 80px;
+     height: 40px;;
+     margin-top: 70px;
+     margin-left: 30px;
+     border-radius: 40px;
+     color: white;
+}
+.add-compare-display{
+  margin-top: 46px;
+  border-radius: 40px;
+   margin-left: 38px;
+   background-color: white;
+  width: 120px;
+  height: 60px;
+  outline: 2px solid #1d2d38
+}
+.add-compare-display:hover{
+  background-color: #233643;
+  color:white
+}
+}
+
 
 /*this is for desktop UI*/
 @media (min-width: 992px) { /* For desktops (over 992px) */
@@ -154,7 +240,8 @@
     margin-top: 5px;
     max-width: 30px;
     max-height: 30px;
-    margin-left: 20px;
+    margin-left: 0px;
+    padding-left: 10px;
     /* top: 38%;
     left: 74%; */
   }
@@ -166,7 +253,87 @@
     width: 37px;
     visibility: hidden;
   }
-  
+  #compare_icon{
+    max-height: 30px;
+    max-width: 39px;
+
+  }
+
+  #compare-listing-container{
+    display: flex;
+    flex-direction: row;
+  }
+
+  #compare-dropdown{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 150px;
+    height: 400px;
+    border-radius: 3px;
+   
+    outline: 2px solid rgb(192, 189, 189)
+  }
+
+  .comparing-listing-planes-container{
+    list-style: none;
+    width: 100%;
+    margin-top: 1px;
+    border-radius: 10%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+  }
+
+  .comparing-listing-planes-container :hover{
+    background-color: rgb(212, 208, 208);
+  }
+  .compare-specific-plane-text{
+    margin-left: 10px;
+    margin-top: 3px;
+  }
+ 
+  .remove-image{
+    margin-left: 30px;
+    width: 23px;
+    height: 23px;
+  }    
+  #compare-icon-container-display-page{
+    margin-left: 40px;
+    margin-top: 14px;
+    width: 60px;
+    height: 60px;;
+  }
+  #compare_icon_display{
+    width: 60px;
+    height: 47px;;
+  }
+  #compare_icon{
+ 
+    width: 60px;
+    height: 47px;;
+  }
+  #compare-button-display{
+    background-color:  #1d2d38;
+        width: 80px;
+       height: 40px;;
+       margin-top: 70px;
+       margin-left: 30px;
+       border-radius: 40px;
+       color: white;
+  }
+  .add-compare-display{
+    margin-top: 46px;
+    border-radius: 40px;
+     margin-left: 38px;
+     background-color: white;
+    width: 120px;
+    height: 60px;
+    outline: 2px solid #1d2d38
+  }
+  .add-compare-display:hover{
+    background-color: #233643;
+    color:white
+  }
 }
 
 

@@ -7,7 +7,7 @@ import Menu_logo from "../images/menu_2.png"
 import "../displaypage.css"
 import { useContext } from 'react';
 import MyContext from '../MyContext';
-import { airplane_comercial } from "../data/deatailed_aircraft_prod";
+import { airplane_comercial } from "../browser_cache/deatailed_aircraft_prod";
 import minh_hien_img from "../images/le_gia_minh.jpg"
 import gia_minh_img from "../images/Le_gia_minh_real.jpg"
 
@@ -18,9 +18,7 @@ function Creator_page(){
             navigate("/search")
         }   
         const { data, updateData } = useContext(MyContext)
-        const choosed_aircraft = airplane_comercial[data]
-        var Engines_data = Object.keys(choosed_aircraft["Engines"])   
-        var com_operaters = choosed_aircraft["Other Details"]["Commercial Operators"]
+
       
 
     // Assuming "Bypass ratio" is a string

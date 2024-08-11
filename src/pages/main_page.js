@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../index.css"
-import { airplane_comercial } from "../data/airplane_com";
+import { airplane_comercial } from "../browser_cache/airplane_com";
 import search_icon from "../images/74-742441_preamps-white-search-icon-svg-removebg-preview.png"
 import { useNavigate } from 'react-router-dom';
 
@@ -32,7 +32,10 @@ var list_planes = [
     'Boeing 767-300', 'Boeing 767-400ER',
     'Boeing 787-8',   'Boeing 787-9',
     'Boeing 787-10'
-  ]
+]
+
+
+
 
 function searchStrings(list, searchString) {
     const regex = new RegExp(searchString, 'g');
