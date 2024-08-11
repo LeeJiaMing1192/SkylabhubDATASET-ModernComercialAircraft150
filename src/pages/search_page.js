@@ -135,7 +135,7 @@ function Main_page() {
                 </div>
                 {/* <h3 className="about_creator_text"><b>V1.4.2</b></h3> */}
                 <div>
-                    <h2 onClick={() => go_back_about()} className="about_creator_text"><b>About creator</b></h2>
+                    <h2 onClick={() => go_back_about()} className="about_creator_text"><b>Creator info</b></h2>
                 </div>
             </nav>
             <div id="search-container">
