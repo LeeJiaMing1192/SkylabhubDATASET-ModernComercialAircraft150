@@ -15,9 +15,9 @@
     display: block;
     justify-content:first baseline;
     align-items: center;
-    padding: 1rem 2rem;
+
     height: 25%;
-    width: 100%;
+    width: 110%;
     background-color: #233643;  /* Adjust background color as needed */
   }
   .about_creator_text{
@@ -34,7 +34,7 @@
   }
   /* Add box-sizing to relevant elements */
 .nav-bar, .search-bar {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 /* Adjust width and padding as needed */
@@ -56,7 +56,7 @@
    }
    .search-bar-container {
     display: flex;
-    flex-grow: 1;  /* Make the search bar container grow to fill available space */
+
     margin-left: 10%;
     width: 100%;
   }
@@ -203,6 +203,7 @@
     border-color: #233643;
     padding: 30px 30px;
     height: 40px;
+    width: 100%;
     background-color: #233643;  /* Adjust background color as needed */
   }
   .nav-bar-brand {
