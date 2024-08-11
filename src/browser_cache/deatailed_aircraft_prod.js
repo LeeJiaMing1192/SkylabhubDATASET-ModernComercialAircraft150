@@ -13106,13 +13106,889 @@ export const airplane_comercial = {
           },
           "Commercial Operators": ["FedEx Express", "UPS Airlines", "Western Global Airlines", "Lufthansa Cargo"]
         }
+      },
+      "ATR-42-300":{
+        "General Information": {
+          "Manufacturer": "ATR",
+          "Family": "ATR 42",
+          "First Flight": "August 16, 1984",
+          "Model Build": "503",
+          "Entered Service": "December 1985 with Air Littoral",
+          "Type": "Narrow-body turboprop airliner",
+          "Engine Type": "Turboprop",
+          "Number of Engines": 2,
+          "Price Tag": "19.5 million USD (1997)",
+          "Fly range category": "Close-mid range",
+          "seat config": [
+            "2-2"
+          ],
+          "aircraft_image":[
+            "https://th.bing.com/th/id/R.441090399749b38597d6e8a059c83230?rik=MjrF7C0mUzlICw&pid=ImgRaw&r=0",
+            "https://th.bing.com/th/id/R.2d9a525db57ee113e7ac089ff34a73ba?rik=EXC5Scexpi1lGA&pid=ImgRaw&r=0"
+          ]
+        },
+        "Dimensions": {
+          "Length": "22.67 m",
+          "Wingspan": "24.57 m",
+          "Cabin Length": "12.6 m",
+          "Fuselage Max Diameter": "2.57 m",
+          "Max Cabin Width": "2.57 m"
+        },
+        "Weights": {
+          "Max Landing Weight": "16.4 tons",
+          "Empty Weight": "10.285 tons",
+          "Max Takeoff Weight": "16.7 tons"
+        },
+        "Performance": {
+          "Fuel Capacity": "4,500 L",
+          "Range": "449 NM",
+          "Flight Ceiling": "25,000 ft",
+          "Takeoff Distance": "1,090 m",
+          "Landing Distance": "887 m",
+          "Passenger Capacity": {
+            "Max": 50,
+            "Typical": 48
+          },
+          "Cargo Capacity": "1,000 gallons",
+          "Avionics": {
+            "Common_suite": "Honeywell",
+            "FMS": "Yes",
+            "EFIS": "Yes",
+            "AFCS": "Yes",
+            "TAWS": "Yes",
+            "HUD": "No"
+          }
+        },
+        "Speed": {
+          "Cruise Speed": {
+            "Mach": "0.44",
+            "Knots": "266"
+          },
+          "Max Speed": {
+            "Mach": "0.45",
+            "Knots": "270"
+          },
+          "V2 speed": "108 knots",
+          "Stall speed": "103 knots"
+        },
+        "Engines": {
+          "PW120": {
+            "Manufacturer": "Pratt & Whitney Canada",
+            "Model": "PW120",
+            "Thrust": "767 lbf",
+            "Bypass ratio": "N/A",
+            "Fan stage": "N/A",
+            "Low-pressure compressor stages": "N/A",
+            "High-pressure compressor stages": "N/A",
+            "High-pressure turbine stages": "N/A",
+            "Low-pressure turbine stages": "N/A",
+            "Climb rate": 1320,
+            "Descend rate": 1200,
+            "Cruise climb rate": 1100,
+            "Landing descend rate": 1000,
+            "Fan blade diameter": "107.8",
+            "Fuel type": "Jet-A",
+            "Pressure ratio": "N/A"
+          }
+        },
+        "Other Details": {
+          "Noise Levels": {
+            "Takeoff": "85 dB",
+            "Landing": "82 dB",
+            "Cruise": "80 dB"
+          },
+          "operation_cost": "1.5 million USD",
+          "certification_standards": ["FAA", "EASA"],
+          "Body Type": "Narrow-body",
+          "Number of Decks": 1,
+          "Materials": {
+            "Fuselage": "Aluminum",
+            "Wings": "Aluminum"
+          },
+          "Commercial Operators": ["Air Littoral", "FedEx Feeder", "Canadian North", "Silver Airways"]
+        }
+      },
+      "ATR-42-500":{
+        "General Information": {
+          "Manufacturer": "ATR",
+          "Family": "ATR 42",
+          "First Flight": "1984",
+          "Model Build": "503",
+          "Entered Service": "December 1985 with Air Littoral",
+          "Type": "Turboprop regional airliner",
+          "Engine Type": "Turboprop",
+          "Number of Engines": "2",
+          "Price Tag": "12.1 million (2021)",
+          "Fly range category": "Close-mid range",
+          "seat config": [
+            "2-2"
+          ],
+          "aircraft_image":[
+            "https://th.bing.com/th/id/R.001d016f6d7d3995f666e812128097f0?rik=RbzOkwS9iQTALA&pid=ImgRaw&r=0",
+            "https://th.bing.com/th/id/R.2e3d572c6e2013487da129e06d1cff85?rik=2iiCAnT%2b%2bLiW%2bg&pid=ImgRaw&r=0"
+          ]
+        },
+        "Dimensions": {
+          "Length": "22.67 m",
+          "Wingspan": "24.57 m",
+          "Cabin Length": "12.62 m",
+          "Fuselage Max Diameter": "2.57 m",
+          "Max Cabin Width": "2.57 m"
+        },
+        "Weights": {
+          "Max Landing Weight": "18.3 tons",
+          "Empty Weight": "11.25 tons",
+          "Max Takeoff Weight": "18.6 tons"
+        },
+        "Performance": {
+          "Fuel Capacity": 5700,
+          "Range": "716 nautical miles",
+          "Flight Ceiling": "25,000 feet",
+          "Takeoff Distance": "1,165 meters",
+          "Landing Distance": "964 meters",
+          "Passenger Capacity": {
+            "Max": "50",
+            "Typical": "48"
+          },
+          "Cargo Capacity": "1,378 gallons",
+          "Avionics": {
+            "Common_suite": "Honeywell",
+            "FMS": "Yes",
+            "EFIS": "Yes",
+            "AFCS": "Yes",
+            "TAWS": "Yes",
+            "HUD": "No"
+          }
+        },
+        "Speed": {
+          "Cruise Speed": {
+            "Mach": "0.44",
+            "Knots": "300"
+          },
+          "Max Speed": {
+            "Mach": "0.44",
+            "Knots": "300"
+          },
+          "V2 speed": "104 knots",
+          "Stall speed": "104 knots"
+        },
+        "Engines": {
+          "PW127E": {
+            "Manufacturer": "Pratt & Whitney Canada",
+            "Model": "PW127E",
+            "Thrust": "2,400 lbf",
+            "Bypass ratio": "N/A",
+            "Fan stage": "N/A",
+            "Low-pressure compressor stages": "N/A",
+            "High-pressure compressor stages": "N/A",
+            "High-pressure turbine stages": "N/A",
+            "Low-pressure turbine stages": "N/A",
+            "Climb rate": 1851,
+            "Descend rate": 1851,
+            "Cruise climb rate": 1851,
+            "Landing descend rate": 1851,
+            "Fan blade diameter": "N/A",
+            "Fuel type": "Jet A",
+            "Pressure ratio": "N/A"
+          }
+        },
+        "Other Details": {
+          "Noise Levels": {
+            "Takeoff": "N/A",
+            "Landing": "N/A",
+            "Cruise": "N/A",
+            "operation_cost": "N/A",
+            "certification_standards": [
+              "FAA",
+              "EASA"
+            ]
+          },
+          "Body Type": "Narrow-body",
+          "Number of Decks": 1,
+          "Materials": {
+            "Fuselage": "Aluminum",
+            "Wings": "Aluminum"
+          },
+          "Commercial Operators": [
+            "Air Littoral",
+            "FedEx Feeder",
+            "Canadian North",
+            "Silver Airways",
+            "First Air",
+            "Easyfly",
+            "Tarom",
+            "Sky Express",
+            "Nordstar Airlines"
+          ]
+        }
+      },
+      "ATR-42-600":{
+        "General Information": {
+          "Manufacturer": "ATR",
+          "Family": "ATR 42",
+          "First Flight": "1984",
+          "Model Build": "Ongoing (still in production)",
+          "Entered Service": "2012 with Air Tahiti",
+          "Type": "Narrow-body turboprop airliner",
+          "Engine Type": "Turboprop",
+          "Number of Engines": 2,
+          "Price Tag": "19.5 million USD (2012)",
+          "Fly range category": "Close-mid range",
+          "seat config": [
+            "2-2"
+          ],
+          "aircraft_image" : [
+            "https://imgproc.airliners.net/photos/airliners/1/5/6/2316651.jpg?v=v40",
+            "https://th.bing.com/th/id/R.0de32e90ffc995c2cad647a4c5954918?rik=M0jEORMEiOG2fw&pid=ImgRaw&r=0"
+          ]
+        },
+        "Dimensions": {
+          "Length": "22.67 m",
+          "Wingspan": "24.57 m",
+          "Cabin Length": "12.6 m",
+          "Fuselage Max Diameter": "2.57 m",
+          "Max Cabin Width": "2.57 m"
+        },
+        "Weights": {
+          "Max Landing Weight": "18.3 tons",
+          "Empty Weight": "11.55 tons",
+          "Max Takeoff Weight": "18.6 tons"
+        },
+        "Performance": {
+          "Fuel Capacity": "1,320 US gallons (4,997 liters)",
+          "Range": "716 nautical miles",
+          "Flight Ceiling": "25,000 feet",
+          "Takeoff Distance": "1,036 meters",
+          "Landing Distance": "884 meters",
+          "Passenger Capacity": {
+            "Max": 50,
+            "Typical": 48
+          },
+          "Cargo Capacity": "1,200 gallons",
+          "Avionics": {
+            "Common_suite": "Thales Avionics Suite",
+            "FMS": "Yes",
+            "EFIS": "Yes",
+            "AFCS": "Yes",
+            "TAWS": "Yes",
+            "HUD": "No"
+          }
+        },
+        "Speed": {
+          "Cruise Speed": {
+            "Mach": "0.44",
+            "Knots": "300 knots"
+          },
+          "Max Speed": {
+            "Mach": "0.44",
+            "Knots": "300 knots"
+          },
+          "V2 speed": "120 knots",
+          "Stall speed": "90 knots"
+        },
+        "Engines": {
+          "PW127M": {
+            "Manufacturer": "Pratt & Whitney Canada",
+            "Model": "PW127M",
+            "Thrust": "2,160 lbf",
+            "Bypass ratio": "N/A",
+            "Fan stage": "N/A",
+            "Low-pressure compressor stages": "N/A",
+            "High-pressure compressor stages": "N/A",
+            "High-pressure turbine stages": "N/A",
+            "Low-pressure turbine stages": "N/A",
+            "Climb rate": 1851,
+            "Descend rate": 1500,
+            "Cruise climb rate": 1600,
+            "Landing descend rate": 1200,
+            "Fan blade diameter": "N/A",
+            "Fuel type": "Jet A-1",
+            "Pressure ratio": "N/A"
+          }
+        },
+        "Other Details": {
+          "Noise Levels": {
+            "Takeoff": "85 dB",
+            "Landing": "82 dB",
+            "Cruise": "80 dB"
+          },
+          "operation_cost": "1.5 million USD",
+          "certification_standards": ["FAA", "EASA"],
+          "Body Type": "Narrow-body",
+          "Number of Decks": 1,
+          "Materials": {
+            "Fuselage": "Aluminum alloy",
+            "Wings": "Aluminum alloy"
+          },
+          "Commercial Operators": ["Air Tahiti", "Silver Airways", "Bahamasair", "Air Botswana"]
+        }
+      } ,
+      "ATR-42-600S":{
+        "General Information": {
+          "Manufacturer": "ATR",
+          "Family": "ATR 42",
+          "First Flight": "1984",
+          "Model Build": "Ongoing (still in production)",
+          "Entered Service": "1985",
+          "Type": "Narrow-body turboprop airliner",
+          "Engine Type": "Turboprop",
+          "Number of Engines": 2,
+          "Price Tag": "19.5 million USD (2023)",
+          "Fly range category": "Close-mid range",
+          "seat config": [
+            "2-2"
+          ],
+          "aircraft_image":[
+            "https://imgproc.airliners.net/photos/airliners/3/2/0/7168023.jpg?v=v422ee11d3d2",
+            "https://th.bing.com/th/id/OIP.cQfuWgNxX4ZHrsjxX28cSQHaE8?rs=1&pid=ImgDetMain"
+          ]
+        },
+        "Dimensions": {
+          "Length": "22.67 m",
+          "Wingspan": "24.57 m",
+          "Cabin Length": "12.69 m",
+          "Fuselage Max Diameter": "2.57 m",
+          "Max Cabin Width": "2.57 m"
+        },
+        "Weights": {
+          "Max Landing Weight": "16.7 tons",
+          "Empty Weight": "11.25 tons",
+          "Max Takeoff Weight": "18.6 tons"
+        },
+        "Performance": {
+          "Fuel Capacity": 5000,
+          "Range": "716 nautical miles",
+          "Flight Ceiling": "25,000 feet",
+          "Takeoff Distance": "800 meters",
+          "Landing Distance": "800 meters",
+          "Passenger Capacity": {
+            "Max": 50,
+            "Typical": 42
+          },
+          "Cargo Capacity": "1,200 gallons",
+          "Avionics": {
+            "Common_suite": "Thales",
+            "FMS": "Yes",
+            "EFIS": "Yes",
+            "AFCS": "Yes",
+            "TAWS": "Yes",
+            "HUD": "No"
+          }
+        },
+        "Speed": {
+          "Cruise Speed": {
+            "Mach": "0.44",
+            "Knots": "300 knots"
+          },
+          "Max Speed": {
+            "Mach": "0.48",
+            "Knots": "315 knots"
+          },
+          "V2 speed": "120 knots",
+          "Stall speed": "90 knots"
+        },
+        "Engines": {
+          "PW127M": {
+            "Manufacturer": "Pratt & Whitney Canada",
+            "Model": "PW127M",
+            "Thrust": "2,400 SHP",
+            "Bypass ratio": "N/A",
+            "Fan stage": "N/A",
+            "Low-pressure compressor stages": "N/A",
+            "High-pressure compressor stages": "N/A",
+            "High-pressure turbine stages": "N/A",
+            "Low-pressure turbine stages": "N/A",
+            "Climb rate": 1851,
+            "Descend rate": 1500,
+            "Cruise climb rate": 1500,
+            "Landing descend rate": 1500,
+            "Fan blade diameter": "N/A",
+            "Fuel type": "Jet A1",
+            "Pressure ratio": "N/A"
+          }
+        },
+        "Other Details": {
+          "Noise Levels": {
+            "Takeoff": "85 dB",
+            "Landing": "82 dB",
+            "Cruise": "80 dB"
+          },
+          "operation_cost": "1.2 million USD per year",
+          "certification_standards": ["FAA", "EASA"],
+          "Body Type": "Narrow-body",
+          "Number of Decks": 1,
+          "Materials": {
+            "Fuselage": "Aluminum alloy",
+            "Wings": "Aluminum alloy"
+          },
+          "Commercial Operators": ["Air Tahiti", "Silver Airways", "HOP!", "Nordic Aviation Capital"]
+        }
+      },
+      "ATR-72-200":{
+        "General Information": {
+          "Manufacturer": "ATR",
+          "Family": "ATR 72",
+          "First Flight": "October 27, 1988",
+          "Model Build": "472 built (as of 2023)",
+          "Entered Service": "October 27, 1989 with Karair",
+          "Type": "Narrow-body turboprop airliner",
+          "Engine Type": "Turboprop",
+          "Number of Engines": 2,
+          "Price Tag": "24.7 million USD (2020)",
+          "Fly range category": "Close-mid range",
+          "seat config": [
+            "2-2"
+          ],
+          "aircraft_image":[
+            "https://th.bing.com/th/id/R.d2a570be6a8f9de3355768ac60e1f0bc?rik=NV7Tcs7BTEnQHA&pid=ImgRaw&r=0",
+            "https://th.bing.com/th/id/R.334ece7c62e01157fe57af83699ef2b4?rik=n1Lr6bVmhZWbFg&pid=ImgRaw&r=0"
+          ]
+        },
+        "Dimensions": {
+          "Length": "27.17 m",
+          "Wingspan": "27.05 m",
+          "Cabin Length": "20.42 m",
+          "Fuselage Max Diameter": "2.57 m",
+          "Max Cabin Width": "2.57 m"
+        },
+        "Weights": {
+          "Max Landing Weight": "21.35 tons",
+          "Empty Weight": "12.4 tons",
+          "Max Takeoff Weight": "21.5 tons"
+        },
+        "Performance": {
+          "Fuel Capacity": 6200,
+          "Range": "862 NM",
+          "Flight Ceiling": "25,000 ft",
+          "Takeoff Distance": "1,409 m",
+          "Landing Distance": "1,036 m",
+          "Passenger Capacity": {
+            "Max": 74,
+            "Typical": 66
+          },
+          "Cargo Capacity": "5,700 L",
+          "Avionics": {
+            "Common_suite": "Honeywell",
+            "FMS": "Yes",
+            "EFIS": "Yes",
+            "AFCS": "Yes",
+            "TAWS": "Yes",
+            "HUD": "No"
+          }
+        },
+        "Speed": {
+          "Cruise Speed": {
+            "Mach": "0.44",
+            "Knots": "278"
+          },
+          "Max Speed": {
+            "Mach": "0.47",
+            "Knots": "284"
+          },
+          "V2 speed": "115 knots",
+          "Stall speed": "114 knots"
+        },
+        "Engines": 
+          {
+            "PW124B": {
+              "Manufacturer": "Pratt & Whitney Canada",
+              "Model": "PW124B",
+              "Thrust": "4,850 lbf",
+              "Bypass ratio": "N/A",
+              "Fan stage": "N/A",
+              "Low-pressure compressor stages": "N/A",
+              "High-pressure compressor stages": "N/A",
+              "High-pressure turbine stages": "N/A",
+              "Low-pressure turbine stages": "N/A",
+              "Climb rate": 1390,
+              "Descend rate": 1000,
+              "Cruise climb rate": 1200,
+              "Landing descend rate": 800,
+              "Fan blade diameter": "N/A",
+              "Fuel type": "Jet A-1",
+              "Pressure ratio": "N/A"
+            },
+          
+            "PW127M": {
+              "Manufacturer": "Pratt & Whitney Canada",
+              "Model": "PW127M",
+              "Thrust": "5,550 lbf",
+              "Bypass ratio": "N/A",
+              "Fan stage": "N/A",
+              "Low-pressure compressor stages": "N/A",
+              "High-pressure compressor stages": "N/A",
+              "High-pressure turbine stages": "N/A",
+              "Low-pressure turbine stages": "N/A",
+              "Climb rate": 1390,
+              "Descend rate": 1000,
+              "Cruise climb rate": 1200,
+              "Landing descend rate": 800,
+              "Fan blade diameter": "N/A",
+              "Fuel type": "Jet A-1",
+              "Pressure ratio": "N/A"
+            }
+          },
+       
+        "Other Details": {
+          "Noise Levels": {
+            "Takeoff": "85 dB",
+            "Landing": "82 dB",
+            "Cruise": "80 dB"
+          },
+          "operation_cost": "1.2 million USD per year",
+          "certification_standards": ["FAA", "EASA"],
+          "Body Type": "Narrow-body",
+          "Number of Decks": 1,
+          "Materials": {
+            "Fuselage": "Aluminum alloy",
+            "Wings": "Aluminum alloy"
+          },
+          "Commercial Operators": ["Karair", "Air France", "American Eagle", "FedEx Express"]
+        }
+      },
+      "ATR-72-210":{
+        "General Information": {
+          "Manufacturer": "ATR",
+          "Family": "ATR 72",
+          "First Flight": "October 27, 1988",
+          "Model Build": "472 built (as of 2023)",
+          "Entered Service": "October 27, 1989 with Karair",
+          "Type": "Narrow-body turboprop airliner",
+          "Engine Type": "Turboprop",
+          "Number of Engines": 2,
+          "Price Tag": "24.7 million USD (2020)",
+          "Fly range category": "Close-mid range",
+          "seat config": [
+            "2-2"
+          ],
+          "aircraft_image":[
+            "https://th.bing.com/th/id/R.b96d7ea1b97698eeec1df519c470fc67?rik=TgrfApSO0NNmhQ&riu=http%3a%2f%2fwww.airteamimages.com%2fpics%2f200%2f200891_800.jpg&ehk=6hLg3fDouJz8WbU5JiKR9mRw4%2bABAgi8f1QCOdl50ZU%3d&risl=&pid=ImgRaw&r=0",
+            "https://th.bing.com/th/id/OIP.v3ys2t_ifEqiPCD5e222zwHaFB?rs=1&pid=ImgDetMain"
+          ]
+        },
+        "Dimensions": {
+          "Length": "27.17 m",
+          "Wingspan": "27.05 m",
+          "Cabin Length": "20.42 m",
+          "Fuselage Max Diameter": "2.57 m",
+          "Max Cabin Width": "2.57 m"
+        },
+        "Weights": {
+          "Max Landing Weight": "21.35 tons",
+          "Empty Weight": "12.4 tons",
+          "Max Takeoff Weight": "21.5 tons"
+        },
+        "Performance": {
+          "Fuel Capacity": 6200,
+          "Range": "862 NM",
+          "Flight Ceiling": "25,000 ft",
+          "Takeoff Distance": "1,409 m",
+          "Landing Distance": "1,036 m",
+          "Passenger Capacity": {
+            "Max": 74,
+            "Typical": 66
+          },
+          "Cargo Capacity": "5,700 L",
+          "Avionics": {
+            "Common_suite": "Honeywell",
+            "FMS": "Yes",
+            "EFIS": "Yes",
+            "AFCS": "Yes",
+            "TAWS": "Yes",
+            "HUD": "No"
+          }
+        },
+        "Speed": {
+          "Cruise Speed": {
+            "Mach": "0.44",
+            "Knots": "278"
+          },
+          "Max Speed": {
+            "Mach": "0.47",
+            "Knots": "284"
+          },
+          "V2 speed": "115 knots",
+          "Stall speed": "114 knots"
+        },
+        "Engines": 
+          {
+            "PW124B": {
+              "Manufacturer": "Pratt & Whitney Canada",
+              "Model": "PW124B",
+              "Thrust": "4,850 lbf",
+              "Bypass ratio": "N/A",
+              "Fan stage": "N/A",
+              "Low-pressure compressor stages": "N/A",
+              "High-pressure compressor stages": "N/A",
+              "High-pressure turbine stages": "N/A",
+              "Low-pressure turbine stages": "N/A",
+              "Climb rate": 1390,
+              "Descend rate": 1000,
+              "Cruise climb rate": 1200,
+              "Landing descend rate": 800,
+              "Fan blade diameter": "N/A",
+              "Fuel type": "Jet A-1",
+              "Pressure ratio": "N/A"
+            },
+         
+          
+            "PW127M": {
+              "Manufacturer": "Pratt & Whitney Canada",
+              "Model": "PW127M",
+              "Thrust": "5,550 lbf",
+              "Bypass ratio": "N/A",
+              "Fan stage": "N/A",
+              "Low-pressure compressor stages": "N/A",
+              "High-pressure compressor stages": "N/A",
+              "High-pressure turbine stages": "N/A",
+              "Low-pressure turbine stages": "N/A",
+              "Climb rate": 1390,
+              "Descend rate": 1000,
+              "Cruise climb rate": 1200,
+              "Landing descend rate": 800,
+              "Fan blade diameter": "N/A",
+              "Fuel type": "Jet A-1",
+              "Pressure ratio": "N/A"
+            }
+          },
+        
+        "Other Details": {
+          "Noise Levels": {
+            "Takeoff": "85 dB",
+            "Landing": "82 dB",
+            "Cruise": "80 dB"
+          },
+          "operation_cost": "1.2 million USD per year",
+          "certification_standards": ["FAA", "EASA"],
+          "Body Type": "Narrow-body",
+          "Number of Decks": 1,
+          "Materials": {
+            "Fuselage": "Aluminum alloy",
+            "Wings": "Aluminum alloy"
+          },
+          "Commercial Operators": ["Karair", "Air France", "American Eagle", "FedEx Express"]
+        }
+      },
+      "ATR-72-500":{
+        "General Information": {
+          "Manufacturer": "ATR",
+          "Family": "ATR 72",
+          "First Flight": "October 27, 1988",
+          "Model Build": "Ongoing (still in production)",
+          "Entered Service": "October 27, 1989 with Finnair",
+          "Type": "Narrow-body turboprop airliner",
+          "Engine Type": "Turboprop",
+          "Number of Engines": 2,
+          "Price Tag": "14.4 million USD (2021)",
+          "Fly range category": "Mid-range",
+          "seat config": [
+            "2-2"
+          ],
+          "aircraft_image":[
+            "https://th.bing.com/th/id/R.713a0e137fe547c05cd1040865ed2f4d?rik=gKqp99fufgVjGQ&pid=ImgRaw&r=0",
+            "https://th.bing.com/th/id/R.af02ec172e08ea203eb58abcb5650730?rik=WhASfHrUYEK7Ow&pid=ImgRaw&r=0"
+          ]
+        },
+        "Dimensions": {
+          "Length": "27.17 m",
+          "Wingspan": "27.05 m",
+          "Cabin Length": "20.42 m",
+          "Fuselage Max Diameter": "2.57 m",
+          "Max Cabin Width": "2.57 m"
+        },
+        "Weights": {
+          "Max Landing Weight": "21.85 tons",
+          "Empty Weight": "12.95 tons",
+          "Max Takeoff Weight": "22.8 tons"
+        },
+        "Performance": {
+          "Fuel Capacity": 5700,
+          "Range": "825 nm",
+          "Flight Ceiling": "25,000 ft",
+          "Takeoff Distance": "1,220 m",
+          "Landing Distance": "1,067 m",
+          "Passenger Capacity": {
+            "Max": 74,
+            "Typical": 68
+          },
+          "Cargo Capacity": "19,000 L",
+          "Avionics": {
+            "Common_suite": "Honeywell",
+            "FMS": "Yes",
+            "EFIS": "Yes",
+            "AFCS": "Yes",
+            "TAWS": "Yes",
+            "HUD": "No"
+          }
+        },
+        "Speed": {
+          "Cruise Speed": {
+            "Mach": "0.41",
+            "Knots": "275"
+          },
+          "Max Speed": {
+            "Mach": "0.45",
+            "Knots": "284"
+          },
+          "V2 speed": "115 knots",
+          "Stall speed": "113 knots"
+        },
+        "Engines": {
+          "PW127F": {
+            "Manufacturer": "Pratt & Whitney Canada",
+            "Model": "PW127F",
+            "Thrust": "1,850 lbf",
+            "Bypass ratio": "N/A",
+            "Fan stage": "N/A",
+            "Low-pressure compressor stages": "N/A",
+            "High-pressure compressor stages": "N/A",
+            "High-pressure turbine stages": "N/A",
+            "Low-pressure turbine stages": "N/A",
+            "Climb rate": 1374,
+            "Descend rate": 1374,
+            "Cruise climb rate": 1374,
+            "Landing descend rate": 1374,
+            "Fan blade diameter": "N/A",
+            "Fuel type": "Jet A",
+            "Pressure ratio": "N/A"
+          }
+        },
+        "Other Details": {
+          "Noise Levels": {
+            "Takeoff": "N/A",
+            "Landing": "N/A",
+            "Cruise": "N/A"
+          },
+          "operation_cost": "N/A",
+          "certification_standards": ["FAA", "EASA"],
+          "Body Type": "Narrow-body",
+          "Number of Decks": 1,
+          "Materials": {
+            "Fuselage": "Aluminum",
+            "Wings": "Aluminum"
+          },
+          "Commercial Operators": ["Finnair", "Air New Zealand", "American Eagle", "FedEx Express"]
+        }
+      },
+      "ATR-72-600":{
+        "General Information": {
+          "Manufacturer": "ATR",
+          "Family": "ATR 72",
+          "First Flight": "October 27, 1988",
+          "Model Build": "Ongoing (over 1,000 units built)",
+          "Entered Service": "October 27, 1989 with Karair",
+          "Type": "Turboprop regional airliner",
+          "Engine Type": "Turboprop",
+          "Number of Engines": 2,
+          "Price Tag": "26 million USD (2021)",
+          "Fly range category": "Close-mid range",
+          "seat config": [
+            "2-2"
+          ],
+          "aircraft_image":[
+            "https://th.bing.com/th/id/R.b3b01c8df4ae3003cab844e37eb23b46?rik=xHuxUpajYBbqDg&pid=ImgRaw&r=0",
+            "https://th.bing.com/th/id/OIP.iL3nvF_Rw-Q2O_tBEXPKJQAAAA?rs=1&pid=ImgDetMain"
+          ]
+        },
+        "Dimensions": {
+          "Length": "27.17 m",
+          "Wingspan": "27.05 m",
+          "Cabin Length": "20.11 m",
+          "Fuselage Max Diameter": "2.57 m",
+          "Max Cabin Width": "2.57 m"
+        },
+        "Weights": {
+          "Max Landing Weight": "22.35 tons",
+          "Empty Weight": "13.6 tons",
+          "Max Takeoff Weight": "23 tons"
+        },
+        "Performance": {
+          "Fuel Capacity": "5,000 kg",
+          "Range": "740 NM",
+          "Flight Ceiling": "25,000 ft",
+          "Takeoff Distance": "1,315 m",
+          "Landing Distance": "915 m",
+          "Passenger Capacity": {
+            "Max": 78,
+            "Typical": 70
+          },
+          "Cargo Capacity": "19,000 L",
+          "Avionics": {
+            "Common_suite": "Thales",
+            "FMS": "Yes",
+            "EFIS": "Yes",
+            "AFCS": "Yes",
+            "TAWS": "Yes",
+            "HUD": "No"
+          }
+        },
+        "Speed": {
+          "Cruise Speed": {
+            "Mach": "0.41",
+            "Knots": "275"
+          },
+          "Max Speed": {
+            "Mach": "0.45",
+            "Knots": "309"
+          },
+          "V2 speed": "130 knots",
+          "Stall speed": "98 knots"
+        },
+        "Engines": {
+          "PW127M": {
+            "Manufacturer": "Pratt & Whitney Canada",
+            "Model": "PW127M",
+            "Thrust": "3,360 lbf",
+            "Bypass ratio": "N/A",
+            "Fan stage": "N/A",
+            "Low-pressure compressor stages": "N/A",
+            "High-pressure compressor stages": "N/A",
+            "High-pressure turbine stages": "N/A",
+            "Low-pressure turbine stages": "N/A",
+            "Climb rate": 1500,
+            "Descend rate": 1200,
+            "Cruise climb rate": 1000,
+            "Landing descend rate": 1000,
+            "Fan blade diameter": "N/A",
+            "Fuel type": "Jet A-1",
+            "Pressure ratio": "N/A"
+          },
+          "PW127XT-M": {
+            "Manufacturer": "Pratt & Whitney Canada",
+            "Model": "PW127XT-M",
+            "Thrust": "3,360 lbf",
+            "Bypass ratio": "N/A",
+            "Fan stage": "N/A",
+            "Low-pressure compressor stages": "N/A",
+            "High-pressure compressor stages": "N/A",
+            "High-pressure turbine stages": "N/A",
+            "Low-pressure turbine stages": "N/A",
+            "Climb rate": 1500,
+            "Descend rate": 1200,
+            "Cruise climb rate": 1000,
+            "Landing descend rate": 1000,
+            "Fan blade diameter": "N/A",
+            "Fuel type": "Jet A-1",
+            "Pressure ratio": "N/A"
+          }
+        },
+        "Other Details": {
+          "Noise Levels": {
+            "Takeoff": "85 dB",
+            "Landing": "82 dB",
+            "Cruise": "78 dB"
+          },
+          "operation_cost": "2.5 million USD per year",
+          "certification_standards": ["FAA", "EASA"],
+          "Body Type": "Narrow-body",
+          "Number of Decks": 1,
+          "Materials": {
+            "Fuselage": "Aluminum alloy",
+            "Wings": "Aluminum alloy"
+          },
+          "Commercial Operators": ["Air New Zealand", "Azul Brazilian Airlines", "Bangkok Airways", "Cebu Pacific", "Flybe", "Garuda Indonesia", "HOP!", "Jet Airways", "Malaysia Airlines", "Silver Airways", "Wings Air"]
+        }
       }
-      
-      
-      
-      
-      
-      
       
       
       
