@@ -76,13 +76,13 @@ function NewPage(){
                     <img id="logo-image" src={Com_logo}></img>
                     <h2>Skylab</h2>
                 </div>
-                <div id="compare-icon-container-display-page" onClick={() => dropdown_compare_list()}>
-                        <img id="compare_icon_display" src={compare_icon}></img>
+                <div id="compare-icon-container-display-page-2" onClick={() => dropdown_compare_list()}>
+                        <img id="compare_icon_display-2" src={compare_icon}></img>
                        
                     </div>
-                    <div id="compare-listing-container-display">
+                    <div id="compare-listing-container-display-2">
                             {showing_compare && (
-                                <div id="compare-dropdown">
+                                <div id="compare-dropdown-2">
                                     <h3>Comparison list</h3>
                                    
                                     {compare_plane_choosed_1.map((element) => 
