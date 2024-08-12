@@ -7,9 +7,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NewPage from "./pages/aircraft_display_page"
 import Creator_page from './pages/Creator';
 import Comparison_detailed_page from './pages/Comparision_detailed';
+import { Analytics } from '@vercel/analytics/react';
 function App() {
   return (
-
+    <>
+        <Analytics />
       <BrowserRouter>
 
         <Routes>
@@ -24,6 +26,8 @@ function App() {
  
   </BrowserRouter>
  
+    </>
+  
 );
  
 }
