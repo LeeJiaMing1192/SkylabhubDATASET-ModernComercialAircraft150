@@ -9242,7 +9242,7 @@ export const airplane_comercial = {
             "Type": "Wide-body jet airliner",
             "Engine Type": "High-bypass turbofan",
             "Fly range category": "Long range",
-            "Seat Configuration": [
+            "seat config": [
                 "3-4-3"
             ],
             "aircraft_image": [
@@ -9320,8 +9320,14 @@ export const airplane_comercial = {
             "Noise Levels": {
                 "Takeoff": "93 dB",
                 "Landing": "85 dB",
-                "Cruise": "88 dB"
+                "Cruise": "88 dB",
+                "Operation Cost": "$10 million",
+                "Certification Standards": [
+                    "FAA",
+                    "EASA"
+                ]
             },
+            
             "Body Type": "Twin-aisle (wide-body)",
             "Number of Decks": 1,
             "Materials": {
