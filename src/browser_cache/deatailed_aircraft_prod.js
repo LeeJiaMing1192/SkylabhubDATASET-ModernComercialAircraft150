@@ -5012,7 +5012,7 @@ export const airplane_comercial = {
                 "2-3-2"
             ],
             "aircraft_image": [
-                "https://www.aviationphotocompany.com/img/s/v-10/p2304041788-3.jpg",
+                "https://th.bing.com/th/id/OIP.zgvPJJWyKbJfEhtK0QlL-gHaE7?rs=1&pid=ImgDetMain",
                 "https://photos.flightaware.com/photos/retriever/faf51bf55c9bba6383d5fed21a320196d65c7a03"
             ],
             "number of engines": "4",

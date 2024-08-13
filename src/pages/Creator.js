@@ -9,7 +9,7 @@ import { useContext } from 'react';
 import MyContext from '../MyContext';
 import { airplane_comercial } from "../browser_cache/deatailed_aircraft_prod";
 import minh_hien_img from "../images/le_gia_minh.jpg"
-import gia_minh_img from "../images/linked-in-image.jpg"
+import gia_minh_img from "../images/legiaminh.png"
 
 // console.log(sharedData)
 function Creator_page(){

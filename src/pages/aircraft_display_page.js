@@ -237,7 +237,7 @@ function NewPage(){
     </ul>
   </div>
   <div>
-    <img src={choosed_aircraft["General Information"]["Cabin cross section"]} alt="cabin cross section"></img>
+    {/* <img src={choosed_aircraft["General Information"]["Cabin cross section"]} alt="cabin cross section"></img> */}
   </div>
 </div>
 
