@@ -38,8 +38,7 @@ function Creator_page(){
             <div className="About-creator">
                 <img src={gia_minh_img} className="creator_img"></img>
                 <h1>Lê Gia Minh</h1>
-                <h2>School : Lawrence S.Ting school</h2>
-        
+                <h2>Linkedin profile : <a href="https://www.linkedin.com/in/le-gia-minh-1084532b6/">Le Gia Minh</a></h2>
                 <h2>Contact info (personal email): legiaminhoffice@gmail.com</h2>
 
              
