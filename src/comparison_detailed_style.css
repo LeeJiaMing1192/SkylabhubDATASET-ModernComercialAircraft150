@@ -1,5 +1,7 @@
 @media screen and (max-width: 768px) {
-
+  .engine-option-container div:hover{
+    background-color: gray;
+  }
   .comparison-table {
     /* General table styling */
     width: 100%; /* Adjust as needed */
@@ -132,6 +134,8 @@
     width: 20%;
   }
   
-  
+  .engine-option-container div:hover{
+    background-color: gray;
+  }
 }
 

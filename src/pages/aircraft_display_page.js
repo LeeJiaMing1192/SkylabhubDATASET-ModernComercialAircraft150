@@ -128,6 +128,8 @@ function NewPage(){
             <ul>
             <li>Length: <span class="data-value">{choosed_aircraft["Dimensions"]["Length"]}</span></li>
             <li>Wingspan: <span class="data-value">{choosed_aircraft["Dimensions"]["Wingspan"]}</span></li>
+            <li>Aspect ratio: <span class="data-value">{choosed_aircraft["Dimensions"]["Aspect ratio"]}</span></li>
+            <li>Wing area: <span class="data-value">{choosed_aircraft["Dimensions"]["Wing area"]}</span></li>
             <li>Cabin Length: <span class="data-value">{choosed_aircraft["Dimensions"]["Cabin Length"]}</span></li>
             <li>Fuselage Max Diameter: <span class="data-value">{choosed_aircraft["Dimensions"]["Fuselage Max Diameter"]}</span></li>
             <li>Max Cabin Width: <span class="data-value">{choosed_aircraft["Dimensions"]["Max Cabin Width"]}</span></li>
@@ -144,7 +146,16 @@ function NewPage(){
       <li>Max Takeoff Weight: <span class="data-value">{choosed_aircraft["Weights"]["Max Takeoff Weight"]}</span></li>
     </ul>
   </div>
-
+  <div class="details">
+    <h3>Flaps</h3>
+    <ul>
+      <li>Flaps system: <span class="data-value">{choosed_aircraft["Other Details"]["Flaps system"]}</span></li>
+      <li>Max Takeoff Weight: <span class="data-value">{choosed_aircraft["Other Details"]["Number of flap stages"]}</span></li>
+      <li>Maximum flaps angle: <span class="data-value">{choosed_aircraft["Other Details"]["Maximum flap angle"]}</span></li>
+      <li>Actuation system: <span class="data-value">{choosed_aircraft["Other Details"]["Actuation system"]}</span></li>
+      <li>Flaps material: <span class="data-value">{choosed_aircraft["Other Details"]["Flaps material"]}</span></li>
+    </ul>
+  </div>
   <div class="details" id="performance">
     <h3>Performance</h3>
     <ul>
@@ -233,7 +244,7 @@ function NewPage(){
       <li>Number of Decks: <span class="data-value">{choosed_aircraft["Other Details"]["Number of Decks"]}</span></li>
       <li>Fuselage Material: <span class="data-value">{choosed_aircraft["General Information"]["Manufacturer"] === "Airbus" ? choosed_aircraft["Other Details"]["Materials"]["Fuselage"]["Material"] :choosed_aircraft["Other Details"]["Materials"].Fuselage}</span></li>
       <li>Wings Material: <span class="data-value">{choosed_aircraft["General Information"]["Manufacturer"] === "Airbus" ? choosed_aircraft["Other Details"]["Materials"]["Wings"]["Material"] :choosed_aircraft["Other Details"]["Materials"].Wings}</span></li>
-      <li>Commercial Operators: <span class="data-value"><ul>{com_operaters.map((elements) => <li><h4>{elements} </h4></li>)}</ul></span></li>
+      <li>Noticeable commercial Operators: <span class="data-value"><ul>{com_operaters.map((elements) => <li><h4>{elements} </h4></li>)}</ul></span></li>
     </ul>
   </div>
   <div>

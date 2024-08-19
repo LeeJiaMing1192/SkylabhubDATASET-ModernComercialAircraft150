@@ -53,7 +53,9 @@ export const airplane_comercial = {
             "Wingspan": "35.1 m",
             "Cabin Length": "23.7 m",
             "Fuselage Max Diameter": "3.5 m",
-            "Max Cabin Width": "3.28 m"
+            "Max Cabin Width": "3.28 m",
+            "Aspect ratio": 10.5,
+            "Wing area": "112.3 m^3"
         },
         "Weights": {
             "Max Landing Weight": "54.2 tons",
@@ -141,7 +143,12 @@ export const airplane_comercial = {
                 "Delta Air Lines",
                 "Air Baltic",
                 "Korean Air"
-            ]
+            ],
+            "Flaps system": "Double-slotted flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Composite materials"
         }
     },
     "Airbus A220-300": {
@@ -169,7 +176,9 @@ export const airplane_comercial = {
             "Wingspan": "35.1 m",
             "Cabin Length": "27.5 m",
             "Fuselage Max Diameter": "3.5 m",
-            "Max Cabin Width": "3.28 m"
+            "Max Cabin Width": "3.28 m",
+            "Aspect ratio": 10.5,
+            "Wing area": "112.3 m^3"
         },
         "Weights": {
             "Max Landing Weight": "61.0 tons",
@@ -257,7 +266,12 @@ export const airplane_comercial = {
                 "Delta Air Lines",
                 "Air Baltic",
                 "Korean Air"
-            ]
+            ],
+            "Flaps system": "Double-slotted flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Composite materials"
         }
     },
     "Airbus A300B2-100": {
@@ -286,7 +300,9 @@ export const airplane_comercial = {
             "Wingspan": "44.84 m",
             "Cabin Length": "50.9 m",
             "Fuselage Max Diameter": "5.64 m",
-            "Max Cabin Width": "5.28 m"
+            "Max Cabin Width": "5.28 m",
+            "Aspect ratio": 7.7,
+            "Wing area": "260 m^3"
         },
         "Weights": {
             "Max Landing Weight": "123.0 tons",
@@ -401,7 +417,12 @@ export const airplane_comercial = {
                 "Lufthansa",
                 "FedEx Express",
                 "UPS Airlines"
-            ]
+            ],
+            "Flaps system": "Single-slotted flaps",
+            "Number of flap stages": "3",
+            "Maximum flap angle": "30 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum alloy"
         }
     },
     "Airbus A300B4-100": {
@@ -430,7 +451,9 @@ export const airplane_comercial = {
             "Wingspan": "44.84 m",
             "Cabin Length": "50.9 m",
             "Fuselage Max Diameter": "5.64 m",
-            "Max Cabin Width": "5.28 m"
+            "Max Cabin Width": "5.28 m",
+            "Aspect ratio": 7.7,
+            "Wing area": "260 m^3"
         },
         "Weights": {
             "Max Landing Weight": "123.0 tons",
@@ -521,7 +544,12 @@ export const airplane_comercial = {
                 "Lufthansa",
                 "FedEx Express",
                 "UPS Airlines"
-            ]
+            ],
+            "Flaps system": "Single-slotted flaps",
+            "Number of flap stages": "3",
+            "Maximum flap angle": "30 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum alloy"
         }
     },
     "Airbus A300-600": {
@@ -551,7 +579,9 @@ export const airplane_comercial = {
             "Wingspan": "44.84 m",
             "Cabin Length": "40.7 m",
             "Fuselage Max Diameter": "5.64 m",
-            "Max Cabin Width": "5.28 m"
+            "Max Cabin Width": "5.28 m",
+            "Aspect ratio": 7.7,
+            "Wing area": "260 m^3"
         },
         "Weights": {
             "Max Landing Weight": "140.0 tons",
@@ -690,7 +720,12 @@ export const airplane_comercial = {
                 "FedEx Express",
                 "UPS Airlines",
                 "DHL Aviation"
-            ]
+            ],
+            "Flaps system": "Single-slotted flaps",
+            "Number of flap stages": "3",
+            "Maximum flap angle": "30 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum alloy"
         }
     },
     "Airbus A310-200": {
@@ -719,7 +754,9 @@ export const airplane_comercial = {
             "Wingspan": "43.90 m",
             "Cabin Length": "41.2 m",
             "Fuselage Max Diameter": "5.64 m",
-            "Max Cabin Width": "5.28 m"
+            "Max Cabin Width": "5.28 m",
+            "Aspect ratio": 8.8,
+            "Wing area": "219 m^3"
         },
         "Weights": {
             "Max Landing Weight": "124.0 tons",
@@ -930,7 +967,12 @@ export const airplane_comercial = {
                 "Lufthansa",
                 "FedEx Express",
                 "UPS Airlines"
-            ]
+            ],
+            "Flaps system": "Single-slotted flaps",
+            "Number of flap stages": "3",
+            "Maximum flap angle": "30 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum alloy"
         }
     },
     "Airbus A310-300": {
@@ -959,7 +1001,9 @@ export const airplane_comercial = {
             "Wingspan": "43.90 m",
             "Cabin Length": "41.2 m",
             "Fuselage Max Diameter": "5.64 m",
-            "Max Cabin Width": "5.28 m"
+            "Max Cabin Width": "5.28 m",
+            "Aspect ratio": 8.8,
+            "Wing area": "219 m^3"
         },
         "Weights": {
             "Max Landing Weight": "140.0 tons",
@@ -1170,7 +1214,12 @@ export const airplane_comercial = {
                 "Lufthansa",
                 "FedEx Express",
                 "UPS Airlines"
-            ]
+            ],
+            "Flaps system": "Single-slotted flaps",
+            "Number of flap stages": "3",
+            "Maximum flap angle": "30 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum alloy"
         }
     },
     "Airbus A318": {
@@ -1199,7 +1248,9 @@ export const airplane_comercial = {
             "Wingspan": "34.10 m",
             "Cabin Length": "21.38 m",
             "Fuselage Max Diameter": "3.95 m",
-            "Max Cabin Width": "3.70 m"
+            "Max Cabin Width": "3.70 m",
+            "Aspect ratio": 9.5,
+            "Wing area": "122.6 m^3"
         },
         "Weights": {
             "Max Landing Weight": "57.5 tons",
@@ -1314,7 +1365,12 @@ export const airplane_comercial = {
                 "TAROM",
                 "Avianca",
                 "LAN Airlines"
-            ]
+            ],
+            "Flaps system": "Double-slotted flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Composite materials"
         }
     },
     "Airbus A319": {
@@ -1343,7 +1399,9 @@ export const airplane_comercial = {
             "Wingspan": "35.80 m",
             "Cabin Length": "23.78 m",
             "Fuselage Max Diameter": "3.95 m",
-            "Max Cabin Width": "3.70 m"
+            "Max Cabin Width": "3.70 m",
+            "Aspect ratio": 9.5,
+            "Wing area": "122.6 m^3"
         },
         "Weights": {
             "Max Landing Weight": "61.0 tons",
@@ -1464,7 +1522,12 @@ export const airplane_comercial = {
                 "United Airlines",
                 "EasyJet",
                 "Delta Air Lines"
-            ]
+            ],
+            "Flaps system": "Double-slotted flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Composite materials"
         }
     },
     "Airbus A319neo": {
@@ -1492,7 +1555,9 @@ export const airplane_comercial = {
             "Wingspan": "35.80 m",
             "Cabin Length": "23.78 m",
             "Fuselage Max Diameter": "3.95 m",
-            "Max Cabin Width": "3.70 m"
+            "Max Cabin Width": "3.70 m",
+            "Aspect ratio": 10.3,
+            "Wing area": "124 m^3"
         },
         "Weights": {
             "Max Landing Weight": "63.90 tons",
@@ -1586,7 +1651,12 @@ export const airplane_comercial = {
                 "Delta Air Lines",
                 "Air Baltic",
                 "Korean Air"
-            ]
+            ],
+            "Flaps system": "Double-slotted flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Composite materials"
         }
     },
     "Airbus A320": {
@@ -1614,7 +1684,9 @@ export const airplane_comercial = {
             "Wingspan": "35.80 m",
             "Cabin Length": "27.51 m",
             "Fuselage Max Diameter": "3.95 m",
-            "Max Cabin Width": "3.70 m"
+            "Max Cabin Width": "3.70 m",
+            "Aspect ratio": 9.5,
+            "Wing area": "122.6 m^3"
         },
         "Weights": {
             "Max Landing Weight": "64.5 tons",
@@ -1717,7 +1789,12 @@ export const airplane_comercial = {
                 "United Airlines",
                 "EasyJet",
                 "Delta Air Lines"
-            ]
+            ],
+            "Flaps system": "Double-slotted flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Composite materials"
         }
     },
     "Airbus A320neo": {
@@ -1745,7 +1822,9 @@ export const airplane_comercial = {
             "Wingspan": "35.80 m",
             "Cabin Length": "27.51 m",
             "Fuselage Max Diameter": "3.95 m",
-            "Max Cabin Width": "3.70 m"
+            "Max Cabin Width": "3.70 m",
+            "Aspect ratio": 9.5,
+            "Wing area": "122.6 m^3"
         },
         "Weights": {
             "Max Landing Weight": "67.4 tons",
@@ -1848,7 +1927,12 @@ export const airplane_comercial = {
                 "IndiGo",
                 "Wizz Air",
                 "Frontier Airlines"
-            ]
+            ],
+            "Flaps system": "Double-slotted flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Composite materials"
         }
     },
     "Airbus A321-100": {
@@ -1876,7 +1960,9 @@ export const airplane_comercial = {
             "Wingspan": "34.10 m",
             "Cabin Length": "34.44 m",
             "Fuselage Max Diameter": "3.95 m",
-            "Max Cabin Width": "3.70 m"
+            "Max Cabin Width": "3.70 m",
+            "Aspect ratio": 9.5,
+            "Wing area": "122.6 m^3"
         },
         "Weights": {
             "Max Landing Weight": "75.5 tons",
@@ -1997,7 +2083,12 @@ export const airplane_comercial = {
                 "Alitalia",
                 "American Airlines",
                 "Delta Air Lines"
-            ]
+            ],
+            "Flaps system": "Double-slotted flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Composite materials"
         }
     },
     "Airbus A321-200": {
@@ -2025,7 +2116,9 @@ export const airplane_comercial = {
             "Wingspan": "35.80 m",
             "Cabin Length": "34.44 m",
             "Fuselage Max Diameter": "3.95 m",
-            "Max Cabin Width": "3.70 m"
+            "Max Cabin Width": "3.70 m",
+            "Aspect ratio": 9.5,
+            "Wing area": "122.6 m^3"
         },
         "Weights": {
             "Max Landing Weight": "75.5 tons",
@@ -2128,7 +2221,12 @@ export const airplane_comercial = {
                 "Delta Air Lines",
                 "China Southern Airlines",
                 "Wizz Air"
-            ]
+            ],
+            "Flaps system": "Double-slotted flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Composite materials"
         }
     },
     "Airbus A321LR": {
@@ -2156,7 +2254,9 @@ export const airplane_comercial = {
             "Wingspan": "35.80 m",
             "Cabin Length": "34.44 m",
             "Fuselage Max Diameter": "3.95 m",
-            "Max Cabin Width": "3.70 m"
+            "Max Cabin Width": "3.70 m",
+            "Aspect ratio": 9.5,
+            "Wing area": "128 m^3"
         },
         "Weights": {
             "Max Landing Weight": "79.2 tons",
@@ -2259,7 +2359,12 @@ export const airplane_comercial = {
                 "Aer Lingus",
                 "TAP Air Portugal",
                 "Air Transat"
-            ]
+            ],
+            "Flaps system": "Double-slotted flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Composite materials"
         }
     },
     "Airbus A321neo": {
@@ -2287,7 +2392,9 @@ export const airplane_comercial = {
             "Wingspan": "35.80 m",
             "Cabin Length": "34.44 m",
             "Fuselage Max Diameter": "3.95 m",
-            "Max Cabin Width": "3.70 m"
+            "Max Cabin Width": "3.70 m",
+            "Aspect ratio": 9.5,
+            "Wing area": "128 m^3"
         },
         "Weights": {
             "Max Landing Weight": "79.20 tons",
@@ -2386,7 +2493,12 @@ export const airplane_comercial = {
                 "Delta Air Lines",
                 "Air Baltic",
                 "Korean Air"
-            ]
+            ],
+            "Flaps system": "Double-slotted flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Composite materials"
         }
     },
     "Airbus A321XLR": {
@@ -2413,7 +2525,9 @@ export const airplane_comercial = {
             "Wingspan": "35.8 meters",
             "Cabin Length": "34.44 meters",
             "Fuselage Max Diameter": "3.95 meters",
-            "Max Cabin Width": "3.7 meters"
+            "Max Cabin Width": "3.7 meters",
+            "Aspect ratio": 9.5,
+            "Wing area": "128 m^3"
         },
         "Weights": {
             "Max Landing Weight": "101 tons",
@@ -2508,7 +2622,12 @@ export const airplane_comercial = {
                 "Delta Air Lines",
                 "JetBlue",
                 "Frontier Airlines"
-            ]
+            ],
+            "Flaps system": "Double-slotted flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Composite materials"
         }
     },
     "Airbus A330-200F": {
@@ -2536,7 +2655,9 @@ export const airplane_comercial = {
             "Wingspan": "60.30 m",
             "Cabin Length": "45.00 m",
             "Fuselage Max Diameter": "5.64 m",
-            "Max Cabin Width": "5.26 m"
+            "Max Cabin Width": "5.26 m",
+            "Aspect ratio": 10.0,
+            "Wing area": "361.6 m^3"
         },
         "Weights": {
             "Max Landing Weight": "187.0 tons",
@@ -2657,7 +2778,12 @@ export const airplane_comercial = {
                 "Qatar Airways Cargo",
                 "Turkish Airlines Cargo",
                 "Avianca Cargo"
-            ]
+            ],
+            "Flaps system": "Double-slotted flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Composite materials"
         }
     },
     "Airbus A330-300": {
@@ -2686,7 +2812,9 @@ export const airplane_comercial = {
             "Wingspan": "60.30 m",
             "Cabin Length": "50.36 m",
             "Fuselage Max Diameter": "5.64 m",
-            "Max Cabin Width": "5.26 m"
+            "Max Cabin Width": "5.26 m",
+            "Aspect ratio": 10.0,
+            "Wing area": "361.6 m^3"
         },
         "Weights": {
             "Max Landing Weight": "187.0 tons",
@@ -2801,7 +2929,12 @@ export const airplane_comercial = {
                 "Delta Air Lines",
                 "China Eastern Airlines",
                 "Cathay Pacific"
-            ]
+            ],
+            "Flaps system": "Double-slotted flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Composite materials"
         }
     },
     "Airbus A330-800neo": {
@@ -2830,7 +2963,9 @@ export const airplane_comercial = {
             "Wingspan": "64.00 m",
             "Cabin Length": "45.00 m",
             "Fuselage Max Diameter": "5.64 m",
-            "Max Cabin Width": "5.26 m"
+            "Max Cabin Width": "5.26 m",
+            "Aspect ratio": 11.0,
+            "Wing area": "361.6 m^3"
         },
         "Weights": {
             "Max Landing Weight": "186.0 tons",
@@ -2914,7 +3049,12 @@ export const airplane_comercial = {
                 "Kuwait Airways",
                 "Uganda Airlines",
                 "Air Greenland"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "5",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Composite and aluminum"
         }
     },
     "Airbus A330-900neo": {
@@ -2943,7 +3083,9 @@ export const airplane_comercial = {
             "Wingspan": "64.0 m",
             "Cabin Length": "50.36 m",
             "Fuselage Max Diameter": "5.64 m",
-            "Max Cabin Width": "5.26 m"
+            "Max Cabin Width": "5.26 m",
+            "Aspect ratio": 11.0,
+            "Wing area": "361.6 m^3"
         },
         "Weights": {
             "Max Landing Weight": "191.0 tons",
@@ -3029,7 +3171,12 @@ export const airplane_comercial = {
                 "Air Mauritius",
                 "Garuda Indonesia",
                 "Korean Air"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "5",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Composite and aluminum"
         }
     },
     "Airbus A340-200": {
@@ -3057,7 +3204,9 @@ export const airplane_comercial = {
             "Wingspan": "60.3 m",
             "Cabin Length": "46.06 m",
             "Fuselage Max Diameter": "5.64 m",
-            "Max Cabin Width": "5.28 m"
+            "Max Cabin Width": "5.28 m",
+            "Aspect ratio": 10.0,
+            "Wing area": "361.6 m^3"
         },
         "Weights": {
             "Max Landing Weight": "181 tons",
@@ -3143,7 +3292,12 @@ export const airplane_comercial = {
                 "Swiss International Air Lines",
                 "Mahan Air",
                 "Edelweiss Air"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "5",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Composite and aluminum"
         }
     },
     "Airbus A340-300": {
@@ -3170,7 +3324,9 @@ export const airplane_comercial = {
             "Wingspan": "60.30 m",
             "Cabin Length": "50.35 m",
             "Fuselage Max Diameter": "5.64 m",
-            "Max Cabin Width": "5.28 m"
+            "Max Cabin Width": "5.28 m",
+            "Aspect ratio": 10.0,
+            "Wing area": "361.6 m^3"
         },
         "Weights": {
             "Max Landing Weight": "192 tons",
@@ -3256,7 +3412,12 @@ export const airplane_comercial = {
                 "Swiss International Air Lines",
                 "Mahan Air",
                 "Edelweiss Air"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "5",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Composite and aluminum"
         }
     },
     "Airbus A340-500": {
@@ -3284,7 +3445,9 @@ export const airplane_comercial = {
             "Wingspan": "63.45 m",
             "Cabin Length": "53.56 m",
             "Fuselage Max Diameter": "5.64 m",
-            "Max Cabin Width": "5.28 m"
+            "Max Cabin Width": "5.28 m",
+            "Aspect ratio": 9.2,
+            "Wing area": "439.4 m^3"
         },
         "Weights": {
             "Max Landing Weight": "246 tons",
@@ -3370,7 +3533,12 @@ export const airplane_comercial = {
                 "Thai Airways",
                 "Etihad Airways",
                 "Qatar Airways"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "5",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Composite and aluminum"
         }
     },
     "Airbus A340-600": {
@@ -3399,7 +3567,9 @@ export const airplane_comercial = {
             "Wingspan": "63.45 m",
             "Cabin Length": "60.98 m",
             "Fuselage Max Diameter": "5.64 m",
-            "Max Cabin Width": "5.28 m"
+            "Max Cabin Width": "5.28 m",
+            "Aspect ratio": 9.2,
+            "Wing area": "439.4 m^3"
         },
         "Weights": {
             "Max Landing Weight": "265 tons",
@@ -3485,7 +3655,12 @@ export const airplane_comercial = {
                 "Iberia",
                 "South African Airways",
                 "Thai Airways"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "5",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Composite and aluminum"
         }
     },
     "Airbus A350-800": {
@@ -3513,7 +3688,9 @@ export const airplane_comercial = {
             "Wingspan": "64.75 m",
             "Cabin Length": "50.36 m",
             "Fuselage Max Diameter": "5.96 m",
-            "Max Cabin Width": "5.61 m"
+            "Max Cabin Width": "5.61 m",
+            "Aspect ratio": 9.5,
+            "Wing area": "443 m^3"
         },
         "Weights": {
             "Max Landing Weight": "192 tons",
@@ -3593,7 +3770,12 @@ export const airplane_comercial = {
                     "Material": "Composite materials"
                 }
             },
-            "Commercial Operators": []
+            "Commercial Operators": [],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "5",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Composite and aluminum"
         }
     },
     "Airbus A350-900": {
@@ -3621,7 +3803,9 @@ export const airplane_comercial = {
             "Wingspan": "64.75 m",
             "Cabin Length": "51.04 m",
             "Fuselage Max Diameter": "5.96 m",
-            "Max Cabin Width": "5.61 m"
+            "Max Cabin Width": "5.61 m",
+            "Aspect ratio": 9.5,
+            "Wing area": "443 m^3"
         },
         "Weights": {
             "Max Landing Weight": "207 tons",
@@ -3707,7 +3891,12 @@ export const airplane_comercial = {
                 "Cathay Pacific",
                 "Air France",
                 "Lufthansa"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "5",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Composite and aluminum"
         }
     },
     "Airbus A350-1000": {
@@ -3735,7 +3924,9 @@ export const airplane_comercial = {
             "Wingspan": "64.75 m",
             "Cabin Length": "58.03 m",
             "Fuselage Max Diameter": "5.96 m",
-            "Max Cabin Width": "5.61 m"
+            "Max Cabin Width": "5.61 m",
+            "Aspect ratio": 9.5,
+            "Wing area": "443 m^3"
         },
         "Weights": {
             "Max Landing Weight": "236 tons",
@@ -3821,7 +4012,12 @@ export const airplane_comercial = {
                 "Cathay Pacific",
                 "Virgin Atlantic",
                 "Japan Airlines"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "5",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Composite and aluminum"
         }
     },
     "Airbus A380-800": {
@@ -3849,7 +4045,9 @@ export const airplane_comercial = {
             "Wingspan": "79.75 m",
             "Cabin Length": "50.68 m",
             "Fuselage Max Diameter": "7.14 m",
-            "Max Cabin Width": "6.58 m"
+            "Max Cabin Width": "6.58 m",
+            "Aspect ratio": 7.8,
+            "Wing area": "845 m^3"
         },
         "Weights": {
             "Max Landing Weight": "394 tons",
@@ -3953,7 +4151,12 @@ export const airplane_comercial = {
                 "Qantas",
                 "British Airways",
                 "Lufthansa"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "5",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Composite and aluminum"
         }
     },
     "Airbus A380-900": {
@@ -3982,7 +4185,9 @@ export const airplane_comercial = {
             "Wingspan": "79.75 m",
             "Cabin Length": "55.9 m",
             "Fuselage Max Diameter": "7.14 m",
-            "Max Cabin Width": "6.58 m"
+            "Max Cabin Width": "6.58 m",
+            "Aspect ratio": 7.8,
+            "Wing area": "845 m^3"
         },
         "Weights": {
             "Max Landing Weight": "357.4 tons",
@@ -4062,7 +4267,12 @@ export const airplane_comercial = {
                     "Material": "Composite materials"
                 }
             },
-            "Commercial Operators": []
+            "Commercial Operators": [],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "5",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Composite and aluminum"
         }
     },
     "Airbus A380F": {
@@ -4090,7 +4300,9 @@ export const airplane_comercial = {
             "Wingspan": "79.75 m",
             "Cabin Length": "50.68 m",
             "Fuselage Max Diameter": "7.14 m",
-            "Max Cabin Width": "6.58 m"
+            "Max Cabin Width": "6.58 m",
+            "Aspect ratio": 7.8,
+            "Wing area": "845 m^3"
         },
         "Weights": {
             "Max Landing Weight": "394 tons",
@@ -4188,7 +4400,12 @@ export const airplane_comercial = {
                     "Material": "Composite materials"
                 }
             },
-            "Commercial Operators": []
+            "Commercial Operators": [],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "5",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Composite and aluminum"
         }
     },
     "Airbus BelugaXL": {
@@ -4214,7 +4431,9 @@ export const airplane_comercial = {
             "Wingspan": "50.5 m",
             "Cabin Length": "37.7 m",
             "Fuselage Max Diameter": "8.8 m",
-            "Max Cabin Width": "7.4 m"
+            "Max Cabin Width": "7.4 m",
+            "Aspect ratio": 10.1,
+            "Wing area": "361.6 m^3"
         },
         "Weights": {
             "Max Landing Weight": "155 tons",
@@ -4292,7 +4511,12 @@ export const airplane_comercial = {
             },
             "Commercial Operators": [
                 "Airbus Transport International"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "5",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Composite and aluminum"
         }
     },
     "Airbus BelugaST": {
@@ -4320,7 +4544,9 @@ export const airplane_comercial = {
             "Wingspan": "44.84 m",
             "Cabin Length": "39.1 m",
             "Fuselage Max Diameter": "7.7 m",
-            "Max Cabin Width": "7.1 m"
+            "Max Cabin Width": "7.1 m",
+            "Aspect ratio": 7.5,
+            "Wing area": "260 m^3"
         },
         "Weights": {
             "Max Landing Weight": "140 tons",
@@ -4396,7 +4622,12 @@ export const airplane_comercial = {
                 "Delta Air Lines",
                 "Air Baltic",
                 "Korean Air"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "5",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Composite and aluminum"
         }
     },
     "Boeing 247D": {
@@ -4424,7 +4655,9 @@ export const airplane_comercial = {
             "Wingspan": "22.6 m",
             "Cabin Length": "15.7 m",
             "Fuselage Max Diameter": "3.7 m",
-            "Max Cabin Width": "3.78 m"
+            "Max Cabin Width": "3.78 m",
+            "Aspect ratio": 6.5,
+            "Wing area": "77.7 m^3"
         },
         "Weights": {
             "Max Landing Weight": "6.2 tons",
@@ -4503,7 +4736,12 @@ export const airplane_comercial = {
                 "United Air Lines",
                 "Boeing Air Transport",
                 "Other airlines (historical)"
-            ]
+            ],
+            "Flaps system": "None",
+            "Number of flap stages": "N/A",
+            "Maximum flap angle": "N/A",
+            "Actuation system": "N/A",
+            "Flaps material": "All-metal (anodized aluminum)"
         }
     },
     "Boeing 307 Stratoliner": {
@@ -4531,7 +4769,9 @@ export const airplane_comercial = {
             "Wingspan": "32.7 m",
             "Cabin Length": "22.6 m",
             "Fuselage Max Diameter": "3.5 m",
-            "Max Cabin Width": "3.6 m"
+            "Max Cabin Width": "3.6 m",
+            "Aspect ratio": 7.7,
+            "Wing area": "138.1 m^3"
         },
         "Weights": {
             "Max Landing Weight": "20,412 kg",
@@ -4631,7 +4871,12 @@ export const airplane_comercial = {
                 "United Airlines",
                 "American Airlines",
                 "Eastern Air Lines"
-            ]
+            ],
+            "Flaps system": "Single-slotted",
+            "Number of flap stages": "2",
+            "Maximum flap angle": "30 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "All-metal"
         }
     },
     "Boeing 707-138": {
@@ -4659,7 +4904,9 @@ export const airplane_comercial = {
             "Wingspan": "39.90 m",
             "Cabin Length": "22.6 m",
             "Fuselage Max Diameter": "3.5 m",
-            "Max Cabin Width": "3.51 m"
+            "Max Cabin Width": "3.51 m",
+            "Aspect ratio": 7.1,
+            "Wing area": "283 m^3"
         },
         "Weights": {
             "Max Landing Weight": "171,000 kg",
@@ -4741,7 +4988,12 @@ export const airplane_comercial = {
                 "American Airlines",
                 "Air France",
                 "Qantas Airways"
-            ]
+            ],
+            "Flaps system": "Triple-slotted",
+            "Number of flap stages": "3",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum alloy"
         }
     },
     "Boeing 707-320": {
@@ -4769,7 +5021,9 @@ export const airplane_comercial = {
             "Wingspan": "44.4 m",
             "Cabin Length": "33.5 m",
             "Fuselage Max Diameter": "3.9 m",
-            "Max Cabin Width": "3.2 m"
+            "Max Cabin Width": "3.2 m",
+            "Aspect ratio": 7.1,
+            "Wing area": "283 m^3"
         },
         "Weights": {
             "Max Landing Weight": "116.6 tons",
@@ -4868,7 +5122,12 @@ export const airplane_comercial = {
                 "Delta Air Lines",
                 "Air Baltic",
                 "Korean Air"
-            ]
+            ],
+            "Flaps system": "Triple-slotted",
+            "Number of flap stages": "3",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum alloy"
         }
     },
     "Boeing 707-20B": {
@@ -4896,7 +5155,9 @@ export const airplane_comercial = {
             "Wingspan": "44.4 m",
             "Cabin Length": "33.5 m",
             "Fuselage Max Diameter": "3.9 m",
-            "Max Cabin Width": "3.2 m"
+            "Max Cabin Width": "3.2 m",
+            "Aspect ratio": 7.1,
+            "Wing area": "283 m^3"
         },
         "Weights": {
             "Max Landing Weight": "116.6 tons",
@@ -4995,7 +5256,12 @@ export const airplane_comercial = {
                 "Delta Air Lines",
                 "Air Baltic",
                 "Korean Air"
-            ]
+            ],
+            "Flaps system": "Triple-slotted",
+            "Number of flap stages": "3",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum alloy"
         }
     },
     "Boeing 707-100B": {
@@ -5023,7 +5289,9 @@ export const airplane_comercial = {
             "Wingspan": "39.77 m",
             "Cabin Length": "39.9 m",
             "Fuselage Max Diameter": "3.9 m",
-            "Max Cabin Width": "12.9 m"
+            "Max Cabin Width": "12.9 m",
+            "Aspect ratio": 7.1,
+            "Wing area": "226 m^3"
         },
         "Weights": {
             "Max Landing Weight": "97,522 kg (215,000 lbs)",
@@ -5116,7 +5384,12 @@ export const airplane_comercial = {
                 "El Al",
                 "Aerolneas Argentinas",
                 "And more..."
-            ]
+            ],
+            "Flaps system": "Triple-slotted",
+            "Number of flap stages": "3",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum alloy"
         }
     },
     "Boeing 717-100": {
@@ -5144,7 +5417,9 @@ export const airplane_comercial = {
             "Wingspan": "28.47 m",
             "Cabin Length": "36.58 m",
             "Fuselage Max Diameter": "8.86 m",
-            "Max Cabin Width": "2.44 m"
+            "Max Cabin Width": "2.44 m",
+            "Aspect ratio": 8.7,
+            "Wing area": "93 m^3"
         },
         "Weights": {
             "Max Landing Weight": "51,000 kg",
@@ -5225,7 +5500,12 @@ export const airplane_comercial = {
                 "Hawaiian Airlines",
                 "QantasLink",
                 "AirTran Airways (historical)"
-            ]
+            ],
+            "Flaps system": "Double-slotted",
+            "Number of flap stages": "2",
+            "Maximum flap angle": "30 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum alloy"
         }
     },
     "Boeing 717-200": {
@@ -5253,7 +5533,9 @@ export const airplane_comercial = {
             "Wingspan": "28.5 meters",
             "Cabin Length": "24.4 meters",
             "Fuselage Max Diameter": "3.76 meters",
-            "Max Cabin Width": "2.44 meters"
+            "Max Cabin Width": "2.44 meters",
+            "Aspect ratio": 8.7,
+            "Wing area": "93 m^3"
         },
         "Weights": {
             "Max Landing Weight": "53.5 tons",
@@ -5329,7 +5611,12 @@ export const airplane_comercial = {
                 "Hawaiian Airlines",
                 "QantasLink",
                 "AirTran Airways (historical)"
-            ]
+            ],
+            "Flaps system": "Double-slotted",
+            "Number of flap stages": "2",
+            "Maximum flap angle": "30 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum alloy"
         }
     },
     "Boeing 727-100": {
@@ -5357,7 +5644,9 @@ export const airplane_comercial = {
             "Wingspan": "32 m",
             "Cabin Length": "36.6 m",
             "Fuselage Max Diameter": "3.2 m",
-            "Max Cabin Width": "2.54 m"
+            "Max Cabin Width": "2.54 m",
+            "Aspect ratio": 7.5,
+            "Wing area": "157.9 m^3"
         },
         "Weights": {
             "Max Landing Weight": "72.57 tons",
@@ -5433,7 +5722,12 @@ export const airplane_comercial = {
                 "Delta Air Lines",
                 "Air Baltic",
                 "Korean Air"
-            ]
+            ],
+            "Flaps system": "Triple-slotted",
+            "Number of flap stages": "3",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum alloy"
         }
     },
     "Boeing 727-200": {
@@ -5461,7 +5755,9 @@ export const airplane_comercial = {
             "Wingspan": "32.92 m",
             "Cabin Length": "36.6 m",
             "Fuselage Max Diameter": "10.36 m",
-            "Max Cabin Width": "2.54 m"
+            "Max Cabin Width": "2.54 m",
+            "Aspect ratio": 7.5,
+            "Wing area": "157.9 m^3"
         },
         "Weights": {
             "Max Landing Weight": "72.57 tons",
@@ -5537,7 +5833,12 @@ export const airplane_comercial = {
                 "Delta Air Lines",
                 "Air Baltic",
                 "Korean Air"
-            ]
+            ],
+            "Flaps system": "Triple-slotted",
+            "Number of flap stages": "3",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum alloy"
         }
     },
     "Boeing 737-100": {
@@ -5565,7 +5866,9 @@ export const airplane_comercial = {
             "Wingspan": "28.35 m",
             "Cabin Length": "8.7 m",
             "Fuselage Max Diameter": "3.9 m",
-            "Max Cabin Width": "3.5 m"
+            "Max Cabin Width": "3.5 m",
+            "Aspect ratio": 8.83,
+            "Wing area": "102.0 m^3"
         },
         "Weights": {
             "Max Landing Weight": "44.91 tons",
@@ -5646,7 +5949,12 @@ export const airplane_comercial = {
                 "Delta Air Lines",
                 "Air Baltic",
                 "Korean Air"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
     },
     "Boeing 737-200": {
@@ -5674,7 +5982,9 @@ export const airplane_comercial = {
             "Wingspan": "28.35 m",
             "Cabin Length": "8.7 m",
             "Fuselage Max Diameter": "3.9 m",
-            "Max Cabin Width": "3.5 m"
+            "Max Cabin Width": "3.5 m",
+            "Aspect ratio": 8.83,
+            "Wing area": "102.0 m^3"
         },
         "Weights": {
             "Max Landing Weight": "52.39 tons",
@@ -5747,7 +6057,12 @@ export const airplane_comercial = {
                 "Delta Air Lines",
                 "Air Baltic",
                 "Korean Air"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
     },
     "Boeing 737-300": {
@@ -5775,7 +6090,9 @@ export const airplane_comercial = {
             "Wingspan": "28.88 m",
             "Cabin Length": "8.7 m",
             "Fuselage Max Diameter": "3.9 m",
-            "Max Cabin Width": "3.5 m"
+            "Max Cabin Width": "3.5 m",
+            "Aspect ratio": 9.16,
+            "Wing area": "105.4 m^3"
         },
         "Weights": {
             "Max Landing Weight": "62.82 tons",
@@ -5866,7 +6183,12 @@ export const airplane_comercial = {
                 "Delta Air Lines",
                 "Air Baltic",
                 "Korean Air"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
     },
     "Boeing 737-400": {
@@ -5894,7 +6216,9 @@ export const airplane_comercial = {
             "Wingspan": "28.88 m",
             "Cabin Length": "8.7 m",
             "Fuselage Max Diameter": "3.9 m",
-            "Max Cabin Width": "3.5 m"
+            "Max Cabin Width": "3.5 m",
+            "Aspect ratio": 9.16,
+            "Wing area": "105.4 m^3"
         },
         "Weights": {
             "Max Landing Weight": "62.82 tons",
@@ -5985,7 +6309,12 @@ export const airplane_comercial = {
                 "Delta Air Lines",
                 "Air Baltic",
                 "Korean Air"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
     },
     "Boeing 737-500": {
@@ -6013,7 +6342,9 @@ export const airplane_comercial = {
             "Wingspan": "28.88 m",
             "Cabin Length": "8.7 m",
             "Fuselage Max Diameter": "4.01 m",
-            "Max Cabin Width": "3.5 m"
+            "Max Cabin Width": "3.5 m",
+            "Aspect ratio": 9.16,
+            "Wing area": "105.4 m^3"
         },
         "Weights": {
             "Max Landing Weight": "60 tons",
@@ -6091,7 +6422,12 @@ export const airplane_comercial = {
                 "Yamal Airlines",
                 "Transaero",
                 "Aerolineas Argentinas"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
     },
     "Boeing 737-600": {
@@ -6119,7 +6455,9 @@ export const airplane_comercial = {
             "Wingspan": "35.79 m",
             "Cabin Length": "8.7 m",
             "Fuselage Max Diameter": "4.01 m",
-            "Max Cabin Width": "3.5 m"
+            "Max Cabin Width": "3.5 m",
+            "Aspect ratio": 9.45,
+            "Wing area": "124.6 m^3"
         },
         "Weights": {
             "Max Landing Weight": "55.11 tons",
@@ -6192,7 +6530,12 @@ export const airplane_comercial = {
                 "Tunisair",
                 "Malev Hungarian Airlines",
                 "Air Berlin"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
     },
     "Boeing 737-700": {
@@ -6220,7 +6563,9 @@ export const airplane_comercial = {
             "Wingspan": "35.8 m",
             "Cabin Length": "31.24 m",
             "Fuselage Max Diameter": "3.81 m",
-            "Max Cabin Width": "3.05 m"
+            "Max Cabin Width": "3.05 m",
+            "Aspect ratio": 9.45,
+            "Wing area": "125.0 m^3"
         },
         "Weights": {
             "Max Landing Weight": "60.33 tons",
@@ -6309,7 +6654,12 @@ export const airplane_comercial = {
                 "Jet2.com",
                 "Enter Air",
                 "Others"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
     },
     "Boeing 737-800": {
@@ -6337,7 +6687,9 @@ export const airplane_comercial = {
             "Wingspan": "34.3 m",
             "Cabin Length": "31.24 m",
             "Fuselage Max Diameter": "3.81 m",
-            "Max Cabin Width": "3.05 m"
+            "Max Cabin Width": "3.05 m",
+            "Aspect ratio": 9.45,
+            "Wing area": "125.0 m^3"
         },
         "Weights": {
             "Max Landing Weight": "65.32 tons",
@@ -6426,7 +6778,12 @@ export const airplane_comercial = {
                 "Jet2.com",
                 "Enter Air",
                 "Others"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
     },
     "Boeing 737-900": {
@@ -6454,7 +6811,9 @@ export const airplane_comercial = {
             "Wingspan": "35.8 m",
             "Cabin Length": "31.24 m",
             "Fuselage Max Diameter": "3.81 m",
-            "Max Cabin Width": "3.05 m"
+            "Max Cabin Width": "3.05 m",
+            "Aspect ratio": 9.45,
+            "Wing area": "125.0 m^3"
         },
         "Weights": {
             "Max Landing Weight": "65.32 tons",
@@ -6543,7 +6902,12 @@ export const airplane_comercial = {
                 "Jet2.com",
                 "Enter Air",
                 "Others"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
     },
     "Boeing 737 MAX": {
@@ -6571,7 +6935,9 @@ export const airplane_comercial = {
             "Wingspan": "35.9 m",
             "Cabin Length": "33.63 m",
             "Fuselage Max Diameter": "3.76 m",
-            "Max Cabin Width": "3.54 m"
+            "Max Cabin Width": "3.54 m",
+            "Aspect ratio": 9.45,
+            "Wing area": "125.0 m^3"
         },
         "Weights": {
             "Max Landing Weight": "74,344 tons",
@@ -6653,7 +7019,12 @@ export const airplane_comercial = {
                 "Air Baltic",
                 "Korean Air",
                 "and more"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
     },
     "Boeing 747-100": {
@@ -6681,7 +7052,9 @@ export const airplane_comercial = {
             "Wingspan": "59.6 m",
             "Cabin Length": "56.3 m",
             "Fuselage Max Diameter": "6.2 m",
-            "Max Cabin Width": "6.1 m"
+            "Max Cabin Width": "6.1 m",
+            "Aspect ratio": 7.0,
+            "Wing area": "511.0 m^3"
         },
         "Weights": {
             "Max Landing Weight": "260 tons",
@@ -6761,7 +7134,12 @@ export const airplane_comercial = {
                 "Pan Am",
                 "General Electric (test plane)",
                 "and more"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "30 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
     },
     "Boeing 747-200": {
@@ -6789,7 +7167,9 @@ export const airplane_comercial = {
             "Wingspan": "59.64 m",
             "Cabin Length": "30.5 m",
             "Fuselage Max Diameter": "19.33 m",
-            "Max Cabin Width": "5.18 m"
+            "Max Cabin Width": "5.18 m",
+            "Aspect ratio": 7.0,
+            "Wing area": "511.0 m^3"
         },
         "Weights": {
             "Max Landing Weight": "378 tons",
@@ -6888,7 +7268,12 @@ export const airplane_comercial = {
                 "Delta Air Lines",
                 "Air Baltic",
                 "Korean Air"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "30 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
     },
     "Boeing 747-300": {
@@ -6916,7 +7301,9 @@ export const airplane_comercial = {
             "Wingspan": "59.64 m",
             "Cabin Length": "30.5 m",
             "Fuselage Max Diameter": "19.33 m",
-            "Max Cabin Width": "5.18 m"
+            "Max Cabin Width": "5.18 m",
+            "Aspect ratio": 7.0,
+            "Wing area": "511.0 m^3"
         },
         "Weights": {
             "Max Landing Weight": "378 tons",
@@ -7015,7 +7402,12 @@ export const airplane_comercial = {
                 "Delta Air Lines",
                 "Air Baltic",
                 "Korean Air"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "30 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
     },
     "Boeing 747-400": {
@@ -7043,7 +7435,9 @@ export const airplane_comercial = {
             "Wingspan": "59.64 m",
             "Cabin Length": "30.5 m",
             "Fuselage Max Diameter": "19.33 m",
-            "Max Cabin Width": "5.18 m"
+            "Max Cabin Width": "5.18 m",
+            "Aspect ratio": 8,
+            "Wing area": "541.2 m^3"
         },
         "Weights": {
             "Max Landing Weight": "378 tons",
@@ -7141,7 +7535,12 @@ export const airplane_comercial = {
                 "Lufthansa",
                 "UPS Airlines",
                 "Cargolux"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "30 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
     },
     "Boeing 747-400F": {
@@ -7167,7 +7566,9 @@ export const airplane_comercial = {
             "Wingspan": "59.64 m",
             "Cabin Length": "30.5 m",
             "Fuselage Max Diameter": "19.33 m",
-            "Max Cabin Width": "5.18 m"
+            "Max Cabin Width": "5.18 m",
+            "Aspect ratio": 8,
+            "Wing area": "541.2 m^3"
         },
         "Weights": {
             "Max Landing Weight": "302 tons",
@@ -7266,7 +7667,12 @@ export const airplane_comercial = {
                 "Lufthansa",
                 "UPS Airlines",
                 "Cargolux"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "30 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
     },
     "Boeing 747-400D": {
@@ -7296,7 +7702,9 @@ export const airplane_comercial = {
             "Wingspan": "64.44 m",
             "Cabin Length": "30.5 m",
             "Fuselage Max Diameter": "19.33 m",
-            "Max Cabin Width": "5.18 m"
+            "Max Cabin Width": "5.18 m",
+            "Aspect ratio": 8,
+            "Wing area": "541.2 m^3"
         },
         "Weights": {
             "Max Landing Weight": "302 tons",
@@ -7395,7 +7803,12 @@ export const airplane_comercial = {
                 "Lufthansa",
                 "UPS Airlines",
                 "Cargolux"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "30 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
     },
     "Boeing 747-400ER": {
@@ -7423,7 +7836,9 @@ export const airplane_comercial = {
             "Wingspan": "59.64 m",
             "Cabin Length": "30.5 m",
             "Fuselage Max Diameter": "19.33 m",
-            "Max Cabin Width": "5.18 m"
+            "Max Cabin Width": "5.18 m",
+            "Aspect ratio": 8,
+            "Wing area": "541.2 m^3"
         },
         "Weights": {
             "Max Landing Weight": "295 tons",
@@ -7522,7 +7937,12 @@ export const airplane_comercial = {
                 "Lufthansa",
                 "UPS Airlines",
                 "Cargolux"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "30 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
     },
     "Boeing 747-8": {
@@ -7550,7 +7970,9 @@ export const airplane_comercial = {
             "Wingspan": "68.45 m",
             "Cabin Length": "76.25 m",
             "Fuselage Max Diameter": "19.35 m",
-            "Max Cabin Width": "76.25 m"
+            "Max Cabin Width": "76.25 m",
+            "Aspect ratio": 8.5,
+            "Wing area": "554 m^3"
         },
         "Weights": {
             "Max Landing Weight": "975,000 lbs",
@@ -7634,7 +8056,12 @@ export const airplane_comercial = {
                 "Delta Air Lines",
                 "Air Baltic",
                 "Swiss International Air Lines"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "30 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
     },
     "Boeing 757-200": {
@@ -7662,7 +8089,9 @@ export const airplane_comercial = {
             "Wingspan": "38.05 m",
             "Cabin Length": "3.54 m",
             "Fuselage Max Diameter": "4.1 m",
-            "Max Cabin Width": "3.53 m"
+            "Max Cabin Width": "3.53 m",
+            "Aspect ratio": 7.8,
+            "Wing area": "185.3 m^3"
         },
         "Weights": {
             "Max Landing Weight": "115.68 tons",
@@ -7761,7 +8190,12 @@ export const airplane_comercial = {
                 "Delta Air Lines",
                 "Air Baltic",
                 "Korean Air"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "30 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
     },
     "Boeing 757-200F": {
@@ -7787,7 +8221,9 @@ export const airplane_comercial = {
             "Wingspan": "41.1 m",
             "Cabin Length": "38.0 m",
             "Fuselage Max Diameter": "13.6 m",
-            "Max Cabin Width": "3.76 m"
+            "Max Cabin Width": "3.76 m",
+            "Aspect ratio": 7.8,
+            "Wing area": "185.3 m^3"
         },
         "Weights": {
             "Max Landing Weight": "92.25 tons",
@@ -7886,7 +8322,12 @@ export const airplane_comercial = {
                 "Delta Air Lines",
                 "Air Baltic",
                 "Korean Air"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "30 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
     },
     "Boeing 757-300": {
@@ -7914,7 +8355,9 @@ export const airplane_comercial = {
             "Wingspan": "38.1 m",
             "Cabin Length": "38.0 m",
             "Fuselage Max Diameter": "13.6 m",
-            "Max Cabin Width": "3.76 m"
+            "Max Cabin Width": "3.76 m",
+            "Aspect ratio": 7.8,
+            "Wing area": "185.3 m^3"
         },
         "Weights": {
             "Max Landing Weight": "101.6 tons",
@@ -8049,7 +8492,12 @@ export const airplane_comercial = {
                 "FedEx Express",
                 "United Airlines",
                 "UPS Airlines"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "30 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
     },
     "Boeing 767-200": {
@@ -8077,7 +8525,9 @@ export const airplane_comercial = {
             "Wingspan": "47.57 m",
             "Cabin Length": "38.0 m",
             "Fuselage Max Diameter": "4.83 m",
-            "Max Cabin Width": "3.76 m"
+            "Max Cabin Width": "3.76 m",
+            "Aspect ratio": 8,
+            "Wing area": "283.3 m^3"
         },
         "Weights": {
             "Max Landing Weight": "136.08 tons",
@@ -8158,7 +8608,12 @@ export const airplane_comercial = {
                 "FedEx Express",
                 "UPS Airlines",
                 "United Airlines"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "30 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
     },
     "Boeing 757-200ER": {
@@ -8186,7 +8641,9 @@ export const airplane_comercial = {
             "Wingspan": "47.57 m",
             "Cabin Length": "38.0 m",
             "Fuselage Max Diameter": "4.83 m",
-            "Max Cabin Width": "3.76 m"
+            "Max Cabin Width": "3.76 m",
+            "Aspect ratio": 7.8,
+            "Wing area": "185.3 m^3"
         },
         "Weights": {
             "Max Landing Weight": "92.25 tons",
@@ -8267,7 +8724,12 @@ export const airplane_comercial = {
                 "FedEx Express",
                 "UPS Airlines",
                 "United Airlines"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "30 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
     },
     "Boeing 767-300": {
@@ -8295,7 +8757,9 @@ export const airplane_comercial = {
             "Wingspan": "47.57 m",
             "Cabin Length": "38.0 m",
             "Fuselage Max Diameter": "4.83 m",
-            "Max Cabin Width": "3.76 m"
+            "Max Cabin Width": "3.76 m",
+            "Aspect ratio": 8,
+            "Wing area": "283.3 m^3"
         },
         "Weights": {
             "Max Landing Weight": "145.15 tons",
@@ -8376,7 +8840,12 @@ export const airplane_comercial = {
                 "FedEx Express",
                 "UPS Airlines",
                 "United Airlines"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "30 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
     },
     "Boeing 767-300ER": {
@@ -8404,7 +8873,9 @@ export const airplane_comercial = {
             "Wingspan": "47.57 m",
             "Cabin Length": "38.0 m",
             "Fuselage Max Diameter": "4.83 m",
-            "Max Cabin Width": "3.76 m"
+            "Max Cabin Width": "3.76 m",
+            "Aspect ratio": 8,
+            "Wing area": "283.3 m^3"
         },
         "Weights": {
             "Max Landing Weight": "145.15 tons",
@@ -8485,7 +8956,12 @@ export const airplane_comercial = {
                 "FedEx Express",
                 "UPS Airlines",
                 "United Airlines"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "30 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
     },
     "Boeing 767-400": {
@@ -8513,7 +8989,9 @@ export const airplane_comercial = {
             "Wingspan": "51.92 m",
             "Cabin Length": "51.90 m",
             "Fuselage Max Diameter": "5.03 m",
-            "Max Cabin Width": "4.72 m"
+            "Max Cabin Width": "4.72 m",
+            "Aspect ratio": 8,
+            "Wing area": "283.3 m^3"
         },
         "Weights": {
             "Max Landing Weight": "158.76 tons",
@@ -8612,7 +9090,12 @@ export const airplane_comercial = {
                 "FedEx Express",
                 "UPS Airlines",
                 "United Airlines"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "30 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
     },
     "Boeing 767-400ER": {
@@ -8640,7 +9123,9 @@ export const airplane_comercial = {
             "Wingspan": "51.92 m",
             "Cabin Length": "51.90 m",
             "Fuselage Max Diameter": "5.03 m",
-            "Max Cabin Width": "4.72 m"
+            "Max Cabin Width": "4.72 m",
+            "Aspect ratio": 8,
+            "Wing area": "283.3 m^3"
         },
         "Weights": {
             "Max Landing Weight": "158.76 tons",
@@ -8739,7 +9224,12 @@ export const airplane_comercial = {
                 "FedEx Express",
                 "UPS Airlines",
                 "United Airlines"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "30 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
     },
     "Boeing 777-200": {
@@ -8767,7 +9257,9 @@ export const airplane_comercial = {
             "Wingspan": "60.93 m",
             "Cabin Length": "51.90 m",
             "Fuselage Max Diameter": "5.64 m",
-            "Max Cabin Width": "5.16 m"
+            "Max Cabin Width": "5.16 m",
+            "Aspect ratio": 8.7,
+            "Wing area": "427.8 m^3"
         },
         "Weights": {
             "Max Landing Weight": "460 tons",
@@ -8866,7 +9358,12 @@ export const airplane_comercial = {
                 "United Airlines",
                 "Qatar Airways",
                 "Air France"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "30 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
     },
     "Boeing 777-200ER": {
@@ -8894,7 +9391,9 @@ export const airplane_comercial = {
             "Wingspan": "60.93 m",
             "Cabin Length": "51.90 m",
             "Fuselage Max Diameter": "5.64 m",
-            "Max Cabin Width": "5.16 m"
+            "Max Cabin Width": "5.16 m",
+            "Aspect ratio": 8.7,
+            "Wing area": "427.8 m^3"
         },
         "Weights": {
             "Max Landing Weight": "460 tons",
@@ -8993,7 +9492,12 @@ export const airplane_comercial = {
                 "United Airlines",
                 "Qatar Airways",
                 "Air France"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "30 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
     },
     "Boeing 777-200LR": {
@@ -9021,7 +9525,9 @@ export const airplane_comercial = {
             "Wingspan": "60.93 m",
             "Cabin Length": "51.90 m",
             "Fuselage Max Diameter": "5.64 m",
-            "Max Cabin Width": "5.16 m"
+            "Max Cabin Width": "5.16 m",
+            "Aspect ratio": 8.7,
+            "Wing area": "427.8 m^3"
         },
         "Weights": {
             "Max Landing Weight": "19 tons",
@@ -9120,7 +9626,12 @@ export const airplane_comercial = {
                 "United Airlines",
                 "Qatar Airways",
                 "Air France"
-            ]
+            ],
+            "Flaps system": "Fowler flaps",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "30 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
     },
     "Boeing 777-300": {
@@ -9148,7 +9659,9 @@ export const airplane_comercial = {
             "Wingspan": "60.9 m",
             "Cabin Length": "60.9 m",
             "Fuselage Max Diameter": "6.0 m",
-            "Max Cabin Width": "4.9 m"
+            "Max Cabin Width": "4.9 m",
+            "Aspect ratio": 8.68,
+            "Wing area": "427.8 m^3"
         },
         "Weights": {
             "Max Landing Weight": "237.7 tons",
@@ -9229,7 +9742,12 @@ export const airplane_comercial = {
                 "Delta Air Lines",
                 "Air Baltic",
                 "Korean Air"
-            ]
+            ],
+            "Flaps system": "Triple-slotted",
+            "Number of flap stages": "5",
+            "Maximum flap angle": "30 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
     },
     "Boeing 777-300ER": {
@@ -9257,7 +9775,9 @@ export const airplane_comercial = {
             "Wingspan": "60.93 m",
             "Cabin Length": "59.24 m ",
             "Fuselage Max Diameter": "6.20 m",
-            "Max Cabin Width": "5.87 m"
+            "Max Cabin Width": "5.87 m",
+            "Aspect ratio": 9.61,
+            "Wing area": "427.8 m^3"
         },
         "Weights": {
             "Max Landing Weight": "251 tons",
@@ -9327,7 +9847,6 @@ export const airplane_comercial = {
                     "EASA"
                 ]
             },
-            
             "Body Type": "Twin-aisle (wide-body)",
             "Number of Decks": 1,
             "Materials": {
@@ -9339,7 +9858,12 @@ export const airplane_comercial = {
                 "United Airlines",
                 "Qatar Airways",
                 "Air France"
-            ]
+            ],
+            "Flaps system": "Triple-slotted",
+            "Number of flap stages": "5",
+            "Maximum flap angle": "30 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
     },
     "Boeing 777-200F": {
@@ -9365,7 +9889,9 @@ export const airplane_comercial = {
             "Wingspan": "64.8 m",
             "Cabin Length": "60.9 m",
             "Fuselage Max Diameter": "6.2 m",
-            "Max Cabin Width": "5.9 m"
+            "Max Cabin Width": "5.9 m",
+            "Aspect ratio": 8.68,
+            "Wing area": "427.8 m^3"
         },
         "Weights": {
             "Max Landing Weight": "261 tons",
@@ -9472,7 +9998,12 @@ export const airplane_comercial = {
                 "Azerbaijan Silk Way Airlines",
                 "Ameriflight",
                 "Astral Aviation"
-            ]
+            ],
+            "Flaps system": "Triple-slotted",
+            "Number of flap stages": "5",
+            "Maximum flap angle": "30 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
     },
     "Boeing 777-9": {
@@ -9500,7 +10031,9 @@ export const airplane_comercial = {
             "Wingspan": "71.75 m",
             "Cabin Length": "72.72 m",
             "Fuselage Max Diameter": "6.20 m",
-            "Max Cabin Width": "5.08 m"
+            "Max Cabin Width": "5.08 m",
+            "Aspect ratio": 10,
+            "Wing area": "466.8 m^3"
         },
         "Weights": {
             "Max Landing Weight": "304 tons",
@@ -9578,7 +10111,12 @@ export const airplane_comercial = {
             },
             "Commercial Operators": [
                 "Not yet in service"
-            ]
+            ],
+            "Flaps system": "Triple-slotted",
+            "Number of flap stages": "5",
+            "Maximum flap angle": "30 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Composite"
         }
     },
     "Boeing 787-8 Dreamliner": {
@@ -9606,7 +10144,9 @@ export const airplane_comercial = {
             "Wingspan": "60 m",
             "Cabin Length": "48 m",
             "Fuselage Max Diameter": "5.5 m",
-            "Max Cabin Width": "5.5 m"
+            "Max Cabin Width": "5.5 m",
+            "Aspect ratio": 9.59,
+            "Wing area": "325 m^3"
         },
         "Weights": {
             "Max Landing Weight": "173 tons",
@@ -9725,7 +10265,12 @@ export const airplane_comercial = {
                 "El Al",
                 "Finnair",
                 "KLM Royal Dutch Airlines"
-            ]
+            ],
+            "Flaps system": "Double-slotted",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "25 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Composite"
         }
     },
     "Boeing 787-9 Dreamliner": {
@@ -9753,7 +10298,9 @@ export const airplane_comercial = {
             "Wingspan": "60 m",
             "Cabin Length": "57 m",
             "Fuselage Max Diameter": "5.77 m",
-            "Max Cabin Width": "5.49 m"
+            "Max Cabin Width": "5.49 m",
+            "Aspect ratio": 9.59,
+            "Wing area": "361 m^3"
         },
         "Weights": {
             "Max Landing Weight": "193 tons",
@@ -9855,7 +10402,12 @@ export const airplane_comercial = {
                 "Virgin Atlantic",
                 "Hainan Airlines",
                 "KLM Royal Dutch Airlines"
-            ]
+            ],
+            "Flaps system": "Double-slotted",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "25 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Composite"
         }
     },
     "DC-8-10": {
@@ -9874,16 +10426,18 @@ export const airplane_comercial = {
                 "3-3"
             ],
             "aircraft_image": [
-                "https://th.bing.com/th/id/R.c4fd4c14c212537acfcbdd951847b880?rik=07CznZ%2f7Tz%2bUyQ&riu=http%3a%2f%2fsimviation.com%2fhjg%2faircraft2%2fdouglas%2fdc-8-10%2fdc-8-10_delta_air_lines_1959_11_n801e.jpg&ehk=ZR%2fuYsG3YSVTuaUR%2bTKXdcu6xkcU0eRD4vpP%2bRA%2b53U%3d&risl=&pid=ImgRaw&r=0"
-                ,"https://th.bing.com/th/id/OIP.w23Pj-hVoIpxFtsd46RjUAHaE_?rs=1&pid=ImgDetMain"
-            ],
+                "https://th.bing.com/th/id/R.c4fd4c14c212537acfcbdd951847b880?rik=07CznZ%2f7Tz%2bUyQ&riu=http%3a%2f%2fsimviation.com%2fhjg%2faircraft2%2fdouglas%2fdc-8-10%2fdc-8-10_delta_air_lines_1959_11_n801e.jpg&ehk=ZR%2fuYsG3YSVTuaUR%2bTKXdcu6xkcU0eRD4vpP%2bRA%2b53U%3d&risl=&pid=ImgRaw&r=0",
+                "https://th.bing.com/th/id/OIP.w23Pj-hVoIpxFtsd46RjUAHaE_?rs=1&pid=ImgDetMain"
+            ]
         },
         "Dimensions": {
             "Length": "45.87 m",
             "Wingspan": "43.41 m",
             "Cabin Length": "45.97 m",
             "Fuselage Max Diameter": "3.5 m",
-            "Max Cabin Width": "3.05 m"
+            "Max Cabin Width": "3.05 m",
+            "Aspect ratio": 7.53,
+            "Wing area": "271.9 m^3"
         },
         "Weights": {
             "Max Landing Weight": "90.5 tons",
@@ -9955,19 +10509,20 @@ export const airplane_comercial = {
             "Body Type": "Narrow-body",
             "Number of Decks": "1",
             "Materials": {
-                "Fuselage":
-                    "Aluminum",
-
-                "Wings":
-                    "Aluminum"
-
+                "Fuselage": "Aluminum",
+                "Wings": "Aluminum"
             },
             "Commercial Operators": [
                 "Delta Air Lines",
                 "United Airlines",
                 "UPS Airlines",
                 "Trans Air Cargo Service"
-            ]
+            ],
+            "Flaps system": "Single-slotted",
+            "Number of flap stages": "3",
+            "Maximum flap angle": "50 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
     },
     "DC-8-20": {
@@ -9986,16 +10541,18 @@ export const airplane_comercial = {
                 "3-3"
             ],
             "aircraft_image": [
-"https://th.bing.com/th/id/OIP.lpyqmrd0BaqQxciKUmnt1wHaEv?rs=1&pid=ImgDetMain"
-                ,"https://img.fotocommunity.com/dc-8-cockpit-69f8602a-5d26-4628-b1c6-0710243081e3.jpg?height=1080"
-            ],
+                "https://th.bing.com/th/id/OIP.lpyqmrd0BaqQxciKUmnt1wHaEv?rs=1&pid=ImgDetMain",
+                "https://img.fotocommunity.com/dc-8-cockpit-69f8602a-5d26-4628-b1c6-0710243081e3.jpg?height=1080"
+            ]
         },
         "Dimensions": {
             "Length": "45.87 m",
             "Wingspan": "43.41 m",
             "Cabin Length": "N/A",
             "Fuselage Max Diameter": "N/A",
-            "Max Cabin Width": "N/A"
+            "Max Cabin Width": "N/A",
+            "Aspect ratio": 7.53,
+            "Wing area": "271.9 m^3"
         },
         "Weights": {
             "Max Landing Weight": "125 t",
@@ -10076,286 +10633,309 @@ export const airplane_comercial = {
                 "United Airlines",
                 "UPS Airlines",
                 "Trans Air Cargo Service"
-            ]
+            ],
+            "Flaps system": "Single-slotted",
+            "Number of flap stages": "3",
+            "Maximum flap angle": "50 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
     },
-    "DC-8-30":{
+    "DC-8-30": {
         "General Information": {
-          "Manufacturer": "Douglas Aircraft Company",
-          "Family": "DC-8",
-          "First Flight": "May 30, 1958",
-          "Model Build": "556",
-          "Entered Service": "September 18, 1959 with Delta Air Lines",
-          "Type": "Narrow-body jet airliner",
-          "Engine Type": "Turbojet",
-          "number of engines": "4",
-          "Price Tag": "N/A",
-          "Fly range category": "Long range",
-          "seat config": [
-            "3-3"
-          ],
-          "aircraft_image":[
-            "https://th.bing.com/th/id/R.581b94904e580faa37afe4a996b643cb?rik=kZpwrj%2fbOFliKw&riu=http%3a%2f%2fwww.simairline.net%2fpanamerican%2fdc8.jpg&ehk=NdvleBkDGqJVs80cIkxIL7SqQ%2biMkENdlCGAEKi%2bWwU%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1",
-            "https://i.pinimg.com/originals/63/9b/66/639b6640bea6ba39699dc3d53c74e1b0.jpg"
-          ]
+            "Manufacturer": "Douglas Aircraft Company",
+            "Family": "DC-8",
+            "First Flight": "May 30, 1958",
+            "Model Build": "556",
+            "Entered Service": "September 18, 1959 with Delta Air Lines",
+            "Type": "Narrow-body jet airliner",
+            "Engine Type": "Turbojet",
+            "number of engines": "4",
+            "Price Tag": "N/A",
+            "Fly range category": "Long range",
+            "seat config": [
+                "3-3"
+            ],
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.581b94904e580faa37afe4a996b643cb?rik=kZpwrj%2fbOFliKw&riu=http%3a%2f%2fwww.simairline.net%2fpanamerican%2fdc8.jpg&ehk=NdvleBkDGqJVs80cIkxIL7SqQ%2biMkENdlCGAEKi%2bWwU%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1",
+                "https://i.pinimg.com/originals/63/9b/66/639b6640bea6ba39699dc3d53c74e1b0.jpg"
+            ]
         },
         "Dimensions": {
-          "Length": "46.30 m",
-          "Wingspan": "43.41 m",
-          "Cabin Length": "33.4 m",
-          "Fuselage Max Diameter": "3.5 m",
-          "Max Cabin Width": "3.05 m"
+            "Length": "46.30 m",
+            "Wingspan": "43.41 m",
+            "Cabin Length": "33.4 m",
+            "Fuselage Max Diameter": "3.5 m",
+            "Max Cabin Width": "3.05 m",
+            "Aspect ratio": 7.53,
+            "Wing area": "271.9 m^3"
         },
         "Weights": {
-          "Max Landing Weight": "90,5 tons",
-          "Empty Weight": "69.74 tons",
-          "Max Takeoff Weight": "140.61 tons"
+            "Max Landing Weight": "90,5 tons",
+            "Empty Weight": "69.74 tons",
+            "Max Takeoff Weight": "140.61 tons"
         },
         "Performance": {
-          "Fuel Capacity": 89865,
-          "Range": "4,400 nmi",
-          "Flight Ceiling": "42,000 ft",
-          "Takeoff Distance": "2,900 m",
-          "Landing Distance": "1,800 m",
-          "Passenger Capacity": {
-            "Max": "177",
-            "Typical": "165"
-          },
-          "Cargo Capacity": "N/A",
-          "Avionics": {
-            "Common_suite": "N/A",
-            "FMS": "No",
-            "EFIS": "No",
-            "AFCS": "No",
-            "TAWS": "No",
-            "HUD": "No"
-          }
+            "Fuel Capacity": 89865,
+            "Range": "4,400 nmi",
+            "Flight Ceiling": "42,000 ft",
+            "Takeoff Distance": "2,900 m",
+            "Landing Distance": "1,800 m",
+            "Passenger Capacity": {
+                "Max": "177",
+                "Typical": "165"
+            },
+            "Cargo Capacity": "N/A",
+            "Avionics": {
+                "Common_suite": "N/A",
+                "FMS": "No",
+                "EFIS": "No",
+                "AFCS": "No",
+                "TAWS": "No",
+                "HUD": "No"
+            }
         },
         "Speed": {
-          "Cruise Speed": {
-            "Mach": "0.82",
-            "Knots": "522 kts"
-          },
-          "Max Speed": {
-            "Mach": "0.85",
-            "Knots": "562 kts"
-          },
-          "V2 speed": "160 knots",
-          "Stall speed": "115 knots"
+            "Cruise Speed": {
+                "Mach": "0.82",
+                "Knots": "522 kts"
+            },
+            "Max Speed": {
+                "Mach": "0.85",
+                "Knots": "562 kts"
+            },
+            "V2 speed": "160 knots",
+            "Stall speed": "115 knots"
         },
         "Engines": [
-          {
-            "Manufacturer": "Pratt & Whitney",
-            "Model": "JT4A-3",
-            "Thrust": "15,800 lbf",
-            "Bypass ratio": "0:1 (turbojet)",
-            "Fan stage": "No fan stage",
-            "Low-pressure compressor stages": "N/A",
-            "High-pressure compressor stages": "13",
-            "High-pressure turbine stages": "2",
-            "Low-pressure turbine stages": "N/A",
-            "Climb rate": 2500,
-            "Descend rate": 3000,
-            "Cruise climb rate": 1800,
-            "Landing descend rate": 1200,
-            "Fan blade diameter": "(turbojet don't have blades",
-            "Fuel type": "Jet-A, Aviation kerosene",
-            "Pressure ratio": "12:1"
-          }
+            {
+                "Manufacturer": "Pratt & Whitney",
+                "Model": "JT4A-3",
+                "Thrust": "15,800 lbf",
+                "Bypass ratio": "0:1 (turbojet)",
+                "Fan stage": "No fan stage",
+                "Low-pressure compressor stages": "N/A",
+                "High-pressure compressor stages": "13",
+                "High-pressure turbine stages": "2",
+                "Low-pressure turbine stages": "N/A",
+                "Climb rate": 2500,
+                "Descend rate": 3000,
+                "Cruise climb rate": 1800,
+                "Landing descend rate": 1200,
+                "Fan blade diameter": "(turbojet don't have blades",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "12:1"
+            }
         ],
         "Other Details": {
-          "Noise Levels": {
-            "Takeoff": "110",
-            "Landing": "105",
-            "Cruise": "90"
-          },
-          "operation_cost": "N/A",
-          "certification_standards": [
-            "FAA"
-          ],
-          "Body Type": "Narrow-body",
-          "Number of Decks": "1",
-          "Materials": {
-            "Fuselage": "Aluminum",
-            "Wings": "Aluminum"
-          },
-          "Commercial Operators": [
-            "Delta Air Lines",
-            "United Airlines",
-            "UPS Airlines",
-            "Trans Air Cargo Service"
-          ]
+            "Noise Levels": {
+                "Takeoff": "110",
+                "Landing": "105",
+                "Cruise": "90"
+            },
+            "operation_cost": "N/A",
+            "certification_standards": [
+                "FAA"
+            ],
+            "Body Type": "Narrow-body",
+            "Number of Decks": "1",
+            "Materials": {
+                "Fuselage": "Aluminum",
+                "Wings": "Aluminum"
+            },
+            "Commercial Operators": [
+                "Delta Air Lines",
+                "United Airlines",
+                "UPS Airlines",
+                "Trans Air Cargo Service"
+            ],
+            "Flaps system": "Single-slotted",
+            "Number of flap stages": "3",
+            "Maximum flap angle": "50 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
-      },
-    "DC-8-40":{
+    },
+    "DC-8-40": {
         "General Information": {
-          "Manufacturer": "Douglas Aircraft Company",
-          "Family": "DC-8",
-          "First Flight": "May 30, 1958",
-          "Model Build": "556",
-          "Entered Service": "September 18, 1959 with Delta Air Lines",
-          "Type": "Narrow-body jet airliner",
-          "Engine Type": "Turbofan",
-          "number of engines": "4",
-          "Price Tag": "N/A",
-          "Fly range category": "Long range",
-          "seat config": [
-            "3-3"
-          ],
-          "aircraft_image":[
-            "https://th.bing.com/th/id/OIP.JYpcRIssqof4-y0wwJ0jDwHaFJ?rs=1&pid=ImgDetMain",
-            "https://th.bing.com/th/id/OIP.w23Pj-hVoIpxFtsd46RjUAHaE_?rs=1&pid=ImgDetMain"
-          ]
+            "Manufacturer": "Douglas Aircraft Company",
+            "Family": "DC-8",
+            "First Flight": "May 30, 1958",
+            "Model Build": "556",
+            "Entered Service": "September 18, 1959 with Delta Air Lines",
+            "Type": "Narrow-body jet airliner",
+            "Engine Type": "Turbofan",
+            "number of engines": "4",
+            "Price Tag": "N/A",
+            "Fly range category": "Long range",
+            "seat config": [
+                "3-3"
+            ],
+            "aircraft_image": [
+                "https://th.bing.com/th/id/OIP.JYpcRIssqof4-y0wwJ0jDwHaFJ?rs=1&pid=ImgDetMain",
+                "https://th.bing.com/th/id/OIP.w23Pj-hVoIpxFtsd46RjUAHaE_?rs=1&pid=ImgDetMain"
+            ]
         },
         "Dimensions": {
             "Length": "46.80 m",
             "Wingspan": "43.41 m",
             "Cabin Length": "35.4 m",
             "Fuselage Max Diameter": "3.73 m",
-            "Max Cabin Width": "3.5 m"
+            "Max Cabin Width": "3.5 m",
+            "Aspect ratio": 7.53,
+            "Wing area": "271.9 m^3"
         },
         "Weights": {
             "Max Landing Weight": "142.88 t",
             "Empty Weight": "61.2 t",
             "Max Takeoff Weight": "143 t"
-        
         },
         "Performance": {
-          "Fuel Capacity": 88552,
-          "Range": "3,888 nautical miles",
-          "Flight Ceiling": "42,000 ft",
-          "Takeoff Distance": "2,743 m",
-          "Landing Distance": "1,524 m",
-          "Passenger Capacity": {
-            "Max": "189",
-            "Typical": "167"
-          },
-          "Cargo Capacity": "N/A",
-          "Avionics": {
-            "Common_suite": "N/A",
-            "FMS": "No",
-            "EFIS": "No",
-            "AFCS": "No",
-            "TAWS": "No",
-            "HUD": "No"
-          }
+            "Fuel Capacity": 88552,
+            "Range": "3,888 nautical miles",
+            "Flight Ceiling": "42,000 ft",
+            "Takeoff Distance": "2,743 m",
+            "Landing Distance": "1,524 m",
+            "Passenger Capacity": {
+                "Max": "189",
+                "Typical": "167"
+            },
+            "Cargo Capacity": "N/A",
+            "Avionics": {
+                "Common_suite": "N/A",
+                "FMS": "No",
+                "EFIS": "No",
+                "AFCS": "No",
+                "TAWS": "No",
+                "HUD": "No"
+            }
         },
         "Speed": {
-          "Cruise Speed": {
-            "Mach": "0.82",
-            "Knots": "473 knots"
-          },
-          "Max Speed": {
-            "Mach": "0.87",
-            "Knots": "502 knots"
-          },
-          "V2 speed": "160 knots",
-  "Stall speed": "115 knots"
+            "Cruise Speed": {
+                "Mach": "0.82",
+                "Knots": "473 knots"
+            },
+            "Max Speed": {
+                "Mach": "0.87",
+                "Knots": "502 knots"
+            },
+            "V2 speed": "160 knots",
+            "Stall speed": "115 knots"
         },
         "Engines": {
-            "Conway":{"Manufacturer": "Rolls-Royce",
-          "Model": "Conway",
-          "Thrust": "17,500 lbf",
-          "Bypass ratio": "0.3:1",
-          "Fan stage": "Single-stage fan",
-          "Low-pressure compressor stages": "3",
-          "High-pressure compressor stages": "7",
-          "High-pressure turbine stages": "1",
-          "Low-pressure turbine stages": "2",
-          "Climb rate": 2500,
-          "Descend rate": 2000,
-          "Cruise climb rate": 1000,
-          "Landing descend rate": 800,
-          "Fan blade diameter": "(not on old turbofans)",
-          "Fuel type": "Jet-A, Aviation kerosene",
-          "Pressure ratio": "12:1"}
+            "Conway": {
+                "Manufacturer": "Rolls-Royce",
+                "Model": "Conway",
+                "Thrust": "17,500 lbf",
+                "Bypass ratio": "0.3:1",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "3",
+                "High-pressure compressor stages": "7",
+                "High-pressure turbine stages": "1",
+                "Low-pressure turbine stages": "2",
+                "Climb rate": 2500,
+                "Descend rate": 2000,
+                "Cruise climb rate": 1000,
+                "Landing descend rate": 800,
+                "Fan blade diameter": "(not on old turbofans)",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "12:1"
+            }
         },
         "Other Details": {
-          "Noise Levels": {
-            "Takeoff": "120 db",
-            "Landing": "110 db",
-            "Cruise": "90 db"
-          },
-          "operation_cost": "N/A",
-          "certification_standards": [
-            "FAA"
-          ],
-          "Body Type": "Narrow-body",
-          "Number of Decks": "1",
-          "Materials": {
-            "Fuselage": "N/A",
-            "Wings": "N/A"
-          },
-          "Commercial Operators": [
-            "Delta Air Lines",
-            "United Airlines",
-            "UPS Airlines",
-            "Trans Air Cargo Service"
-          ]
+            "Noise Levels": {
+                "Takeoff": "120 db",
+                "Landing": "110 db",
+                "Cruise": "90 db"
+            },
+            "operation_cost": "N/A",
+            "certification_standards": [
+                "FAA"
+            ],
+            "Body Type": "Narrow-body",
+            "Number of Decks": "1",
+            "Materials": {
+                "Fuselage": "N/A",
+                "Wings": "N/A"
+            },
+            "Commercial Operators": [
+                "Delta Air Lines",
+                "United Airlines",
+                "UPS Airlines",
+                "Trans Air Cargo Service"
+            ],
+            "Flaps system": "Single-slotted",
+            "Number of flap stages": "3",
+            "Maximum flap angle": "50 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
-      },
-    "DC-8-50":{
+    },
+    "DC-8-50": {
         "General Information": {
-          "Manufacturer": "Douglas Aircraft Company",
-          "Family": "DC-8",
-          "First Flight": "May 30, 1958",
-          "Model Build": "556",
-          "Entered Service": "September 18, 1959 with Delta Air Lines",
-          "Type": "Narrow-body jet airliner",
-          "Engine Type": "Turbofan",
-          "number of engines": "4",
-          "Price Tag": "N/A",
-          "Fly range category": "Long range",
-          "seat config": [
-            "3-3"
-          ]       ,   "aircraft_image":[
-           "https://th.bing.com/th/id/R.10e5b49823f0183e3794c34ccebabad7?rik=O87L7%2bF3ELINAQ&riu=http%3a%2f%2fairwar.ru%2fimage%2fidop%2faliner%2fdc8-50%2fdc8-50-2.jpg&ehk=5YHrNRIbQ3QmVuUxotlj%2bvGRuemaYaxrtQodLHg6q1c%3d&risl=&pid=ImgRaw&r=0",
-            "https://www.flight-manuals-online.com/wp-content/uploads/2017/02/DC8-cockpit-510x400.jpg"
-        ]
+            "Manufacturer": "Douglas Aircraft Company",
+            "Family": "DC-8",
+            "First Flight": "May 30, 1958",
+            "Model Build": "556",
+            "Entered Service": "September 18, 1959 with Delta Air Lines",
+            "Type": "Narrow-body jet airliner",
+            "Engine Type": "Turbofan",
+            "number of engines": "4",
+            "Price Tag": "N/A",
+            "Fly range category": "Long range",
+            "seat config": [
+                "3-3"
+            ],
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.10e5b49823f0183e3794c34ccebabad7?rik=O87L7%2bF3ELINAQ&riu=http%3a%2f%2fairwar.ru%2fimage%2fidop%2faliner%2fdc8-50%2fdc8-50-2.jpg&ehk=5YHrNRIbQ3QmVuUxotlj%2bvGRuemaYaxrtQodLHg6q1c%3d&risl=&pid=ImgRaw&r=0",
+                "https://www.flight-manuals-online.com/wp-content/uploads/2017/02/DC8-cockpit-510x400.jpg"
+            ]
         },
         "Dimensions": {
-          "Length": "48.06 m",
-          "Wingspan": "43.41 m",
-          "Cabin Length": "N/A",
-          "Fuselage Max Diameter": "N/A",
-          "Max Cabin Width": "N/A"
+            "Length": "48.06 m",
+            "Wingspan": "43.41 m",
+            "Cabin Length": "N/A",
+            "Fuselage Max Diameter": "N/A",
+            "Max Cabin Width": "N/A",
+            "Aspect ratio": 7.53,
+            "Wing area": "271.9 m^3"
         },
         "Weights": {
-          "Max Landing Weight": "147.4 t",
-          "Empty Weight": "69.7 t",
-          "Max Takeoff Weight": "147.4 t"
+            "Max Landing Weight": "147.4 t",
+            "Empty Weight": "69.7 t",
+            "Max Takeoff Weight": "147.4 t"
         },
         "Performance": {
-          "Fuel Capacity": 23393,
-          "Range": "5,855 nautical miles",
-          "Flight Ceiling": "42,000 ft",
-          "Takeoff Distance": "3,048 m",
-          "Landing Distance": "1,981 m",
-          "Passenger Capacity": {
-            "Max": "259",
-            "Typical": "152-173"
-          },
-          "Cargo Capacity": "N/A",
-          "Avionics": {
-            "Common_suite": "N/A",
-            "FMS": "No",
-            "EFIS": "No",
-            "AFCS": "No",
-            "TAWS": "No",
-            "HUD": "No"
-          }
+            "Fuel Capacity": 23393,
+            "Range": "5,855 nautical miles",
+            "Flight Ceiling": "42,000 ft",
+            "Takeoff Distance": "3,048 m",
+            "Landing Distance": "1,981 m",
+            "Passenger Capacity": {
+                "Max": "259",
+                "Typical": "152-173"
+            },
+            "Cargo Capacity": "N/A",
+            "Avionics": {
+                "Common_suite": "N/A",
+                "FMS": "No",
+                "EFIS": "No",
+                "AFCS": "No",
+                "TAWS": "No",
+                "HUD": "No"
+            }
         },
         "Speed": {
-          "Cruise Speed": {
-            "Mach": "0.82",
-            "Knots": "504 kts"
-          },
-          "Max Speed": {
-            "Mach": "0.85",
-            "Knots": "522 kts"
-          },
-          "V2 speed": "N/A",
-          "Stall speed": "N/A"
+            "Cruise Speed": {
+                "Mach": "0.82",
+                "Knots": "504 kts"
+            },
+            "Max Speed": {
+                "Mach": "0.85",
+                "Knots": "522 kts"
+            },
+            "V2 speed": "N/A",
+            "Stall speed": "N/A"
         },
         "Engines": {
             "Pratt & Whitney JT3D-3": {
@@ -10375,3630 +10955,4017 @@ export const airplane_comercial = {
                 "Fan blade diameter": "N/A",
                 "Fuel type": "Jet-A, Aviation kerosene",
                 "Pressure ratio": "N/A"
-            },
+            }
         },
         "Other Details": {
-          "Noise Levels": {
-            "Takeoff": "N/A",
-            "Landing": "N/A",
-            "Cruise": "N/A"
-          },
-          "operation_cost": "N/A",
-          "certification_standards": ["FAA", "EASA"],
-          "Body Type": "Narrow-body",
-          "Number of Decks": "1",
-          "Materials": {
-            "Fuselage": "N/A",
-            "Wings": "N/A"
-          },
-          "Commercial Operators": ["Delta Air Lines", "United Airlines", "UPS Airlines", "Trans Air Cargo Service"]
+            "Noise Levels": {
+                "Takeoff": "N/A",
+                "Landing": "N/A",
+                "Cruise": "N/A"
+            },
+            "operation_cost": "N/A",
+            "certification_standards": [
+                "FAA",
+                "EASA"
+            ],
+            "Body Type": "Narrow-body",
+            "Number of Decks": "1",
+            "Materials": {
+                "Fuselage": "N/A",
+                "Wings": "N/A"
+            },
+            "Commercial Operators": [
+                "Delta Air Lines",
+                "United Airlines",
+                "UPS Airlines",
+                "Trans Air Cargo Service"
+            ],
+            "Flaps system": "Single-slotted",
+            "Number of flap stages": "3",
+            "Maximum flap angle": "50 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
-      },
-      "DC-8 Super 60":{
+    },
+    "DC-8 Super 60": {
         "General Information": {
-          "Manufacturer": "Douglas Aircraft Company",
-          "Family": "DC-8",
-          "First Flight": "1966",
-          "Model Build": "556",
-          "Entered Service": "1967 with United Airlines",
-          "Type": "Narrow-body jet airliner",
-          "Engine Type": "Turbofan",
-          "number of engines": "4",
-          "Price Tag": "N/A",
-          "Fly range category": "Long range",
-          "seat config": [
-            "3-3"
-          ]       ,   "aircraft_image":[
-            "https://th.bing.com/th/id/OIP.W0VoPO76OV_O719suXHNQgHaEH?rs=1&pid=ImgDetMain",
-            "https://live.staticflickr.com/7570/15106365793_ab61b9fe84_b.jpg"
-        ]
+            "Manufacturer": "Douglas Aircraft Company",
+            "Family": "DC-8",
+            "First Flight": "1966",
+            "Model Build": "556",
+            "Entered Service": "1967 with United Airlines",
+            "Type": "Narrow-body jet airliner",
+            "Engine Type": "Turbofan",
+            "number of engines": "4",
+            "Price Tag": "N/A",
+            "Fly range category": "Long range",
+            "seat config": [
+                "3-3"
+            ],
+            "aircraft_image": [
+                "https://th.bing.com/th/id/OIP.W0VoPO76OV_O719suXHNQgHaEH?rs=1&pid=ImgDetMain",
+                "https://live.staticflickr.com/7570/15106365793_ab61b9fe84_b.jpg"
+            ]
         },
         "Dimensions": {
-          "Length": "57.12 m",
-          "Wingspan": "45.23 m",
-          "Cabin Length": "41.5 m",
-          "Fuselage Max Diameter": "3.73 m",
-          "Max Cabin Width": "3.45 m"
+            "Length": "57.12 m",
+            "Wingspan": "45.23 m",
+            "Cabin Length": "41.5 m",
+            "Fuselage Max Diameter": "3.73 m",
+            "Max Cabin Width": "3.45 m",
+            "Aspect ratio": 7.5,
+            "Wing area": "271.9 m^3"
         },
         "Weights": {
-          "Max Landing Weight": "108 tons",
-          "Empty Weight": "69.7 tons",
-          "Max Takeoff Weight": "158.7 tons"
+            "Max Landing Weight": "108 tons",
+            "Empty Weight": "69.7 tons",
+            "Max Takeoff Weight": "158.7 tons"
         },
         "Performance": {
-          "Fuel Capacity": 88530,
-          "Range": "3,907 nm",
-          "Flight Ceiling": "42,000 ft",
-          "Takeoff Distance": "2,743 m",
-          "Landing Distance": "1,524 m",
-          "Passenger Capacity": {
-            "Max": "259",
-            "Typical": "180-220"
-          },
-          "Cargo Capacity": "N/A",
-          "Avionics": {
-            "Common_suite": "N/A",
-            "FMS": "No",
-            "EFIS": "No",
-            "AFCS": "No",
-            "TAWS": "No",
-            "HUD": "No"
-          }
+            "Fuel Capacity": 88530,
+            "Range": "3,907 nm",
+            "Flight Ceiling": "42,000 ft",
+            "Takeoff Distance": "2,743 m",
+            "Landing Distance": "1,524 m",
+            "Passenger Capacity": {
+                "Max": "259",
+                "Typical": "180-220"
+            },
+            "Cargo Capacity": "N/A",
+            "Avionics": {
+                "Common_suite": "N/A",
+                "FMS": "No",
+                "EFIS": "No",
+                "AFCS": "No",
+                "TAWS": "No",
+                "HUD": "No"
+            }
         },
         "Speed": {
-          "Cruise Speed": {
-            "Mach": "0.82",
-            "Knots": "521 kt"
-          },
-          "Max Speed": {
-            "Mach": "0.82",
-            "Knots": "521 kt"
-          },
-          "V2 speed": "150 knots",
-          "Stall speed": "115 knots"
+            "Cruise Speed": {
+                "Mach": "0.82",
+                "Knots": "521 kt"
+            },
+            "Max Speed": {
+                "Mach": "0.82",
+                "Knots": "521 kt"
+            },
+            "V2 speed": "150 knots",
+            "Stall speed": "115 knots"
         },
         "Engines": {
-          "JT3D-3B": {
-            "Manufacturer": "Pratt & Whitney",
-            "Model": "JT3D-3B",
-            "Thrust": "18,000 lbf",
-            "Bypass ratio": "1.42:1",
-            "Fan stage": "Single-stage fan",
-            "Low-pressure compressor stages": "6",
-            "High-pressure compressor stages": "7",
-            "High-pressure turbine stages": "1",
-            "Low-pressure turbine stages": "3",
-            "Climb rate": 3000,
-            "Descend rate": 2500,
-            "Cruise climb rate":1500,
-            "Landing descend rate": 1200,
-            "Fan blade diameter": "52.9 in",
-            "Fuel type": "Jet-A, Aviation kerosene",
-            "Pressure ratio": "16:1"
-          },
-          "JT3D-7": {
-            "Manufacturer": "Pratt & Whitney",
-            "Model": "JT3D-7",
-            "Thrust": "19,000 lbf",
-            "Bypass ratio": "1.42:1",
-            "Fan stage": "Single-stage fan",
-            "Low-pressure compressor stages": "6",
-            "High-pressure compressor stages": "7",
-            "High-pressure turbine stages": "1",
-            "Low-pressure turbine stages": "3",
-            "Climb rate": 3000,
-            "Descend rate": 2500,
-            "Cruise climb rate": 1500,
-            "Landing descend rate": 1200,
-            "Fan blade diameter": "52.9 in",
-            "Fuel type": "Jet-A, Aviation kerosene",
-            "Pressure ratio": "16:1"
-          },
-          "CFM56-2C5": {
-            "Manufacturer": "CFM International",
-            "Model": "CFM56-2C5",
-            "Thrust": "22,000 lbf",
-            "Bypass ratio": "6:1",
-            "Fan stage": "Single-stage fan",
-            "Low-pressure compressor stages": "3",
-            "High-pressure compressor stages": "9",
-            "High-pressure turbine stages": "1",
-            "Low-pressure turbine stages": "4",
-            "Climb rate": 3500,
-            "Descend rate": 3000,
-            "Cruise climb rate": 2000,
-            "Landing descend rate": 1500,
-            "Fan blade diameter": "68.1 in",
-            "Fuel type": "Jet-A, Aviation kerosene",
-            "Pressure ratio": "30:1"
-          }
+            "JT3D-3B": {
+                "Manufacturer": "Pratt & Whitney",
+                "Model": "JT3D-3B",
+                "Thrust": "18,000 lbf",
+                "Bypass ratio": "1.42:1",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "6",
+                "High-pressure compressor stages": "7",
+                "High-pressure turbine stages": "1",
+                "Low-pressure turbine stages": "3",
+                "Climb rate": 3000,
+                "Descend rate": 2500,
+                "Cruise climb rate": 1500,
+                "Landing descend rate": 1200,
+                "Fan blade diameter": "52.9 in",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "16:1"
+            },
+            "JT3D-7": {
+                "Manufacturer": "Pratt & Whitney",
+                "Model": "JT3D-7",
+                "Thrust": "19,000 lbf",
+                "Bypass ratio": "1.42:1",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "6",
+                "High-pressure compressor stages": "7",
+                "High-pressure turbine stages": "1",
+                "Low-pressure turbine stages": "3",
+                "Climb rate": 3000,
+                "Descend rate": 2500,
+                "Cruise climb rate": 1500,
+                "Landing descend rate": 1200,
+                "Fan blade diameter": "52.9 in",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "16:1"
+            },
+            "CFM56-2C5": {
+                "Manufacturer": "CFM International",
+                "Model": "CFM56-2C5",
+                "Thrust": "22,000 lbf",
+                "Bypass ratio": "6:1",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "3",
+                "High-pressure compressor stages": "9",
+                "High-pressure turbine stages": "1",
+                "Low-pressure turbine stages": "4",
+                "Climb rate": 3500,
+                "Descend rate": 3000,
+                "Cruise climb rate": 2000,
+                "Landing descend rate": 1500,
+                "Fan blade diameter": "68.1 in",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "30:1"
+            }
         },
         "Other Details": {
-          "Noise Levels": {
-            "Takeoff": "N/A",
-            "Landing": "N/A",
-            "Cruise": "N/A"
-          },
-          "operation_cost": "N/A",
-          "certification_standards": ["FAA", "EASA"],
-          "Body Type": "Narrow-body",
-          "Number of Decks": "1",
-          "Materials": {
-            "Fuselage": "Aluminum",
-            "Wings": "Aluminum"
-          },
-          "Commercial Operators": ["United Airlines", "Delta Air Lines", "UPS Airlines", "Trans Air Cargo Service"]
+            "Noise Levels": {
+                "Takeoff": "N/A",
+                "Landing": "N/A",
+                "Cruise": "N/A"
+            },
+            "operation_cost": "N/A",
+            "certification_standards": [
+                "FAA",
+                "EASA"
+            ],
+            "Body Type": "Narrow-body",
+            "Number of Decks": "1",
+            "Materials": {
+                "Fuselage": "Aluminum",
+                "Wings": "Aluminum"
+            },
+            "Commercial Operators": [
+                "United Airlines",
+                "Delta Air Lines",
+                "UPS Airlines",
+                "Trans Air Cargo Service"
+            ],
+            "Flaps system": "Single-slotted",
+            "Number of flap stages": "3",
+            "Maximum flap angle": "50 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
-      },
-      "DC-8-70":{
+    },
+    "DC-8-70": {
         "General Information": {
-          "Manufacturer": "Douglas Aircraft Company",
-          "Family": "DC-8",
-          "First Flight": "May 30, 1958",
-          "Model Build": "556",
-          "Entered Service": "September 18, 1959 with Delta Air Lines",
-          "Type": "Narrow-body jet airliner",
-          "Engine Type": "High-bypass turbofan",
-          "number of engines": "4",
-          "Price Tag": "N/A",
-          "Fly range category": "Long range",
-          "seat config": [
-            "3-3"
-          ], 
-          "aircraft_image":[
-           "https://live.staticflickr.com/6123/5985893284_a19edb8a9c_b.jpg",
-            "https://c1.staticflickr.com/5/4088/5187932144_dfa4241f29_b.jpg"
-             ]
+            "Manufacturer": "Douglas Aircraft Company",
+            "Family": "DC-8",
+            "First Flight": "May 30, 1958",
+            "Model Build": "556",
+            "Entered Service": "September 18, 1959 with Delta Air Lines",
+            "Type": "Narrow-body jet airliner",
+            "Engine Type": "High-bypass turbofan",
+            "number of engines": "4",
+            "Price Tag": "N/A",
+            "Fly range category": "Long range",
+            "seat config": [
+                "3-3"
+            ],
+            "aircraft_image": [
+                "https://live.staticflickr.com/6123/5985893284_a19edb8a9c_b.jpg",
+                "https://c1.staticflickr.com/5/4088/5187932144_dfa4241f29_b.jpg"
+            ]
         },
         "Dimensions": {
             "Length": "57.1 m",
             "Wingspan": "45.2 m",
             "Cabin Length": "39.8 m",
             "Fuselage Max Diameter": "3.73 m",
-            "Max Cabin Width": "3.5 m"
+            "Max Cabin Width": "3.5 m",
+            "Aspect ratio": 7.5,
+            "Wing area": "271.9 m^3"
         },
         "Weights": {
-          "Max Landing Weight": "162.0 tons",
-          "Empty Weight": "75.5 tons",
-          "Max Takeoff Weight": "162.0 tons"
+            "Max Landing Weight": "162.0 tons",
+            "Empty Weight": "75.5 tons",
+            "Max Takeoff Weight": "162.0 tons"
         },
         "Performance": {
-          "Fuel Capacity": 89865,
-          "Range": "4,830 nmi",
-          "Flight Ceiling": "41,000 ft",
-          "Takeoff Distance": "2,743 m",
-          "Landing Distance": "1,524 m",
-          "Passenger Capacity": {
-            "Max": "259",
-            "Typical": "189"
-          },
-          "Cargo Capacity": "N/A",
-          "Avionics": {
-            "Common_suite": "Honeywell",
-            "FMS": "Yes",
-            "EFIS": "Yes",
-            "AFCS": "Yes",
-            "TAWS": "Yes",
-            "HUD": "No"
-          }
-        },
-        "Speed": {
-          "Cruise Speed": {
-            "Mach": "0.82",
-            "Knots": "459 knots"
-          },
-          "Max Speed": {
-            "Mach": "0.87",
-            "Knots": "479 knots"
-          },
-          "V2 speed": "150 knots",
-          "Stall speed": "115 knots"
-        },
-        "Engines": {
-          "CFM56-2C5": {
-            "Manufacturer": "CFM International",
-            "Model": "CFM56-2C5",
-            "Thrust": "22,000 lbf",
-            "Bypass ratio": "6:1",
-            "Fan stage": "Single-stage fan",
-            "Low-pressure compressor stages": "4",
-            "High-pressure compressor stages": "9",
-            "High-pressure turbine stages": "1",
-            "Low-pressure turbine stages": "4",
-            "Climb rate": 3500,
-            "Descend rate": 3000,
-            "Cruise climb rate": 2000,
-            "Landing descend rate": 1500,
-            "Fan blade diameter": "68.3 inches",
-            "Fuel type": "Jet-A, Aviation kerosene",
-            "Pressure ratio": "30:1"
-          }
-        },
-        "Other Details": {
-          "Noise Levels": {
-            "Takeoff": "N/A",
-            "Landing": "N/A",
-            "Cruise": "N/A"
-          },
-          "operation_cost": "N/A",
-          "certification_standards": [
-            "FAA",
-            "EASA"
-          ],
-          "Body Type": "Narrow-body",
-          "Number of Decks": "1",
-          "Materials": {
-            "Fuselage": "Aluminum",
-            "Wings": "Aluminum"
-          },
-          "Commercial Operators": [
-            "Delta Air Lines",
-            "United Airlines",
-            "UPS Airlines",
-            "Trans Air Cargo Service"
-          ]
-        }
-      },
-      "DC-9-10":{
-        "General Information": {
-          "Manufacturer": "McDonnell Douglas",
-          "Family": "DC-9",
-          "First Flight": "1965",
-          "Model Build": "137",
-          "Entered Service": "December 8, 1965 with Delta Air Lines",
-          "Type": "Narrow-body jet airliner",
-          "Engine Type": "Low-bypass turbofan",
-          "number of engines": "2",
-          "Price Tag": "N/A",
-          "Fly range category": "Short range",
-          "seat config": [
-            "2-3"
-          ]     , 
-          "aircraft_image":[
-            "https://th.bing.com/th/id/R.0a96c3921f561e8aae10e799b4edad40?rik=HhE6KHor6Q%2fu7w&pid=ImgRaw&r=0",
-            "https://th.bing.com/th/id/R.b5088068aa6575e1c2d59a9cc3308d56?rik=ug1W0YLCe5jLTg&pid=ImgRaw&r=0"
-             ]
-        },
-        "Dimensions": {
-          "Length": "31.82 m",
-          "Wingspan": "27.25 m",
-          "Cabin Length": "28.07 m",
-          "Fuselage Max Diameter": "3.34 m",
-          "Max Cabin Width": "3.12 m"
-        },
-        "Weights": {
-          "Max Landing Weight": "41.0 tons",
-          "Empty Weight": "25.4 tons",
-          "Max Takeoff Weight": "45.4 tons"
-        },
-        "Performance": {
-          "Fuel Capacity": 17034,
-          "Range": "1,450 nmi",
-          "Flight Ceiling": "35,000 ft",
-          "Takeoff Distance": "1,615 m",
-          "Landing Distance": "1,320 m",
-          "Passenger Capacity": {
-            "Max": "90",
-            "Typical": "80"
-          },
-          "Cargo Capacity": "N/A",
-          "Avionics": {
-            "Common_suite": "Honeywell",
-            "FMS": "No",
-            "EFIS": "No",
-            "AFCS": "No",
-            "TAWS": "No",
-            "HUD": "No"
-          }
-        },
-        "Speed": {
-          "Cruise Speed": {
-            "Mach": "0.76",
-            "Knots": "484 knots"
-          },
-          "Max Speed": {
-            "Mach": "0.82",
-            "Knots": "504 knots"
-          },
-          "V2 speed": "150 knots",
-          "Stall speed": "115 knots"
-        },
-        "Engines": {
-          "Pratt & Whitney JT8D-7": {
-            "Manufacturer": "Pratt & Whitney",
-            "Model": "JT8D-7",
-            "Thrust": "14,000 lbf",
-            "Bypass ratio": "1.04:1",
-            "Fan stage": "Single-stage fan",
-            "Low-pressure compressor stages": "6",
-            "High-pressure compressor stages": "7",
-            "High-pressure turbine stages": "1",
-            "Low-pressure turbine stages": "3",
-            "Climb rate": 2800,
-            "Descend rate": 2500,
-            "Cruise climb rate": 1500,
-            "Landing descend rate": 1200,
-            "Fan blade diameter": "39.9 inches",
-            "Fuel type": "Jet-A, Aviation kerosene",
-            "Pressure ratio": "15:1"
-          }
-        },
-        "Other Details": {
-          "Noise Levels": {
-            "Takeoff": "N/A",
-            "Landing": "N/A",
-            "Cruise": "N/A"
-          },
-          "operation_cost": "N/A",
-          "certification_standards": [
-            "FAA",
-            "EASA"
-          ],
-          "Body Type": "Narrow-body",
-          "Number of Decks": "1",
-          "Materials": {
-            "Fuselage": "Aluminum",
-            "Wings": "Aluminum"
-          },
-          "Commercial Operators": [
-            "Delta Air Lines",
-            "Northwest Airlines",
-            "Aeromexico",
-            "Eastern Air Lines"
-          ]
-        }
-      },
-      "DC-9-20":{
-        "General Information": {
-          "Manufacturer": "McDonnell Douglas",
-          "Family": "DC-9",
-          "First Flight": "1968",
-          "Model Build": "10",
-          "Entered Service": "January 1969 with Scandinavian Airlines System (SAS)",
-          "Type": "Narrow-body jet airliner",
-          "Engine Type": "Low-bypass turbofan",
-          "number of engines": "2",
-          "Price Tag": "N/A",
-          "Fly range category": "Short to medium range",
-          "seat config": [
-            "2-3"
-          ], 
-          "aircraft_image":[
-            "https://th.bing.com/th/id/OIP.2SQKC57TabWc0cAPfd1SuwHaEi?rs=1&pid=ImgDetMain",
-            "https://live.staticflickr.com/40/107474666_4f13f55806_z.jpg"
-             ]
-        },
-        "Dimensions": {
-          "Length": "31.82 m",
-          "Wingspan": "28.44 m",
-          "Cabin Length": "18.29 m",
-          "Fuselage Max Diameter": "3.35 m",
-          "Max Cabin Width": "3.12 m"
-        },
-        "Weights": {
-          "Max Landing Weight": "44.5 tons",
-          "Empty Weight": "23.8 tons",
-          "Max Takeoff Weight": "52.2 tons"
-        },
-        "Performance": {
-          "Fuel Capacity": 15141 ,
-          "Range": "1,000 nautical miles",
-          "Flight Ceiling": "35,000 ft",
-          "Takeoff Distance": "1,600 m",
-          "Landing Distance": "1,500 m",
-          "Passenger Capacity": {
-            "Max": "115",
-            "Typical": "89"
-          },
-          "Cargo Capacity": "N/A",
-          "Avionics": {
-            "Common_suite": "N/A",
-            "FMS": "No",
-            "EFIS": "No",
-            "AFCS": "No",
-            "TAWS": "No",
-            "HUD": "Yes"
-          }
-        },
-        "Speed": {
-          "Cruise Speed": {
-            "Mach": "0.82",
-            "Knots": "485 knots"
-          },
-          "Max Speed": {
-            "Mach": "0.82",
-            "Knots": "485 knots"
-          },
-          "V2 speed": "140 knots",
-          "Stall speed": "110 knots"
-        },
-        "Engines": {
-          "JT8D-11": {
-            "Manufacturer": "Pratt & Whitney",
-            "Model": "JT8D-11",
-            "Thrust": "15,000 lbf",
-            "Bypass ratio": "1.74:1",
-            "Fan stage": "Single-stage fan",
-            "Low-pressure compressor stages": "6",
-            "High-pressure compressor stages": "7",
-            "High-pressure turbine stages": "1",
-            "Low-pressure turbine stages": "3",
-            "Climb rate": 2500,
-            "Descend rate": 2500,
-            "Cruise climb rate": 1500,
-            "Landing descend rate": 1200,
-            "Fan blade diameter": "39.7 in",
-            "Fuel type": "Jet-A, Aviation kerosene",
-            "Pressure ratio": "15.8:1"
-          }
-        },
-        "Other Details": {
-          "Noise Levels": {
-            "Takeoff": "N/A",
-            "Landing": "N/A",
-            "Cruise": "N/A"
-          },
-          "operation_cost": "N/A",
-          "certification_standards": [
-            "FAA"
-          ],
-          "Body Type": "Narrow-body",
-          "Number of Decks": "1",
-          "Materials": {
-            "Fuselage": "Aluminum",
-            "Wings": "Aluminum"
-          },
-          "Commercial Operators": [
-            "Scandinavian Airlines System (SAS)"
-          ]
-        }
-      },
-      "DC-9-30":{
-        "General Information": {
-          "Manufacturer": "McDonnell Douglas",
-          "Family": "DC-9",
-          "First Flight": "August 1, 1966",
-          "Model Build": "662",
-          "Entered Service": "February 1967 with Eastern Airlines",
-          "Type": "Narrow-body jet airliner",
-          "Engine Type": "Low-bypass turbofan",
-          "number of engines": "2",
-          "Price Tag": "N/A",
-          "Fly range category": "Short to medium range",
-          "seat config": [
-            "2-3"
-          ], 
-          "aircraft_image":[
-            "https://th.bing.com/th/id/R.e6a6004cfebae8f0a451ef9c9f06247b?rik=k7gK3xb4oRhTwQ&riu=http%3a%2f%2fwww.vermontel.net%2f%7etomh%2fimages%2fAIRCRAFT%2fAIRLINERS%2fTYPES%2fDC9%2fBRIEF%2fDC9_32_CFTME.jpg&ehk=tWqwvQrknIDYg66YZNKgaDz5W6iat9PHK486yh8hfsk%3d&risl=&pid=ImgRaw&r=0",
-            "https://c1.staticflickr.com/3/2699/4278499228_317728094f_b.jpg"
-             ]
-        },
-        "Dimensions": {
-          "Length": "36.36 m",
-          "Wingspan": "28.44 m",
-          "Cabin Length": "22.79 m",
-          "Fuselage Max Diameter": "3.35 m",
-          "Max Cabin Width": "3.12 m"
-        },
-        "Weights": {
-          "Max Landing Weight": "44.5 tons",
-          "Empty Weight": "25.4 tons",
-          "Max Takeoff Weight": "49.9 tons"
-        },
-        "Performance": {
-          "Fuel Capacity": "4,000 US gallons (15,141 liters)",
-          "Range": "1,500 nautical miles",
-          "Flight Ceiling": "35,000 feet",
-          "Takeoff Distance": "2,100 meters",
-          "Landing Distance": "1,500 meters",
-          "Passenger Capacity": {
-            "Max": "127",
-            "Typical": "115"
-          },
-          "Cargo Capacity": "N/A",
-          "Avionics": {
-            "Common_suite": "Honeywell",
-            "FMS": "Yes",
-            "EFIS": "Yes",
-            "AFCS": "Yes",
-            "TAWS": "Yes",
-            "HUD": "No"
-          }
-        },
-        "Speed": {
-          "Cruise Speed": {
-            "Mach": "0.82",
-            "Knots": "485 knots"
-          },
-          "Max Speed": {
-            "Mach": "0.84",
-            "Knots": "565 knots"
-          },
-          "V2 speed": "140 knots",
-          "Stall speed": "110 knots"
-        },
-        "Engines": {
-          "JT8D-7": {
-            "Manufacturer": "Pratt & Whitney",
-            "Model": "JT8D-7",
-            "Thrust": "14,500 lbf",
-            "Bypass ratio": "1.74:1",
-            "Fan stage": "Single-stage fan",
-            "Low-pressure compressor stages": "6",
-            "High-pressure compressor stages": "7",
-            "High-pressure turbine stages": "1",
-            "Low-pressure turbine stages": "3",
-            "Climb rate": "2,000 feet/min",
-            "Descend rate": 2500,
-            "Cruise climb rate": 1500,
-            "Landing descend rate": 1200,
-            "Fan blade diameter": "39 inches",
-            "Fuel type": "Jet-A, Aviation kerosene",
-            "Pressure ratio": "15.4:1"
-          },
-          "JT8D-9": {
-            "Manufacturer": "Pratt & Whitney",
-            "Model": "JT8D-9",
-            "Thrust": "14,500 lbf",
-            "Bypass ratio": "1.74:1",
-            "Fan stage": "Single-stage fan",
-            "Low-pressure compressor stages": "6",
-            "High-pressure compressor stages": "7",
-            "High-pressure turbine stages": "1",
-            "Low-pressure turbine stages": "3",
-            "Climb rate": "2,000 feet/min",
-            "Descend rate": 2500,
-            "Cruise climb rate": 1500,
-            "Landing descend rate": 1200,
-            "Fan blade diameter": "39 inches",
-            "Fuel type": "Jet-A, Aviation kerosene",
-            "Pressure ratio": "15.4:1"
-          },
-          "JT8D-11": {
-            "Manufacturer": "Pratt & Whitney",
-            "Model": "JT8D-11",
-            "Thrust": "15,000 lbf",
-            "Bypass ratio": "1.74:1",
-            "Fan stage": "Single-stage fan",
-            "Low-pressure compressor stages": "6",
-            "High-pressure compressor stages": "7",
-            "High-pressure turbine stages": "1",
-            "Low-pressure turbine stages": "3",
-            "Climb rate": "2,000 feet/min",
-            "Descend rate": 2500,
-            "Cruise climb rate": 1500,
-            "Landing descend rate": 1200,
-            "Fan blade diameter": "39 inches",
-            "Fuel type": "Jet-A, Aviation kerosene",
-            "Pressure ratio": "15.4:1"
-          }
-        },
-        "Other Details": {
-          "Noise Levels": {
-            "Takeoff": "N/A",
-            "Landing": "N/A",
-            "Cruise": "N/A",
-            "operation_cost": "N/A",
-            "certification_standards": ["FAA", "EASA"]
-          },
-          "Body Type": "Narrow-body",
-          "Number of Decks": "1",
-          "Materials": {
-            "Fuselage": "Aluminum alloy",
-            "Wings": "Aluminum alloy"
-          },
-          "Commercial Operators": ["Delta Air Lines", "Eastern Airlines", "Northwest Airlines", "TWA"]
-        }
-      },
-      "DC-9-40":{
-        "General Information": {
-          "Manufacturer": "McDonnell Douglas",
-          "Family": "DC-9",
-          "First Flight": "1967",
-          "Model Build": "71",
-          "Entered Service": "1968 with Scandinavian Airlines",
-          "Type": "Narrow-body jet airliner",
-          "Engine Type": "Low-bypass turbofan",
-          "number of engines": "2",
-          "Price Tag": "5.2 million USD (1967)",
-          "Fly range category": "Close-mid range",
-          "seat config": [
-            "2-3"
-          ], 
-          "aircraft_image":[
-            "https://th.bing.com/th/id/R.a285c1dc9740382b418652c83b82a8e0?rik=eo4ZpHNUIaxdtg&pid=ImgRaw&r=0",
-            "https://www.flight-manuals-online.com/wp-content/uploads/2019/08/DC-9-cockpit.jpg"
-             ]
-        },
-        "Dimensions": {
-          "Length": "38.28 m",
-          "Wingspan": "28.44 m",
-          "Cabin Length": "24.60 m",
-          "Fuselage Max Diameter": "3.34 m",
-          "Max Cabin Width": "3.11 m"
-        },
-        "Weights": {
-          "Max Landing Weight": "46.27 tons",
-          "Empty Weight": "28.12 tons",
-          "Max Takeoff Weight": "51.71 tons"
-        },
-        "Performance": {
-          "Fuel Capacity": 13926,
-          "Range": "1,200 nautical miles",
-          "Flight Ceiling": "35,000 feet",
-          "Takeoff Distance": "2,000 meters",
-          "Landing Distance": "1,500 meters",
-          "Passenger Capacity": {
-            "Max": "125",
-            "Typical": "115"
-          },
-          "Cargo Capacity": "988.81 cubic feet",
-          "Avionics": {
-            "Common_suite": "Analog instruments",
-            "FMS": "No",
-            "EFIS": "No",
-            "AFCS": "No",
-            "TAWS": "No",
-            "HUD": "No"
-          }
-        },
-        "Speed": {
-          "Cruise Speed": {
-            "Mach": "0.63",
-            "Knots": "380 knots"
-          },
-          "Max Speed": {
-            "Mach": "0.84",
-            "Knots": "501 knots"
-          },
-          "V2 speed": "210 knots",
-          "Stall speed": "131 knots"
-        },
-        "Engines": {
-          "JT8D-17": {
-            "Manufacturer": "Pratt & Whitney",
-            "Model": "JT8D-17",
-            "Thrust": "16,000 lbf",
-            "Bypass ratio": "1.74:1",
-            "Fan stage": "Single-stage fan",
-            "Low-pressure compressor stages": "6",
-            "High-pressure compressor stages": "7",
-            "High-pressure turbine stages": "1",
-            "Low-pressure turbine stages": "3",
-            "Climb rate": 3000,
-            "Descend rate":3000,
-            "Cruise climb rate": 2500,
-            "Landing descend rate": 1500,
-            "Fan blade diameter": "39 inches",
-            "Fuel type": "Jet-A, Aviation kerosene",
-            "Pressure ratio": "15.4:1"
-          }
-        },
-        "Other Details": {
-          "Noise Levels": {
-            "Takeoff": "95 dB",
-            "Landing": "85 dB",
-            "Cruise": "75 dB"
-          },
-          "operation_cost": "0.05 million USD per flight hour",
-          "certification_standards": ["FAA", "EASA"],
-          "Body Type": "Narrow-body",
-          "Number of Decks": "1",
-          "Materials": {
-            "Fuselage": "Aluminum alloy",
-            "Wings": "Aluminum alloy"
-          },
-          "Commercial Operators": ["Scandinavian Airlines", "Delta Air Lines", "Northwest Airlines", "TWA"]
-        }
-      },
-      "DC-9-50":{
-        "General Information": {
-          "Manufacturer": "McDonnell Douglas",
-          "Family": "DC-9",
-          "First Flight": "1974",
-          "Model Build": "976",
-          "Entered Service": "1975 with Eastern Air Lines",
-          "Type": "Narrow-body jet airliner",
-          "Engine Type": "Low-bypass turbofan",
-          "number of engines": "2",
-          "Price Tag": "N/A",
-          "Fly range category": "Mid-range",
-          "seat config": [
-            "2-3"
-          ], 
-          "aircraft_image":[
-            "https://th.bing.com/th/id/OIP.l9fSjKctFgSmTKmbGlE6NgHaE8?rs=1&pid=ImgDetMain",
-            "https://live.staticflickr.com/65535/49978963558_98fa832af7_b.jpg"
-             ]
-        },
-        "Dimensions": {
-          "Length": "40.72 m",
-          "Wingspan": "28.45 m",
-          "Cabin Length": "28.3 m",
-          "Fuselage Max Diameter": "3.34 m",
-          "Max Cabin Width": "3.11 m"
-        },
-        "Weights": {
-          "Max Landing Weight": "54.9 tons",
-          "Empty Weight": "32.7 tons",
-          "Max Takeoff Weight": "54.9 tons"
-        },
-        "Performance": {
-          "Fuel Capacity": 15141,
-          "Range": "1,300 nautical miles",
-          "Flight Ceiling": "35,000 ft",
-          "Takeoff Distance": "1,800 m",
-          "Landing Distance": "1,600 m",
-          "Passenger Capacity": {
-            "Max": "139",
-            "Typical": "125"
-          },
-          "Cargo Capacity": "N/A",
-          "Avionics": {
-            "Common_suite": "Honeywell",
-            "FMS": "Yes",
-            "EFIS": "Yes",
-            "AFCS": "Yes",
-            "TAWS": "Yes",
-            "HUD": "No"
-          }
-        },
-        "Speed": {
-          "Cruise Speed": {
-            "Mach": "0.76",
-            "Knots": "485 knots"
-          },
-          "Max Speed": {
-            "Mach": "0.84",
-            "Knots": "644 knots"
-          },
-          "V2 speed": "140 knots",
-          "Stall speed": "110 knots"
-        },
-        "Engines": {
-          "Pratt & Whitney JT8D-17": {
-            "Manufacturer": "Pratt & Whitney",
-            "Model": "JT8D-17",
-            "Thrust": "16,000 lbf",
-            "Bypass ratio": "1.74:1",
-            "Fan stage": "Single-stage fan",
-            "Low-pressure compressor stages": "6",
-            "High-pressure compressor stages": "7",
-            "High-pressure turbine stages": "1",
-            "Low-pressure turbine stages": "3",
-            "Climb rate": 3000,
-            "Descend rate": 2500,
-            "Cruise climb rate": 2000,
-            "Landing descend rate": 1500,
-            "Fan blade diameter": "49 in",
-            "Fuel type": "Jet-A, Aviation kerosene",
-            "Pressure ratio": "15:1"
-          }
-        },
-        "Other Details": {
-          "Noise Levels": {
-            "Takeoff": "N/A",
-            "Landing": "N/A",
-            "Cruise": "N/A"
-          },
-          "operation_cost": "N/A",
-          "certification_standards": [
-            "FAA",
-            "EASA"
-          ],
-          "Body Type": "Narrow-body",
-          "Number of Decks": "1",
-          "Materials": {
-            "Fuselage": "Aluminum alloy",
-            "Wings": "Aluminum alloy"
-          },
-          "Commercial Operators": [
-            "Eastern Air Lines",
-            "Delta Air Lines",
-            "Northwest Airlines",
-            "TWA",
-            "Swissair"
-          ]
-        }
-      },
-      "DC-10-10":{
-        "General Information": {
-          "Manufacturer": "McDonnell Douglas",
-          "Family": "DC-10",
-          "First Flight": "August 29, 1970",
-          "Model Build": "122",
-          "Entered Service": "August 5, 1971 with American Airlines",
-          "Type": "Wide-body jet airliner",
-          "Engine Type": "High-bypass turbofan",
-          "number of engines": "3",
-          "Price Tag": "20 million USD (1972)",
-          "Fly range category": "Mid-range",
-          "seat config": [
-            "2-4-2"
-          ], 
-          "aircraft_image":[
-            "https://imgproc.airliners.net/photos/airliners/5/7/7/2576775.jpg?v=v40",
-            "https://c1.staticflickr.com/9/8425/7746683168_be1bb66ff6_b.jpg"
-             ]
-        },
-        "Dimensions": {
-          "Length": "55.5 m",
-          "Wingspan": "47.35 m",
-          "Cabin Length": "36.7 m",
-          "Fuselage Max Diameter": "6 m",
-          "Max Cabin Width": "5.7 m"
-        },
-        "Weights": {
-          "Max Landing Weight": "182 tons",
-          "Empty Weight": "109 tons",
-          "Max Takeoff Weight": "195 tons"
-        },
-        "Performance": {
-          "Fuel Capacity": 138700,
-          "Range": "3,500 nautical miles",
-          "Flight Ceiling": "42,000 ft",
-          "Takeoff Distance": "3,000 m",
-          "Landing Distance": "1,800 m",
-          "Passenger Capacity": {
-            "Max": "380",
-            "Typical": "270"
-          },
-          "Cargo Capacity": "16,000 gallons",
-          "Avionics": {
-            "Common_suite": "Honeywell",
-            "FMS": "Yes",
-            "EFIS": "Yes",
-            "AFCS": "Yes",
-            "TAWS": "Yes",
-            "HUD": "No"
-          }
-        },
-        "Speed": {
-          "Cruise Speed": {
-            "Mach": "0.82",
-            "Knots": "507 knots"
-          },
-          "Max Speed": {
-            "Mach": "0.88",
-            "Knots": "587 knots"
-          },
-          "V2 speed": "149 knots",
-          "Stall speed": "120 knots"
-        },
-        "Engines": {
-          "GE CF6-6D": {
-            "Manufacturer": "General Electric",
-            "Model": "CF6-6D",
-            "Thrust": "40,000 lbf",
-            "Bypass ratio": "5:1",
-            "Fan stage": "Single-stage fan",
-            "Low-pressure compressor stages": "4",
-            "High-pressure compressor stages": "14",
-            "High-pressure turbine stages": "2",
-            "Low-pressure turbine stages": "5",
-            "Climb rate": 2000,
-            "Descend rate": 2000,
-            "Cruise climb rate": 1500,
-            "Landing descend rate": 1000,
-            "Fan blade diameter": "86 in",
-            "Fuel type": "Jet-A, Aviation kerosene",
-            "Pressure ratio": "30:1"
-          }
-        },
-        "Other Details": {
-          "Noise Levels": {
-            "Takeoff": "95 dB",
-            "Landing": "90 dB",
-            "Cruise": "85 dB"
-          },
-          "operation_cost": "10 million USD",
-          "certification_standards": [
-            "FAA",
-            "EASA"
-          ],
-          "Body Type": "Wide-body",
-          "Number of Decks": "1",
-          "Materials": {
-            "Fuselage": "Aluminum alloy",
-            "Wings": "Aluminum alloy"
-          },
-          "Commercial Operators": [
-            "American Airlines",
-            "United Airlines",
-            "FedEx Express",
-            "Northwest Airlines"
-          ]
-        }
-      },
-      "DC-10-15":{
-        "General Information": {
-          "Manufacturer": "McDonnell Douglas",
-          "Family": "DC-10",
-          "First Flight": "August 29, 1970",
-          "Model Build": "446",
-          "Entered Service": "August 5, 1971 with American Airlines",
-          "Type": "Wide-body jet airliner",
-          "Engine Type": "High-bypass turbofan",
-          "number of engines": "3",
-          "Price Tag": "N/A",
-          "Fly range category": "Medium to long range",
-          "seat config": [
-            "2-4-2"
-          ],
-          "aircraft_image":[
-            "https://imgproc.airliners.net/photos/airliners/7/4/9/4629947.jpg?v=v43870a1bf74",
-            "https://c8.alamy.com/comp/GM9J4N/cockpit-simulator-of-a-douglas-dc-10-wings-over-the-rockies-air-and-GM9J4N.jpg"
-          ]
-        },
-        "Dimensions": {
-          "Length": "55.50 m",
-          "Wingspan": "50.41 m",
-          "Cabin Length": "33.5 m",
-          "Fuselage Max Diameter": "6.02 m",
-          "Max Cabin Width": "5.54 m"
-        },
-        "Weights": {
-          "Max Landing Weight": "181.4 tons",
-          "Empty Weight": "121.2 tons",
-          "Max Takeoff Weight": "263.1 tons"
-        },
-        "Performance": {
-          "Fuel Capacity": 138700,
-          "Range": "5,405 nautical miles",
-          "Flight Ceiling": "42,000 feet",
-          "Takeoff Distance": "3,200 meters",
-          "Landing Distance": "1,800 meters",
-          "Passenger Capacity": {
-            "Max": "380",
-            "Typical": "270"
-          },
-          "Cargo Capacity": "N/A",
-          "Avionics": {
-            "Common_suite": "Honeywell",
-            "FMS": "Yes",
-            "EFIS": "Yes",
-            "AFCS": "Yes",
-            "TAWS": "Yes",
-            "HUD": "No"
-          }
-        },
-        "Speed": {
-          "Cruise Speed": {
-            "Mach": "0.82",
-            "Knots": "490"
-          },
-          "Max Speed": {
-            "Mach": "0.88",
-            "Knots": "564"
-          },
-          "V2 speed": "N/A",
-          "Stall speed": "N/A"
-        },
-        "Engines": 
-          {
-            "CF6-50C2-F": {
-              "Manufacturer": "General Electric",
-              "Model": "CF6-50C2-F",
-              "Thrust": "52,500 lbf",
-              "Bypass ratio": "4.26:1",
-              "Fan stage": "Single-stage fan",
-              "Low-pressure compressor stages": "3",
-              "High-pressure compressor stages": "14",
-              "High-pressure turbine stages": "2",
-              "Low-pressure turbine stages": "4",
-              "Climb rate": 2500,
-              "Descend rate": 3000,
-              "Cruise climb rate": 1500,
-              "Landing descend rate": 1000,
-              "Fan blade diameter": "86 inches",
-              "Fuel type": "Jet-A, Aviation kerosene",
-              "Pressure ratio": "30:1"
+            "Fuel Capacity": 89865,
+            "Range": "4,830 nmi",
+            "Flight Ceiling": "41,000 ft",
+            "Takeoff Distance": "2,743 m",
+            "Landing Distance": "1,524 m",
+            "Passenger Capacity": {
+                "Max": "259",
+                "Typical": "189"
+            },
+            "Cargo Capacity": "N/A",
+            "Avionics": {
+                "Common_suite": "Honeywell",
+                "FMS": "Yes",
+                "EFIS": "Yes",
+                "AFCS": "Yes",
+                "TAWS": "Yes",
+                "HUD": "No"
             }
-          }
-        ,
-        "Other Details": {
-          "Noise Levels": {
-            "Takeoff": "N/A",
-            "Landing": "N/A",
-            "Cruise": "N/A"
-          },
-          "operation_cost": "N/A",
-          "certification_standards": [
-            "FAA",
-            "EASA"
-          ],
-          "Body Type": "Wide-body",
-          "Number of Decks": "1",
-          "Materials": {
-            "Fuselage": "Aluminum alloy",
-            "Wings": "Aluminum alloy"
-          },
-          "Commercial Operators": [
-            "American Airlines",
-            "United Airlines",
-            "FedEx Express",
-            "Lufthansa",
-            "Japan Airlines"
-          ]
-        }
-      },
-      "DC-10-30":{
-        "General Information": {
-          "Manufacturer": "McDonnell Douglas",
-          "Family": "DC-10",
-          "First Flight": "August 29, 1970",
-          "Model Build": "386",
-          "Entered Service": "December 15, 1972 with Swissair",
-          "Type": "Wide-body jet airliner",
-          "Engine Type": "High-bypass turbofan",
-          "number of engines": "3",
-          "Price Tag": "20 million USD (1972)",
-          "Fly range category": "Long range",
-          "seat config": [
-            "2-4-2"
-          ],
-          "aircraft_image":[
-            "https://th.bing.com/th/id/OIP.TG0PDwJdNkK2lxxRIiPw0QHaE8?rs=1&pid=ImgDetMain", 
-            "https://th.bing.com/th/id/R.45c900a83fb4c5b14fc4c25e0bcab250?rik=0Ai929DIIoLvdA&pid=ImgRaw&r=0"
-          ]
-        },
-        "Dimensions": {
-          "Length": "55.35 m",
-          "Wingspan": "50.39 m",
-          "Cabin Length": "36.7 m",
-          "Fuselage Max Diameter": "6.02 m",
-          "Max Cabin Width": "5.7 m"
-        },
-        "Weights": {
-          "Max Landing Weight": "192 tons",
-          "Empty Weight": "128 tons",
-          "Max Takeoff Weight": "263 tons"
-        },
-        "Performance": {
-          "Fuel Capacity": 138700,
-          "Range": "5,200 nautical miles",
-          "Flight Ceiling": "42,000 ft",
-          "Takeoff Distance": "3,000 m",
-          "Landing Distance": "1,800 m",
-          "Passenger Capacity": {
-            "Max": "380",
-            "Typical": "270"
-          },
-          "Cargo Capacity": "5,000 gallons",
-          "Avionics": {
-            "Common_suite": "Honeywell",
-            "FMS": "Yes",
-            "EFIS": "Yes",
-            "AFCS": "Yes",
-            "TAWS": "Yes",
-            "HUD": "No"
-          }
         },
         "Speed": {
-          "Cruise Speed": {
-            "Mach": "0.84",
-            "Knots": "507 knots"
-          },
-          "Max Speed": {
-            "Mach": "0.89",
-            "Knots": "530 knots"
-          },
-          "V2 speed": "149 knots",
-          "Stall speed": "120 knots"
+            "Cruise Speed": {
+                "Mach": "0.82",
+                "Knots": "459 knots"
+            },
+            "Max Speed": {
+                "Mach": "0.87",
+                "Knots": "479 knots"
+            },
+            "V2 speed": "150 knots",
+            "Stall speed": "115 knots"
         },
         "Engines": {
-          "General Electric CF6-50C": {
-            "Manufacturer": "General Electric",
-            "Model": "CF6-50C",
-            "Thrust": "51,000 lbf",
-            "Bypass ratio": "4.26:1",
-            "Fan stage": "Single-stage fan",
-            "Low-pressure compressor stages": "3",
-            "High-pressure compressor stages": "14",
-            "High-pressure turbine stages": "2",
-            "Low-pressure turbine stages": "4",
-            "Climb rate": 2000 ,
-            "Descend rate": 2000,
-            "Cruise climb rate": 1500,
-            "Landing descend rate": 1500,
-            "Fan blade diameter": "86.2 inches",
-            "Fuel type": "Jet-A, Aviation kerosene",
-            "Pressure ratio": "29.3"
-          }
-        },
-        "Other Details": {
-          "Noise Levels": {
-            "Takeoff": "95 dB",
-            "Landing": "90 dB",
-            "Cruise": "85 dB"
-          },
-          "operation_cost": "10 million USD",
-          "certification_standards": [
-            "FAA",
-            "EASA"
-          ],
-          "Body Type": "Wide-body",
-          "Number of Decks": "1",
-          "Materials": {
-            "Fuselage": "Aluminum alloy",
-            "Wings": "Aluminum alloy"
-          },
-          "Commercial Operators": [
-            "FedEx Express",
-            "American Airlines",
-            "United Airlines",
-            "Northwest Airlines",
-            "Swissair",
-            "KLM Royal Dutch Airlines"
-          ]
-        }
-      },
-      "DC-10-40":{
-        "General Information": {
-          "Manufacturer": "McDonnell Douglas",
-          "Family": "DC-10",
-          "First Flight": "August 29, 1970",
-          "Model Build": "42",
-          "Entered Service": "1973 with Northwest Orient Airlines",
-          "Type": "Wide-body jet airliner",
-          "Engine Type": "High-bypass turbofan",
-          "number of engines": "3",
-          "Price Tag": "US$20 million (1972)",
-          "Fly range category": "Long range",
-          "seat config": [
-            "2-4-2"
-          ], 
-          "aircraft_image":[
-            "https://imgproc.airliners.net/photos/airliners/5/0/8/0167805.jpg?v=v40",
-            "https://th.bing.com/th/id/R.ee270f42f175045c60ae6799c7045536?rik=%2bZIAHapZDRZxDg&pid=ImgRaw&r=0"
-
-            ]
-        },
-        "Dimensions": {
-          "Length": "55.5 m",
-          "Wingspan": "50.4 m",
-          "Cabin Length": "36.7 m",
-          "Fuselage Max Diameter": "6 m",
-          "Max Cabin Width": "5.7 m"
-        },
-        "Weights": {
-          "Max Landing Weight": "192 tons",
-          "Empty Weight": "128 tons",
-          "Max Takeoff Weight": "263 tons"
-        },
-        "Performance": {
-          "Fuel Capacity": 138700,
-          "Range": "5,100 nautical miles",
-          "Flight Ceiling": "42,000 feet",
-          "Takeoff Distance": "3,000 m",
-          "Landing Distance": "1,800 m",
-          "Passenger Capacity": {
-            "Max": "380",
-            "Typical": "270"
-          },
-          "Cargo Capacity": "16,000 gallons",
-          "Avionics": {
-            "Common_suite": "Honeywell",
-            "FMS": "Yes",
-            "EFIS": "Yes",
-            "AFCS": "Yes",
-            "TAWS": "Yes",
-            "HUD": "No"
-          }
-        },
-        "Speed": {
-          "Cruise Speed": {
-            "Mach": "0.82",
-            "Knots": "530 knots"
-          },
-          "Max Speed": {
-            "Mach": "0.89",
-            "Knots": "590 knots"
-          },
-          "V2 speed": "149 knots",
-          "Stall speed": "120 knots"
-        },
-        "Engines": {
-          "Pratt & Whitney JT9D-20": {
-            "Manufacturer": "Pratt & Whitney",
-            "Model": "JT9D-20",
-            "Thrust": "49,400 lbf",
-            "Bypass ratio": "5.0:1",
-            "Fan stage": "Single-stage fan",
-            "Low-pressure compressor stages": "3",
-            "High-pressure compressor stages": "11",
-            "High-pressure turbine stages": "2",
-            "Low-pressure turbine stages": "4",
-            "Climb rate": 2000,
-            "Descend rate": 2000,
-            "Cruise climb rate": 1500,
-            "Landing descend rate": 1500,
-            "Fan blade diameter": "93 inches",
-            "Fuel type": "Jet-A, Aviation kerosene",
-            "Pressure ratio": "23:1"
-          },
-          "Pratt & Whitney JT9D-59A": {
-            "Manufacturer": "Pratt & Whitney",
-            "Model": "JT9D-59A",
-            "Thrust": "53,000 lbf",
-            "Bypass ratio": "5.0:1",
-            "Fan stage": "Single-stage fan",
-            "Low-pressure compressor stages": "3",
-            "High-pressure compressor stages": "11",
-            "High-pressure turbine stages": "2",
-            "Low-pressure turbine stages": "4",
-            "Climb rate": 2000,
-            "Descend rate": 2000,
-            "Cruise climb rate": 1500,
-            "Landing descend rate": 1500,
-            "Fan blade diameter": "93 inches",
-            "Fuel type": "Jet-A, Aviation kerosene",
-            "Pressure ratio": "23:1"
-          }
-        },
-        "Other Details": {
-          "Noise Levels": {
-            "Takeoff": "95 dB",
-            "Landing": "90 dB",
-            "Cruise": "85 dB"
-          },
-          "operation_cost": "$10 million",
-          "certification_standards": ["FAA", "EASA"],
-          "Body Type": "Wide-body",
-          "Number of Decks": "1",
-          "Materials": {
-            "Fuselage": "Aluminum alloy",
-            "Wings": "Aluminum alloy"
-          },
-          "Commercial Operators": ["Northwest Orient Airlines", "Japan Airlines"]
-        }
-      },
-      "MD-81":{
-        "General Information": {
-          "Manufacturer": "McDonnell Douglas",
-          "Family": "MD-80",
-          "First Flight": "October 18, 1979",
-          "Model Build": "132",
-          "Entered Service": "September 1980 with Swissair",
-          "Type": "Narrow-body jet airliner",
-          "Engine Type": "High-bypass turbofan",
-          "number of engines": "2",
-          "Price Tag": "$50 million (estimated if sold new at present)",
-          "Fly range category": "Short to medium range",
-          "seat config": [
-            "2-3"
-          ],
-          "aircraft_image":[
-            "https://th.bing.com/th/id/OIP.d3RGJHXAJDocgcqIE4SxfQHaDZ?rs=1&pid=ImgDetMain",
-            "https://th.bing.com/th/id/R.f6f4b5016aa78eb111e983fed6ed1102?rik=XgpCPlAsxiwEgw&riu=http%3a%2f%2fbarrieaircraft.com%2fimages%2fmcdonnell-douglas-md-81828388-03.jpg&ehk=JzwtQp79kNSGNxlmtg2XdXRpCzLr4xfu16v9ud3c8wo%3d&risl=&pid=ImgRaw&r=0"
-          ]
-        },
-        "Dimensions": {
-          "Length": "45.06 m",
-          "Wingspan": "32.87 m",
-          "Cabin Length": "30.18 m",
-          "Fuselage Max Diameter": "3.34 m",
-          "Max Cabin Width": "3.17 m"
-        },
-        "Weights": {
-          "Max Landing Weight": "57.6 tons",
-          "Empty Weight": "35.3 tons",
-          "Max Takeoff Weight": "63.5 tons"
-        },
-        "Performance": {
-          "Fuel Capacity": 22110,
-          "Range": "1,564 nm",
-          "Flight Ceiling": "37,000 ft",
-          "Takeoff Distance": "2,271 m",
-          "Landing Distance": "1,500 m",
-          "Passenger Capacity": {
-            "Max": "172",
-            "Typical": "142"
-          },
-          "Cargo Capacity": "5,840 US gallons",
-          "Avionics": {
-            "Common_suite": "Honeywell",
-            "FMS": "Yes",
-            "EFIS": "Yes",
-            "AFCS": "Yes",
-            "TAWS": "Yes",
-            "HUD": "No"
-          }
-        },
-        "Speed": {
-          "Cruise Speed": {
-            "Mach": "0.74",
-            "Knots": "440 kt"
-          },
-          "Max Speed": {
-            "Mach": "0.82",
-            "Knots": "500 kt"
-          },
-          "V2 speed": "125 kt",
-          "Stall speed": "110 kt"
-        },
-        "Engines": {
-          "JT8D-209": {
-            "Manufacturer": "Pratt & Whitney",
-            "Model": "JT8D-209",
-            "Thrust": "18,500 lbf",
-            "Bypass ratio": "1.74:1",
-            "Fan stage": "Single-stage fan",
-            "Low-pressure compressor stages": "6",
-            "High-pressure compressor stages": "7",
-            "High-pressure turbine stages": "1",
-            "Low-pressure turbine stages": "3",
-            "Climb rate": 3000,
-            "Descend rate": 3000,
-            "Cruise climb rate": 2000,
-            "Landing descend rate": 1500,
-            "Fan blade diameter": "49 in",
-            "Fuel type": "Jet-A, Aviation kerosene",
-            "Pressure ratio": "21.8:1"
-          },
-          "JT8D-217": {
-            "Manufacturer": "Pratt & Whitney",
-            "Model": "JT8D-217",
-            "Thrust": "20,000 lbf",
-            "Bypass ratio": "1.74:1",
-            "Fan stage": "Single-stage fan",
-            "Low-pressure compressor stages": "6",
-            "High-pressure compressor stages": "7",
-            "High-pressure turbine stages": "1",
-            "Low-pressure turbine stages": "3",
-            "Climb rate": 3000,
-            "Descend rate": 3000,
-            "Cruise climb rate": 2000,
-            "Landing descend rate": 1500,
-            "Fan blade diameter": "49 in",
-            "Fuel type": "Jet-A, Aviation kerosene",
-            "Pressure ratio": "21.8:1"
-          },
-          "JT8D-219": {
-            "Manufacturer": "Pratt & Whitney",
-            "Model": "JT8D-219",
-            "Thrust": "21,000 lbf",
-            "Bypass ratio": "1.74:1",
-            "Fan stage": "Single-stage fan",
-            "Low-pressure compressor stages": "6",
-            "High-pressure compressor stages": "7",
-            "High-pressure turbine stages": "1",
-            "Low-pressure turbine stages": "3",
-            "Climb rate": 3000,
-            "Descend rate": 3000,
-            "Cruise climb rate": 2000,
-            "Landing descend rate": 1500,
-            "Fan blade diameter": "49 in",
-            "Fuel type": "Jet-A, Aviation kerosene",
-            "Pressure ratio": "21.8:1"
-          }
-        },
-        "Other Details": {
-          "Noise Levels": {
-            "Takeoff": "90 dB",
-            "Landing": "85 dB",
-            "Cruise": "80 dB"
-          },
-          "operation_cost": "$2.5 million",
-          "certification_standards": [
-            "FAA",
-            "EASA"
-          ],
-          "Body Type": "Narrow-body",
-          "Number of Decks": "1",
-          "Materials": {
-            "Fuselage": "Aluminum alloy",
-            "Wings": "Aluminum alloy"
-          },
-          "Commercial Operators": [
-            "Swissair",
-            "American Airlines",
-            "Delta Air Lines",
-            "SAS",
-            "Alitalia",
-            "Austrian Airlines"
-          ]
-        }
-      },
-      "MD-82":{
-        "General Information": {
-          "Manufacturer": "McDonnell Douglas",
-          "Family": "MD-80",
-          "First Flight": "January 8, 1981",
-          "Model Build": "1,191",
-          "Entered Service": "August 1981 with Republic Airlines",
-          "Type": "Narrow-body jet airliner",
-          "Engine Type": "High-bypass turbofan",
-          "number of engines": "2",
-          "Price Tag": "US$41.5 million (1999)",
-          "Fly range category": "Mid-range",
-          "seat config": [
-            "2-3"
-          ],
-          "aircraft_image":[
-            "https://th.bing.com/th/id/R.88e037065e8636589138a0186e5fc1be?rik=SzYZpoZEySLv1Q&pid=ImgRaw&r=0",
-            "https://c1.staticflickr.com/9/8018/7315964048_4d8e69aed4_b.jpg"
-          ]
-        },
-        "Dimensions": {
-          "Length": "45.06 m",
-          "Wingspan": "32.85 m",
-          "Cabin Length": "30.78 m",
-          "Fuselage Max Diameter": "3.4 m",
-          "Max Cabin Width": "3.14 m"
-        },
-        "Weights": {
-          "Max Landing Weight": "58,000 kg",
-          "Empty Weight": "37,300 kg",
-          "Max Takeoff Weight": "67,800 kg"
-        },
-        "Performance": {
-          "Fuel Capacity": 22120 ,
-          "Range": "2,050 nautical miles",
-          "Flight Ceiling": "37,000 ft",
-          "Takeoff Distance": "2,052 m",
-          "Landing Distance": "1,585 m",
-          "Passenger Capacity": {
-            "Max": "172",
-            "Typical": "155"
-          },
-          "Cargo Capacity": "1,253 cu ft",
-          "Avionics": {
-            "Common_suite": "Honeywell",
-            "FMS": "Yes",
-            "EFIS": "Yes",
-            "AFCS": "Yes",
-            "TAWS": "Yes",
-            "HUD": "No"
-          }
-        },
-        "Speed": {
-          "Cruise Speed": {
-            "Mach": "0.76",
-            "Knots": "485 knots"
-          },
-          "Max Speed": {
-            "Mach": "0.82",
-            "Knots": "504 knots"
-          },
-          "V2 speed": "140 knots",
-          "Stall speed": "115 knots"
-        },
-        "Engines": {
-          "Pratt & Whitney JT8D-217": {
-            "Manufacturer": "Pratt & Whitney",
-            "Model": "JT8D-217",
-            "Thrust": "20,000 lbf",
-            "Bypass ratio": "1.74:1",
-            "Fan stage": "Single-stage fan",
-            "Low-pressure compressor stages": "6",
-            "High-pressure compressor stages": "7",
-            "High-pressure turbine stages": "1",
-            "Low-pressure turbine stages": "3",
-            "Climb rate": 2500,
-            "Descend rate": 2500,
-            "Cruise climb rate": 2000,
-            "Landing descend rate": 1500,
-            "Fan blade diameter": "49.2 in",
-            "Fuel type": "Jet-A, Aviation kerosene",
-            "Pressure ratio": "21.8:1"
-          },
-          "Pratt & Whitney JT8D-219": {
-            "Manufacturer": "Pratt & Whitney",
-            "Model": "JT8D-219",
-            "Thrust": "21,000 lbf",
-            "Bypass ratio": "1.74:1",
-            "Fan stage": "Single-stage fan",
-            "Low-pressure compressor stages": "6",
-            "High-pressure compressor stages": "7",
-            "High-pressure turbine stages": "1",
-            "Low-pressure turbine stages": "3",
-            "Climb rate": 2500,
-            "Descend rate": 2500,
-            "Cruise climb rate": 2000,
-            "Landing descend rate": 1500,
-            "Fan blade diameter": "49.2 in",
-            "Fuel type": "Jet-A, Aviation kerosene",
-            "Pressure ratio": "21.8:1"
-          }
-        },
-        "Other Details": {
-          "Noise Levels": {
-            "Takeoff": "90 dB",
-            "Landing": "85 dB",
-            "Cruise": "80 dB"
-          },
-          "operation_cost": "$2.5 million",
-          "certification_standards": ["FAA", "EASA"],
-          "Body Type": "Narrow-body",
-          "Number of Decks": "1",
-          "Materials": {
-            "Fuselage": "Aluminum alloy",
-            "Wings": "Aluminum alloy"
-          },
-          "Commercial Operators": ["American Airlines", "Delta Air Lines", "Allegiant Air", "LASER Airlines"]
-        }
-      },
-      "MD-83":{
-        "General Information": {
-          "Manufacturer": "McDonnell Douglas",
-          "Family": "MD-80",
-          "First Flight": "October 18, 1979",
-          "Model Build": "1,191",
-          "Entered Service": "February 1985 with Alaska Airlines",
-          "Type": "Narrow-body jet airliner",
-          "Engine Type": "High-bypass turbofan",
-          "number of engines": 2,
-          "Price Tag": "US$48.5 million (1990)",
-          "Fly range category": "Mid-range",
-          "seat config": [
-            "2-3"
-          ],
-          "aircraft_image":[
-            "https://th.bing.com/th/id/R.58a86901023e0eda55caeffe653b5237?rik=ui9k5h2C3jtiLg&pid=ImgRaw&r=0",
-            "https://th.bing.com/th/id/R.816f911529e8e153baf2fd2db5681a06?rik=rkr0S29uQo%2bD2A&pid=ImgRaw&r=0&sres=1&sresct=1"
-            
-          ]
-        },
-        "Dimensions": {
-          "Length": "45.02 m",
-          "Wingspan": "32.85 m",
-          "Cabin Length": "30.78 m",
-          "Fuselage Max Diameter": "3.35 m",
-          "Max Cabin Width": "3.11 m"
-        },
-        "Weights": {
-          "Max Landing Weight": "58.97 tons",
-          "Empty Weight": "36.29 tons",
-          "Max Takeoff Weight": "73.00 tons"
-        },
-        "Performance": {
-          "Fuel Capacity": 26360,
-          "Range": "2,550 nautical miles",
-          "Flight Ceiling": "37,000 ft",
-          "Takeoff Distance": "2,052 m",
-          "Landing Distance": "1,585 m",
-          "Passenger Capacity": {
-            "Max": 172,
-            "Typical": 142
-          },
-          "Cargo Capacity": "1,000 gallons",
-          "Avionics": {
-            "Common_suite": "Honeywell",
-            "FMS": "Yes",
-            "EFIS": "Yes",
-            "AFCS": "Yes",
-            "TAWS": "Yes",
-            "HUD": "No"
-          }
-        },
-        "Speed": {
-          "Cruise Speed": {
-            "Mach": 0.76,
-            "Knots": 442
-          },
-          "Max Speed": {
-            "Mach": 0.82,
-            "Knots": 473
-          },
-          "V2 speed": "144 knots",
-          "Stall speed": "115 knots"
-        },
-        "Engines": {
-          "Pratt & Whitney JT8D-219": {
-            "Manufacturer": "Pratt & Whitney",
-            "Model": "JT8D-219",
-            "Thrust": "21,000 lbf",
-            "Bypass ratio": "1.74:1",
-            "Fan stage": "Single-stage fan",
-            "Low-pressure compressor stages": 6,
-            "High-pressure compressor stages": 7,
-            "High-pressure turbine stages": 1,
-            "Low-pressure turbine stages": 3,
-            "Climb rate": 2500,
-            "Descend rate": 2000,
-            "Cruise climb rate": 2200,
-            "Landing descend rate": 1800,
-            "Fan blade diameter": "49.2 inches",
-            "Fuel type": "Jet-A, Aviation kerosene",
-            "Pressure ratio": "21.8:1"
-          }
-        },
-        "Other Details": {
-          "Noise Levels": {
-            "Takeoff": "90 dB",
-            "Landing": "85 dB",
-            "Cruise": "80 dB"
-          },
-          "operation_cost": "$2.5 million",
-          "certification_standards": ["FAA", "EASA"],
-          "Body Type": "Narrow-body",
-          "Number of Decks": 1,
-          "Materials": {
-            "Fuselage": "Aluminum alloy",
-            "Wings": "Aluminum alloy"
-          },
-          "Commercial Operators": ["Alaska Airlines", "American Airlines", "Delta Air Lines", "Allegiant Air"]
-        }
-      },
-      "MD-87":{
-        "General Information": {
-          "Manufacturer": "McDonnell Douglas",
-          "Family": "MD-80",
-          "First Flight": "1986",
-          "Model Build": "75",
-          "Entered Service": "1987 with Austrian Airlines",
-          "Type": "Narrow-body jet airliner",
-          "Engine Type": "High-bypass turbofan",
-          "number of engines": "2",
-          "Price Tag": "41.5 million (1990)",
-          "Fly range category": "Mid-range",
-          "seat config": [
-            "2-3"
-          ],
-          "aircraft_image":[
-            "https://th.bing.com/th/id/R.e6cdfa8087779bb5626d2c1ae92084eb?rik=C4IborqdLFSANQ&pid=ImgRaw&r=0",
-            "https://th.bing.com/th/id/R.2c9351291b60b754ac8d90ae35f91e38?rik=h5mx8Lh7EFqTjg&pid=ImgRaw&r=0"
-          ]
-        },
-        "Dimensions": {
-          "Length": "39.75 m",
-          "Wingspan": "32.87 m",
-          "Cabin Length": "30.5 m",
-          "Fuselage Max Diameter": "3.35 m",
-          "Max Cabin Width": "3.15 m"
-        },
-        "Weights": {
-          "Max Landing Weight": "58.97 tons",
-          "Empty Weight": "33.24 tons",
-          "Max Takeoff Weight": "67.81 tons"
-        },
-        "Performance": {
-          "Fuel Capacity": 26420,
-          "Range": "2,900 nm",
-          "Flight Ceiling": "37,000 ft",
-          "Takeoff Distance": "1,850 m",
-          "Landing Distance": "1,430 m",
-          "Passenger Capacity": {
-            "Max": "130",
-            "Typical": "109"
-          },
-          "Cargo Capacity": "6,980 gallons",
-          "Avionics": {
-            "Common_suite": "Honeywell",
-            "FMS": "Yes",
-            "EFIS": "Yes",
-            "AFCS": "Yes",
-            "TAWS": "Yes",
-            "HUD": "Optional"
-          }
-        },
-        "Speed": {
-          "Cruise Speed": {
-            "Mach": "0.76",
-            "Knots": "438"
-          },
-          "Max Speed": {
-            "Mach": "0.82",
-            "Knots": "470"
-          },
-          "V2 speed": "140 knots",
-          "Stall speed": "115 knots"
-        },
-        "Engines": {
-          "JT8D-217C": {
-            "Manufacturer": "Pratt & Whitney",
-            "Model": "JT8D-217C",
-            "Thrust": "20,000 lbf",
-            "Bypass ratio": "1.74:1",
-            "Fan stage": "Single-stage fan",
-            "Low-pressure compressor stages": "6",
-            "High-pressure compressor stages": "7",
-            "High-pressure turbine stages": "1",
-            "Low-pressure turbine stages": "3",
-            "Climb rate": 3000,
-            "Descend rate": 3000,
-            "Cruise climb rate": 2500,
-            "Landing descend rate": 1500,
-            "Fan blade diameter": "49.2 inches",
-            "Fuel type": "Jet-A, Aviation kerosene",
-            "Pressure ratio": "21.8:1"
-          }
-        },
-        "Other Details": {
-          "Noise Levels": {
-            "Takeoff": "90 dB",
-            "Landing": "85 dB",
-            "Cruise": "80 dB"
-          },
-          "operation_cost": "2.5 million",
-          "certification_standards": [
-            "FAA",
-            "EASA"
-          ],
-          "Body Type": "Narrow-body",
-          "Number of Decks": 1,
-          "Materials": {
-            "Fuselage": "Aluminum alloy",
-            "Wings": "Aluminum alloy"
-          },
-          "Commercial Operators": [
-            "Austrian Airlines",
-            "Finnair",
-            "Iberia",
-            "Japan Air System",
-            "SAS",
-            "Spanair"
-          ]
-        }
-      },
-     "MD-88":{
-        "General Information": {
-          "Manufacturer": "McDonnell Douglas",
-          "Family": "MD-80",
-          "First Flight": "August 15, 1987",
-          "Model Build": "1,191",
-          "Entered Service": "January 5, 1988 with Delta Air Lines",
-          "Type": "Narrow-body jet airliner",
-          "Engine Type": "High-bypass turbofan",
-          "number of engines": "2",
-          "Price Tag": "US$48.5 million (1980)",
-          "Fly range category": "Mid-range",
-          "seat config": [
-            "2-3"
-          ],
-          "aircraft_image":[
-            "https://th.bing.com/th/id/OIP.fv4lXDT0FdmQ5BTvXQd_rQHaGC?rs=1&pid=ImgDetMain",
-            "https://th.bing.com/th/id/R.ca8747aa46961fec3319c0f8a5a18541?rik=inmoh9d%2bJZJpgg&pid=ImgRaw&r=0"
-          ]
-        },
-        "Dimensions": {
-          "Length": "45.06 m",
-          "Wingspan": "32.82 m",
-          "Cabin Length": "30.78 m",
-          "Fuselage Max Diameter": "3.34 m",
-          "Max Cabin Width": "3.14 m"
-        },
-        "Weights": {
-          "Max Landing Weight": "67.81 tons",
-          "Empty Weight": "35.37 tons",
-          "Max Takeoff Weight": "67.81 tons"
-        },
-        "Performance": {
-          "Fuel Capacity": "5,840 US gallons (22,110 L)",
-          "Range": "2,550 nautical miles",
-          "Flight Ceiling": "37,000 ft",
-          "Takeoff Distance": "2,400 m",
-          "Landing Distance": "1,585 m",
-          "Passenger Capacity": {
-            "Max": "172",
-            "Typical": "142"
-          },
-          "Cargo Capacity": "1,000 gallons",
-          "Avionics": {
-            "Common_suite": "Honeywell",
-            "FMS": "Yes",
-            "EFIS": "Yes",
-            "AFCS": "Yes",
-            "TAWS": "Yes",
-            "HUD": "No"
-          }
-        },
-        "Speed": {
-          "Cruise Speed": {
-            "Mach": "0.76",
-            "Knots": "472 knots"
-          },
-          "Max Speed": {
-            "Mach": "0.82",
-            "Knots": "543 knots"
-          },
-          "V2 speed": "130 knots",
-          "Stall speed": "115 knots"
-        },
-        "Engines": {
-          "Pratt & Whitney JT8D-200": {
-            "Manufacturer": "Pratt & Whitney",
-            "Model": "JT8D-200",
-            "Thrust": "21,000 lbf",
-            "Bypass ratio": "1.74:1",
-            "Fan stage": "Single-stage fan",
-            "Low-pressure compressor stages": "6",
-            "High-pressure compressor stages": "7",
-            "High-pressure turbine stages": "1",
-            "Low-pressure turbine stages": "3",
-            "Climb rate": 2700,
-            "Descend rate": 2500,
-            "Cruise climb rate": 2000,
-            "Landing descend rate": 1500,
-            "Fan blade diameter": "49.2 inches",
-            "Fuel type": "Jet-A, Aviation kerosene",
-            "Pressure ratio": "21.8:1"
-          }
-        },
-        "Other Details": {
-          "Noise Levels": {
-            "Takeoff": "90 dB",
-            "Landing": "85 dB",
-            "Cruise": "80 dB"
-          },
-          "operation_cost": "$2.5 million",
-          "certification_standards": ["FAA", "EASA"],
-          "Body Type": "Narrow-body",
-          "Number of Decks": 1,
-          "Materials": {
-            "Fuselage": "Aluminum alloy",
-            "Wings": "Aluminum alloy"
-          },
-          "Commercial Operators": ["Delta Air Lines", "American Airlines", "Allegiant Air", "LASER Airlines"]
-        }
-      },
-       "MD-90-30":
-       {
-        "General Information": {
-          "Manufacturer": "McDonnell Douglas",
-          "Family": "DC-9",
-          "First Flight": "February 22, 1993",
-          "Model Build": "116",
-          "Entered Service": "1995 with Delta Air Lines",
-          "Type": "Narrow-body jet airliner",
-          "Engine Type": "High-bypass turbofan",
-          "number of engines": "2",
-          "Price Tag": "N/A",
-          "Fly range category": "Short-to-medium range",
-          "seat config": [
-            "2-3"
-          ],
-          "aircraft_image":[
-            "https://th.bing.com/th/id/R.6518d897bda1a1ab3d0734fe686313b5?rik=owmeJOWUlu5IZg&pid=ImgRaw&r=0",
-            "https://th.bing.com/th/id/R.9cb9a8ff2a780366743a89f40cabe2e8?rik=TmQh%2bMZGi6pKTg&pid=ImgRaw&r=0"
-          ]
-        },
-        "Dimensions": {
-          "Length": "46.51 m",
-          "Wingspan": "32.87 m",
-          "Cabin Length": "30.18 m",
-          "Fuselage Max Diameter": "3.34 m",
-          "Max Cabin Width": "3.14 m"
-        },
-        "Weights": {
-          "Max Landing Weight": "64.41 tons",
-          "Empty Weight": "39.99 tons",
-          "Max Takeoff Weight": "70.76 tons"
-        },
-        "Performance": {
-          "Fuel Capacity": 22110,
-          "Range": "2,085 nautical miles",
-          "Flight Ceiling": "37,000 feet",
-          "Takeoff Distance": "1,830 meters",
-          "Landing Distance": "1,524 meters",
-          "Passenger Capacity": {
-            "Max": "172",
-            "Typical": "153"
-          },
-          "Cargo Capacity": "N/A",
-          "Avionics": {
-            "Common_suite": "Honeywell",
-            "FMS": "Yes",
-            "EFIS": "Yes",
-            "AFCS": "Yes",
-            "TAWS": "Yes",
-            "HUD": "No"
-          }
-        },
-        "Speed": {
-          "Cruise Speed": {
-            "Mach": "0.76",
-            "Knots": "437 knots"
-          },
-          "Max Speed": {
-            "Mach": "0.84",
-            "Knots": "486 knots"
-          },
-          "V2 speed": "150 knots",
-    "Stall speed": "115 knots"
-        },
-        "Engines": {
-          "IAE V2525-D5": {
-            "Manufacturer": "International Aero Engines",
-            "Model": "V2525-D5",
-            "Thrust": "25,000 lbf",
-            "Bypass ratio": "4.5:1",
-            "Fan stage": "Single-stage fan",
-            "Low-pressure compressor stages": "3",
-            "High-pressure compressor stages": "10",
-            "High-pressure turbine stages": "2",
-            "Low-pressure turbine stages": "5",
-            "Climb rate": 3000,
-            "Descend rate": 2500,
-            "Cruise climb rate": 2000,
-            "Landing descend rate": 1500,
-            "Fan blade diameter": "63 inches",
-            "Fuel type": "Jet-A, Aviation kerosene",
-            "Pressure ratio": "30:1"
-          },
-          "IAE V2528-D5": {
-            "Manufacturer": "International Aero Engines",
-            "Model": "V2528-D5",
-            "Thrust": "28,000 lbf",
-            "Bypass ratio": "4.5:1",
-            "Fan stage": "Single-stage fan",
-            "Low-pressure compressor stages": "3",
-            "High-pressure compressor stages": "10",
-            "High-pressure turbine stages": "2",
-            "Low-pressure turbine stages": "5",
-            "Climb rate": 3000,
-            "Descend rate": 2500,
-            "Cruise climb rate": 2000,
-            "Landing descend rate": 1500,
-            "Fan blade diameter": "63 inches",
-            "Fuel type": "Jet-A, Aviation kerosene",
-            "Pressure ratio": "30:1"
-          }
-        },
-        "Other Details": {
-          "Noise Levels": {
-            "Takeoff": "N/A",
-            "Landing": "N/A",
-            "Cruise": "N/A"
-          },
-          "operation_cost": "N/A",
-          "certification_standards": ["FAA", "EASA"],
-          "Body Type": "Narrow-body",
-          "Number of Decks": 1,
-          "Materials": {
-            "Fuselage": "Aluminum alloy",
-            "Wings": "Aluminum alloy"
-          },
-          "Commercial Operators": ["Delta Air Lines", "Saudi Arabian Airlines", "Japan Airlines", "UNI Air"]
-        }
-      },
-      "MD-90-30ER":{
-        "General Information": {
-          "Manufacturer": "McDonnell Douglas",
-          "Family": "DC-9",
-          "First Flight": "February 22, 1993",
-          "Model Build": "116",
-          "Entered Service": "1995 with Delta Air Lines",
-          "Type": "Narrow-body jet airliner",
-          "Engine Type": "High-bypass turbofan",
-          "number of engines": "2",
-          "Price Tag": "N/A",
-          "Fly range category": "Short-to-medium range",
-          "seat config": [
-            "2-3"
-          ],
-          "aircraft_image":[
-            "https://imgproc.airliners.net/photos/airliners/5/3/6/0068635.jpg?v=v40",
-            "https://th.bing.com/th/id/R.4e9493b5bda65dd33160bafac2a9676b?rik=%2b%2bflJ1oARWsDag&riu=http%3a%2f%2fimgproc.airliners.net%2fphotos%2fairliners%2f7%2f2%2f8%2f1157827.jpg%3fv%3dv40&ehk=rR4flVxILD39UszM57u9uyunRkad1pOfYL2%2beDk7hWY%3d&risl=&pid=ImgRaw&r=0"
-          ]
-        },
-        "Dimensions": {
-          "Length": "46.5 m",
-          "Wingspan": "32.87 m",
-          "Cabin Length": "N/A",
-          "Fuselage Max Diameter": "N/A",
-          "Max Cabin Width": "N/A"
-        },
-        "Weights": {
-          "Max Landing Weight": "64.41 tons",
-          "Empty Weight": "39.99 tons",
-          "Max Takeoff Weight": "70.76 tons"
-        },
-        "Performance": {
-          "Fuel Capacity": 22110,
-          "Range": "2,085 nautical miles",
-          "Flight Ceiling": "37,000 feet",
-          "Takeoff Distance": "2,000 m",
-          "Landing Distance": "1,800 m",
-          "Passenger Capacity": {
-            "Max": "172",
-            "Typical": "153"
-          },
-          "Cargo Capacity": "N/A",
-          "Avionics": {
-            "Common_suite": "Honeywell",
-            "FMS": "Yes",
-            "EFIS": "Yes",
-            "AFCS": "Yes",
-            "TAWS": "Yes",
-            "HUD": "No"
-          }
-        },
-        "Speed": {
-          "Cruise Speed": {
-            "Mach": "0.76",
-            "Knots": "486 knots"
-          },
-          "Max Speed": {
-            "Mach": "0.81",
-            "Knots": "527 knots"
-          },
-          "V2 speed": "140 knots",
-          "Stall speed": "115 knots"
-        },
-        "Engines": {
-          "IAE V2525-D5": {
-            "Manufacturer": "International Aero Engines",
-            "Model": "V2525-D5",
-            "Thrust": "25,000 lbf",
-            "Bypass ratio": "4.5:1",
-            "Fan stage": "Single-stage fan",
-            "Low-pressure compressor stages": "3",
-            "High-pressure compressor stages": "10",
-            "High-pressure turbine stages": "2",
-            "Low-pressure turbine stages": "5",
-            "Climb rate": 3000,
-            "Descend rate": 2500,
-            "Cruise climb rate": 2000,
-            "Landing descend rate": 1500,
-            "Fan blade diameter": "63 in",
-            "Fuel type": "Jet-A, Aviation kerosene",
-            "Pressure ratio": "30:1"
-          },
-          "IAE V2528-D5": {
-            "Manufacturer": "International Aero Engines",
-            "Model": "V2528-D5",
-            "Thrust": "28,000 lbf",
-            "Bypass ratio": "4.8:1",
-            "Fan stage": "Single-stage fan",
-            "Low-pressure compressor stages": "3",
-            "High-pressure compressor stages": "10",
-            "High-pressure turbine stages": "2",
-            "Low-pressure turbine stages": "5",
-            "Climb rate": 3200,
-            "Descend rate": 2600,
-            "Cruise climb rate": 2100,
-            "Landing descend rate": 1600,
-            "Fan blade diameter": "63 in",
-            "Fuel type": "Jet-A, Aviation kerosene",
-            "Pressure ratio": "32:1"
-          }
-        },
-        "Other Details": {
-          "Noise Levels": {
-            "Takeoff": "N/A",
-            "Landing": "N/A",
-            "Cruise": "N/A"
-          },
-          "operation_cost": "N/A",
-          "certification_standards": ["FAA", "EASA"],
-          "Body Type": "Narrow-body",
-          "Number of Decks": 1,
-          "Materials": {
-            "Fuselage": "Aluminum alloy",
-            "Wings": "Aluminum alloy"
-          },
-          "Commercial Operators": ["Delta Air Lines", "Saudi Arabian Airlines", "Japan Airlines", "UNI Air"]
-        }
-      },
-      "MD-11":{
-        "General Information": {
-          "Manufacturer": "McDonnell Douglas",
-          "Family": "MD-11",
-          "First Flight": "January 10, 1990",
-          "Model Build": "200",
-          "Entered Service": "December 20, 1990 with Finnair",
-          "Type": "Wide-body jet airliner",
-          "Engine Type": "High-bypass turbofan",
-          "number of engines": "3",
-          "Price Tag": "120 million (1990)",
-          "Fly range category": "Long range",
-          "seat config": [
-            "2-4-2"
-          ],
-          "aircraft_image":[
-            "https://th.bing.com/th/id/R.b5b6b96b185c82d8b5bb777cf8472759?rik=q%2blWnwlab9l%2fqQ&riu=http%3a%2f%2f4.bp.blogspot.com%2f-2Cw9XC2qvSk%2fVTbibC-TIvI%2fAAAAAAAACKk%2fow54HFADeIo%2fs1600%2fPH-KCB-KLM-Royal-Dutch-Airlines-McDonnell-Douglas-MD-11_PlanespottersNet_312133.jpg&ehk=qeSkTODMBOPS1OdXgqfkANHj0xzBuVMP7%2bwvPWgTYKA%3d&risl=&pid=ImgRaw&r=0",
-            "https://th.bing.com/th/id/OIP.X-oZ14P8A3DOiSQL4xvPhQHaEl?rs=1&pid=ImgDetMain"
-          ]
-        },
-        "Dimensions": {
-          "Length": "61.6 m",
-          "Wingspan": "51.6 m",
-          "Cabin Length": "41.5 m",
-          "Fuselage Max Diameter": "6.02 m",
-          "Max Cabin Width": "5.72 m"
-        },
-        "Weights": {
-          "Max Landing Weight": "213 tons",
-          "Empty Weight": "125.9 tons",
-          "Max Takeoff Weight": "286 tons"
-        },
-        "Performance": {
-          "Fuel Capacity": 146000,
-          "Range": "7,130 nautical miles",
-          "Flight Ceiling": "43,000 ft",
-          "Takeoff Distance": "3,200 m",
-          "Landing Distance": "2,200 m",
-          "Passenger Capacity": {
-            "Max": "410",
-            "Typical": "323"
-          },
-          "Cargo Capacity": "6,000 gallons",
-          "Avionics": {
-            "Common_suite": "Honeywell",
-            "FMS": "Yes",
-            "EFIS": "Yes",
-            "AFCS": "Yes",
-            "TAWS": "Yes",
-            "HUD": "No"
-          }
-        },
-        "Speed": {
-          "Cruise Speed": {
-            "Mach": "0.82",
-            "Knots": "473 knots"
-          },
-          "Max Speed": {
-            "Mach": "0.87",
-            "Knots": "519 knots"
-          },
-          "V2 speed": "160 knots",
-          "Stall speed": "130 knots"
-        },
-        "Engines": {
-          "General Electric CF6-80C2D1F": {
-            "Manufacturer": "General Electric",
-            "Model": "CF6-80C2D1F",
-            "Thrust": "61,500 lbf",
-            "Bypass ratio": "5.3:1",
-            "Fan stage": "Single-stage fan",
-            "Low-pressure compressor stages": "4",
-            "High-pressure compressor stages": "14",
-            "High-pressure turbine stages": "2",
-            "Low-pressure turbine stages": "5",
-            "Climb rate": 3000,
-            "Descend rate": 2500,
-            "Cruise climb rate": 2000,
-            "Landing descend rate": 1500,
-            "Fan blade diameter": "86 in",
-            "Fuel type": "Jet-A, Aviation kerosene",
-            "Pressure ratio": "30:1"
-          },
-          "Pratt & Whitney PW4460": {
-            "Manufacturer": "Pratt & Whitney",
-            "Model": "PW4460",
-            "Thrust": "60,000 lbf",
-            "Bypass ratio": "5.0:1",
-            "Fan stage": "Single-stage fan",
-            "Low-pressure compressor stages": "4",
-            "High-pressure compressor stages": "11",
-            "High-pressure turbine stages": "2",
-            "Low-pressure turbine stages": "5",
-            "Climb rate": 2900,
-            "Descend rate": 2400,
-            "Cruise climb rate": 1900,
-            "Landing descend rate": 1400,
-            "Fan blade diameter": "84 in",
-            "Fuel type": "Jet-A, Aviation kerosene",
-            "Pressure ratio": "28:1"
-          },
-          "Pratt & Whitney PW4462": {
-            "Manufacturer": "Pratt & Whitney",
-            "Model": "PW4462",
-            "Thrust": "62,000 lbf",
-            "Bypass ratio": "5.1:1",
-            "Fan stage": "Single-stage fan",
-            "Low-pressure compressor stages": "4",
-            "High-pressure compressor stages": "11",
-            "High-pressure turbine stages": "2",
-            "Low-pressure turbine stages": "5",
-            "Climb rate": 2950,
-            "Descend rate": 2450,
-            "Cruise climb rate": 1950,
-            "Landing descend rate": 1450,
-            "Fan blade diameter": "84 in",
-            "Fuel type": "Jet-A, Aviation kerosene",
-            "Pressure ratio": "29:1"
-          }
-        },
-        "Other Details": {
-          "Noise Levels": {
-            "Takeoff": "95 dB",
-            "Landing": "90 dB",
-            "Cruise": "85 dB"
-          },
-          "operation_cost": "10 million",
-          "certification_standards": ["FAA", "EASA"],
-          "Body Type": "Wide-body",
-          "Number of Decks": 1,
-          "Materials": {
-            "Fuselage": "Aluminum alloy",
-            "Wings": "Aluminum alloy"
-          },
-          "Commercial Operators": ["Finnair", "KLM", "Delta Air Lines", "Swissair", "American Airlines"]
-        }
-      },
-      "MD-11F":{
-        "General Information": {
-          "Manufacturer": "McDonnell Douglas",
-          "Family": "MD-11",
-          "First Flight": "January 10, 1990",
-          "Model Build": "200",
-          "Entered Service": "December 20, 1990 with Finnair",
-          "Type": "Wide-body jet airliner",
-          "Engine Type": "High-bypass turbofan",
-          "number of engines": "3",
-          "Price Tag": "120 million USD (1990)",
-          "Fly range category": "Long range",
-          "seat config": [
-            "3-3-3"
-          ],
-          "aircraft_image":[
-            "https://th.bing.com/th/id/R.30fd0fbf006fc20896e1f92e14e8423d?rik=McTFV1Oh7TPLZQ&pid=ImgRaw&r=0",
-            "https://th.bing.com/th/id/R.828d72d36f1abe6e80ba4fdee578f773?rik=BqDtFaojOycTwQ&riu=http%3a%2f%2fwww.airteamimages.com%2fpics%2f184%2f184510_800.jpg&ehk=OB27l%2bfQK9RpVGfTHEWCWC%2fC3SVmceSK9LefAsAKBio%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
-          ]
-        },
-        "Dimensions": {
-          "Length": "61.6 m",
-          "Wingspan": "51.6 m",
-          "Cabin Length": "41.5 m",
-          "Fuselage Max Diameter": "6.02 m",
-          "Max Cabin Width": "5.71 m"
-        },
-        "Weights": {
-          "Max Landing Weight": "206.4 tons",
-          "Empty Weight": "125.9 tons",
-          "Max Takeoff Weight": "286.0 tons"
-        },
-        "Performance": {
-          "Fuel Capacity":146000,
-          "Range": "3,700 nautical miles",
-          "Flight Ceiling": "43,000 feet",
-          "Takeoff Distance": "3,200 meters",
-          "Landing Distance": "2,200 meters",
-          "Passenger Capacity": {
-            "Max": "410",
-            "Typical": "323"
-          },
-          "Cargo Capacity": "15,530 cubic feet",
-          "Avionics": {
-            "Common_suite": "Honeywell",
-            "FMS": "Yes",
-            "EFIS": "Yes",
-            "AFCS": "Yes",
-            "TAWS": "Yes",
-            "HUD": "No"
-          }
-        },
-        "Speed": {
-          "Cruise Speed": {
-            "Mach": "0.82",
-            "Knots": "504 knots"
-          },
-          "Max Speed": {
-            "Mach": "0.87",
-            "Knots": "519 knots"
-          },
-          "V2 speed": "160 knots",
-          "Stall speed": "130 knots"
-        },
-        "Engines": {
-          "General Electric CF6-80C2D1F": {
-            "Manufacturer": "General Electric",
-            "Model": "CF6-80C2D1F",
-            "Thrust": "61,500 lbf",
-            "Bypass ratio": "5.3:1",
-            "Fan stage": "Single-stage fan",
-            "Low-pressure compressor stages": "4",
-            "High-pressure compressor stages": "14",
-            "High-pressure turbine stages": "2",
-            "Low-pressure turbine stages": "5",
-            "Climb rate": 3000,
-            "Descend rate": 2500,
-            "Cruise climb rate": 2000,
-            "Landing descend rate": 1500,
-            "Fan blade diameter": "93 inches",
-            "Fuel type": "Jet-A, Aviation kerosene",
-            "Pressure ratio": "30:1"
-          },
-          "Pratt & Whitney PW4460": {
-            "Manufacturer": "Pratt & Whitney",
-            "Model": "PW4460",
-            "Thrust": "60,000 lbf",
-            "Bypass ratio": "5.0:1",
-            "Fan stage": "Single-stage fan",
-            "Low-pressure compressor stages": "4",
-            "High-pressure compressor stages": "11",
-            "High-pressure turbine stages": "2",
-            "Low-pressure turbine stages": "5",
-            "Climb rate": 2900,
-            "Descend rate": 2400,
-            "Cruise climb rate": 1900,
-            "Landing descend rate": 1400,
-            "Fan blade diameter": "94 inches",
-            "Fuel type": "Jet-A, Aviation kerosene",
-            "Pressure ratio": "32:1"
-          }
-        },
-        "Other Details": {
-          "Noise Levels": {
-            "Takeoff": "95 dB",
-            "Landing": "90 dB",
-            "Cruise": "85 dB"
-          },
-          "operation_cost": "10 million USD per year",
-          "certification_standards": ["FAA", "EASA"],
-          "Body Type": "Wide-body",
-          "Number of Decks": 1,
-          "Materials": {
-            "Fuselage": "Aluminum alloy",
-            "Wings": "Aluminum alloy"
-          },
-          "Commercial Operators": ["FedEx Express", "UPS Airlines", "Western Global Airlines", "Lufthansa Cargo"]
-        }
-      },
-      "MD-11C":{
-        "General Information": {
-          "Manufacturer": "McDonnell Douglas",
-          "Family": "MD-11",
-          "First Flight": "January 10, 1990",
-          "Model Build": "200",
-          "Entered Service": "December 20, 1990 with Finnair",
-          "Type": "Wide-body jet airliner",
-          "Engine Type": "High-bypass turbofan",
-          "number of engines": "3",
-          "Price Tag": "132 million (1990)",
-          "Fly range category": "Long range",
-          "seat config": [
-            "2-4-2"
-          ],
-          "aircraft_image":[
-            "https://th.bing.com/th/id/R.3f6beb7ce958503f76f0744d70812fb8?rik=QefiRtgmu7tuvg&pid=ImgRaw&r=0",
-            "https://th.bing.com/th/id/R.9e1fbb7aefd9ab9de39ea5d971595a63?rik=qcrkDTQbokCbyg&pid=ImgRaw&r=0"
-          ]
-        },
-        "Dimensions": {
-          "Length": "61.6 m",
-          "Wingspan": "51.6 m",
-          "Cabin Length": "41.5 m",
-          "Fuselage Max Diameter": "6.02 m",
-          "Max Cabin Width": "5.71 m"
-        },
-        "Weights": {
-          "Max Landing Weight": "213.2 tons",
-          "Empty Weight": "125.9 tons",
-          "Max Takeoff Weight": "286 tons"
-        },
-        "Performance": {
-          "Fuel Capacity": 146000,
-          "Range": "7,130 nmi",
-          "Flight Ceiling": "43,000 ft",
-          "Takeoff Distance": "3,200 m",
-          "Landing Distance": "2,200 m",
-          "Passenger Capacity": {
-            "Max": "410",
-            "Typical": "298"
-          },
-          "Cargo Capacity": "26,000 gallons",
-          "Avionics": {
-            "Common_suite": "Honeywell",
-            "FMS": "Yes",
-            "EFIS": "Yes",
-            "AFCS": "Yes",
-            "TAWS": "Yes",
-            "HUD": "No"
-          }
-        },
-        "Speed": {
-          "Cruise Speed": {
-            "Mach": "0.82",
-            "Knots": "504"
-          },
-          "Max Speed": {
-            "Mach": "0.87",
-            "Knots": "519"
-          },
-          "V2 speed": "160 knots",
-          "Stall speed": "130 knots"
-        },
-        "Engines": {
-          "General Electric CF6-80C2D1F": {
-            "Manufacturer": "General Electric",
-            "Model": "CF6-80C2D1F",
-            "Thrust": "61,500 lbf",
-            "Bypass ratio": "5.3:1",
-            "Fan stage": "Single-stage fan",
-            "Low-pressure compressor stages": "4",
-            "High-pressure compressor stages": "14",
-            "High-pressure turbine stages": "2",
-            "Low-pressure turbine stages": "5",
-            "Climb rate": 3000,
-            "Descend rate": 2500,
-            "Cruise climb rate": 2000,
-            "Landing descend rate": 1500,
-            "Fan blade diameter": "93 in",
-            "Fuel type": "Jet-A, Aviation kerosene",
-            "Pressure ratio": "30:1"
-          },
-          "Pratt & Whitney PW4460": {
-            "Manufacturer": "Pratt & Whitney",
-            "Model": "PW4460",
-            "Thrust": "60,000 lbf",
-            "Bypass ratio": "5.0:1",
-            "Fan stage": "Single-stage fan",
-            "Low-pressure compressor stages": "4",
-            "High-pressure compressor stages": "11",
-            "High-pressure turbine stages": "2",
-            "Low-pressure turbine stages": "5",
-            "Climb rate": 2900,
-            "Descend rate": 2400,
-            "Cruise climb rate": 1900,
-            "Landing descend rate": 1400,
-            "Fan blade diameter": "94 in",
-            "Fuel type": "Jet-A, Aviation kerosene",
-            "Pressure ratio": "32:1"
-          }
-        },
-        "Other Details": {
-          "Noise Levels": {
-            "Takeoff": "95 dB",
-            "Landing": "90 dB",
-            "Cruise": "85 dB"
-          },
-          "operation_cost": "10 million",
-          "certification_standards": ["FAA", "EASA"],
-          "Body Type": "Wide-body",
-          "Number of Decks": 1,
-          "Materials": {
-            "Fuselage": "Aluminum alloy",
-            "Wings": "Aluminum alloy"
-          },
-          "Commercial Operators": ["FedEx Express", "UPS Airlines", "Western Global Airlines", "Lufthansa Cargo"]
-        }
-      },
-      "MD-11CF":{
-        "General Information": {
-          "Manufacturer": "McDonnell Douglas",
-          "Family": "MD-11",
-          "First Flight": "January 10, 1990",
-          "Model Build": "200",
-          "Entered Service": "December 20, 1990 with Finnair",
-          "Type": "Wide-body jet airliner",
-          "Engine Type": "High-bypass turbofan",
-          "number of engines": "3",
-          "Price Tag": "120 million USD (1990)",
-          "Fly range category": "Long range",
-          "seat config": [
-            "2-4-2"
-          ],
-          "aircraft_image":[
-            "https://th.bing.com/th/id/R.1dbda97d5c5912450001b65ffbce429b?rik=ZjfACQlih5qSJg&pid=ImgRaw&r=0",
-            "https://imgproc.airliners.net/photos/airliners/1/8/5/1298581.jpg?v=v40"
-          ]
-        },
-        "Dimensions": {
-          "Length": "61.6 m",
-          "Wingspan": "51.6 m",
-          "Cabin Length": "41.5 m",
-          "Fuselage Max Diameter": "6.02 m",
-          "Max Cabin Width": "5.71 m"
-        },
-        "Weights": {
-          "Max Landing Weight": "213.2 tons",
-          "Empty Weight": "132.0 tons",
-          "Max Takeoff Weight": "286.0 tons"
-        },
-        "Performance": {
-          "Fuel Capacity": 146500 ,
-          "Range": "7,240 nautical miles",
-          "Flight Ceiling": "43,000 feet",
-          "Takeoff Distance": "3,200 m",
-          "Landing Distance": "2,200 m",
-          "Passenger Capacity": {
-            "Max": "410",
-            "Typical": "285"
-          },
-          "Cargo Capacity": "15,530 cubic feet",
-          "Avionics": {
-            "Common_suite": "Honeywell",
-            "FMS": "Yes",
-            "EFIS": "Yes",
-            "AFCS": "Yes",
-            "TAWS": "Yes",
-            "HUD": "No"
-          }
-        },
-        "Speed": {
-          "Cruise Speed": {
-            "Mach": "0.82",
-            "Knots": "473"
-          },
-          "Max Speed": {
-            "Mach": "0.87",
-            "Knots": "519"
-          },
-          "V2 speed": "160 knots",
-          "Stall speed": "120 knots"
-        },
-        "Engines": [
-          {
-            "Engine_name": {
-              "Manufacturer": "General Electric",
-              "Model": "CF6-80C2D1F",
-              "Thrust": "61,500 lbf",
-              "Bypass ratio": "5.0:1",
-              "Fan stage": "Single-stage fan",
-              "Low-pressure compressor stages": "4",
-              "High-pressure compressor stages": "14",
-              "High-pressure turbine stages": "2",
-              "Low-pressure turbine stages": "5",
-              "Climb rate": 2500,
-              "Descend rate": 2000,
-              "Cruise climb rate": 1500,
-              "Landing descend rate": 1000,
-              "Fan blade diameter": "93 inches",
-              "Fuel type": "Jet-A, Aviation kerosene",
-              "Pressure ratio": "30:1"
+            "CFM56-2C5": {
+                "Manufacturer": "CFM International",
+                "Model": "CFM56-2C5",
+                "Thrust": "22,000 lbf",
+                "Bypass ratio": "6:1",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "4",
+                "High-pressure compressor stages": "9",
+                "High-pressure turbine stages": "1",
+                "Low-pressure turbine stages": "4",
+                "Climb rate": 3500,
+                "Descend rate": 3000,
+                "Cruise climb rate": 2000,
+                "Landing descend rate": 1500,
+                "Fan blade diameter": "68.3 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "30:1"
             }
-          },
-          {
-            "Engine_name": {
-              "Manufacturer": "Pratt & Whitney",
-              "Model": "PW4460",
-              "Thrust": "60,000 lbf",
-              "Bypass ratio": "5.1:1",
-              "Fan stage": "Single-stage fan",
-              "Low-pressure compressor stages": "4",
-              "High-pressure compressor stages": "11",
-              "High-pressure turbine stages": "2",
-              "Low-pressure turbine stages": "5",
-              "Climb rate": 2400,
-              "Descend rate": 1900,
-              "Cruise climb rate": 1400,
-              "Landing descend rate": 900,
-              "Fan blade diameter": "94 inches",
-              "Fuel type": "Jet-A, Aviation kerosene",
-              "Pressure ratio": "32:1"
-            }
-          }
-        ],
-        "Other Details": {
-          "Noise Levels": {
-            "Takeoff": "95 dB",
-            "Landing": "90 dB",
-            "Cruise": "85 dB"
-          },
-          "operation_cost": "10 million USD per year",
-          "certification_standards": ["FAA", "EASA"],
-          "Body Type": "Wide-body",
-          "Number of Decks": 1,
-          "Materials": {
-            "Fuselage": "Aluminum alloy",
-            "Wings": "Aluminum alloy"
-          },
-          "Commercial Operators": ["FedEx Express", "UPS Airlines", "Western Global Airlines", "Lufthansa Cargo"]
-        }
-      },
-      "MD-11ER":{
-        "General Information": {
-          "Manufacturer": "McDonnell Douglas",
-          "Family": "MD-11",
-          "First Flight": "January 10, 1990",
-          "Model Build": "200",
-          "Entered Service": "December 20, 1990 with Finnair",
-          "Type": "Wide-body jet airliner",
-          "Engine Type": "High-bypass turbofan",
-          "number of engines": "3",
-          "Price Tag": "120 million USD (1990)",
-          "Fly range category": "Long range",
-          "seat config": [
-            "2-4-2"
-          ],
-          "aircraft_image":[
-            "https://th.bing.com/th/id/R.3313061086a3f03b73360e33c85be87e?rik=dp6G%2fjPRT7ElxQ&pid=ImgRaw&r=0",
-            "https://th.bing.com/th/id/R.ff81c217152615c64456f5b4bee79d5d?rik=q746LuHJzY1vqw&riu=http%3a%2f%2fimgproc.airliners.net%2fphotos%2fairliners%2f9%2f2%2f7%2f2005729.jpg%3fv%3dv40&ehk=yeHmb0QOfTYTZjN6fnVlmX0Bq3vF0lfnN2zaGSn2kRI%3d&risl=&pid=ImgRaw&r=0"
-          ]
-        },
-        "Dimensions": {
-          "Length": "61.6 m",
-          "Wingspan": "51.97 m",
-          "Cabin Length": "41.5 m",
-          "Fuselage Max Diameter": "6.02 m",
-          "Max Cabin Width": "5.71 m"
-        },
-        "Weights": {
-          "Max Landing Weight": "213.2 tons",
-          "Empty Weight": "132.0 tons",
-          "Max Takeoff Weight": "286.0 tons"
-        },
-        "Performance": {
-          "Fuel Capacity": 146500,
-          "Range": "7,240 nautical miles",
-          "Flight Ceiling": "43,000 feet",
-          "Takeoff Distance": "3,200 m",
-          "Landing Distance": "2,200 m",
-          "Passenger Capacity": {
-            "Max": "410",
-            "Typical": "285"
-          },
-          "Cargo Capacity": "15,530 cubic feet",
-          "Avionics": {
-            "Common_suite": "Honeywell",
-            "FMS": "Yes",
-            "EFIS": "Yes",
-            "AFCS": "Yes",
-            "TAWS": "Yes",
-            "HUD": "No"
-          }
-        },
-        "Speed": {
-          "Cruise Speed": {
-            "Mach": "0.82",
-            "Knots": "473"
-          },
-          "Max Speed": {
-            "Mach": "0.87",
-            "Knots": "519"
-          },
-          "V2 speed": "160 knots",
-          "Stall speed": "120 knots"
-        },
-        "Engines": [
-          {
-            "Engine_name": {
-              "Manufacturer": "General Electric",
-              "Model": "CF6-80C2D1F",
-              "Thrust": "61,500 lbf",
-              "Bypass ratio": "5.0:1",
-              "Fan stage": "Single-stage fan",
-              "Low-pressure compressor stages": "4",
-              "High-pressure compressor stages": "14",
-              "High-pressure turbine stages": "2",
-              "Low-pressure turbine stages": "5",
-              "Climb rate": 2500,
-              "Descend rate": 2000,
-              "Cruise climb rate": 1500,
-              "Landing descend rate": 1000,
-              "Fan blade diameter": "93 inches",
-              "Fuel type": "Jet-A, Aviation kerosene",
-              "Pressure ratio": "30:1"
-            }
-          },
-          {
-            "Engine_name": {
-              "Manufacturer": "Pratt & Whitney",
-              "Model": "PW4460",
-              "Thrust": "60,000 lbf",
-              "Bypass ratio": "5.1:1",
-              "Fan stage": "Single-stage fan",
-              "Low-pressure compressor stages": "4",
-              "High-pressure compressor stages": "11",
-              "High-pressure turbine stages": "2",
-              "Low-pressure turbine stages": "5",
-              "Climb rate": 2400,
-              "Descend rate": 1900,
-              "Cruise climb rate": 1400,
-              "Landing descend rate": 900,
-              "Fan blade diameter": "94 inches",
-              "Fuel type": "Jet-A, Aviation kerosene",
-              "Pressure ratio": "32:1"
-            }
-          },
-          {
-            "Engine_name": {
-              "Manufacturer": "Pratt & Whitney",
-              "Model": "PW4462",
-              "Thrust": "62,000 lbf",
-              "Bypass ratio": "5.2:1",
-              "Fan stage": "Single-stage fan",
-              "Low-pressure compressor stages": "4",
-              "High-pressure compressor stages": "11",
-              "High-pressure turbine stages": "2",
-              "Low-pressure turbine stages": "5",
-              "Climb rate": 2600,
-              "Descend rate": 2000,
-              "Cruise climb rate": 1500,
-              "Landing descend rate": 1000,
-              "Fan blade diameter": "94 inches",
-              "Fuel type": "Jet-A, Aviation kerosene",
-              "Pressure ratio": "32:1"
-            }
-          }
-        ],
-        "Other Details": {
-          "Noise Levels": {
-            "Takeoff": "95 dB",
-            "Landing": "90 dB",
-            "Cruise": "85 dB"
-          },
-          "operation_cost": "10 million USD per year",
-          "certification_standards": ["FAA", "EASA"],
-          "Body Type": "Wide-body",
-          "Number of Decks": 1,
-          "Materials": {
-            "Fuselage": "Aluminum alloy",
-            "Wings": "Aluminum alloy"
-          },
-          "Commercial Operators": ["FedEx Express", "UPS Airlines", "Western Global Airlines", "Lufthansa Cargo"]
-        }
-      },
-      "ATR-42-300":{
-        "General Information": {
-          "Manufacturer": "ATR",
-          "Family": "ATR 42",
-          "First Flight": "August 16, 1984",
-          "Model Build": "503",
-          "Entered Service": "December 1985 with Air Littoral",
-          "Type": "Narrow-body turboprop airliner",
-          "Engine Type": "Turboprop",
-          "Number of Engines": 2,
-          "Price Tag": "19.5 million USD (1997)",
-          "Fly range category": "Close-mid range",
-          "seat config": [
-            "2-2"
-          ],
-          "aircraft_image":[
-            "https://th.bing.com/th/id/R.441090399749b38597d6e8a059c83230?rik=MjrF7C0mUzlICw&pid=ImgRaw&r=0",
-            "https://th.bing.com/th/id/R.2d9a525db57ee113e7ac089ff34a73ba?rik=EXC5Scexpi1lGA&pid=ImgRaw&r=0"
-          ]
-        },
-        "Dimensions": {
-          "Length": "22.67 m",
-          "Wingspan": "24.57 m",
-          "Cabin Length": "12.6 m",
-          "Fuselage Max Diameter": "2.57 m",
-          "Max Cabin Width": "2.57 m"
-        },
-        "Weights": {
-          "Max Landing Weight": "16.4 tons",
-          "Empty Weight": "10.285 tons",
-          "Max Takeoff Weight": "16.7 tons"
-        },
-        "Performance": {
-          "Fuel Capacity": "4,500 L",
-          "Range": "449 NM",
-          "Flight Ceiling": "25,000 ft",
-          "Takeoff Distance": "1,090 m",
-          "Landing Distance": "887 m",
-          "Passenger Capacity": {
-            "Max": 50,
-            "Typical": 48
-          },
-          "Cargo Capacity": "1,000 gallons",
-          "Avionics": {
-            "Common_suite": "Honeywell",
-            "FMS": "Yes",
-            "EFIS": "Yes",
-            "AFCS": "Yes",
-            "TAWS": "Yes",
-            "HUD": "No"
-          }
-        },
-        "Speed": {
-          "Cruise Speed": {
-            "Mach": "0.44",
-            "Knots": "266"
-          },
-          "Max Speed": {
-            "Mach": "0.45",
-            "Knots": "270"
-          },
-          "V2 speed": "108 knots",
-          "Stall speed": "103 knots"
-        },
-        "Engines": {
-          "PW120": {
-            "Manufacturer": "Pratt & Whitney Canada",
-            "Model": "PW120",
-            "Thrust": "767 lbf",
-            "Bypass ratio": "N/A",
-            "Fan stage": "N/A",
-            "Low-pressure compressor stages": "N/A",
-            "High-pressure compressor stages": "N/A",
-            "High-pressure turbine stages": "N/A",
-            "Low-pressure turbine stages": "N/A",
-            "Climb rate": 1320,
-            "Descend rate": 1200,
-            "Cruise climb rate": 1100,
-            "Landing descend rate": 1000,
-            "Fan blade diameter": "107.8",
-            "Fuel type": "Jet-A",
-            "Pressure ratio": "N/A"
-          }
         },
         "Other Details": {
-          "Noise Levels": {
-            "Takeoff": "85 dB",
-            "Landing": "82 dB",
-            "Cruise": "80 dB"
-          },
-          "operation_cost": "1.5 million USD",
-          "certification_standards": ["FAA", "EASA"],
-          "Body Type": "Narrow-body",
-          "Number of Decks": 1,
-          "Materials": {
-            "Fuselage": "Aluminum",
-            "Wings": "Aluminum"
-          },
-          "Commercial Operators": ["Air Littoral", "FedEx Feeder", "Canadian North", "Silver Airways"]
-        }
-      },
-      "ATR-42-500":{
-        "General Information": {
-          "Manufacturer": "ATR",
-          "Family": "ATR 42",
-          "First Flight": "1984",
-          "Model Build": "503",
-          "Entered Service": "December 1985 with Air Littoral",
-          "Type": "Turboprop regional airliner",
-          "Engine Type": "Turboprop",
-          "Number of Engines": "2",
-          "Price Tag": "12.1 million (2021)",
-          "Fly range category": "Close-mid range",
-          "seat config": [
-            "2-2"
-          ],
-          "aircraft_image":[
-            "https://th.bing.com/th/id/R.001d016f6d7d3995f666e812128097f0?rik=RbzOkwS9iQTALA&pid=ImgRaw&r=0",
-            "https://th.bing.com/th/id/R.2e3d572c6e2013487da129e06d1cff85?rik=2iiCAnT%2b%2bLiW%2bg&pid=ImgRaw&r=0"
-          ]
-        },
-        "Dimensions": {
-          "Length": "22.67 m",
-          "Wingspan": "24.57 m",
-          "Cabin Length": "12.62 m",
-          "Fuselage Max Diameter": "2.57 m",
-          "Max Cabin Width": "2.57 m"
-        },
-        "Weights": {
-          "Max Landing Weight": "18.3 tons",
-          "Empty Weight": "11.25 tons",
-          "Max Takeoff Weight": "18.6 tons"
-        },
-        "Performance": {
-          "Fuel Capacity": 5700,
-          "Range": "716 nautical miles",
-          "Flight Ceiling": "25,000 feet",
-          "Takeoff Distance": "1,165 meters",
-          "Landing Distance": "964 meters",
-          "Passenger Capacity": {
-            "Max": "50",
-            "Typical": "48"
-          },
-          "Cargo Capacity": "1,378 gallons",
-          "Avionics": {
-            "Common_suite": "Honeywell",
-            "FMS": "Yes",
-            "EFIS": "Yes",
-            "AFCS": "Yes",
-            "TAWS": "Yes",
-            "HUD": "No"
-          }
-        },
-        "Speed": {
-          "Cruise Speed": {
-            "Mach": "0.44",
-            "Knots": "300"
-          },
-          "Max Speed": {
-            "Mach": "0.44",
-            "Knots": "300"
-          },
-          "V2 speed": "104 knots",
-          "Stall speed": "104 knots"
-        },
-        "Engines": {
-          "PW127E": {
-            "Manufacturer": "Pratt & Whitney Canada",
-            "Model": "PW127E",
-            "Thrust": "2,400 lbf",
-            "Bypass ratio": "N/A",
-            "Fan stage": "N/A",
-            "Low-pressure compressor stages": "N/A",
-            "High-pressure compressor stages": "N/A",
-            "High-pressure turbine stages": "N/A",
-            "Low-pressure turbine stages": "N/A",
-            "Climb rate": 1851,
-            "Descend rate": 1851,
-            "Cruise climb rate": 1851,
-            "Landing descend rate": 1851,
-            "Fan blade diameter": "N/A",
-            "Fuel type": "Jet A",
-            "Pressure ratio": "N/A"
-          }
-        },
-        "Other Details": {
-          "Noise Levels": {
-            "Takeoff": "N/A",
-            "Landing": "N/A",
-            "Cruise": "N/A",
+            "Noise Levels": {
+                "Takeoff": "N/A",
+                "Landing": "N/A",
+                "Cruise": "N/A"
+            },
             "operation_cost": "N/A",
             "certification_standards": [
-              "FAA",
-              "EASA"
+                "FAA",
+                "EASA"
+            ],
+            "Body Type": "Narrow-body",
+            "Number of Decks": "1",
+            "Materials": {
+                "Fuselage": "Aluminum",
+                "Wings": "Aluminum"
+            },
+            "Commercial Operators": [
+                "Delta Air Lines",
+                "United Airlines",
+                "UPS Airlines",
+                "Trans Air Cargo Service"
+            ],
+            "Flaps system": "Single-slotted",
+            "Number of flap stages": "3",
+            "Maximum flap angle": "50 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
+        }
+    },
+    "DC-9-10": {
+        "General Information": {
+            "Manufacturer": "McDonnell Douglas",
+            "Family": "DC-9",
+            "First Flight": "1965",
+            "Model Build": "137",
+            "Entered Service": "December 8, 1965 with Delta Air Lines",
+            "Type": "Narrow-body jet airliner",
+            "Engine Type": "Low-bypass turbofan",
+            "number of engines": "2",
+            "Price Tag": "N/A",
+            "Fly range category": "Short range",
+            "seat config": [
+                "2-3"
+            ],
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.0a96c3921f561e8aae10e799b4edad40?rik=HhE6KHor6Q%2fu7w&pid=ImgRaw&r=0",
+                "https://th.bing.com/th/id/R.b5088068aa6575e1c2d59a9cc3308d56?rik=ug1W0YLCe5jLTg&pid=ImgRaw&r=0"
             ]
-          },
-          "Body Type": "Narrow-body",
-          "Number of Decks": 1,
-          "Materials": {
-            "Fuselage": "Aluminum",
-            "Wings": "Aluminum"
-          },
-          "Commercial Operators": [
-            "Air Littoral",
-            "FedEx Feeder",
-            "Canadian North",
-            "Silver Airways",
-            "First Air",
-            "Easyfly",
-            "Tarom",
-            "Sky Express",
-            "Nordstar Airlines"
-          ]
-        }
-      },
-      "ATR-42-600":{
-        "General Information": {
-          "Manufacturer": "ATR",
-          "Family": "ATR 42",
-          "First Flight": "1984",
-          "Model Build": "Ongoing (still in production)",
-          "Entered Service": "2012 with Air Tahiti",
-          "Type": "Narrow-body turboprop airliner",
-          "Engine Type": "Turboprop",
-          "Number of Engines": 2,
-          "Price Tag": "19.5 million USD (2012)",
-          "Fly range category": "Close-mid range",
-          "seat config": [
-            "2-2"
-          ],
-          "aircraft_image" : [
-            "https://imgproc.airliners.net/photos/airliners/1/5/6/2316651.jpg?v=v40",
-            "https://th.bing.com/th/id/R.0de32e90ffc995c2cad647a4c5954918?rik=M0jEORMEiOG2fw&pid=ImgRaw&r=0"
-          ]
         },
         "Dimensions": {
-          "Length": "22.67 m",
-          "Wingspan": "24.57 m",
-          "Cabin Length": "12.6 m",
-          "Fuselage Max Diameter": "2.57 m",
-          "Max Cabin Width": "2.57 m"
+            "Length": "31.82 m",
+            "Wingspan": "27.25 m",
+            "Cabin Length": "28.07 m",
+            "Fuselage Max Diameter": "3.34 m",
+            "Max Cabin Width": "3.12 m",
+            "Aspect ratio": 8.0,
+            "Wing area": "93.0 m^3"
         },
         "Weights": {
-          "Max Landing Weight": "18.3 tons",
-          "Empty Weight": "11.55 tons",
-          "Max Takeoff Weight": "18.6 tons"
+            "Max Landing Weight": "41.0 tons",
+            "Empty Weight": "25.4 tons",
+            "Max Takeoff Weight": "45.4 tons"
         },
         "Performance": {
-          "Fuel Capacity": "1,320 US gallons (4,997 liters)",
-          "Range": "716 nautical miles",
-          "Flight Ceiling": "25,000 feet",
-          "Takeoff Distance": "1,036 meters",
-          "Landing Distance": "884 meters",
-          "Passenger Capacity": {
-            "Max": 50,
-            "Typical": 48
-          },
-          "Cargo Capacity": "1,200 gallons",
-          "Avionics": {
-            "Common_suite": "Thales Avionics Suite",
-            "FMS": "Yes",
-            "EFIS": "Yes",
-            "AFCS": "Yes",
-            "TAWS": "Yes",
-            "HUD": "No"
-          }
-        },
-        "Speed": {
-          "Cruise Speed": {
-            "Mach": "0.44",
-            "Knots": "300 knots"
-          },
-          "Max Speed": {
-            "Mach": "0.44",
-            "Knots": "300 knots"
-          },
-          "V2 speed": "120 knots",
-          "Stall speed": "90 knots"
-        },
-        "Engines": {
-          "PW127M": {
-            "Manufacturer": "Pratt & Whitney Canada",
-            "Model": "PW127M",
-            "Thrust": "2,160 lbf",
-            "Bypass ratio": "N/A",
-            "Fan stage": "N/A",
-            "Low-pressure compressor stages": "N/A",
-            "High-pressure compressor stages": "N/A",
-            "High-pressure turbine stages": "N/A",
-            "Low-pressure turbine stages": "N/A",
-            "Climb rate": 1851,
-            "Descend rate": 1500,
-            "Cruise climb rate": 1600,
-            "Landing descend rate": 1200,
-            "Fan blade diameter": "N/A",
-            "Fuel type": "Jet A-1",
-            "Pressure ratio": "N/A"
-          }
-        },
-        "Other Details": {
-          "Noise Levels": {
-            "Takeoff": "85 dB",
-            "Landing": "82 dB",
-            "Cruise": "80 dB"
-          },
-          "operation_cost": "1.5 million USD",
-          "certification_standards": ["FAA", "EASA"],
-          "Body Type": "Narrow-body",
-          "Number of Decks": 1,
-          "Materials": {
-            "Fuselage": "Aluminum alloy",
-            "Wings": "Aluminum alloy"
-          },
-          "Commercial Operators": ["Air Tahiti", "Silver Airways", "Bahamasair", "Air Botswana"]
-        }
-      } ,
-      "ATR-42-600S":{
-        "General Information": {
-          "Manufacturer": "ATR",
-          "Family": "ATR 42",
-          "First Flight": "1984",
-          "Model Build": "Ongoing (still in production)",
-          "Entered Service": "1985",
-          "Type": "Narrow-body turboprop airliner",
-          "Engine Type": "Turboprop",
-          "Number of Engines": 2,
-          "Price Tag": "19.5 million USD (2023)",
-          "Fly range category": "Close-mid range",
-          "seat config": [
-            "2-2"
-          ],
-          "aircraft_image":[
-            "https://imgproc.airliners.net/photos/airliners/3/2/0/7168023.jpg?v=v422ee11d3d2",
-            "https://th.bing.com/th/id/OIP.cQfuWgNxX4ZHrsjxX28cSQHaE8?rs=1&pid=ImgDetMain"
-          ]
-        },
-        "Dimensions": {
-          "Length": "22.67 m",
-          "Wingspan": "24.57 m",
-          "Cabin Length": "12.69 m",
-          "Fuselage Max Diameter": "2.57 m",
-          "Max Cabin Width": "2.57 m"
-        },
-        "Weights": {
-          "Max Landing Weight": "16.7 tons",
-          "Empty Weight": "11.25 tons",
-          "Max Takeoff Weight": "18.6 tons"
-        },
-        "Performance": {
-          "Fuel Capacity": 5000,
-          "Range": "716 nautical miles",
-          "Flight Ceiling": "25,000 feet",
-          "Takeoff Distance": "800 meters",
-          "Landing Distance": "800 meters",
-          "Passenger Capacity": {
-            "Max": 50,
-            "Typical": 42
-          },
-          "Cargo Capacity": "1,200 gallons",
-          "Avionics": {
-            "Common_suite": "Thales",
-            "FMS": "Yes",
-            "EFIS": "Yes",
-            "AFCS": "Yes",
-            "TAWS": "Yes",
-            "HUD": "No"
-          }
-        },
-        "Speed": {
-          "Cruise Speed": {
-            "Mach": "0.44",
-            "Knots": "300 knots"
-          },
-          "Max Speed": {
-            "Mach": "0.48",
-            "Knots": "315 knots"
-          },
-          "V2 speed": "120 knots",
-          "Stall speed": "90 knots"
-        },
-        "Engines": {
-          "PW127M": {
-            "Manufacturer": "Pratt & Whitney Canada",
-            "Model": "PW127M",
-            "Thrust": "2,400 SHP",
-            "Bypass ratio": "N/A",
-            "Fan stage": "N/A",
-            "Low-pressure compressor stages": "N/A",
-            "High-pressure compressor stages": "N/A",
-            "High-pressure turbine stages": "N/A",
-            "Low-pressure turbine stages": "N/A",
-            "Climb rate": 1851,
-            "Descend rate": 1500,
-            "Cruise climb rate": 1500,
-            "Landing descend rate": 1500,
-            "Fan blade diameter": "N/A",
-            "Fuel type": "Jet A1",
-            "Pressure ratio": "N/A"
-          }
-        },
-        "Other Details": {
-          "Noise Levels": {
-            "Takeoff": "85 dB",
-            "Landing": "82 dB",
-            "Cruise": "80 dB"
-          },
-          "operation_cost": "1.2 million USD per year",
-          "certification_standards": ["FAA", "EASA"],
-          "Body Type": "Narrow-body",
-          "Number of Decks": 1,
-          "Materials": {
-            "Fuselage": "Aluminum alloy",
-            "Wings": "Aluminum alloy"
-          },
-          "Commercial Operators": ["Air Tahiti", "Silver Airways", "HOP!", "Nordic Aviation Capital"]
-        }
-      },
-      "ATR-72-200":{
-        "General Information": {
-          "Manufacturer": "ATR",
-          "Family": "ATR 72",
-          "First Flight": "October 27, 1988",
-          "Model Build": "472 built (as of 2023)",
-          "Entered Service": "October 27, 1989 with Karair",
-          "Type": "Narrow-body turboprop airliner",
-          "Engine Type": "Turboprop",
-          "Number of Engines": 2,
-          "Price Tag": "24.7 million USD (2020)",
-          "Fly range category": "Close-mid range",
-          "seat config": [
-            "2-2"
-          ],
-          "aircraft_image":[
-            "https://th.bing.com/th/id/R.d2a570be6a8f9de3355768ac60e1f0bc?rik=NV7Tcs7BTEnQHA&pid=ImgRaw&r=0",
-            "https://th.bing.com/th/id/R.334ece7c62e01157fe57af83699ef2b4?rik=n1Lr6bVmhZWbFg&pid=ImgRaw&r=0"
-          ]
-        },
-        "Dimensions": {
-          "Length": "27.17 m",
-          "Wingspan": "27.05 m",
-          "Cabin Length": "20.42 m",
-          "Fuselage Max Diameter": "2.57 m",
-          "Max Cabin Width": "2.57 m"
-        },
-        "Weights": {
-          "Max Landing Weight": "21.35 tons",
-          "Empty Weight": "12.4 tons",
-          "Max Takeoff Weight": "21.5 tons"
-        },
-        "Performance": {
-          "Fuel Capacity": 6200,
-          "Range": "862 NM",
-          "Flight Ceiling": "25,000 ft",
-          "Takeoff Distance": "1,409 m",
-          "Landing Distance": "1,036 m",
-          "Passenger Capacity": {
-            "Max": 74,
-            "Typical": 66
-          },
-          "Cargo Capacity": "5,700 L",
-          "Avionics": {
-            "Common_suite": "Honeywell",
-            "FMS": "Yes",
-            "EFIS": "Yes",
-            "AFCS": "Yes",
-            "TAWS": "Yes",
-            "HUD": "No"
-          }
-        },
-        "Speed": {
-          "Cruise Speed": {
-            "Mach": "0.44",
-            "Knots": "278"
-          },
-          "Max Speed": {
-            "Mach": "0.47",
-            "Knots": "284"
-          },
-          "V2 speed": "115 knots",
-          "Stall speed": "114 knots"
-        },
-        "Engines": 
-          {
-            "PW124B": {
-              "Manufacturer": "Pratt & Whitney Canada",
-              "Model": "PW124B",
-              "Thrust": "4,850 lbf",
-              "Bypass ratio": "N/A",
-              "Fan stage": "N/A",
-              "Low-pressure compressor stages": "N/A",
-              "High-pressure compressor stages": "N/A",
-              "High-pressure turbine stages": "N/A",
-              "Low-pressure turbine stages": "N/A",
-              "Climb rate": 1390,
-              "Descend rate": 1000,
-              "Cruise climb rate": 1200,
-              "Landing descend rate": 800,
-              "Fan blade diameter": "N/A",
-              "Fuel type": "Jet A-1",
-              "Pressure ratio": "N/A"
+            "Fuel Capacity": 17034,
+            "Range": "1,450 nmi",
+            "Flight Ceiling": "35,000 ft",
+            "Takeoff Distance": "1,615 m",
+            "Landing Distance": "1,320 m",
+            "Passenger Capacity": {
+                "Max": "90",
+                "Typical": "80"
             },
-          
-            "PW127M": {
-              "Manufacturer": "Pratt & Whitney Canada",
-              "Model": "PW127M",
-              "Thrust": "5,550 lbf",
-              "Bypass ratio": "N/A",
-              "Fan stage": "N/A",
-              "Low-pressure compressor stages": "N/A",
-              "High-pressure compressor stages": "N/A",
-              "High-pressure turbine stages": "N/A",
-              "Low-pressure turbine stages": "N/A",
-              "Climb rate": 1390,
-              "Descend rate": 1000,
-              "Cruise climb rate": 1200,
-              "Landing descend rate": 800,
-              "Fan blade diameter": "N/A",
-              "Fuel type": "Jet A-1",
-              "Pressure ratio": "N/A"
+            "Cargo Capacity": "N/A",
+            "Avionics": {
+                "Common_suite": "Honeywell",
+                "FMS": "No",
+                "EFIS": "No",
+                "AFCS": "No",
+                "TAWS": "No",
+                "HUD": "No"
             }
-          },
-       
-        "Other Details": {
-          "Noise Levels": {
-            "Takeoff": "85 dB",
-            "Landing": "82 dB",
-            "Cruise": "80 dB"
-          },
-          "operation_cost": "1.2 million USD per year",
-          "certification_standards": ["FAA", "EASA"],
-          "Body Type": "Narrow-body",
-          "Number of Decks": 1,
-          "Materials": {
-            "Fuselage": "Aluminum alloy",
-            "Wings": "Aluminum alloy"
-          },
-          "Commercial Operators": ["Karair", "Air France", "American Eagle", "FedEx Express"]
-        }
-      },
-      "ATR-72-210":{
-        "General Information": {
-          "Manufacturer": "ATR",
-          "Family": "ATR 72",
-          "First Flight": "October 27, 1988",
-          "Model Build": "472 built (as of 2023)",
-          "Entered Service": "October 27, 1989 with Karair",
-          "Type": "Narrow-body turboprop airliner",
-          "Engine Type": "Turboprop",
-          "Number of Engines": 2,
-          "Price Tag": "24.7 million USD (2020)",
-          "Fly range category": "Close-mid range",
-          "seat config": [
-            "2-2"
-          ],
-          "aircraft_image":[
-            "https://th.bing.com/th/id/R.b96d7ea1b97698eeec1df519c470fc67?rik=TgrfApSO0NNmhQ&riu=http%3a%2f%2fwww.airteamimages.com%2fpics%2f200%2f200891_800.jpg&ehk=6hLg3fDouJz8WbU5JiKR9mRw4%2bABAgi8f1QCOdl50ZU%3d&risl=&pid=ImgRaw&r=0",
-            "https://th.bing.com/th/id/OIP.v3ys2t_ifEqiPCD5e222zwHaFB?rs=1&pid=ImgDetMain"
-          ]
-        },
-        "Dimensions": {
-          "Length": "27.17 m",
-          "Wingspan": "27.05 m",
-          "Cabin Length": "20.42 m",
-          "Fuselage Max Diameter": "2.57 m",
-          "Max Cabin Width": "2.57 m"
-        },
-        "Weights": {
-          "Max Landing Weight": "21.35 tons",
-          "Empty Weight": "12.4 tons",
-          "Max Takeoff Weight": "21.5 tons"
-        },
-        "Performance": {
-          "Fuel Capacity": 6200,
-          "Range": "862 NM",
-          "Flight Ceiling": "25,000 ft",
-          "Takeoff Distance": "1,409 m",
-          "Landing Distance": "1,036 m",
-          "Passenger Capacity": {
-            "Max": 74,
-            "Typical": 66
-          },
-          "Cargo Capacity": "5,700 L",
-          "Avionics": {
-            "Common_suite": "Honeywell",
-            "FMS": "Yes",
-            "EFIS": "Yes",
-            "AFCS": "Yes",
-            "TAWS": "Yes",
-            "HUD": "No"
-          }
         },
         "Speed": {
-          "Cruise Speed": {
-            "Mach": "0.44",
-            "Knots": "278"
-          },
-          "Max Speed": {
-            "Mach": "0.47",
-            "Knots": "284"
-          },
-          "V2 speed": "115 knots",
-          "Stall speed": "114 knots"
-        },
-        "Engines": 
-          {
-            "PW124B": {
-              "Manufacturer": "Pratt & Whitney Canada",
-              "Model": "PW124B",
-              "Thrust": "4,850 lbf",
-              "Bypass ratio": "N/A",
-              "Fan stage": "N/A",
-              "Low-pressure compressor stages": "N/A",
-              "High-pressure compressor stages": "N/A",
-              "High-pressure turbine stages": "N/A",
-              "Low-pressure turbine stages": "N/A",
-              "Climb rate": 1390,
-              "Descend rate": 1000,
-              "Cruise climb rate": 1200,
-              "Landing descend rate": 800,
-              "Fan blade diameter": "N/A",
-              "Fuel type": "Jet A-1",
-              "Pressure ratio": "N/A"
+            "Cruise Speed": {
+                "Mach": "0.76",
+                "Knots": "484 knots"
             },
-         
-          
-            "PW127M": {
-              "Manufacturer": "Pratt & Whitney Canada",
-              "Model": "PW127M",
-              "Thrust": "5,550 lbf",
-              "Bypass ratio": "N/A",
-              "Fan stage": "N/A",
-              "Low-pressure compressor stages": "N/A",
-              "High-pressure compressor stages": "N/A",
-              "High-pressure turbine stages": "N/A",
-              "Low-pressure turbine stages": "N/A",
-              "Climb rate": 1390,
-              "Descend rate": 1000,
-              "Cruise climb rate": 1200,
-              "Landing descend rate": 800,
-              "Fan blade diameter": "N/A",
-              "Fuel type": "Jet A-1",
-              "Pressure ratio": "N/A"
+            "Max Speed": {
+                "Mach": "0.82",
+                "Knots": "504 knots"
+            },
+            "V2 speed": "150 knots",
+            "Stall speed": "115 knots"
+        },
+        "Engines": {
+            "Pratt & Whitney JT8D-7": {
+                "Manufacturer": "Pratt & Whitney",
+                "Model": "JT8D-7",
+                "Thrust": "14,000 lbf",
+                "Bypass ratio": "1.04:1",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "6",
+                "High-pressure compressor stages": "7",
+                "High-pressure turbine stages": "1",
+                "Low-pressure turbine stages": "3",
+                "Climb rate": 2800,
+                "Descend rate": 2500,
+                "Cruise climb rate": 1500,
+                "Landing descend rate": 1200,
+                "Fan blade diameter": "39.9 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "15:1"
             }
-          },
-        
+        },
         "Other Details": {
-          "Noise Levels": {
-            "Takeoff": "85 dB",
-            "Landing": "82 dB",
-            "Cruise": "80 dB"
-          },
-          "operation_cost": "1.2 million USD per year",
-          "certification_standards": ["FAA", "EASA"],
-          "Body Type": "Narrow-body",
-          "Number of Decks": 1,
-          "Materials": {
-            "Fuselage": "Aluminum alloy",
-            "Wings": "Aluminum alloy"
-          },
-          "Commercial Operators": ["Karair", "Air France", "American Eagle", "FedEx Express"]
+            "Noise Levels": {
+                "Takeoff": "N/A",
+                "Landing": "N/A",
+                "Cruise": "N/A"
+            },
+            "operation_cost": "N/A",
+            "certification_standards": [
+                "FAA",
+                "EASA"
+            ],
+            "Body Type": "Narrow-body",
+            "Number of Decks": "1",
+            "Materials": {
+                "Fuselage": "Aluminum",
+                "Wings": "Aluminum"
+            },
+            "Commercial Operators": [
+                "Delta Air Lines",
+                "Northwest Airlines",
+                "Aeromexico",
+                "Eastern Air Lines"
+            ],
+            "Flaps system": "Double-slotted",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
-      },
-      "ATR-72-500":{
+    },
+    "DC-9-20": {
         "General Information": {
-          "Manufacturer": "ATR",
-          "Family": "ATR 72",
-          "First Flight": "October 27, 1988",
-          "Model Build": "Ongoing (still in production)",
-          "Entered Service": "October 27, 1989 with Finnair",
-          "Type": "Narrow-body turboprop airliner",
-          "Engine Type": "Turboprop",
-          "Number of Engines": 2,
-          "Price Tag": "14.4 million USD (2021)",
-          "Fly range category": "Mid-range",
-          "seat config": [
-            "2-2"
-          ],
-          "aircraft_image":[
-            "https://th.bing.com/th/id/R.713a0e137fe547c05cd1040865ed2f4d?rik=gKqp99fufgVjGQ&pid=ImgRaw&r=0",
-            "https://th.bing.com/th/id/R.af02ec172e08ea203eb58abcb5650730?rik=WhASfHrUYEK7Ow&pid=ImgRaw&r=0"
-          ]
+            "Manufacturer": "McDonnell Douglas",
+            "Family": "DC-9",
+            "First Flight": "1968",
+            "Model Build": "10",
+            "Entered Service": "January 1969 with Scandinavian Airlines System (SAS)",
+            "Type": "Narrow-body jet airliner",
+            "Engine Type": "Low-bypass turbofan",
+            "number of engines": "2",
+            "Price Tag": "N/A",
+            "Fly range category": "Short to medium range",
+            "seat config": [
+                "2-3"
+            ],
+            "aircraft_image": [
+                "https://th.bing.com/th/id/OIP.2SQKC57TabWc0cAPfd1SuwHaEi?rs=1&pid=ImgDetMain",
+                "https://live.staticflickr.com/40/107474666_4f13f55806_z.jpg"
+            ]
         },
         "Dimensions": {
-          "Length": "27.17 m",
-          "Wingspan": "27.05 m",
-          "Cabin Length": "20.42 m",
-          "Fuselage Max Diameter": "2.57 m",
-          "Max Cabin Width": "2.57 m"
+            "Length": "31.82 m",
+            "Wingspan": "28.44 m",
+            "Cabin Length": "18.29 m",
+            "Fuselage Max Diameter": "3.35 m",
+            "Max Cabin Width": "3.12 m",
+            "Aspect ratio": 8.7,
+            "Wing area": "93.0 m^3"
         },
         "Weights": {
-          "Max Landing Weight": "21.85 tons",
-          "Empty Weight": "12.95 tons",
-          "Max Takeoff Weight": "22.8 tons"
+            "Max Landing Weight": "44.5 tons",
+            "Empty Weight": "23.8 tons",
+            "Max Takeoff Weight": "52.2 tons"
         },
         "Performance": {
-          "Fuel Capacity": 5700,
-          "Range": "825 nm",
-          "Flight Ceiling": "25,000 ft",
-          "Takeoff Distance": "1,220 m",
-          "Landing Distance": "1,067 m",
-          "Passenger Capacity": {
-            "Max": 74,
-            "Typical": 68
-          },
-          "Cargo Capacity": "19,000 L",
-          "Avionics": {
-            "Common_suite": "Honeywell",
-            "FMS": "Yes",
-            "EFIS": "Yes",
-            "AFCS": "Yes",
-            "TAWS": "Yes",
-            "HUD": "No"
-          }
+            "Fuel Capacity": 15141,
+            "Range": "1,000 nautical miles",
+            "Flight Ceiling": "35,000 ft",
+            "Takeoff Distance": "1,600 m",
+            "Landing Distance": "1,500 m",
+            "Passenger Capacity": {
+                "Max": "115",
+                "Typical": "89"
+            },
+            "Cargo Capacity": "N/A",
+            "Avionics": {
+                "Common_suite": "N/A",
+                "FMS": "No",
+                "EFIS": "No",
+                "AFCS": "No",
+                "TAWS": "No",
+                "HUD": "Yes"
+            }
         },
         "Speed": {
-          "Cruise Speed": {
-            "Mach": "0.41",
-            "Knots": "275"
-          },
-          "Max Speed": {
-            "Mach": "0.45",
-            "Knots": "284"
-          },
-          "V2 speed": "115 knots",
-          "Stall speed": "113 knots"
+            "Cruise Speed": {
+                "Mach": "0.82",
+                "Knots": "485 knots"
+            },
+            "Max Speed": {
+                "Mach": "0.82",
+                "Knots": "485 knots"
+            },
+            "V2 speed": "140 knots",
+            "Stall speed": "110 knots"
         },
         "Engines": {
-          "PW127F": {
-            "Manufacturer": "Pratt & Whitney Canada",
-            "Model": "PW127F",
-            "Thrust": "1,850 lbf",
-            "Bypass ratio": "N/A",
-            "Fan stage": "N/A",
-            "Low-pressure compressor stages": "N/A",
-            "High-pressure compressor stages": "N/A",
-            "High-pressure turbine stages": "N/A",
-            "Low-pressure turbine stages": "N/A",
-            "Climb rate": 1374,
-            "Descend rate": 1374,
-            "Cruise climb rate": 1374,
-            "Landing descend rate": 1374,
-            "Fan blade diameter": "N/A",
-            "Fuel type": "Jet A",
-            "Pressure ratio": "N/A"
-          }
+            "JT8D-11": {
+                "Manufacturer": "Pratt & Whitney",
+                "Model": "JT8D-11",
+                "Thrust": "15,000 lbf",
+                "Bypass ratio": "1.74:1",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "6",
+                "High-pressure compressor stages": "7",
+                "High-pressure turbine stages": "1",
+                "Low-pressure turbine stages": "3",
+                "Climb rate": 2500,
+                "Descend rate": 2500,
+                "Cruise climb rate": 1500,
+                "Landing descend rate": 1200,
+                "Fan blade diameter": "39.7 in",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "15.8:1"
+            }
         },
         "Other Details": {
-          "Noise Levels": {
-            "Takeoff": "N/A",
-            "Landing": "N/A",
-            "Cruise": "N/A"
-          },
-          "operation_cost": "N/A",
-          "certification_standards": ["FAA", "EASA"],
-          "Body Type": "Narrow-body",
-          "Number of Decks": 1,
-          "Materials": {
-            "Fuselage": "Aluminum",
-            "Wings": "Aluminum"
-          },
-          "Commercial Operators": ["Finnair", "Air New Zealand", "American Eagle", "FedEx Express"]
+            "Noise Levels": {
+                "Takeoff": "N/A",
+                "Landing": "N/A",
+                "Cruise": "N/A"
+            },
+            "operation_cost": "N/A",
+            "certification_standards": [
+                "FAA"
+            ],
+            "Body Type": "Narrow-body",
+            "Number of Decks": "1",
+            "Materials": {
+                "Fuselage": "Aluminum",
+                "Wings": "Aluminum"
+            },
+            "Commercial Operators": [
+                "Scandinavian Airlines System (SAS)"
+            ],
+            "Flaps system": "Double-slotted",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
-      },
-      "ATR-72-600":{
+    },
+    "DC-9-30": {
         "General Information": {
-          "Manufacturer": "ATR",
-          "Family": "ATR 72",
-          "First Flight": "October 27, 1988",
-          "Model Build": "Ongoing (over 1,000 units built)",
-          "Entered Service": "October 27, 1989 with Karair",
-          "Type": "Turboprop regional airliner",
-          "Engine Type": "Turboprop",
-          "Number of Engines": 2,
-          "Price Tag": "26 million USD (2021)",
-          "Fly range category": "Close-mid range",
-          "seat config": [
-            "2-2"
-          ],
-          "aircraft_image":[
-            "https://th.bing.com/th/id/R.b3b01c8df4ae3003cab844e37eb23b46?rik=xHuxUpajYBbqDg&pid=ImgRaw&r=0",
-            "https://th.bing.com/th/id/OIP.iL3nvF_Rw-Q2O_tBEXPKJQAAAA?rs=1&pid=ImgDetMain"
-          ]
+            "Manufacturer": "McDonnell Douglas",
+            "Family": "DC-9",
+            "First Flight": "August 1, 1966",
+            "Model Build": "662",
+            "Entered Service": "February 1967 with Eastern Airlines",
+            "Type": "Narrow-body jet airliner",
+            "Engine Type": "Low-bypass turbofan",
+            "number of engines": "2",
+            "Price Tag": "N/A",
+            "Fly range category": "Short to medium range",
+            "seat config": [
+                "2-3"
+            ],
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.e6a6004cfebae8f0a451ef9c9f06247b?rik=k7gK3xb4oRhTwQ&riu=http%3a%2f%2fwww.vermontel.net%2f%7etomh%2fimages%2fAIRCRAFT%2fAIRLINERS%2fTYPES%2fDC9%2fBRIEF%2fDC9_32_CFTME.jpg&ehk=tWqwvQrknIDYg66YZNKgaDz5W6iat9PHK486yh8hfsk%3d&risl=&pid=ImgRaw&r=0",
+                "https://c1.staticflickr.com/3/2699/4278499228_317728094f_b.jpg"
+            ]
         },
         "Dimensions": {
-          "Length": "27.17 m",
-          "Wingspan": "27.05 m",
-          "Cabin Length": "20.11 m",
-          "Fuselage Max Diameter": "2.57 m",
-          "Max Cabin Width": "2.57 m"
+            "Length": "36.36 m",
+            "Wingspan": "28.44 m",
+            "Cabin Length": "22.79 m",
+            "Fuselage Max Diameter": "3.35 m",
+            "Max Cabin Width": "3.12 m",
+            "Aspect ratio": 8.7,
+            "Wing area": "93.0 m^3"
         },
         "Weights": {
-          "Max Landing Weight": "22.35 tons",
-          "Empty Weight": "13.6 tons",
-          "Max Takeoff Weight": "23 tons"
+            "Max Landing Weight": "44.5 tons",
+            "Empty Weight": "25.4 tons",
+            "Max Takeoff Weight": "49.9 tons"
         },
         "Performance": {
-          "Fuel Capacity": "5,000 kg",
-          "Range": "740 NM",
-          "Flight Ceiling": "25,000 ft",
-          "Takeoff Distance": "1,315 m",
-          "Landing Distance": "915 m",
-          "Passenger Capacity": {
-            "Max": 78,
-            "Typical": 70
-          },
-          "Cargo Capacity": "19,000 L",
-          "Avionics": {
-            "Common_suite": "Thales",
-            "FMS": "Yes",
-            "EFIS": "Yes",
-            "AFCS": "Yes",
-            "TAWS": "Yes",
-            "HUD": "No"
-          }
+            "Fuel Capacity": "4,000 US gallons (15,141 liters)",
+            "Range": "1,500 nautical miles",
+            "Flight Ceiling": "35,000 feet",
+            "Takeoff Distance": "2,100 meters",
+            "Landing Distance": "1,500 meters",
+            "Passenger Capacity": {
+                "Max": "127",
+                "Typical": "115"
+            },
+            "Cargo Capacity": "N/A",
+            "Avionics": {
+                "Common_suite": "Honeywell",
+                "FMS": "Yes",
+                "EFIS": "Yes",
+                "AFCS": "Yes",
+                "TAWS": "Yes",
+                "HUD": "No"
+            }
         },
         "Speed": {
-          "Cruise Speed": {
-            "Mach": "0.41",
-            "Knots": "275"
-          },
-          "Max Speed": {
-            "Mach": "0.45",
-            "Knots": "309"
-          },
-          "V2 speed": "130 knots",
-          "Stall speed": "98 knots"
+            "Cruise Speed": {
+                "Mach": "0.82",
+                "Knots": "485 knots"
+            },
+            "Max Speed": {
+                "Mach": "0.84",
+                "Knots": "565 knots"
+            },
+            "V2 speed": "140 knots",
+            "Stall speed": "110 knots"
         },
         "Engines": {
-          "PW127M": {
-            "Manufacturer": "Pratt & Whitney Canada",
-            "Model": "PW127M",
-            "Thrust": "3,360 lbf",
-            "Bypass ratio": "N/A",
-            "Fan stage": "N/A",
-            "Low-pressure compressor stages": "N/A",
-            "High-pressure compressor stages": "N/A",
-            "High-pressure turbine stages": "N/A",
-            "Low-pressure turbine stages": "N/A",
-            "Climb rate": 1500,
-            "Descend rate": 1200,
-            "Cruise climb rate": 1000,
-            "Landing descend rate": 1000,
-            "Fan blade diameter": "N/A",
-            "Fuel type": "Jet A-1",
-            "Pressure ratio": "N/A"
-          },
-          "PW127XT-M": {
-            "Manufacturer": "Pratt & Whitney Canada",
-            "Model": "PW127XT-M",
-            "Thrust": "3,360 lbf",
-            "Bypass ratio": "N/A",
-            "Fan stage": "N/A",
-            "Low-pressure compressor stages": "N/A",
-            "High-pressure compressor stages": "N/A",
-            "High-pressure turbine stages": "N/A",
-            "Low-pressure turbine stages": "N/A",
-            "Climb rate": 1500,
-            "Descend rate": 1200,
-            "Cruise climb rate": 1000,
-            "Landing descend rate": 1000,
-            "Fan blade diameter": "N/A",
-            "Fuel type": "Jet A-1",
-            "Pressure ratio": "N/A"
-          }
+            "JT8D-7": {
+                "Manufacturer": "Pratt & Whitney",
+                "Model": "JT8D-7",
+                "Thrust": "14,500 lbf",
+                "Bypass ratio": "1.74:1",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "6",
+                "High-pressure compressor stages": "7",
+                "High-pressure turbine stages": "1",
+                "Low-pressure turbine stages": "3",
+                "Climb rate": "2,000 feet/min",
+                "Descend rate": 2500,
+                "Cruise climb rate": 1500,
+                "Landing descend rate": 1200,
+                "Fan blade diameter": "39 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "15.4:1"
+            },
+            "JT8D-9": {
+                "Manufacturer": "Pratt & Whitney",
+                "Model": "JT8D-9",
+                "Thrust": "14,500 lbf",
+                "Bypass ratio": "1.74:1",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "6",
+                "High-pressure compressor stages": "7",
+                "High-pressure turbine stages": "1",
+                "Low-pressure turbine stages": "3",
+                "Climb rate": "2,000 feet/min",
+                "Descend rate": 2500,
+                "Cruise climb rate": 1500,
+                "Landing descend rate": 1200,
+                "Fan blade diameter": "39 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "15.4:1"
+            },
+            "JT8D-11": {
+                "Manufacturer": "Pratt & Whitney",
+                "Model": "JT8D-11",
+                "Thrust": "15,000 lbf",
+                "Bypass ratio": "1.74:1",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "6",
+                "High-pressure compressor stages": "7",
+                "High-pressure turbine stages": "1",
+                "Low-pressure turbine stages": "3",
+                "Climb rate": "2,000 feet/min",
+                "Descend rate": 2500,
+                "Cruise climb rate": 1500,
+                "Landing descend rate": 1200,
+                "Fan blade diameter": "39 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "15.4:1"
+            }
         },
         "Other Details": {
-          "Noise Levels": {
-            "Takeoff": "85 dB",
-            "Landing": "82 dB",
-            "Cruise": "78 dB"
-          },
-          "operation_cost": "2.5 million USD per year",
-          "certification_standards": ["FAA", "EASA"],
-          "Body Type": "Narrow-body",
-          "Number of Decks": 1,
-          "Materials": {
-            "Fuselage": "Aluminum alloy",
-            "Wings": "Aluminum alloy"
-          },
-          "Commercial Operators": ["Air New Zealand", "Azul Brazilian Airlines", "Bangkok Airways", "Cebu Pacific", "Flybe", "Garuda Indonesia", "HOP!", "Jet Airways", "Malaysia Airlines", "Silver Airways", "Wings Air"]
+            "Noise Levels": {
+                "Takeoff": "N/A",
+                "Landing": "N/A",
+                "Cruise": "N/A",
+                "operation_cost": "N/A",
+                "certification_standards": [
+                    "FAA",
+                    "EASA"
+                ]
+            },
+            "Body Type": "Narrow-body",
+            "Number of Decks": "1",
+            "Materials": {
+                "Fuselage": "Aluminum alloy",
+                "Wings": "Aluminum alloy"
+            },
+            "Commercial Operators": [
+                "Delta Air Lines",
+                "Eastern Airlines",
+                "Northwest Airlines",
+                "TWA"
+            ],
+            "Flaps system": "Double-slotted",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
         }
-      }
-      
-      
-      
-      
-      
-      
+    },
+    "DC-9-40": {
+        "General Information": {
+            "Manufacturer": "McDonnell Douglas",
+            "Family": "DC-9",
+            "First Flight": "1967",
+            "Model Build": "71",
+            "Entered Service": "1968 with Scandinavian Airlines",
+            "Type": "Narrow-body jet airliner",
+            "Engine Type": "Low-bypass turbofan",
+            "number of engines": "2",
+            "Price Tag": "5.2 million USD (1967)",
+            "Fly range category": "Close-mid range",
+            "seat config": [
+                "2-3"
+            ],
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.a285c1dc9740382b418652c83b82a8e0?rik=eo4ZpHNUIaxdtg&pid=ImgRaw&r=0",
+                "https://www.flight-manuals-online.com/wp-content/uploads/2019/08/DC-9-cockpit.jpg"
+            ]
+        },
+        "Dimensions": {
+            "Length": "38.28 m",
+            "Wingspan": "28.44 m",
+            "Cabin Length": "24.60 m",
+            "Fuselage Max Diameter": "3.34 m",
+            "Max Cabin Width": "3.11 m",
+            "Aspect ratio": 8.7,
+            "Wing area": "93.0 m^3"
+        },
+        "Weights": {
+            "Max Landing Weight": "46.27 tons",
+            "Empty Weight": "28.12 tons",
+            "Max Takeoff Weight": "51.71 tons"
+        },
+        "Performance": {
+            "Fuel Capacity": 13926,
+            "Range": "1,200 nautical miles",
+            "Flight Ceiling": "35,000 feet",
+            "Takeoff Distance": "2,000 meters",
+            "Landing Distance": "1,500 meters",
+            "Passenger Capacity": {
+                "Max": "125",
+                "Typical": "115"
+            },
+            "Cargo Capacity": "988.81 cubic feet",
+            "Avionics": {
+                "Common_suite": "Analog instruments",
+                "FMS": "No",
+                "EFIS": "No",
+                "AFCS": "No",
+                "TAWS": "No",
+                "HUD": "No"
+            }
+        },
+        "Speed": {
+            "Cruise Speed": {
+                "Mach": "0.63",
+                "Knots": "380 knots"
+            },
+            "Max Speed": {
+                "Mach": "0.84",
+                "Knots": "501 knots"
+            },
+            "V2 speed": "210 knots",
+            "Stall speed": "131 knots"
+        },
+        "Engines": {
+            "JT8D-17": {
+                "Manufacturer": "Pratt & Whitney",
+                "Model": "JT8D-17",
+                "Thrust": "16,000 lbf",
+                "Bypass ratio": "1.74:1",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "6",
+                "High-pressure compressor stages": "7",
+                "High-pressure turbine stages": "1",
+                "Low-pressure turbine stages": "3",
+                "Climb rate": 3000,
+                "Descend rate": 3000,
+                "Cruise climb rate": 2500,
+                "Landing descend rate": 1500,
+                "Fan blade diameter": "39 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "15.4:1"
+            }
+        },
+        "Other Details": {
+            "Noise Levels": {
+                "Takeoff": "95 dB",
+                "Landing": "85 dB",
+                "Cruise": "75 dB"
+            },
+            "operation_cost": "0.05 million USD per flight hour",
+            "certification_standards": [
+                "FAA",
+                "EASA"
+            ],
+            "Body Type": "Narrow-body",
+            "Number of Decks": "1",
+            "Materials": {
+                "Fuselage": "Aluminum alloy",
+                "Wings": "Aluminum alloy"
+            },
+            "Commercial Operators": [
+                "Scandinavian Airlines",
+                "Delta Air Lines",
+                "Northwest Airlines",
+                "TWA"
+            ],
+            "Flaps system": "Double-slotted",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
+        }
+    },
+    "DC-9-50": {
+        "General Information": {
+            "Manufacturer": "McDonnell Douglas",
+            "Family": "DC-9",
+            "First Flight": "1974",
+            "Model Build": "976",
+            "Entered Service": "1975 with Eastern Air Lines",
+            "Type": "Narrow-body jet airliner",
+            "Engine Type": "Low-bypass turbofan",
+            "number of engines": "2",
+            "Price Tag": "N/A",
+            "Fly range category": "Mid-range",
+            "seat config": [
+                "2-3"
+            ],
+            "aircraft_image": [
+                "https://th.bing.com/th/id/OIP.l9fSjKctFgSmTKmbGlE6NgHaE8?rs=1&pid=ImgDetMain",
+                "https://live.staticflickr.com/65535/49978963558_98fa832af7_b.jpg"
+            ]
+        },
+        "Dimensions": {
+            "Length": "40.72 m",
+            "Wingspan": "28.45 m",
+            "Cabin Length": "28.3 m",
+            "Fuselage Max Diameter": "3.34 m",
+            "Max Cabin Width": "3.11 m",
+            "Aspect ratio": 8.7,
+            "Wing area": "93.0 m^3"
+        },
+        "Weights": {
+            "Max Landing Weight": "54.9 tons",
+            "Empty Weight": "32.7 tons",
+            "Max Takeoff Weight": "54.9 tons"
+        },
+        "Performance": {
+            "Fuel Capacity": 15141,
+            "Range": "1,300 nautical miles",
+            "Flight Ceiling": "35,000 ft",
+            "Takeoff Distance": "1,800 m",
+            "Landing Distance": "1,600 m",
+            "Passenger Capacity": {
+                "Max": "139",
+                "Typical": "125"
+            },
+            "Cargo Capacity": "N/A",
+            "Avionics": {
+                "Common_suite": "Honeywell",
+                "FMS": "Yes",
+                "EFIS": "Yes",
+                "AFCS": "Yes",
+                "TAWS": "Yes",
+                "HUD": "No"
+            }
+        },
+        "Speed": {
+            "Cruise Speed": {
+                "Mach": "0.76",
+                "Knots": "485 knots"
+            },
+            "Max Speed": {
+                "Mach": "0.84",
+                "Knots": "644 knots"
+            },
+            "V2 speed": "140 knots",
+            "Stall speed": "110 knots"
+        },
+        "Engines": {
+            "Pratt & Whitney JT8D-17": {
+                "Manufacturer": "Pratt & Whitney",
+                "Model": "JT8D-17",
+                "Thrust": "16,000 lbf",
+                "Bypass ratio": "1.74:1",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "6",
+                "High-pressure compressor stages": "7",
+                "High-pressure turbine stages": "1",
+                "Low-pressure turbine stages": "3",
+                "Climb rate": 3000,
+                "Descend rate": 2500,
+                "Cruise climb rate": 2000,
+                "Landing descend rate": 1500,
+                "Fan blade diameter": "49 in",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "15:1"
+            }
+        },
+        "Other Details": {
+            "Noise Levels": {
+                "Takeoff": "N/A",
+                "Landing": "N/A",
+                "Cruise": "N/A"
+            },
+            "operation_cost": "N/A",
+            "certification_standards": [
+                "FAA",
+                "EASA"
+            ],
+            "Body Type": "Narrow-body",
+            "Number of Decks": "1",
+            "Materials": {
+                "Fuselage": "Aluminum alloy",
+                "Wings": "Aluminum alloy"
+            },
+            "Commercial Operators": [
+                "Eastern Air Lines",
+                "Delta Air Lines",
+                "Northwest Airlines",
+                "TWA",
+                "Swissair"
+            ],
+            "Flaps system": "Double-slotted",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
+        }
+    },
+    "DC-10-10": {
+        "General Information": {
+            "Manufacturer": "McDonnell Douglas",
+            "Family": "DC-10",
+            "First Flight": "August 29, 1970",
+            "Model Build": "122",
+            "Entered Service": "August 5, 1971 with American Airlines",
+            "Type": "Wide-body jet airliner",
+            "Engine Type": "High-bypass turbofan",
+            "number of engines": "3",
+            "Price Tag": "20 million USD (1972)",
+            "Fly range category": "Mid-range",
+            "seat config": [
+                "2-4-2"
+            ],
+            "aircraft_image": [
+                "https://imgproc.airliners.net/photos/airliners/5/7/7/2576775.jpg?v=v40",
+                "https://c1.staticflickr.com/9/8425/7746683168_be1bb66ff6_b.jpg"
+            ]
+        },
+        "Dimensions": {
+            "Length": "55.5 m",
+            "Wingspan": "47.35 m",
+            "Cabin Length": "36.7 m",
+            "Fuselage Max Diameter": "6 m",
+            "Max Cabin Width": "5.7 m",
+            "Aspect ratio": 7.5,
+            "Wing area": "367.7 m^3"
+        },
+        "Weights": {
+            "Max Landing Weight": "182 tons",
+            "Empty Weight": "109 tons",
+            "Max Takeoff Weight": "195 tons"
+        },
+        "Performance": {
+            "Fuel Capacity": 138700,
+            "Range": "3,500 nautical miles",
+            "Flight Ceiling": "42,000 ft",
+            "Takeoff Distance": "3,000 m",
+            "Landing Distance": "1,800 m",
+            "Passenger Capacity": {
+                "Max": "380",
+                "Typical": "270"
+            },
+            "Cargo Capacity": "16,000 gallons",
+            "Avionics": {
+                "Common_suite": "Honeywell",
+                "FMS": "Yes",
+                "EFIS": "Yes",
+                "AFCS": "Yes",
+                "TAWS": "Yes",
+                "HUD": "No"
+            }
+        },
+        "Speed": {
+            "Cruise Speed": {
+                "Mach": "0.82",
+                "Knots": "507 knots"
+            },
+            "Max Speed": {
+                "Mach": "0.88",
+                "Knots": "587 knots"
+            },
+            "V2 speed": "149 knots",
+            "Stall speed": "120 knots"
+        },
+        "Engines": {
+            "GE CF6-6D": {
+                "Manufacturer": "General Electric",
+                "Model": "CF6-6D",
+                "Thrust": "40,000 lbf",
+                "Bypass ratio": "5:1",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "4",
+                "High-pressure compressor stages": "14",
+                "High-pressure turbine stages": "2",
+                "Low-pressure turbine stages": "5",
+                "Climb rate": 2000,
+                "Descend rate": 2000,
+                "Cruise climb rate": 1500,
+                "Landing descend rate": 1000,
+                "Fan blade diameter": "86 in",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "30:1"
+            }
+        },
+        "Other Details": {
+            "Noise Levels": {
+                "Takeoff": "95 dB",
+                "Landing": "90 dB",
+                "Cruise": "85 dB"
+            },
+            "operation_cost": "10 million USD",
+            "certification_standards": [
+                "FAA",
+                "EASA"
+            ],
+            "Body Type": "Wide-body",
+            "Number of Decks": "1",
+            "Materials": {
+                "Fuselage": "Aluminum alloy",
+                "Wings": "Aluminum alloy"
+            },
+            "Commercial Operators": [
+                "American Airlines",
+                "United Airlines",
+                "FedEx Express",
+                "Northwest Airlines"
+            ],
+            "Flaps system": "Triple-slotted",
+            "Number of flap stages": "5",
+            "Maximum flap angle": "50 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
+        }
+    },
+    "DC-10-15": {
+        "General Information": {
+            "Manufacturer": "McDonnell Douglas",
+            "Family": "DC-10",
+            "First Flight": "August 29, 1970",
+            "Model Build": "446",
+            "Entered Service": "August 5, 1971 with American Airlines",
+            "Type": "Wide-body jet airliner",
+            "Engine Type": "High-bypass turbofan",
+            "number of engines": "3",
+            "Price Tag": "N/A",
+            "Fly range category": "Medium to long range",
+            "seat config": [
+                "2-4-2"
+            ],
+            "aircraft_image": [
+                "https://imgproc.airliners.net/photos/airliners/7/4/9/4629947.jpg?v=v43870a1bf74",
+                "https://c8.alamy.com/comp/GM9J4N/cockpit-simulator-of-a-douglas-dc-10-wings-over-the-rockies-air-and-GM9J4N.jpg"
+            ]
+        },
+        "Dimensions": {
+            "Length": "55.50 m",
+            "Wingspan": "50.41 m",
+            "Cabin Length": "33.5 m",
+            "Fuselage Max Diameter": "6.02 m",
+            "Max Cabin Width": "5.54 m",
+            "Aspect ratio": 7.5,
+            "Wing area": "367.7 m^3"
+        },
+        "Weights": {
+            "Max Landing Weight": "181.4 tons",
+            "Empty Weight": "121.2 tons",
+            "Max Takeoff Weight": "263.1 tons"
+        },
+        "Performance": {
+            "Fuel Capacity": 138700,
+            "Range": "5,405 nautical miles",
+            "Flight Ceiling": "42,000 feet",
+            "Takeoff Distance": "3,200 meters",
+            "Landing Distance": "1,800 meters",
+            "Passenger Capacity": {
+                "Max": "380",
+                "Typical": "270"
+            },
+            "Cargo Capacity": "N/A",
+            "Avionics": {
+                "Common_suite": "Honeywell",
+                "FMS": "Yes",
+                "EFIS": "Yes",
+                "AFCS": "Yes",
+                "TAWS": "Yes",
+                "HUD": "No"
+            }
+        },
+        "Speed": {
+            "Cruise Speed": {
+                "Mach": "0.82",
+                "Knots": "490"
+            },
+            "Max Speed": {
+                "Mach": "0.88",
+                "Knots": "564"
+            },
+            "V2 speed": "N/A",
+            "Stall speed": "N/A"
+        },
+        "Engines": {
+            "CF6-50C2-F": {
+                "Manufacturer": "General Electric",
+                "Model": "CF6-50C2-F",
+                "Thrust": "52,500 lbf",
+                "Bypass ratio": "4.26:1",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "3",
+                "High-pressure compressor stages": "14",
+                "High-pressure turbine stages": "2",
+                "Low-pressure turbine stages": "4",
+                "Climb rate": 2500,
+                "Descend rate": 3000,
+                "Cruise climb rate": 1500,
+                "Landing descend rate": 1000,
+                "Fan blade diameter": "86 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "30:1"
+            }
+        },
+        "Other Details": {
+            "Noise Levels": {
+                "Takeoff": "N/A",
+                "Landing": "N/A",
+                "Cruise": "N/A"
+            },
+            "operation_cost": "N/A",
+            "certification_standards": [
+                "FAA",
+                "EASA"
+            ],
+            "Body Type": "Wide-body",
+            "Number of Decks": "1",
+            "Materials": {
+                "Fuselage": "Aluminum alloy",
+                "Wings": "Aluminum alloy"
+            },
+            "Commercial Operators": [
+                "American Airlines",
+                "United Airlines",
+                "FedEx Express",
+                "Lufthansa",
+                "Japan Airlines"
+            ],
+            "Flaps system": "Triple-slotted",
+            "Number of flap stages": "5",
+            "Maximum flap angle": "50 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
+        }
+    },
+    "DC-10-30": {
+        "General Information": {
+            "Manufacturer": "McDonnell Douglas",
+            "Family": "DC-10",
+            "First Flight": "August 29, 1970",
+            "Model Build": "386",
+            "Entered Service": "December 15, 1972 with Swissair",
+            "Type": "Wide-body jet airliner",
+            "Engine Type": "High-bypass turbofan",
+            "number of engines": "3",
+            "Price Tag": "20 million USD (1972)",
+            "Fly range category": "Long range",
+            "seat config": [
+                "2-4-2"
+            ],
+            "aircraft_image": [
+                "https://th.bing.com/th/id/OIP.TG0PDwJdNkK2lxxRIiPw0QHaE8?rs=1&pid=ImgDetMain",
+                "https://th.bing.com/th/id/R.45c900a83fb4c5b14fc4c25e0bcab250?rik=0Ai929DIIoLvdA&pid=ImgRaw&r=0"
+            ]
+        },
+        "Dimensions": {
+            "Length": "55.35 m",
+            "Wingspan": "50.39 m",
+            "Cabin Length": "36.7 m",
+            "Fuselage Max Diameter": "6.02 m",
+            "Max Cabin Width": "5.7 m",
+            "Aspect ratio": 7.5,
+            "Wing area": "367.7 m^3"
+        },
+        "Weights": {
+            "Max Landing Weight": "192 tons",
+            "Empty Weight": "128 tons",
+            "Max Takeoff Weight": "263 tons"
+        },
+        "Performance": {
+            "Fuel Capacity": 138700,
+            "Range": "5,200 nautical miles",
+            "Flight Ceiling": "42,000 ft",
+            "Takeoff Distance": "3,000 m",
+            "Landing Distance": "1,800 m",
+            "Passenger Capacity": {
+                "Max": "380",
+                "Typical": "270"
+            },
+            "Cargo Capacity": "5,000 gallons",
+            "Avionics": {
+                "Common_suite": "Honeywell",
+                "FMS": "Yes",
+                "EFIS": "Yes",
+                "AFCS": "Yes",
+                "TAWS": "Yes",
+                "HUD": "No"
+            }
+        },
+        "Speed": {
+            "Cruise Speed": {
+                "Mach": "0.84",
+                "Knots": "507 knots"
+            },
+            "Max Speed": {
+                "Mach": "0.89",
+                "Knots": "530 knots"
+            },
+            "V2 speed": "149 knots",
+            "Stall speed": "120 knots"
+        },
+        "Engines": {
+            "General Electric CF6-50C": {
+                "Manufacturer": "General Electric",
+                "Model": "CF6-50C",
+                "Thrust": "51,000 lbf",
+                "Bypass ratio": "4.26:1",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "3",
+                "High-pressure compressor stages": "14",
+                "High-pressure turbine stages": "2",
+                "Low-pressure turbine stages": "4",
+                "Climb rate": 2000,
+                "Descend rate": 2000,
+                "Cruise climb rate": 1500,
+                "Landing descend rate": 1500,
+                "Fan blade diameter": "86.2 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "29.3"
+            }
+        },
+        "Other Details": {
+            "Noise Levels": {
+                "Takeoff": "95 dB",
+                "Landing": "90 dB",
+                "Cruise": "85 dB"
+            },
+            "operation_cost": "10 million USD",
+            "certification_standards": [
+                "FAA",
+                "EASA"
+            ],
+            "Body Type": "Wide-body",
+            "Number of Decks": "1",
+            "Materials": {
+                "Fuselage": "Aluminum alloy",
+                "Wings": "Aluminum alloy"
+            },
+            "Commercial Operators": [
+                "FedEx Express",
+                "American Airlines",
+                "United Airlines",
+                "Northwest Airlines",
+                "Swissair",
+                "KLM Royal Dutch Airlines"
+            ],
+            "Flaps system": "Triple-slotted",
+            "Number of flap stages": "5",
+            "Maximum flap angle": "50 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
+        }
+    },
+    "DC-10-40": {
+        "General Information": {
+            "Manufacturer": "McDonnell Douglas",
+            "Family": "DC-10",
+            "First Flight": "August 29, 1970",
+            "Model Build": "42",
+            "Entered Service": "1973 with Northwest Orient Airlines",
+            "Type": "Wide-body jet airliner",
+            "Engine Type": "High-bypass turbofan",
+            "number of engines": "3",
+            "Price Tag": "US$20 million (1972)",
+            "Fly range category": "Long range",
+            "seat config": [
+                "2-4-2"
+            ],
+            "aircraft_image": [
+                "https://imgproc.airliners.net/photos/airliners/5/0/8/0167805.jpg?v=v40",
+                "https://th.bing.com/th/id/R.ee270f42f175045c60ae6799c7045536?rik=%2bZIAHapZDRZxDg&pid=ImgRaw&r=0"
+            ]
+        },
+        "Dimensions": {
+            "Length": "55.5 m",
+            "Wingspan": "50.4 m",
+            "Cabin Length": "36.7 m",
+            "Fuselage Max Diameter": "6 m",
+            "Max Cabin Width": "5.7 m",
+            "Aspect ratio": 6.9,
+            "Wing area": "367.7 m^3"
+        },
+        "Weights": {
+            "Max Landing Weight": "192 tons",
+            "Empty Weight": "128 tons",
+            "Max Takeoff Weight": "263 tons"
+        },
+        "Performance": {
+            "Fuel Capacity": 138700,
+            "Range": "5,100 nautical miles",
+            "Flight Ceiling": "42,000 feet",
+            "Takeoff Distance": "3,000 m",
+            "Landing Distance": "1,800 m",
+            "Passenger Capacity": {
+                "Max": "380",
+                "Typical": "270"
+            },
+            "Cargo Capacity": "16,000 gallons",
+            "Avionics": {
+                "Common_suite": "Honeywell",
+                "FMS": "Yes",
+                "EFIS": "Yes",
+                "AFCS": "Yes",
+                "TAWS": "Yes",
+                "HUD": "No"
+            }
+        },
+        "Speed": {
+            "Cruise Speed": {
+                "Mach": "0.82",
+                "Knots": "530 knots"
+            },
+            "Max Speed": {
+                "Mach": "0.89",
+                "Knots": "590 knots"
+            },
+            "V2 speed": "149 knots",
+            "Stall speed": "120 knots"
+        },
+        "Engines": {
+            "Pratt & Whitney JT9D-20": {
+                "Manufacturer": "Pratt & Whitney",
+                "Model": "JT9D-20",
+                "Thrust": "49,400 lbf",
+                "Bypass ratio": "5.0:1",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "3",
+                "High-pressure compressor stages": "11",
+                "High-pressure turbine stages": "2",
+                "Low-pressure turbine stages": "4",
+                "Climb rate": 2000,
+                "Descend rate": 2000,
+                "Cruise climb rate": 1500,
+                "Landing descend rate": 1500,
+                "Fan blade diameter": "93 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "23:1"
+            },
+            "Pratt & Whitney JT9D-59A": {
+                "Manufacturer": "Pratt & Whitney",
+                "Model": "JT9D-59A",
+                "Thrust": "53,000 lbf",
+                "Bypass ratio": "5.0:1",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "3",
+                "High-pressure compressor stages": "11",
+                "High-pressure turbine stages": "2",
+                "Low-pressure turbine stages": "4",
+                "Climb rate": 2000,
+                "Descend rate": 2000,
+                "Cruise climb rate": 1500,
+                "Landing descend rate": 1500,
+                "Fan blade diameter": "93 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "23:1"
+            }
+        },
+        "Other Details": {
+            "Noise Levels": {
+                "Takeoff": "95 dB",
+                "Landing": "90 dB",
+                "Cruise": "85 dB"
+            },
+            "operation_cost": "$10 million",
+            "certification_standards": [
+                "FAA",
+                "EASA"
+            ],
+            "Body Type": "Wide-body",
+            "Number of Decks": "1",
+            "Materials": {
+                "Fuselage": "Aluminum alloy",
+                "Wings": "Aluminum alloy"
+            },
+            "Commercial Operators": [
+                "Northwest Orient Airlines",
+                "Japan Airlines"
+            ],
+            "Flaps system": "Triple-slotted",
+            "Number of flap stages": "5",
+            "Maximum flap angle": "50 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
+        }
+    },
+    "MD-81": {
+        "General Information": {
+            "Manufacturer": "McDonnell Douglas",
+            "Family": "MD-80",
+            "First Flight": "October 18, 1979",
+            "Model Build": "132",
+            "Entered Service": "September 1980 with Swissair",
+            "Type": "Narrow-body jet airliner",
+            "Engine Type": "High-bypass turbofan",
+            "number of engines": "2",
+            "Price Tag": "$50 million (estimated if sold new at present)",
+            "Fly range category": "Short to medium range",
+            "seat config": [
+                "2-3"
+            ],
+            "aircraft_image": [
+                "https://th.bing.com/th/id/OIP.d3RGJHXAJDocgcqIE4SxfQHaDZ?rs=1&pid=ImgDetMain",
+                "https://th.bing.com/th/id/R.f6f4b5016aa78eb111e983fed6ed1102?rik=XgpCPlAsxiwEgw&riu=http%3a%2f%2fbarrieaircraft.com%2fimages%2fmcdonnell-douglas-md-81828388-03.jpg&ehk=JzwtQp79kNSGNxlmtg2XdXRpCzLr4xfu16v9ud3c8wo%3d&risl=&pid=ImgRaw&r=0"
+            ]
+        },
+        "Dimensions": {
+            "Length": "45.06 m",
+            "Wingspan": "32.87 m",
+            "Cabin Length": "30.18 m",
+            "Fuselage Max Diameter": "3.34 m",
+            "Max Cabin Width": "3.17 m",
+            "Aspect ratio": 9.6,
+            "Wing area": "112.3 m^3"
+        },
+        "Weights": {
+            "Max Landing Weight": "57.6 tons",
+            "Empty Weight": "35.3 tons",
+            "Max Takeoff Weight": "63.5 tons"
+        },
+        "Performance": {
+            "Fuel Capacity": 22110,
+            "Range": "1,564 nm",
+            "Flight Ceiling": "37,000 ft",
+            "Takeoff Distance": "2,271 m",
+            "Landing Distance": "1,500 m",
+            "Passenger Capacity": {
+                "Max": "172",
+                "Typical": "142"
+            },
+            "Cargo Capacity": "5,840 US gallons",
+            "Avionics": {
+                "Common_suite": "Honeywell",
+                "FMS": "Yes",
+                "EFIS": "Yes",
+                "AFCS": "Yes",
+                "TAWS": "Yes",
+                "HUD": "No"
+            }
+        },
+        "Speed": {
+            "Cruise Speed": {
+                "Mach": "0.74",
+                "Knots": "440 kt"
+            },
+            "Max Speed": {
+                "Mach": "0.82",
+                "Knots": "500 kt"
+            },
+            "V2 speed": "125 kt",
+            "Stall speed": "110 kt"
+        },
+        "Engines": {
+            "JT8D-209": {
+                "Manufacturer": "Pratt & Whitney",
+                "Model": "JT8D-209",
+                "Thrust": "18,500 lbf",
+                "Bypass ratio": "1.74:1",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "6",
+                "High-pressure compressor stages": "7",
+                "High-pressure turbine stages": "1",
+                "Low-pressure turbine stages": "3",
+                "Climb rate": 3000,
+                "Descend rate": 3000,
+                "Cruise climb rate": 2000,
+                "Landing descend rate": 1500,
+                "Fan blade diameter": "49 in",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "21.8:1"
+            },
+            "JT8D-217": {
+                "Manufacturer": "Pratt & Whitney",
+                "Model": "JT8D-217",
+                "Thrust": "20,000 lbf",
+                "Bypass ratio": "1.74:1",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "6",
+                "High-pressure compressor stages": "7",
+                "High-pressure turbine stages": "1",
+                "Low-pressure turbine stages": "3",
+                "Climb rate": 3000,
+                "Descend rate": 3000,
+                "Cruise climb rate": 2000,
+                "Landing descend rate": 1500,
+                "Fan blade diameter": "49 in",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "21.8:1"
+            },
+            "JT8D-219": {
+                "Manufacturer": "Pratt & Whitney",
+                "Model": "JT8D-219",
+                "Thrust": "21,000 lbf",
+                "Bypass ratio": "1.74:1",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "6",
+                "High-pressure compressor stages": "7",
+                "High-pressure turbine stages": "1",
+                "Low-pressure turbine stages": "3",
+                "Climb rate": 3000,
+                "Descend rate": 3000,
+                "Cruise climb rate": 2000,
+                "Landing descend rate": 1500,
+                "Fan blade diameter": "49 in",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "21.8:1"
+            }
+        },
+        "Other Details": {
+            "Noise Levels": {
+                "Takeoff": "90 dB",
+                "Landing": "85 dB",
+                "Cruise": "80 dB"
+            },
+            "operation_cost": "$2.5 million",
+            "certification_standards": [
+                "FAA",
+                "EASA"
+            ],
+            "Body Type": "Narrow-body",
+            "Number of Decks": "1",
+            "Materials": {
+                "Fuselage": "Aluminum alloy",
+                "Wings": "Aluminum alloy"
+            },
+            "Commercial Operators": [
+                "Swissair",
+                "American Airlines",
+                "Delta Air Lines",
+                "SAS",
+                "Alitalia",
+                "Austrian Airlines"
+            ],
+            "Flaps system": "Double-slotted",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
+        }
+    },
+    "MD-82": {
+        "General Information": {
+            "Manufacturer": "McDonnell Douglas",
+            "Family": "MD-80",
+            "First Flight": "January 8, 1981",
+            "Model Build": "1,191",
+            "Entered Service": "August 1981 with Republic Airlines",
+            "Type": "Narrow-body jet airliner",
+            "Engine Type": "High-bypass turbofan",
+            "number of engines": "2",
+            "Price Tag": "US$41.5 million (1999)",
+            "Fly range category": "Mid-range",
+            "seat config": [
+                "2-3"
+            ],
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.88e037065e8636589138a0186e5fc1be?rik=SzYZpoZEySLv1Q&pid=ImgRaw&r=0",
+                "https://c1.staticflickr.com/9/8018/7315964048_4d8e69aed4_b.jpg"
+            ]
+        },
+        "Dimensions": {
+            "Length": "45.06 m",
+            "Wingspan": "32.85 m",
+            "Cabin Length": "30.78 m",
+            "Fuselage Max Diameter": "3.4 m",
+            "Max Cabin Width": "3.14 m",
+            "Aspect ratio": 9.6,
+            "Wing area": "112.3 m^3"
+        },
+        "Weights": {
+            "Max Landing Weight": "58,000 kg",
+            "Empty Weight": "37,300 kg",
+            "Max Takeoff Weight": "67,800 kg"
+        },
+        "Performance": {
+            "Fuel Capacity": 22120,
+            "Range": "2,050 nautical miles",
+            "Flight Ceiling": "37,000 ft",
+            "Takeoff Distance": "2,052 m",
+            "Landing Distance": "1,585 m",
+            "Passenger Capacity": {
+                "Max": "172",
+                "Typical": "155"
+            },
+            "Cargo Capacity": "1,253 cu ft",
+            "Avionics": {
+                "Common_suite": "Honeywell",
+                "FMS": "Yes",
+                "EFIS": "Yes",
+                "AFCS": "Yes",
+                "TAWS": "Yes",
+                "HUD": "No"
+            }
+        },
+        "Speed": {
+            "Cruise Speed": {
+                "Mach": "0.76",
+                "Knots": "485 knots"
+            },
+            "Max Speed": {
+                "Mach": "0.82",
+                "Knots": "504 knots"
+            },
+            "V2 speed": "140 knots",
+            "Stall speed": "115 knots"
+        },
+        "Engines": {
+            "Pratt & Whitney JT8D-217": {
+                "Manufacturer": "Pratt & Whitney",
+                "Model": "JT8D-217",
+                "Thrust": "20,000 lbf",
+                "Bypass ratio": "1.74:1",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "6",
+                "High-pressure compressor stages": "7",
+                "High-pressure turbine stages": "1",
+                "Low-pressure turbine stages": "3",
+                "Climb rate": 2500,
+                "Descend rate": 2500,
+                "Cruise climb rate": 2000,
+                "Landing descend rate": 1500,
+                "Fan blade diameter": "49.2 in",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "21.8:1"
+            },
+            "Pratt & Whitney JT8D-219": {
+                "Manufacturer": "Pratt & Whitney",
+                "Model": "JT8D-219",
+                "Thrust": "21,000 lbf",
+                "Bypass ratio": "1.74:1",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "6",
+                "High-pressure compressor stages": "7",
+                "High-pressure turbine stages": "1",
+                "Low-pressure turbine stages": "3",
+                "Climb rate": 2500,
+                "Descend rate": 2500,
+                "Cruise climb rate": 2000,
+                "Landing descend rate": 1500,
+                "Fan blade diameter": "49.2 in",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "21.8:1"
+            }
+        },
+        "Other Details": {
+            "Noise Levels": {
+                "Takeoff": "90 dB",
+                "Landing": "85 dB",
+                "Cruise": "80 dB"
+            },
+            "operation_cost": "$2.5 million",
+            "certification_standards": [
+                "FAA",
+                "EASA"
+            ],
+            "Body Type": "Narrow-body",
+            "Number of Decks": "1",
+            "Materials": {
+                "Fuselage": "Aluminum alloy",
+                "Wings": "Aluminum alloy"
+            },
+            "Commercial Operators": [
+                "American Airlines",
+                "Delta Air Lines",
+                "Allegiant Air",
+                "LASER Airlines"
+            ],
+            "Flaps system": "Double-slotted",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
+        }
+    },
+    "MD-83": {
+        "General Information": {
+            "Manufacturer": "McDonnell Douglas",
+            "Family": "MD-80",
+            "First Flight": "October 18, 1979",
+            "Model Build": "1,191",
+            "Entered Service": "February 1985 with Alaska Airlines",
+            "Type": "Narrow-body jet airliner",
+            "Engine Type": "High-bypass turbofan",
+            "number of engines": 2,
+            "Price Tag": "US$48.5 million (1990)",
+            "Fly range category": "Mid-range",
+            "seat config": [
+                "2-3"
+            ],
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.58a86901023e0eda55caeffe653b5237?rik=ui9k5h2C3jtiLg&pid=ImgRaw&r=0",
+                "https://th.bing.com/th/id/R.816f911529e8e153baf2fd2db5681a06?rik=rkr0S29uQo%2bD2A&pid=ImgRaw&r=0&sres=1&sresct=1"
+            ]
+        },
+        "Dimensions": {
+            "Length": "45.02 m",
+            "Wingspan": "32.85 m",
+            "Cabin Length": "30.78 m",
+            "Fuselage Max Diameter": "3.35 m",
+            "Max Cabin Width": "3.11 m",
+            "Aspect ratio": 9.6,
+            "Wing area": "112.3 m^3"
+        },
+        "Weights": {
+            "Max Landing Weight": "58.97 tons",
+            "Empty Weight": "36.29 tons",
+            "Max Takeoff Weight": "73.00 tons"
+        },
+        "Performance": {
+            "Fuel Capacity": 26360,
+            "Range": "2,550 nautical miles",
+            "Flight Ceiling": "37,000 ft",
+            "Takeoff Distance": "2,052 m",
+            "Landing Distance": "1,585 m",
+            "Passenger Capacity": {
+                "Max": 172,
+                "Typical": 142
+            },
+            "Cargo Capacity": "1,000 gallons",
+            "Avionics": {
+                "Common_suite": "Honeywell",
+                "FMS": "Yes",
+                "EFIS": "Yes",
+                "AFCS": "Yes",
+                "TAWS": "Yes",
+                "HUD": "No"
+            }
+        },
+        "Speed": {
+            "Cruise Speed": {
+                "Mach": 0.76,
+                "Knots": 442
+            },
+            "Max Speed": {
+                "Mach": 0.82,
+                "Knots": 473
+            },
+            "V2 speed": "144 knots",
+            "Stall speed": "115 knots"
+        },
+        "Engines": {
+            "Pratt & Whitney JT8D-219": {
+                "Manufacturer": "Pratt & Whitney",
+                "Model": "JT8D-219",
+                "Thrust": "21,000 lbf",
+                "Bypass ratio": "1.74:1",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": 6,
+                "High-pressure compressor stages": 7,
+                "High-pressure turbine stages": 1,
+                "Low-pressure turbine stages": 3,
+                "Climb rate": 2500,
+                "Descend rate": 2000,
+                "Cruise climb rate": 2200,
+                "Landing descend rate": 1800,
+                "Fan blade diameter": "49.2 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "21.8:1"
+            }
+        },
+        "Other Details": {
+            "Noise Levels": {
+                "Takeoff": "90 dB",
+                "Landing": "85 dB",
+                "Cruise": "80 dB"
+            },
+            "operation_cost": "$2.5 million",
+            "certification_standards": [
+                "FAA",
+                "EASA"
+            ],
+            "Body Type": "Narrow-body",
+            "Number of Decks": 1,
+            "Materials": {
+                "Fuselage": "Aluminum alloy",
+                "Wings": "Aluminum alloy"
+            },
+            "Commercial Operators": [
+                "Alaska Airlines",
+                "American Airlines",
+                "Delta Air Lines",
+                "Allegiant Air"
+            ],
+            "Flaps system": "Double-slotted",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
+        }
+    },
+    "MD-87": {
+        "General Information": {
+            "Manufacturer": "McDonnell Douglas",
+            "Family": "MD-80",
+            "First Flight": "1986",
+            "Model Build": "75",
+            "Entered Service": "1987 with Austrian Airlines",
+            "Type": "Narrow-body jet airliner",
+            "Engine Type": "High-bypass turbofan",
+            "number of engines": "2",
+            "Price Tag": "41.5 million (1990)",
+            "Fly range category": "Mid-range",
+            "seat config": [
+                "2-3"
+            ],
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.e6cdfa8087779bb5626d2c1ae92084eb?rik=C4IborqdLFSANQ&pid=ImgRaw&r=0",
+                "https://th.bing.com/th/id/R.2c9351291b60b754ac8d90ae35f91e38?rik=h5mx8Lh7EFqTjg&pid=ImgRaw&r=0"
+            ]
+        },
+        "Dimensions": {
+            "Length": "39.75 m",
+            "Wingspan": "32.87 m",
+            "Cabin Length": "30.5 m",
+            "Fuselage Max Diameter": "3.35 m",
+            "Max Cabin Width": "3.15 m",
+            "Aspect ratio": 9.6,
+            "Wing area": "112.3 m^3"
+        },
+        "Weights": {
+            "Max Landing Weight": "58.97 tons",
+            "Empty Weight": "33.24 tons",
+            "Max Takeoff Weight": "67.81 tons"
+        },
+        "Performance": {
+            "Fuel Capacity": 26420,
+            "Range": "2,900 nm",
+            "Flight Ceiling": "37,000 ft",
+            "Takeoff Distance": "1,850 m",
+            "Landing Distance": "1,430 m",
+            "Passenger Capacity": {
+                "Max": "130",
+                "Typical": "109"
+            },
+            "Cargo Capacity": "6,980 gallons",
+            "Avionics": {
+                "Common_suite": "Honeywell",
+                "FMS": "Yes",
+                "EFIS": "Yes",
+                "AFCS": "Yes",
+                "TAWS": "Yes",
+                "HUD": "Optional"
+            }
+        },
+        "Speed": {
+            "Cruise Speed": {
+                "Mach": "0.76",
+                "Knots": "438"
+            },
+            "Max Speed": {
+                "Mach": "0.82",
+                "Knots": "470"
+            },
+            "V2 speed": "140 knots",
+            "Stall speed": "115 knots"
+        },
+        "Engines": {
+            "JT8D-217C": {
+                "Manufacturer": "Pratt & Whitney",
+                "Model": "JT8D-217C",
+                "Thrust": "20,000 lbf",
+                "Bypass ratio": "1.74:1",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "6",
+                "High-pressure compressor stages": "7",
+                "High-pressure turbine stages": "1",
+                "Low-pressure turbine stages": "3",
+                "Climb rate": 3000,
+                "Descend rate": 3000,
+                "Cruise climb rate": 2500,
+                "Landing descend rate": 1500,
+                "Fan blade diameter": "49.2 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "21.8:1"
+            }
+        },
+        "Other Details": {
+            "Noise Levels": {
+                "Takeoff": "90 dB",
+                "Landing": "85 dB",
+                "Cruise": "80 dB"
+            },
+            "operation_cost": "2.5 million",
+            "certification_standards": [
+                "FAA",
+                "EASA"
+            ],
+            "Body Type": "Narrow-body",
+            "Number of Decks": 1,
+            "Materials": {
+                "Fuselage": "Aluminum alloy",
+                "Wings": "Aluminum alloy"
+            },
+            "Commercial Operators": [
+                "Austrian Airlines",
+                "Finnair",
+                "Iberia",
+                "Japan Air System",
+                "SAS",
+                "Spanair"
+            ],
+            "Flaps system": "Double-slotted",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
+        }
+    },
+    "MD-88": {
+        "General Information": {
+            "Manufacturer": "McDonnell Douglas",
+            "Family": "MD-80",
+            "First Flight": "August 15, 1987",
+            "Model Build": "1,191",
+            "Entered Service": "January 5, 1988 with Delta Air Lines",
+            "Type": "Narrow-body jet airliner",
+            "Engine Type": "High-bypass turbofan",
+            "number of engines": "2",
+            "Price Tag": "US$48.5 million (1980)",
+            "Fly range category": "Mid-range",
+            "seat config": [
+                "2-3"
+            ],
+            "aircraft_image": [
+                "https://th.bing.com/th/id/OIP.fv4lXDT0FdmQ5BTvXQd_rQHaGC?rs=1&pid=ImgDetMain",
+                "https://th.bing.com/th/id/R.ca8747aa46961fec3319c0f8a5a18541?rik=inmoh9d%2bJZJpgg&pid=ImgRaw&r=0"
+            ]
+        },
+        "Dimensions": {
+            "Length": "45.06 m",
+            "Wingspan": "32.82 m",
+            "Cabin Length": "30.78 m",
+            "Fuselage Max Diameter": "3.34 m",
+            "Max Cabin Width": "3.14 m",
+            "Aspect ratio": 9.6,
+            "Wing area": "112.3 m^3"
+        },
+        "Weights": {
+            "Max Landing Weight": "67.81 tons",
+            "Empty Weight": "35.37 tons",
+            "Max Takeoff Weight": "67.81 tons"
+        },
+        "Performance": {
+            "Fuel Capacity": "5,840 US gallons (22,110 L)",
+            "Range": "2,550 nautical miles",
+            "Flight Ceiling": "37,000 ft",
+            "Takeoff Distance": "2,400 m",
+            "Landing Distance": "1,585 m",
+            "Passenger Capacity": {
+                "Max": "172",
+                "Typical": "142"
+            },
+            "Cargo Capacity": "1,000 gallons",
+            "Avionics": {
+                "Common_suite": "Honeywell",
+                "FMS": "Yes",
+                "EFIS": "Yes",
+                "AFCS": "Yes",
+                "TAWS": "Yes",
+                "HUD": "No"
+            }
+        },
+        "Speed": {
+            "Cruise Speed": {
+                "Mach": "0.76",
+                "Knots": "472 knots"
+            },
+            "Max Speed": {
+                "Mach": "0.82",
+                "Knots": "543 knots"
+            },
+            "V2 speed": "130 knots",
+            "Stall speed": "115 knots"
+        },
+        "Engines": {
+            "Pratt & Whitney JT8D-200": {
+                "Manufacturer": "Pratt & Whitney",
+                "Model": "JT8D-200",
+                "Thrust": "21,000 lbf",
+                "Bypass ratio": "1.74:1",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "6",
+                "High-pressure compressor stages": "7",
+                "High-pressure turbine stages": "1",
+                "Low-pressure turbine stages": "3",
+                "Climb rate": 2700,
+                "Descend rate": 2500,
+                "Cruise climb rate": 2000,
+                "Landing descend rate": 1500,
+                "Fan blade diameter": "49.2 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "21.8:1"
+            }
+        },
+        "Other Details": {
+            "Noise Levels": {
+                "Takeoff": "90 dB",
+                "Landing": "85 dB",
+                "Cruise": "80 dB"
+            },
+            "operation_cost": "$2.5 million",
+            "certification_standards": [
+                "FAA",
+                "EASA"
+            ],
+            "Body Type": "Narrow-body",
+            "Number of Decks": 1,
+            "Materials": {
+                "Fuselage": "Aluminum alloy",
+                "Wings": "Aluminum alloy"
+            },
+            "Commercial Operators": [
+                "Delta Air Lines",
+                "American Airlines",
+                "Allegiant Air",
+                "LASER Airlines"
+            ],
+            "Flaps system": "Double-slotted",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
+        }
+    },
+    "MD-90-30": {
+        "General Information": {
+            "Manufacturer": "McDonnell Douglas",
+            "Family": "DC-9",
+            "First Flight": "February 22, 1993",
+            "Model Build": "116",
+            "Entered Service": "1995 with Delta Air Lines",
+            "Type": "Narrow-body jet airliner",
+            "Engine Type": "High-bypass turbofan",
+            "number of engines": "2",
+            "Price Tag": "N/A",
+            "Fly range category": "Short-to-medium range",
+            "seat config": [
+                "2-3"
+            ],
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.6518d897bda1a1ab3d0734fe686313b5?rik=owmeJOWUlu5IZg&pid=ImgRaw&r=0",
+                "https://th.bing.com/th/id/R.9cb9a8ff2a780366743a89f40cabe2e8?rik=TmQh%2bMZGi6pKTg&pid=ImgRaw&r=0"
+            ]
+        },
+        "Dimensions": {
+            "Length": "46.51 m",
+            "Wingspan": "32.87 m",
+            "Cabin Length": "30.18 m",
+            "Fuselage Max Diameter": "3.34 m",
+            "Max Cabin Width": "3.14 m",
+            "Aspect ratio": 9.6,
+            "Wing area": "112.3 m^3"
+        },
+        "Weights": {
+            "Max Landing Weight": "64.41 tons",
+            "Empty Weight": "39.99 tons",
+            "Max Takeoff Weight": "70.76 tons"
+        },
+        "Performance": {
+            "Fuel Capacity": 22110,
+            "Range": "2,085 nautical miles",
+            "Flight Ceiling": "37,000 feet",
+            "Takeoff Distance": "1,830 meters",
+            "Landing Distance": "1,524 meters",
+            "Passenger Capacity": {
+                "Max": "172",
+                "Typical": "153"
+            },
+            "Cargo Capacity": "N/A",
+            "Avionics": {
+                "Common_suite": "Honeywell",
+                "FMS": "Yes",
+                "EFIS": "Yes",
+                "AFCS": "Yes",
+                "TAWS": "Yes",
+                "HUD": "No"
+            }
+        },
+        "Speed": {
+            "Cruise Speed": {
+                "Mach": "0.76",
+                "Knots": "437 knots"
+            },
+            "Max Speed": {
+                "Mach": "0.84",
+                "Knots": "486 knots"
+            },
+            "V2 speed": "150 knots",
+            "Stall speed": "115 knots"
+        },
+        "Engines": {
+            "IAE V2525-D5": {
+                "Manufacturer": "International Aero Engines",
+                "Model": "V2525-D5",
+                "Thrust": "25,000 lbf",
+                "Bypass ratio": "4.5:1",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "3",
+                "High-pressure compressor stages": "10",
+                "High-pressure turbine stages": "2",
+                "Low-pressure turbine stages": "5",
+                "Climb rate": 3000,
+                "Descend rate": 2500,
+                "Cruise climb rate": 2000,
+                "Landing descend rate": 1500,
+                "Fan blade diameter": "63 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "30:1"
+            },
+            "IAE V2528-D5": {
+                "Manufacturer": "International Aero Engines",
+                "Model": "V2528-D5",
+                "Thrust": "28,000 lbf",
+                "Bypass ratio": "4.5:1",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "3",
+                "High-pressure compressor stages": "10",
+                "High-pressure turbine stages": "2",
+                "Low-pressure turbine stages": "5",
+                "Climb rate": 3000,
+                "Descend rate": 2500,
+                "Cruise climb rate": 2000,
+                "Landing descend rate": 1500,
+                "Fan blade diameter": "63 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "30:1"
+            }
+        },
+        "Other Details": {
+            "Noise Levels": {
+                "Takeoff": "N/A",
+                "Landing": "N/A",
+                "Cruise": "N/A"
+            },
+            "operation_cost": "N/A",
+            "certification_standards": [
+                "FAA",
+                "EASA"
+            ],
+            "Body Type": "Narrow-body",
+            "Number of Decks": 1,
+            "Materials": {
+                "Fuselage": "Aluminum alloy",
+                "Wings": "Aluminum alloy"
+            },
+            "Commercial Operators": [
+                "Delta Air Lines",
+                "Saudi Arabian Airlines",
+                "Japan Airlines",
+                "UNI Air"
+            ],
+            "Flaps system": "Double-slotted",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
+        }
+    },
+    "MD-90-30ER": {
+        "General Information": {
+            "Manufacturer": "McDonnell Douglas",
+            "Family": "DC-9",
+            "First Flight": "February 22, 1993",
+            "Model Build": "116",
+            "Entered Service": "1995 with Delta Air Lines",
+            "Type": "Narrow-body jet airliner",
+            "Engine Type": "High-bypass turbofan",
+            "number of engines": "2",
+            "Price Tag": "N/A",
+            "Fly range category": "Short-to-medium range",
+            "seat config": [
+                "2-3"
+            ],
+            "aircraft_image": [
+                "https://imgproc.airliners.net/photos/airliners/5/3/6/0068635.jpg?v=v40",
+                "https://th.bing.com/th/id/R.4e9493b5bda65dd33160bafac2a9676b?rik=%2b%2bflJ1oARWsDag&riu=http%3a%2f%2fimgproc.airliners.net%2fphotos%2fairliners%2f7%2f2%2f8%2f1157827.jpg%3fv%3dv40&ehk=rR4flVxILD39UszM57u9uyunRkad1pOfYL2%2beDk7hWY%3d&risl=&pid=ImgRaw&r=0"
+            ]
+        },
+        "Dimensions": {
+            "Length": "46.5 m",
+            "Wingspan": "32.87 m",
+            "Cabin Length": "N/A",
+            "Fuselage Max Diameter": "N/A",
+            "Max Cabin Width": "N/A",
+            "Aspect ratio": 9.6,
+            "Wing area": "112.3 m^3"
+        },
+        "Weights": {
+            "Max Landing Weight": "64.41 tons",
+            "Empty Weight": "39.99 tons",
+            "Max Takeoff Weight": "70.76 tons"
+        },
+        "Performance": {
+            "Fuel Capacity": 22110,
+            "Range": "2,085 nautical miles",
+            "Flight Ceiling": "37,000 feet",
+            "Takeoff Distance": "2,000 m",
+            "Landing Distance": "1,800 m",
+            "Passenger Capacity": {
+                "Max": "172",
+                "Typical": "153"
+            },
+            "Cargo Capacity": "N/A",
+            "Avionics": {
+                "Common_suite": "Honeywell",
+                "FMS": "Yes",
+                "EFIS": "Yes",
+                "AFCS": "Yes",
+                "TAWS": "Yes",
+                "HUD": "No"
+            }
+        },
+        "Speed": {
+            "Cruise Speed": {
+                "Mach": "0.76",
+                "Knots": "486 knots"
+            },
+            "Max Speed": {
+                "Mach": "0.81",
+                "Knots": "527 knots"
+            },
+            "V2 speed": "140 knots",
+            "Stall speed": "115 knots"
+        },
+        "Engines": {
+            "IAE V2525-D5": {
+                "Manufacturer": "International Aero Engines",
+                "Model": "V2525-D5",
+                "Thrust": "25,000 lbf",
+                "Bypass ratio": "4.5:1",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "3",
+                "High-pressure compressor stages": "10",
+                "High-pressure turbine stages": "2",
+                "Low-pressure turbine stages": "5",
+                "Climb rate": 3000,
+                "Descend rate": 2500,
+                "Cruise climb rate": 2000,
+                "Landing descend rate": 1500,
+                "Fan blade diameter": "63 in",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "30:1"
+            },
+            "IAE V2528-D5": {
+                "Manufacturer": "International Aero Engines",
+                "Model": "V2528-D5",
+                "Thrust": "28,000 lbf",
+                "Bypass ratio": "4.8:1",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "3",
+                "High-pressure compressor stages": "10",
+                "High-pressure turbine stages": "2",
+                "Low-pressure turbine stages": "5",
+                "Climb rate": 3200,
+                "Descend rate": 2600,
+                "Cruise climb rate": 2100,
+                "Landing descend rate": 1600,
+                "Fan blade diameter": "63 in",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "32:1"
+            }
+        },
+        "Other Details": {
+            "Noise Levels": {
+                "Takeoff": "N/A",
+                "Landing": "N/A",
+                "Cruise": "N/A"
+            },
+            "operation_cost": "N/A",
+            "certification_standards": [
+                "FAA",
+                "EASA"
+            ],
+            "Body Type": "Narrow-body",
+            "Number of Decks": 1,
+            "Materials": {
+                "Fuselage": "Aluminum alloy",
+                "Wings": "Aluminum alloy"
+            },
+            "Commercial Operators": [
+                "Delta Air Lines",
+                "Saudi Arabian Airlines",
+                "Japan Airlines",
+                "UNI Air"
+            ],
+            "Flaps system": "Double-slotted",
+            "Number of flap stages": "4",
+            "Maximum flap angle": "40 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
+        }
+    },
+    "MD-11": {
+        "General Information": {
+            "Manufacturer": "McDonnell Douglas",
+            "Family": "MD-11",
+            "First Flight": "January 10, 1990",
+            "Model Build": "200",
+            "Entered Service": "December 20, 1990 with Finnair",
+            "Type": "Wide-body jet airliner",
+            "Engine Type": "High-bypass turbofan",
+            "number of engines": "3",
+            "Price Tag": "120 million (1990)",
+            "Fly range category": "Long range",
+            "seat config": [
+                "2-4-2"
+            ],
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.b5b6b96b185c82d8b5bb777cf8472759?rik=q%2blWnwlab9l%2fqQ&riu=http%3a%2f%2f4.bp.blogspot.com%2f-2Cw9XC2qvSk%2fVTbibC-TIvI%2fAAAAAAAACKk%2fow54HFADeIo%2fs1600%2fPH-KCB-KLM-Royal-Dutch-Airlines-McDonnell-Douglas-MD-11_PlanespottersNet_312133.jpg&ehk=qeSkTODMBOPS1OdXgqfkANHj0xzBuVMP7%2bwvPWgTYKA%3d&risl=&pid=ImgRaw&r=0",
+                "https://th.bing.com/th/id/OIP.X-oZ14P8A3DOiSQL4xvPhQHaEl?rs=1&pid=ImgDetMain"
+            ]
+        },
+        "Dimensions": {
+            "Length": "61.6 m",
+            "Wingspan": "51.6 m",
+            "Cabin Length": "41.5 m",
+            "Fuselage Max Diameter": "6.02 m",
+            "Max Cabin Width": "5.72 m",
+            "Aspect ratio": 7.91,
+            "Wing area": "338.9 m^3"
+        },
+        "Weights": {
+            "Max Landing Weight": "213 tons",
+            "Empty Weight": "125.9 tons",
+            "Max Takeoff Weight": "286 tons"
+        },
+        "Performance": {
+            "Fuel Capacity": 146000,
+            "Range": "7,130 nautical miles",
+            "Flight Ceiling": "43,000 ft",
+            "Takeoff Distance": "3,200 m",
+            "Landing Distance": "2,200 m",
+            "Passenger Capacity": {
+                "Max": "410",
+                "Typical": "323"
+            },
+            "Cargo Capacity": "6,000 gallons",
+            "Avionics": {
+                "Common_suite": "Honeywell",
+                "FMS": "Yes",
+                "EFIS": "Yes",
+                "AFCS": "Yes",
+                "TAWS": "Yes",
+                "HUD": "No"
+            }
+        },
+        "Speed": {
+            "Cruise Speed": {
+                "Mach": "0.82",
+                "Knots": "473 knots"
+            },
+            "Max Speed": {
+                "Mach": "0.87",
+                "Knots": "519 knots"
+            },
+            "V2 speed": "160 knots",
+            "Stall speed": "130 knots"
+        },
+        "Engines": {
+            "General Electric CF6-80C2D1F": {
+                "Manufacturer": "General Electric",
+                "Model": "CF6-80C2D1F",
+                "Thrust": "61,500 lbf",
+                "Bypass ratio": "5.3:1",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "4",
+                "High-pressure compressor stages": "14",
+                "High-pressure turbine stages": "2",
+                "Low-pressure turbine stages": "5",
+                "Climb rate": 3000,
+                "Descend rate": 2500,
+                "Cruise climb rate": 2000,
+                "Landing descend rate": 1500,
+                "Fan blade diameter": "86 in",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "30:1"
+            },
+            "Pratt & Whitney PW4460": {
+                "Manufacturer": "Pratt & Whitney",
+                "Model": "PW4460",
+                "Thrust": "60,000 lbf",
+                "Bypass ratio": "5.0:1",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "4",
+                "High-pressure compressor stages": "11",
+                "High-pressure turbine stages": "2",
+                "Low-pressure turbine stages": "5",
+                "Climb rate": 2900,
+                "Descend rate": 2400,
+                "Cruise climb rate": 1900,
+                "Landing descend rate": 1400,
+                "Fan blade diameter": "84 in",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "28:1"
+            },
+            "Pratt & Whitney PW4462": {
+                "Manufacturer": "Pratt & Whitney",
+                "Model": "PW4462",
+                "Thrust": "62,000 lbf",
+                "Bypass ratio": "5.1:1",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "4",
+                "High-pressure compressor stages": "11",
+                "High-pressure turbine stages": "2",
+                "Low-pressure turbine stages": "5",
+                "Climb rate": 2950,
+                "Descend rate": 2450,
+                "Cruise climb rate": 1950,
+                "Landing descend rate": 1450,
+                "Fan blade diameter": "84 in",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "29:1"
+            }
+        },
+        "Other Details": {
+            "Noise Levels": {
+                "Takeoff": "95 dB",
+                "Landing": "90 dB",
+                "Cruise": "85 dB"
+            },
+            "operation_cost": "10 million",
+            "certification_standards": [
+                "FAA",
+                "EASA"
+            ],
+            "Body Type": "Wide-body",
+            "Number of Decks": 1,
+            "Materials": {
+                "Fuselage": "Aluminum alloy",
+                "Wings": "Aluminum alloy"
+            },
+            "Commercial Operators": [
+                "Finnair",
+                "KLM",
+                "Delta Air Lines",
+                "Swissair",
+                "American Airlines"
+            ],
+            "Flaps system": "Dial-A-Flap",
+            "Number of flap stages": "Variable between 10 and 25 degrees",
+            "Maximum flap angle": "50 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Composite materials"
+        }
+    },
+    "MD-11F": {
+        "General Information": {
+            "Manufacturer": "McDonnell Douglas",
+            "Family": "MD-11",
+            "First Flight": "January 10, 1990",
+            "Model Build": "200",
+            "Entered Service": "December 20, 1990 with Finnair",
+            "Type": "Wide-body jet airliner",
+            "Engine Type": "High-bypass turbofan",
+            "number of engines": "3",
+            "Price Tag": "120 million USD (1990)",
+            "Fly range category": "Long range",
+            "seat config": [
+                "3-3-3"
+            ],
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.30fd0fbf006fc20896e1f92e14e8423d?rik=McTFV1Oh7TPLZQ&pid=ImgRaw&r=0",
+                "https://th.bing.com/th/id/R.828d72d36f1abe6e80ba4fdee578f773?rik=BqDtFaojOycTwQ&riu=http%3a%2f%2fwww.airteamimages.com%2fpics%2f184%2f184510_800.jpg&ehk=OB27l%2bfQK9RpVGfTHEWCWC%2fC3SVmceSK9LefAsAKBio%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
+            ]
+        },
+        "Dimensions": {
+            "Length": "61.6 m",
+            "Wingspan": "51.6 m",
+            "Cabin Length": "41.5 m",
+            "Fuselage Max Diameter": "6.02 m",
+            "Max Cabin Width": "5.71 m",
+            "Aspect ratio": 7.91,
+            "Wing area": "338.9 m^3"
+        },
+        "Weights": {
+            "Max Landing Weight": "206.4 tons",
+            "Empty Weight": "125.9 tons",
+            "Max Takeoff Weight": "286.0 tons"
+        },
+        "Performance": {
+            "Fuel Capacity": 146000,
+            "Range": "3,700 nautical miles",
+            "Flight Ceiling": "43,000 feet",
+            "Takeoff Distance": "3,200 meters",
+            "Landing Distance": "2,200 meters",
+            "Passenger Capacity": {
+                "Max": "410",
+                "Typical": "323"
+            },
+            "Cargo Capacity": "15,530 cubic feet",
+            "Avionics": {
+                "Common_suite": "Honeywell",
+                "FMS": "Yes",
+                "EFIS": "Yes",
+                "AFCS": "Yes",
+                "TAWS": "Yes",
+                "HUD": "No"
+            }
+        },
+        "Speed": {
+            "Cruise Speed": {
+                "Mach": "0.82",
+                "Knots": "504 knots"
+            },
+            "Max Speed": {
+                "Mach": "0.87",
+                "Knots": "519 knots"
+            },
+            "V2 speed": "160 knots",
+            "Stall speed": "130 knots"
+        },
+        "Engines": {
+            "General Electric CF6-80C2D1F": {
+                "Manufacturer": "General Electric",
+                "Model": "CF6-80C2D1F",
+                "Thrust": "61,500 lbf",
+                "Bypass ratio": "5.3:1",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "4",
+                "High-pressure compressor stages": "14",
+                "High-pressure turbine stages": "2",
+                "Low-pressure turbine stages": "5",
+                "Climb rate": 3000,
+                "Descend rate": 2500,
+                "Cruise climb rate": 2000,
+                "Landing descend rate": 1500,
+                "Fan blade diameter": "93 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "30:1"
+            },
+            "Pratt & Whitney PW4460": {
+                "Manufacturer": "Pratt & Whitney",
+                "Model": "PW4460",
+                "Thrust": "60,000 lbf",
+                "Bypass ratio": "5.0:1",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "4",
+                "High-pressure compressor stages": "11",
+                "High-pressure turbine stages": "2",
+                "Low-pressure turbine stages": "5",
+                "Climb rate": 2900,
+                "Descend rate": 2400,
+                "Cruise climb rate": 1900,
+                "Landing descend rate": 1400,
+                "Fan blade diameter": "94 inches",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "32:1"
+            }
+        },
+        "Other Details": {
+            "Noise Levels": {
+                "Takeoff": "95 dB",
+                "Landing": "90 dB",
+                "Cruise": "85 dB"
+            },
+            "operation_cost": "10 million USD per year",
+            "certification_standards": [
+                "FAA",
+                "EASA"
+            ],
+            "Body Type": "Wide-body",
+            "Number of Decks": 1,
+            "Materials": {
+                "Fuselage": "Aluminum alloy",
+                "Wings": "Aluminum alloy"
+            },
+            "Commercial Operators": [
+                "FedEx Express",
+                "UPS Airlines",
+                "Western Global Airlines",
+                "Lufthansa Cargo"
+            ],
+            "Flaps system": "Dial-A-Flap",
+            "Number of flap stages": "Variable between 10 and 25 degrees",
+            "Maximum flap angle": "50 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Composite materials"
+        }
+    },
+    "MD-11C": {
+        "General Information": {
+            "Manufacturer": "McDonnell Douglas",
+            "Family": "MD-11",
+            "First Flight": "January 10, 1990",
+            "Model Build": "200",
+            "Entered Service": "December 20, 1990 with Finnair",
+            "Type": "Wide-body jet airliner",
+            "Engine Type": "High-bypass turbofan",
+            "number of engines": "3",
+            "Price Tag": "132 million (1990)",
+            "Fly range category": "Long range",
+            "seat config": [
+                "2-4-2"
+            ],
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.3f6beb7ce958503f76f0744d70812fb8?rik=QefiRtgmu7tuvg&pid=ImgRaw&r=0",
+                "https://th.bing.com/th/id/R.9e1fbb7aefd9ab9de39ea5d971595a63?rik=qcrkDTQbokCbyg&pid=ImgRaw&r=0"
+            ]
+        },
+        "Dimensions": {
+            "Length": "61.6 m",
+            "Wingspan": "51.6 m",
+            "Cabin Length": "41.5 m",
+            "Fuselage Max Diameter": "6.02 m",
+            "Max Cabin Width": "5.71 m",
+            "Aspect ratio": 7.91,
+            "Wing area": "338.9 m^3"
+        },
+        "Weights": {
+            "Max Landing Weight": "213.2 tons",
+            "Empty Weight": "125.9 tons",
+            "Max Takeoff Weight": "286 tons"
+        },
+        "Performance": {
+            "Fuel Capacity": 146000,
+            "Range": "7,130 nmi",
+            "Flight Ceiling": "43,000 ft",
+            "Takeoff Distance": "3,200 m",
+            "Landing Distance": "2,200 m",
+            "Passenger Capacity": {
+                "Max": "410",
+                "Typical": "298"
+            },
+            "Cargo Capacity": "26,000 gallons",
+            "Avionics": {
+                "Common_suite": "Honeywell",
+                "FMS": "Yes",
+                "EFIS": "Yes",
+                "AFCS": "Yes",
+                "TAWS": "Yes",
+                "HUD": "No"
+            }
+        },
+        "Speed": {
+            "Cruise Speed": {
+                "Mach": "0.82",
+                "Knots": "504"
+            },
+            "Max Speed": {
+                "Mach": "0.87",
+                "Knots": "519"
+            },
+            "V2 speed": "160 knots",
+            "Stall speed": "130 knots"
+        },
+        "Engines": {
+            "General Electric CF6-80C2D1F": {
+                "Manufacturer": "General Electric",
+                "Model": "CF6-80C2D1F",
+                "Thrust": "61,500 lbf",
+                "Bypass ratio": "5.3:1",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "4",
+                "High-pressure compressor stages": "14",
+                "High-pressure turbine stages": "2",
+                "Low-pressure turbine stages": "5",
+                "Climb rate": 3000,
+                "Descend rate": 2500,
+                "Cruise climb rate": 2000,
+                "Landing descend rate": 1500,
+                "Fan blade diameter": "93 in",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "30:1"
+            },
+            "Pratt & Whitney PW4460": {
+                "Manufacturer": "Pratt & Whitney",
+                "Model": "PW4460",
+                "Thrust": "60,000 lbf",
+                "Bypass ratio": "5.0:1",
+                "Fan stage": "Single-stage fan",
+                "Low-pressure compressor stages": "4",
+                "High-pressure compressor stages": "11",
+                "High-pressure turbine stages": "2",
+                "Low-pressure turbine stages": "5",
+                "Climb rate": 2900,
+                "Descend rate": 2400,
+                "Cruise climb rate": 1900,
+                "Landing descend rate": 1400,
+                "Fan blade diameter": "94 in",
+                "Fuel type": "Jet-A, Aviation kerosene",
+                "Pressure ratio": "32:1"
+            }
+        },
+        "Other Details": {
+            "Noise Levels": {
+                "Takeoff": "95 dB",
+                "Landing": "90 dB",
+                "Cruise": "85 dB"
+            },
+            "operation_cost": "10 million",
+            "certification_standards": [
+                "FAA",
+                "EASA"
+            ],
+            "Body Type": "Wide-body",
+            "Number of Decks": 1,
+            "Materials": {
+                "Fuselage": "Aluminum alloy",
+                "Wings": "Aluminum alloy"
+            },
+            "Commercial Operators": [
+                "FedEx Express",
+                "UPS Airlines",
+                "Western Global Airlines",
+                "Lufthansa Cargo"
+            ],
+            "Flaps system": "Dial-A-Flap",
+            "Number of flap stages": "Variable between 10 and 25 degrees",
+            "Maximum flap angle": "50 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Composite materials"
+        }
+    },
+    "MD-11CF": {
+        "General Information": {
+            "Manufacturer": "McDonnell Douglas",
+            "Family": "MD-11",
+            "First Flight": "January 10, 1990",
+            "Model Build": "200",
+            "Entered Service": "December 20, 1990 with Finnair",
+            "Type": "Wide-body jet airliner",
+            "Engine Type": "High-bypass turbofan",
+            "number of engines": "3",
+            "Price Tag": "120 million USD (1990)",
+            "Fly range category": "Long range",
+            "seat config": [
+                "2-4-2"
+            ],
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.1dbda97d5c5912450001b65ffbce429b?rik=ZjfACQlih5qSJg&pid=ImgRaw&r=0",
+                "https://imgproc.airliners.net/photos/airliners/1/8/5/1298581.jpg?v=v40"
+            ]
+        },
+        "Dimensions": {
+            "Length": "61.6 m",
+            "Wingspan": "51.6 m",
+            "Cabin Length": "41.5 m",
+            "Fuselage Max Diameter": "6.02 m",
+            "Max Cabin Width": "5.71 m",
+            "Aspect ratio": 7.91,
+            "Wing area": "338.9 m^3"
+        },
+        "Weights": {
+            "Max Landing Weight": "213.2 tons",
+            "Empty Weight": "132.0 tons",
+            "Max Takeoff Weight": "286.0 tons"
+        },
+        "Performance": {
+            "Fuel Capacity": 146500,
+            "Range": "7,240 nautical miles",
+            "Flight Ceiling": "43,000 feet",
+            "Takeoff Distance": "3,200 m",
+            "Landing Distance": "2,200 m",
+            "Passenger Capacity": {
+                "Max": "410",
+                "Typical": "285"
+            },
+            "Cargo Capacity": "15,530 cubic feet",
+            "Avionics": {
+                "Common_suite": "Honeywell",
+                "FMS": "Yes",
+                "EFIS": "Yes",
+                "AFCS": "Yes",
+                "TAWS": "Yes",
+                "HUD": "No"
+            }
+        },
+        "Speed": {
+            "Cruise Speed": {
+                "Mach": "0.82",
+                "Knots": "473"
+            },
+            "Max Speed": {
+                "Mach": "0.87",
+                "Knots": "519"
+            },
+            "V2 speed": "160 knots",
+            "Stall speed": "120 knots"
+        },
+        "Engines": [
+            {
+                "Engine_name": {
+                    "Manufacturer": "General Electric",
+                    "Model": "CF6-80C2D1F",
+                    "Thrust": "61,500 lbf",
+                    "Bypass ratio": "5.0:1",
+                    "Fan stage": "Single-stage fan",
+                    "Low-pressure compressor stages": "4",
+                    "High-pressure compressor stages": "14",
+                    "High-pressure turbine stages": "2",
+                    "Low-pressure turbine stages": "5",
+                    "Climb rate": 2500,
+                    "Descend rate": 2000,
+                    "Cruise climb rate": 1500,
+                    "Landing descend rate": 1000,
+                    "Fan blade diameter": "93 inches",
+                    "Fuel type": "Jet-A, Aviation kerosene",
+                    "Pressure ratio": "30:1"
+                }
+            },
+            {
+                "Engine_name": {
+                    "Manufacturer": "Pratt & Whitney",
+                    "Model": "PW4460",
+                    "Thrust": "60,000 lbf",
+                    "Bypass ratio": "5.1:1",
+                    "Fan stage": "Single-stage fan",
+                    "Low-pressure compressor stages": "4",
+                    "High-pressure compressor stages": "11",
+                    "High-pressure turbine stages": "2",
+                    "Low-pressure turbine stages": "5",
+                    "Climb rate": 2400,
+                    "Descend rate": 1900,
+                    "Cruise climb rate": 1400,
+                    "Landing descend rate": 900,
+                    "Fan blade diameter": "94 inches",
+                    "Fuel type": "Jet-A, Aviation kerosene",
+                    "Pressure ratio": "32:1"
+                }
+            }
+        ],
+        "Other Details": {
+            "Noise Levels": {
+                "Takeoff": "95 dB",
+                "Landing": "90 dB",
+                "Cruise": "85 dB"
+            },
+            "operation_cost": "10 million USD per year",
+            "certification_standards": [
+                "FAA",
+                "EASA"
+            ],
+            "Body Type": "Wide-body",
+            "Number of Decks": 1,
+            "Materials": {
+                "Fuselage": "Aluminum alloy",
+                "Wings": "Aluminum alloy"
+            },
+            "Commercial Operators": [
+                "FedEx Express",
+                "UPS Airlines",
+                "Western Global Airlines",
+                "Lufthansa Cargo"
+            ],
+            "Flaps system": "Dial-A-Flap",
+            "Number of flap stages": "Variable between 10 and 25 degrees",
+            "Maximum flap angle": "50 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Composite materials"
+        }
+    },
+    "MD-11ER": {
+        "General Information": {
+            "Manufacturer": "McDonnell Douglas",
+            "Family": "MD-11",
+            "First Flight": "January 10, 1990",
+            "Model Build": "200",
+            "Entered Service": "December 20, 1990 with Finnair",
+            "Type": "Wide-body jet airliner",
+            "Engine Type": "High-bypass turbofan",
+            "number of engines": "3",
+            "Price Tag": "120 million USD (1990)",
+            "Fly range category": "Long range",
+            "seat config": [
+                "2-4-2"
+            ],
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.3313061086a3f03b73360e33c85be87e?rik=dp6G%2fjPRT7ElxQ&pid=ImgRaw&r=0",
+                "https://th.bing.com/th/id/R.ff81c217152615c64456f5b4bee79d5d?rik=q746LuHJzY1vqw&riu=http%3a%2f%2fimgproc.airliners.net%2fphotos%2fairliners%2f9%2f2%2f7%2f2005729.jpg%3fv%3dv40&ehk=yeHmb0QOfTYTZjN6fnVlmX0Bq3vF0lfnN2zaGSn2kRI%3d&risl=&pid=ImgRaw&r=0"
+            ]
+        },
+        "Dimensions": {
+            "Length": "61.6 m",
+            "Wingspan": "51.97 m",
+            "Cabin Length": "41.5 m",
+            "Fuselage Max Diameter": "6.02 m",
+            "Max Cabin Width": "5.71 m",
+            "Aspect ratio": 7.91,
+            "Wing area": "338.9 m^3"
+        },
+        "Weights": {
+            "Max Landing Weight": "213.2 tons",
+            "Empty Weight": "132.0 tons",
+            "Max Takeoff Weight": "286.0 tons"
+        },
+        "Performance": {
+            "Fuel Capacity": 146500,
+            "Range": "7,240 nautical miles",
+            "Flight Ceiling": "43,000 feet",
+            "Takeoff Distance": "3,200 m",
+            "Landing Distance": "2,200 m",
+            "Passenger Capacity": {
+                "Max": "410",
+                "Typical": "285"
+            },
+            "Cargo Capacity": "15,530 cubic feet",
+            "Avionics": {
+                "Common_suite": "Honeywell",
+                "FMS": "Yes",
+                "EFIS": "Yes",
+                "AFCS": "Yes",
+                "TAWS": "Yes",
+                "HUD": "No"
+            }
+        },
+        "Speed": {
+            "Cruise Speed": {
+                "Mach": "0.82",
+                "Knots": "473"
+            },
+            "Max Speed": {
+                "Mach": "0.87",
+                "Knots": "519"
+            },
+            "V2 speed": "160 knots",
+            "Stall speed": "120 knots"
+        },
+        "Engines": [
+            {
+                "Engine_name": {
+                    "Manufacturer": "General Electric",
+                    "Model": "CF6-80C2D1F",
+                    "Thrust": "61,500 lbf",
+                    "Bypass ratio": "5.0:1",
+                    "Fan stage": "Single-stage fan",
+                    "Low-pressure compressor stages": "4",
+                    "High-pressure compressor stages": "14",
+                    "High-pressure turbine stages": "2",
+                    "Low-pressure turbine stages": "5",
+                    "Climb rate": 2500,
+                    "Descend rate": 2000,
+                    "Cruise climb rate": 1500,
+                    "Landing descend rate": 1000,
+                    "Fan blade diameter": "93 inches",
+                    "Fuel type": "Jet-A, Aviation kerosene",
+                    "Pressure ratio": "30:1"
+                }
+            },
+            {
+                "Engine_name": {
+                    "Manufacturer": "Pratt & Whitney",
+                    "Model": "PW4460",
+                    "Thrust": "60,000 lbf",
+                    "Bypass ratio": "5.1:1",
+                    "Fan stage": "Single-stage fan",
+                    "Low-pressure compressor stages": "4",
+                    "High-pressure compressor stages": "11",
+                    "High-pressure turbine stages": "2",
+                    "Low-pressure turbine stages": "5",
+                    "Climb rate": 2400,
+                    "Descend rate": 1900,
+                    "Cruise climb rate": 1400,
+                    "Landing descend rate": 900,
+                    "Fan blade diameter": "94 inches",
+                    "Fuel type": "Jet-A, Aviation kerosene",
+                    "Pressure ratio": "32:1"
+                }
+            },
+            {
+                "Engine_name": {
+                    "Manufacturer": "Pratt & Whitney",
+                    "Model": "PW4462",
+                    "Thrust": "62,000 lbf",
+                    "Bypass ratio": "5.2:1",
+                    "Fan stage": "Single-stage fan",
+                    "Low-pressure compressor stages": "4",
+                    "High-pressure compressor stages": "11",
+                    "High-pressure turbine stages": "2",
+                    "Low-pressure turbine stages": "5",
+                    "Climb rate": 2600,
+                    "Descend rate": 2000,
+                    "Cruise climb rate": 1500,
+                    "Landing descend rate": 1000,
+                    "Fan blade diameter": "94 inches",
+                    "Fuel type": "Jet-A, Aviation kerosene",
+                    "Pressure ratio": "32:1"
+                }
+            }
+        ],
+        "Other Details": {
+            "Noise Levels": {
+                "Takeoff": "95 dB",
+                "Landing": "90 dB",
+                "Cruise": "85 dB"
+            },
+            "operation_cost": "10 million USD per year",
+            "certification_standards": [
+                "FAA",
+                "EASA"
+            ],
+            "Body Type": "Wide-body",
+            "Number of Decks": 1,
+            "Materials": {
+                "Fuselage": "Aluminum alloy",
+                "Wings": "Aluminum alloy"
+            },
+            "Commercial Operators": [
+                "FedEx Express",
+                "UPS Airlines",
+                "Western Global Airlines",
+                "Lufthansa Cargo"
+            ],
+            "Flaps system": "Dial-A-Flap",
+            "Number of flap stages": "Variable between 10 and 25 degrees",
+            "Maximum flap angle": "50 degrees",
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Composite materials"
+        }
+    },
+    "ATR-42-300": {
+        "General Information": {
+            "Manufacturer": "ATR",
+            "Family": "ATR 42",
+            "First Flight": "August 16, 1984",
+            "Model Build": "503",
+            "Entered Service": "December 1985 with Air Littoral",
+            "Type": "Narrow-body turboprop airliner",
+            "Engine Type": "Turboprop",
+            "Number of Engines": 2,
+            "Price Tag": "19.5 million USD (1997)",
+            "Fly range category": "Close-mid range",
+            "seat config": [
+                "2-2"
+            ],
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.441090399749b38597d6e8a059c83230?rik=MjrF7C0mUzlICw&pid=ImgRaw&r=0",
+                "https://th.bing.com/th/id/R.2d9a525db57ee113e7ac089ff34a73ba?rik=EXC5Scexpi1lGA&pid=ImgRaw&r=0"
+            ]
+        },
+        "Dimensions": {
+            "Length": "22.67 m",
+            "Wingspan": "24.57 m",
+            "Cabin Length": "12.6 m",
+            "Fuselage Max Diameter": "2.57 m",
+            "Max Cabin Width": "2.57 m",
+            "Aspect ratio": 11.0,
+            "Wing area": "54.5 m^3"
+        },
+        "Weights": {
+            "Max Landing Weight": "16.4 tons",
+            "Empty Weight": "10.285 tons",
+            "Max Takeoff Weight": "16.7 tons"
+        },
+        "Performance": {
+            "Fuel Capacity": "4,500 L",
+            "Range": "449 NM",
+            "Flight Ceiling": "25,000 ft",
+            "Takeoff Distance": "1,090 m",
+            "Landing Distance": "887 m",
+            "Passenger Capacity": {
+                "Max": 50,
+                "Typical": 48
+            },
+            "Cargo Capacity": "1,000 gallons",
+            "Avionics": {
+                "Common_suite": "Honeywell",
+                "FMS": "Yes",
+                "EFIS": "Yes",
+                "AFCS": "Yes",
+                "TAWS": "Yes",
+                "HUD": "No"
+            }
+        },
+        "Speed": {
+            "Cruise Speed": {
+                "Mach": "0.44",
+                "Knots": "266"
+            },
+            "Max Speed": {
+                "Mach": "0.45",
+                "Knots": "270"
+            },
+            "V2 speed": "108 knots",
+            "Stall speed": "103 knots"
+        },
+        "Engines": {
+            "PW120": {
+                "Manufacturer": "Pratt & Whitney Canada",
+                "Model": "PW120",
+                "Thrust": "767 lbf",
+                "Bypass ratio": "N/A",
+                "Fan stage": "N/A",
+                "Low-pressure compressor stages": "N/A",
+                "High-pressure compressor stages": "N/A",
+                "High-pressure turbine stages": "N/A",
+                "Low-pressure turbine stages": "N/A",
+                "Climb rate": 1320,
+                "Descend rate": 1200,
+                "Cruise climb rate": 1100,
+                "Landing descend rate": 1000,
+                "Fan blade diameter": "107.8",
+                "Fuel type": "Jet-A",
+                "Pressure ratio": "N/A"
+            }
+        },
+        "Other Details": {
+            "Noise Levels": {
+                "Takeoff": "85 dB",
+                "Landing": "82 dB",
+                "Cruise": "80 dB"
+            },
+            "operation_cost": "1.5 million USD",
+            "certification_standards": [
+                "FAA",
+                "EASA"
+            ],
+            "Body Type": "Narrow-body",
+            "Number of Decks": 1,
+            "Materials": {
+                "Fuselage": "Aluminum",
+                "Wings": "Aluminum"
+            },
+            "Commercial Operators": [
+                "Air Littoral",
+                "FedEx Feeder",
+                "Canadian North",
+                "Silver Airways"
+            ],
+            "Flaps system": "Hydraulically actuated",
+            "Number of flap stages": 3,
+            "Maximum flap angle": 45,
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
+        }
+    },
+    "ATR-42-500": {
+        "General Information": {
+            "Manufacturer": "ATR",
+            "Family": "ATR 42",
+            "First Flight": "1984",
+            "Model Build": "503",
+            "Entered Service": "December 1985 with Air Littoral",
+            "Type": "Turboprop regional airliner",
+            "Engine Type": "Turboprop",
+            "Number of Engines": "2",
+            "Price Tag": "12.1 million (2021)",
+            "Fly range category": "Close-mid range",
+            "seat config": [
+                "2-2"
+            ],
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.001d016f6d7d3995f666e812128097f0?rik=RbzOkwS9iQTALA&pid=ImgRaw&r=0",
+                "https://th.bing.com/th/id/R.2e3d572c6e2013487da129e06d1cff85?rik=2iiCAnT%2b%2bLiW%2bg&pid=ImgRaw&r=0"
+            ]
+        },
+        "Dimensions": {
+            "Length": "22.67 m",
+            "Wingspan": "24.57 m",
+            "Cabin Length": "12.62 m",
+            "Fuselage Max Diameter": "2.57 m",
+            "Max Cabin Width": "2.57 m",
+            "Aspect ratio": 11.0,
+            "Wing area": "54.5 m^3"
+        },
+        "Weights": {
+            "Max Landing Weight": "18.3 tons",
+            "Empty Weight": "11.25 tons",
+            "Max Takeoff Weight": "18.6 tons"
+        },
+        "Performance": {
+            "Fuel Capacity": 5700,
+            "Range": "716 nautical miles",
+            "Flight Ceiling": "25,000 feet",
+            "Takeoff Distance": "1,165 meters",
+            "Landing Distance": "964 meters",
+            "Passenger Capacity": {
+                "Max": "50",
+                "Typical": "48"
+            },
+            "Cargo Capacity": "1,378 gallons",
+            "Avionics": {
+                "Common_suite": "Honeywell",
+                "FMS": "Yes",
+                "EFIS": "Yes",
+                "AFCS": "Yes",
+                "TAWS": "Yes",
+                "HUD": "No"
+            }
+        },
+        "Speed": {
+            "Cruise Speed": {
+                "Mach": "0.44",
+                "Knots": "300"
+            },
+            "Max Speed": {
+                "Mach": "0.44",
+                "Knots": "300"
+            },
+            "V2 speed": "104 knots",
+            "Stall speed": "104 knots"
+        },
+        "Engines": {
+            "PW127E": {
+                "Manufacturer": "Pratt & Whitney Canada",
+                "Model": "PW127E",
+                "Thrust": "2,400 lbf",
+                "Bypass ratio": "N/A",
+                "Fan stage": "N/A",
+                "Low-pressure compressor stages": "N/A",
+                "High-pressure compressor stages": "N/A",
+                "High-pressure turbine stages": "N/A",
+                "Low-pressure turbine stages": "N/A",
+                "Climb rate": 1851,
+                "Descend rate": 1851,
+                "Cruise climb rate": 1851,
+                "Landing descend rate": 1851,
+                "Fan blade diameter": "N/A",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "N/A"
+            }
+        },
+        "Other Details": {
+            "Noise Levels": {
+                "Takeoff": "N/A",
+                "Landing": "N/A",
+                "Cruise": "N/A",
+                "operation_cost": "N/A",
+                "certification_standards": [
+                    "FAA",
+                    "EASA"
+                ]
+            },
+            "Body Type": "Narrow-body",
+            "Number of Decks": 1,
+            "Materials": {
+                "Fuselage": "Aluminum",
+                "Wings": "Aluminum"
+            },
+            "Commercial Operators": [
+                "Air Littoral",
+                "FedEx Feeder",
+                "Canadian North",
+                "Silver Airways",
+                "First Air",
+                "Easyfly",
+                "Tarom",
+                "Sky Express",
+                "Nordstar Airlines"
+            ],
+            "Flaps system": "Hydraulically actuated",
+            "Number of flap stages": 3,
+            "Maximum flap angle": 35,
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
+        }
+    },
+    "ATR-42-600": {
+        "General Information": {
+            "Manufacturer": "ATR",
+            "Family": "ATR 42",
+            "First Flight": "1984",
+            "Model Build": "Ongoing (still in production)",
+            "Entered Service": "2012 with Air Tahiti",
+            "Type": "Narrow-body turboprop airliner",
+            "Engine Type": "Turboprop",
+            "Number of Engines": 2,
+            "Price Tag": "19.5 million USD (2012)",
+            "Fly range category": "Close-mid range",
+            "seat config": [
+                "2-2"
+            ],
+            "aircraft_image": [
+                "https://imgproc.airliners.net/photos/airliners/1/5/6/2316651.jpg?v=v40",
+                "https://th.bing.com/th/id/R.0de32e90ffc995c2cad647a4c5954918?rik=M0jEORMEiOG2fw&pid=ImgRaw&r=0"
+            ]
+        },
+        "Dimensions": {
+            "Length": "22.67 m",
+            "Wingspan": "24.57 m",
+            "Cabin Length": "12.6 m",
+            "Fuselage Max Diameter": "2.57 m",
+            "Max Cabin Width": "2.57 m",
+            "Aspect ratio": 11.0,
+            "Wing area": "54.5 m^3"
+        },
+        "Weights": {
+            "Max Landing Weight": "18.3 tons",
+            "Empty Weight": "11.55 tons",
+            "Max Takeoff Weight": "18.6 tons"
+        },
+        "Performance": {
+            "Fuel Capacity": "1,320 US gallons (4,997 liters)",
+            "Range": "716 nautical miles",
+            "Flight Ceiling": "25,000 feet",
+            "Takeoff Distance": "1,036 meters",
+            "Landing Distance": "884 meters",
+            "Passenger Capacity": {
+                "Max": 50,
+                "Typical": 48
+            },
+            "Cargo Capacity": "1,200 gallons",
+            "Avionics": {
+                "Common_suite": "Thales Avionics Suite",
+                "FMS": "Yes",
+                "EFIS": "Yes",
+                "AFCS": "Yes",
+                "TAWS": "Yes",
+                "HUD": "No"
+            }
+        },
+        "Speed": {
+            "Cruise Speed": {
+                "Mach": "0.44",
+                "Knots": "300 knots"
+            },
+            "Max Speed": {
+                "Mach": "0.44",
+                "Knots": "300 knots"
+            },
+            "V2 speed": "120 knots",
+            "Stall speed": "90 knots"
+        },
+        "Engines": {
+            "PW127M": {
+                "Manufacturer": "Pratt & Whitney Canada",
+                "Model": "PW127M",
+                "Thrust": "2,160 lbf",
+                "Bypass ratio": "N/A",
+                "Fan stage": "N/A",
+                "Low-pressure compressor stages": "N/A",
+                "High-pressure compressor stages": "N/A",
+                "High-pressure turbine stages": "N/A",
+                "Low-pressure turbine stages": "N/A",
+                "Climb rate": 1851,
+                "Descend rate": 1500,
+                "Cruise climb rate": 1600,
+                "Landing descend rate": 1200,
+                "Fan blade diameter": "N/A",
+                "Fuel type": "Jet A-1",
+                "Pressure ratio": "N/A"
+            }
+        },
+        "Other Details": {
+            "Noise Levels": {
+                "Takeoff": "85 dB",
+                "Landing": "82 dB",
+                "Cruise": "80 dB"
+            },
+            "operation_cost": "1.5 million USD",
+            "certification_standards": [
+                "FAA",
+                "EASA"
+            ],
+            "Body Type": "Narrow-body",
+            "Number of Decks": 1,
+            "Materials": {
+                "Fuselage": "Aluminum alloy",
+                "Wings": "Aluminum alloy"
+            },
+            "Commercial Operators": [
+                "Air Tahiti",
+                "Silver Airways",
+                "Bahamasair",
+                "Air Botswana"
+            ],
+            "Flaps system": "Hydraulically actuated",
+            "Number of flap stages": 3,
+            "Maximum flap angle": 35,
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
+        }
+    },
+    "ATR-42-600S": {
+        "General Information": {
+            "Manufacturer": "ATR",
+            "Family": "ATR 42",
+            "First Flight": "1984",
+            "Model Build": "Ongoing (still in production)",
+            "Entered Service": "1985",
+            "Type": "Narrow-body turboprop airliner",
+            "Engine Type": "Turboprop",
+            "Number of Engines": 2,
+            "Price Tag": "19.5 million USD (2023)",
+            "Fly range category": "Close-mid range",
+            "seat config": [
+                "2-2"
+            ],
+            "aircraft_image": [
+                "https://imgproc.airliners.net/photos/airliners/3/2/0/7168023.jpg?v=v422ee11d3d2",
+                "https://th.bing.com/th/id/OIP.cQfuWgNxX4ZHrsjxX28cSQHaE8?rs=1&pid=ImgDetMain"
+            ]
+        },
+        "Dimensions": {
+            "Length": "22.67 m",
+            "Wingspan": "24.57 m",
+            "Cabin Length": "12.69 m",
+            "Fuselage Max Diameter": "2.57 m",
+            "Max Cabin Width": "2.57 m",
+            "Aspect ratio": 11.0,
+            "Wing area": "54.5 m^3"
+        },
+        "Weights": {
+            "Max Landing Weight": "16.7 tons",
+            "Empty Weight": "11.25 tons",
+            "Max Takeoff Weight": "18.6 tons"
+        },
+        "Performance": {
+            "Fuel Capacity": 5000,
+            "Range": "716 nautical miles",
+            "Flight Ceiling": "25,000 feet",
+            "Takeoff Distance": "800 meters",
+            "Landing Distance": "800 meters",
+            "Passenger Capacity": {
+                "Max": 50,
+                "Typical": 42
+            },
+            "Cargo Capacity": "1,200 gallons",
+            "Avionics": {
+                "Common_suite": "Thales",
+                "FMS": "Yes",
+                "EFIS": "Yes",
+                "AFCS": "Yes",
+                "TAWS": "Yes",
+                "HUD": "No"
+            }
+        },
+        "Speed": {
+            "Cruise Speed": {
+                "Mach": "0.44",
+                "Knots": "300 knots"
+            },
+            "Max Speed": {
+                "Mach": "0.48",
+                "Knots": "315 knots"
+            },
+            "V2 speed": "120 knots",
+            "Stall speed": "90 knots"
+        },
+        "Engines": {
+            "PW127M": {
+                "Manufacturer": "Pratt & Whitney Canada",
+                "Model": "PW127M",
+                "Thrust": "2,400 SHP",
+                "Bypass ratio": "N/A",
+                "Fan stage": "N/A",
+                "Low-pressure compressor stages": "N/A",
+                "High-pressure compressor stages": "N/A",
+                "High-pressure turbine stages": "N/A",
+                "Low-pressure turbine stages": "N/A",
+                "Climb rate": 1851,
+                "Descend rate": 1500,
+                "Cruise climb rate": 1500,
+                "Landing descend rate": 1500,
+                "Fan blade diameter": "N/A",
+                "Fuel type": "Jet A1",
+                "Pressure ratio": "N/A"
+            }
+        },
+        "Other Details": {
+            "Noise Levels": {
+                "Takeoff": "85 dB",
+                "Landing": "82 dB",
+                "Cruise": "80 dB"
+            },
+            "operation_cost": "1.2 million USD per year",
+            "certification_standards": [
+                "FAA",
+                "EASA"
+            ],
+            "Body Type": "Narrow-body",
+            "Number of Decks": 1,
+            "Materials": {
+                "Fuselage": "Aluminum alloy",
+                "Wings": "Aluminum alloy"
+            },
+            "Commercial Operators": [
+                "Air Tahiti",
+                "Silver Airways",
+                "HOP!",
+                "Nordic Aviation Capital"
+            ],
+            "Flaps system": "Hydraulically actuated",
+            "Number of flap stages": 3,
+            "Maximum flap angle": 25,
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
+        }
+    },
+    "ATR-72-200": {
+        "General Information": {
+            "Manufacturer": "ATR",
+            "Family": "ATR 72",
+            "First Flight": "October 27, 1988",
+            "Model Build": "472 built (as of 2023)",
+            "Entered Service": "October 27, 1989 with Karair",
+            "Type": "Narrow-body turboprop airliner",
+            "Engine Type": "Turboprop",
+            "Number of Engines": 2,
+            "Price Tag": "24.7 million USD (2020)",
+            "Fly range category": "Close-mid range",
+            "seat config": [
+                "2-2"
+            ],
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.d2a570be6a8f9de3355768ac60e1f0bc?rik=NV7Tcs7BTEnQHA&pid=ImgRaw&r=0",
+                "https://th.bing.com/th/id/R.334ece7c62e01157fe57af83699ef2b4?rik=n1Lr6bVmhZWbFg&pid=ImgRaw&r=0"
+            ]
+        },
+        "Dimensions": {
+            "Length": "27.17 m",
+            "Wingspan": "27.05 m",
+            "Cabin Length": "20.42 m",
+            "Fuselage Max Diameter": "2.57 m",
+            "Max Cabin Width": "2.57 m",
+            "Aspect ratio": 12.0,
+            "Wing area": "61.0 m^3"
+        },
+        "Weights": {
+            "Max Landing Weight": "21.35 tons",
+            "Empty Weight": "12.4 tons",
+            "Max Takeoff Weight": "21.5 tons"
+        },
+        "Performance": {
+            "Fuel Capacity": 6200,
+            "Range": "862 NM",
+            "Flight Ceiling": "25,000 ft",
+            "Takeoff Distance": "1,409 m",
+            "Landing Distance": "1,036 m",
+            "Passenger Capacity": {
+                "Max": 74,
+                "Typical": 66
+            },
+            "Cargo Capacity": "5,700 L",
+            "Avionics": {
+                "Common_suite": "Honeywell",
+                "FMS": "Yes",
+                "EFIS": "Yes",
+                "AFCS": "Yes",
+                "TAWS": "Yes",
+                "HUD": "No"
+            }
+        },
+        "Speed": {
+            "Cruise Speed": {
+                "Mach": "0.44",
+                "Knots": "278"
+            },
+            "Max Speed": {
+                "Mach": "0.47",
+                "Knots": "284"
+            },
+            "V2 speed": "115 knots",
+            "Stall speed": "114 knots"
+        },
+        "Engines": {
+            "PW124B": {
+                "Manufacturer": "Pratt & Whitney Canada",
+                "Model": "PW124B",
+                "Thrust": "4,850 lbf",
+                "Bypass ratio": "N/A",
+                "Fan stage": "N/A",
+                "Low-pressure compressor stages": "N/A",
+                "High-pressure compressor stages": "N/A",
+                "High-pressure turbine stages": "N/A",
+                "Low-pressure turbine stages": "N/A",
+                "Climb rate": 1390,
+                "Descend rate": 1000,
+                "Cruise climb rate": 1200,
+                "Landing descend rate": 800,
+                "Fan blade diameter": "N/A",
+                "Fuel type": "Jet A-1",
+                "Pressure ratio": "N/A"
+            },
+            "PW127M": {
+                "Manufacturer": "Pratt & Whitney Canada",
+                "Model": "PW127M",
+                "Thrust": "5,550 lbf",
+                "Bypass ratio": "N/A",
+                "Fan stage": "N/A",
+                "Low-pressure compressor stages": "N/A",
+                "High-pressure compressor stages": "N/A",
+                "High-pressure turbine stages": "N/A",
+                "Low-pressure turbine stages": "N/A",
+                "Climb rate": 1390,
+                "Descend rate": 1000,
+                "Cruise climb rate": 1200,
+                "Landing descend rate": 800,
+                "Fan blade diameter": "N/A",
+                "Fuel type": "Jet A-1",
+                "Pressure ratio": "N/A"
+            }
+        },
+        "Other Details": {
+            "Noise Levels": {
+                "Takeoff": "85 dB",
+                "Landing": "82 dB",
+                "Cruise": "80 dB"
+            },
+            "operation_cost": "1.2 million USD per year",
+            "certification_standards": [
+                "FAA",
+                "EASA"
+            ],
+            "Body Type": "Narrow-body",
+            "Number of Decks": 1,
+            "Materials": {
+                "Fuselage": "Aluminum alloy",
+                "Wings": "Aluminum alloy"
+            },
+            "Commercial Operators": [
+                "Karair",
+                "Air France",
+                "American Eagle",
+                "FedEx Express"
+            ],
+            "Flaps system": "Hydraulically actuated",
+            "Number of flap stages": 2,
+            "Maximum flap angle": 30,
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
+        }
+    },
+    "ATR-72-210": {
+        "General Information": {
+            "Manufacturer": "ATR",
+            "Family": "ATR 72",
+            "First Flight": "October 27, 1988",
+            "Model Build": "472 built (as of 2023)",
+            "Entered Service": "October 27, 1989 with Karair",
+            "Type": "Narrow-body turboprop airliner",
+            "Engine Type": "Turboprop",
+            "Number of Engines": 2,
+            "Price Tag": "24.7 million USD (2020)",
+            "Fly range category": "Close-mid range",
+            "seat config": [
+                "2-2"
+            ],
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.b96d7ea1b97698eeec1df519c470fc67?rik=TgrfApSO0NNmhQ&riu=http%3a%2f%2fwww.airteamimages.com%2fpics%2f200%2f200891_800.jpg&ehk=6hLg3fDouJz8WbU5JiKR9mRw4%2bABAgi8f1QCOdl50ZU%3d&risl=&pid=ImgRaw&r=0",
+                "https://th.bing.com/th/id/OIP.v3ys2t_ifEqiPCD5e222zwHaFB?rs=1&pid=ImgDetMain"
+            ]
+        },
+        "Dimensions": {
+            "Length": "27.17 m",
+            "Wingspan": "27.05 m",
+            "Cabin Length": "20.42 m",
+            "Fuselage Max Diameter": "2.57 m",
+            "Max Cabin Width": "2.57 m",
+            "Aspect ratio": 12.0,
+            "Wing area": "61.0 m^3"
+        },
+        "Weights": {
+            "Max Landing Weight": "21.35 tons",
+            "Empty Weight": "12.4 tons",
+            "Max Takeoff Weight": "21.5 tons"
+        },
+        "Performance": {
+            "Fuel Capacity": 6200,
+            "Range": "862 NM",
+            "Flight Ceiling": "25,000 ft",
+            "Takeoff Distance": "1,409 m",
+            "Landing Distance": "1,036 m",
+            "Passenger Capacity": {
+                "Max": 74,
+                "Typical": 66
+            },
+            "Cargo Capacity": "5,700 L",
+            "Avionics": {
+                "Common_suite": "Honeywell",
+                "FMS": "Yes",
+                "EFIS": "Yes",
+                "AFCS": "Yes",
+                "TAWS": "Yes",
+                "HUD": "No"
+            }
+        },
+        "Speed": {
+            "Cruise Speed": {
+                "Mach": "0.44",
+                "Knots": "278"
+            },
+            "Max Speed": {
+                "Mach": "0.47",
+                "Knots": "284"
+            },
+            "V2 speed": "115 knots",
+            "Stall speed": "114 knots"
+        },
+        "Engines": {
+            "PW124B": {
+                "Manufacturer": "Pratt & Whitney Canada",
+                "Model": "PW124B",
+                "Thrust": "4,850 lbf",
+                "Bypass ratio": "N/A",
+                "Fan stage": "N/A",
+                "Low-pressure compressor stages": "N/A",
+                "High-pressure compressor stages": "N/A",
+                "High-pressure turbine stages": "N/A",
+                "Low-pressure turbine stages": "N/A",
+                "Climb rate": 1390,
+                "Descend rate": 1000,
+                "Cruise climb rate": 1200,
+                "Landing descend rate": 800,
+                "Fan blade diameter": "N/A",
+                "Fuel type": "Jet A-1",
+                "Pressure ratio": "N/A"
+            },
+            "PW127M": {
+                "Manufacturer": "Pratt & Whitney Canada",
+                "Model": "PW127M",
+                "Thrust": "5,550 lbf",
+                "Bypass ratio": "N/A",
+                "Fan stage": "N/A",
+                "Low-pressure compressor stages": "N/A",
+                "High-pressure compressor stages": "N/A",
+                "High-pressure turbine stages": "N/A",
+                "Low-pressure turbine stages": "N/A",
+                "Climb rate": 1390,
+                "Descend rate": 1000,
+                "Cruise climb rate": 1200,
+                "Landing descend rate": 800,
+                "Fan blade diameter": "N/A",
+                "Fuel type": "Jet A-1",
+                "Pressure ratio": "N/A"
+            }
+        },
+        "Other Details": {
+            "Noise Levels": {
+                "Takeoff": "85 dB",
+                "Landing": "82 dB",
+                "Cruise": "80 dB"
+            },
+            "operation_cost": "1.2 million USD per year",
+            "certification_standards": [
+                "FAA",
+                "EASA"
+            ],
+            "Body Type": "Narrow-body",
+            "Number of Decks": 1,
+            "Materials": {
+                "Fuselage": "Aluminum alloy",
+                "Wings": "Aluminum alloy"
+            },
+            "Commercial Operators": [
+                "Karair",
+                "Air France",
+                "American Eagle",
+                "FedEx Express"
+            ],
+            "Flaps system": "Hydraulically actuated",
+            "Number of flap stages": 2,
+            "Maximum flap angle": 30,
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
+        }
+    },
+    "ATR-72-500": {
+        "General Information": {
+            "Manufacturer": "ATR",
+            "Family": "ATR 72",
+            "First Flight": "October 27, 1988",
+            "Model Build": "Ongoing (still in production)",
+            "Entered Service": "October 27, 1989 with Finnair",
+            "Type": "Narrow-body turboprop airliner",
+            "Engine Type": "Turboprop",
+            "Number of Engines": 2,
+            "Price Tag": "14.4 million USD (2021)",
+            "Fly range category": "Mid-range",
+            "seat config": [
+                "2-2"
+            ],
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.713a0e137fe547c05cd1040865ed2f4d?rik=gKqp99fufgVjGQ&pid=ImgRaw&r=0",
+                "https://th.bing.com/th/id/R.af02ec172e08ea203eb58abcb5650730?rik=WhASfHrUYEK7Ow&pid=ImgRaw&r=0"
+            ]
+        },
+        "Dimensions": {
+            "Length": "27.17 m",
+            "Wingspan": "27.05 m",
+            "Cabin Length": "20.42 m",
+            "Fuselage Max Diameter": "2.57 m",
+            "Max Cabin Width": "2.57 m",
+            "Aspect ratio": 12.0,
+            "Wing area": "61.0 m^3"
+        },
+        "Weights": {
+            "Max Landing Weight": "21.85 tons",
+            "Empty Weight": "12.95 tons",
+            "Max Takeoff Weight": "22.8 tons"
+        },
+        "Performance": {
+            "Fuel Capacity": 5700,
+            "Range": "825 nm",
+            "Flight Ceiling": "25,000 ft",
+            "Takeoff Distance": "1,220 m",
+            "Landing Distance": "1,067 m",
+            "Passenger Capacity": {
+                "Max": 74,
+                "Typical": 68
+            },
+            "Cargo Capacity": "19,000 L",
+            "Avionics": {
+                "Common_suite": "Honeywell",
+                "FMS": "Yes",
+                "EFIS": "Yes",
+                "AFCS": "Yes",
+                "TAWS": "Yes",
+                "HUD": "No"
+            }
+        },
+        "Speed": {
+            "Cruise Speed": {
+                "Mach": "0.41",
+                "Knots": "275"
+            },
+            "Max Speed": {
+                "Mach": "0.45",
+                "Knots": "284"
+            },
+            "V2 speed": "115 knots",
+            "Stall speed": "113 knots"
+        },
+        "Engines": {
+            "PW127F": {
+                "Manufacturer": "Pratt & Whitney Canada",
+                "Model": "PW127F",
+                "Thrust": "1,850 lbf",
+                "Bypass ratio": "N/A",
+                "Fan stage": "N/A",
+                "Low-pressure compressor stages": "N/A",
+                "High-pressure compressor stages": "N/A",
+                "High-pressure turbine stages": "N/A",
+                "Low-pressure turbine stages": "N/A",
+                "Climb rate": 1374,
+                "Descend rate": 1374,
+                "Cruise climb rate": 1374,
+                "Landing descend rate": 1374,
+                "Fan blade diameter": "N/A",
+                "Fuel type": "Jet A",
+                "Pressure ratio": "N/A"
+            }
+        },
+        "Other Details": {
+            "Noise Levels": {
+                "Takeoff": "N/A",
+                "Landing": "N/A",
+                "Cruise": "N/A"
+            },
+            "operation_cost": "N/A",
+            "certification_standards": [
+                "FAA",
+                "EASA"
+            ],
+            "Body Type": "Narrow-body",
+            "Number of Decks": 1,
+            "Materials": {
+                "Fuselage": "Aluminum",
+                "Wings": "Aluminum"
+            },
+            "Commercial Operators": [
+                "Finnair",
+                "Air New Zealand",
+                "American Eagle",
+                "FedEx Express"
+            ],
+            "Flaps system": "Hydraulically actuated",
+            "Number of flap stages": 3,
+            "Maximum flap angle": 35,
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
+        }
+    },
+    "ATR-72-600": {
+        "General Information": {
+            "Manufacturer": "ATR",
+            "Family": "ATR 72",
+            "First Flight": "October 27, 1988",
+            "Model Build": "Ongoing (over 1,000 units built)",
+            "Entered Service": "October 27, 1989 with Karair",
+            "Type": "Turboprop regional airliner",
+            "Engine Type": "Turboprop",
+            "Number of Engines": 2,
+            "Price Tag": "26 million USD (2021)",
+            "Fly range category": "Close-mid range",
+            "seat config": [
+                "2-2"
+            ],
+            "aircraft_image": [
+                "https://th.bing.com/th/id/R.b3b01c8df4ae3003cab844e37eb23b46?rik=xHuxUpajYBbqDg&pid=ImgRaw&r=0",
+                "https://th.bing.com/th/id/OIP.iL3nvF_Rw-Q2O_tBEXPKJQAAAA?rs=1&pid=ImgDetMain"
+            ]
+        },
+        "Dimensions": {
+            "Length": "27.17 m",
+            "Wingspan": "27.05 m",
+            "Cabin Length": "20.11 m",
+            "Fuselage Max Diameter": "2.57 m",
+            "Max Cabin Width": "2.57 m",
+            "Aspect ratio": 12.0,
+            "Wing area": "61.0 m^3"
+        },
+        "Weights": {
+            "Max Landing Weight": "22.35 tons",
+            "Empty Weight": "13.6 tons",
+            "Max Takeoff Weight": "23 tons"
+        },
+        "Performance": {
+            "Fuel Capacity": "5,000 kg",
+            "Range": "740 NM",
+            "Flight Ceiling": "25,000 ft",
+            "Takeoff Distance": "1,315 m",
+            "Landing Distance": "915 m",
+            "Passenger Capacity": {
+                "Max": 78,
+                "Typical": 70
+            },
+            "Cargo Capacity": "19,000 L",
+            "Avionics": {
+                "Common_suite": "Thales",
+                "FMS": "Yes",
+                "EFIS": "Yes",
+                "AFCS": "Yes",
+                "TAWS": "Yes",
+                "HUD": "No"
+            }
+        },
+        "Speed": {
+            "Cruise Speed": {
+                "Mach": "0.41",
+                "Knots": "275"
+            },
+            "Max Speed": {
+                "Mach": "0.45",
+                "Knots": "309"
+            },
+            "V2 speed": "130 knots",
+            "Stall speed": "98 knots"
+        },
+        "Engines": {
+            "PW127M": {
+                "Manufacturer": "Pratt & Whitney Canada",
+                "Model": "PW127M",
+                "Thrust": "3,360 lbf",
+                "Bypass ratio": "N/A",
+                "Fan stage": "N/A",
+                "Low-pressure compressor stages": "N/A",
+                "High-pressure compressor stages": "N/A",
+                "High-pressure turbine stages": "N/A",
+                "Low-pressure turbine stages": "N/A",
+                "Climb rate": 1500,
+                "Descend rate": 1200,
+                "Cruise climb rate": 1000,
+                "Landing descend rate": 1000,
+                "Fan blade diameter": "N/A",
+                "Fuel type": "Jet A-1",
+                "Pressure ratio": "N/A"
+            },
+            "PW127XT-M": {
+                "Manufacturer": "Pratt & Whitney Canada",
+                "Model": "PW127XT-M",
+                "Thrust": "3,360 lbf",
+                "Bypass ratio": "N/A",
+                "Fan stage": "N/A",
+                "Low-pressure compressor stages": "N/A",
+                "High-pressure compressor stages": "N/A",
+                "High-pressure turbine stages": "N/A",
+                "Low-pressure turbine stages": "N/A",
+                "Climb rate": 1500,
+                "Descend rate": 1200,
+                "Cruise climb rate": 1000,
+                "Landing descend rate": 1000,
+                "Fan blade diameter": "N/A",
+                "Fuel type": "Jet A-1",
+                "Pressure ratio": "N/A"
+            }
+        },
+        "Other Details": {
+            "Noise Levels": {
+                "Takeoff": "85 dB",
+                "Landing": "82 dB",
+                "Cruise": "78 dB"
+            },
+            "operation_cost": "2.5 million USD per year",
+            "certification_standards": [
+                "FAA",
+                "EASA"
+            ],
+            "Body Type": "Narrow-body",
+            "Number of Decks": 1,
+            "Materials": {
+                "Fuselage": "Aluminum alloy",
+                "Wings": "Aluminum alloy"
+            },
+            "Commercial Operators": [
+                "Air New Zealand",
+                "Azul Brazilian Airlines",
+                "Bangkok Airways",
+                "Cebu Pacific",
+                "Flybe",
+                "Garuda Indonesia",
+                "HOP!",
+                "Jet Airways",
+                "Malaysia Airlines",
+                "Silver Airways",
+                "Wings Air"
+            ],
+            "Flaps system": "Hydraulically actuated",
+            "Number of flap stages": 3,
+            "Maximum flap angle": 35,
+            "Actuation system": "Hydraulic",
+            "Flaps material": "Aluminum"
+        }
+    }
 }

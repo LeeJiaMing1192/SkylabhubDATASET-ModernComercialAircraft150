@@ -143,6 +143,8 @@ const Comparison_detailed_page = () => {
     const dimension_data = [
       { comparisonValue: 'Length', subject1: airplane_comercial[compare_plane_choosed_1[0]]["Dimensions"]["Length"], subject2: airplane_comercial[compare_plane_choosed_1[1]]["Dimensions"]["Length"] },
       { comparisonValue: 'Wingspan', subject1: airplane_comercial[compare_plane_choosed_1[0]]["Dimensions"]["Wingspan"], subject2: airplane_comercial[compare_plane_choosed_1[1]]["Dimensions"]["Wingspan"] },
+      { comparisonValue: 'Wing area', subject1: airplane_comercial[compare_plane_choosed_1[0]]["Dimensions"]["Wing area"], subject2: airplane_comercial[compare_plane_choosed_1[1]]["Dimensions"]["Wing area"] },
+      { comparisonValue: 'Aspect ratioa', subject1: airplane_comercial[compare_plane_choosed_1[0]]["Dimensions"]["Aspect ratio"], subject2: airplane_comercial[compare_plane_choosed_1[1]]["Dimensions"]["Aspect ratio"] },
       { comparisonValue: 'Cabin Length', subject1: airplane_comercial[compare_plane_choosed_1[0]]["Dimensions"]["Cabin Length"], subject2: airplane_comercial[compare_plane_choosed_1[1]]["Dimensions"]["Cabin Length"] },
       { comparisonValue: 'Fuselage diameter', subject1: airplane_comercial[compare_plane_choosed_1[0]]["Dimensions"]["Fuselage Max Diameter"], subject2: airplane_comercial[compare_plane_choosed_1[1]]["Dimensions"]["Fuselage Max Diameter"] },
       { comparisonValue: 'Cabin diameter', subject1: airplane_comercial[compare_plane_choosed_1[0]]["Dimensions"]["Max Cabin Width"], subject2: airplane_comercial[compare_plane_choosed_1[1]]["Dimensions"]["Max Cabin Width"] },
@@ -212,6 +214,14 @@ const Comparison_detailed_page = () => {
       { comparisonValue: 'Range category', subject1: airplane_comercial[compare_plane_choosed_1[0]]["General Information"]["Fly range category"], subject2: airplane_comercial[compare_plane_choosed_1[1]]["General Information"]["Fly range category"] },
       { comparisonValue: 'Seat configuration', subject1: airplane_comercial[compare_plane_choosed_1[0]]["General Information"]["seat config"][0], subject2: airplane_comercial[compare_plane_choosed_1[1]]["General Information"]["seat config"][0] },
 
+    ]
+
+    const flaps_data = [
+      { comparisonValue: 'Flaps system', subject1: airplane_comercial[compare_plane_choosed_1[0]]["Other Details"]["Flaps system"], subject2: airplane_comercial[compare_plane_choosed_1[1]]["Other Details"]["Flaps system"] },
+      { comparisonValue: 'Number of flap stages', subject1: airplane_comercial[compare_plane_choosed_1[0]]["Other Details"]["Number of flap stages"], subject2: airplane_comercial[compare_plane_choosed_1[1]]["Other Details"]["Number of flap stages"] },
+      { comparisonValue: 'Maximum flap angle', subject1: airplane_comercial[compare_plane_choosed_1[0]]["Other Details"]["Maximum flap angle"], subject2: airplane_comercial[compare_plane_choosed_1[1]]["Other Details"]["Maximum flap angle"] },
+      { comparisonValue: 'Actuation system', subject1: airplane_comercial[compare_plane_choosed_1[0]]["Other Details"]["Actuation system"], subject2: airplane_comercial[compare_plane_choosed_1[1]]["Other Details"]["Actuation system"] },
+      { comparisonValue: 'Flaps material', subject1: airplane_comercial[compare_plane_choosed_1[0]]["Other Details"]["Flaps material"], subject2: airplane_comercial[compare_plane_choosed_1[1]]["Other Details"]["Flaps material"] },
     ]
    
     const choosed_engine_option_1_function = (engine) => {
@@ -314,6 +324,18 @@ const Comparison_detailed_page = () => {
             </td>
           </tr>
           {avionics_data.map((row, index) => (
+          <tr key={index} className="dimension-row">
+            <td>{row.comparisonValue}</td>
+            <td>{row.subject1}</td>
+            <td>{row.subject2}</td>
+          </tr>
+        ))}
+           <tr className="dimension-separator">
+            <td colSpan="3">
+              <span className="massive-dimension-text">Flaps</span>
+            </td>
+          </tr>
+          {flaps_data.map((row, index) => (
           <tr key={index} className="dimension-row">
             <td>{row.comparisonValue}</td>
             <td>{row.subject1}</td>
