@@ -94,7 +94,7 @@ function Main_page() {
         <div>
         <Helmet>
         <title>SkylabRES</title>
-        <meta name="description">A comprehensive research website offering comparison tools for 120+ aircrafts</meta>
+        <meta name="description" content="A comprehensive research website offering comparison tools for 120+ aircrafts"></meta>
       </Helmet>
             <nav className="nav-bar">   
                 <div className="nav-bar-brand">
