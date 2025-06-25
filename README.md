@@ -13,6 +13,9 @@ ATR-42-300, ATR-42-500, ATR-42-600, ATR-42-600S, ATR-72-200, ATR-72-210, ATR-72-
 Data Structure
 The dataset is structured as a collection where each key represents the name of an aircraft model (e.g., "Airbus A220-100"). The value associated with each key is an object containing several nested categories that group related features.
 
+
+
+Here is how one sample data might look like in the JSON based dataset
 "DC-10-40": {
     "General Information": {
         "Manufacturer": "McDonnell Douglas",
@@ -170,12 +173,5 @@ Examples: (for each engine model like PW1500G, JT9D-59A/B, CF6-50C2, etc.) Manuf
 Other Details
 Miscellaneous operational and structural information.
 Examples: Noise Levels (nested object with Takeoff, Landing, Cruise), Operation Cost, Certification Standards (list), Body Type, Number of Decks, Materials (nested objects for Fuselage and Wings with Material), Commercial Operators (list), Flaps system, Number of flap stages, Maximum flap angle, Actuation system, Flaps material.
-Potential Use Cases
-This dataset is a valuable resource for:
 
-Machine Learning: Training models to predict aircraft performance, estimate costs, classify aircraft types, or analyze the impact of design parameters.
-Data Analysis: Exploring trends across aircraft generations, comparing specifications between manufacturers, or identifying relationships between different technical characteristics.
-Aviation Research: Supporting studies on aircraft design, operational efficiency, and technological evolution in commercial aviation.
-Educational Purposes: Providing a detailed, real-world dataset for students learning data science, engineering, or aviation topics.
-Access and Format
-The dataset is currently structured in a format (like JSON) that clearly delineates aircraft entries and their nested features. Potential future availability could be through platforms like Hugging Face Datasets, which support tabular formats derived from this structure, along with accompanying documentation.
+
